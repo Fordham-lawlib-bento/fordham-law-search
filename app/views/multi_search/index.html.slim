@@ -1,0 +1,12 @@
+.search-form
+  = form_tag multi_search_path, method: :get, enforce_utf8: false
+    = text_field_tag :q, params[:q]
+    = submit_tag :search, name: 'c'
+
+- if search_results.present?
+  .search-results
+    - search_results.each_pair do |engine_id, results|
+      .div.search-results-box class=engine_id
+        h2 = engine_id
+        = bento_search results
+
