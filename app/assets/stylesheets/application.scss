@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+
+.search-results {
+  box-sizing: border-box;
+  column-width: 25em;
+  column-gap: 2em;
+}
+
+.search-results-box {
+  box-sizing: border-box;
+  padding: 0 2em;
+  margin: 1em 0;
+  border: 1px solid grey;
+  display: inline-block;
+  width: 100%;
+}
