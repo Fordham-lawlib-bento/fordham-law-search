@@ -1,6 +1,5 @@
 BentoSearch.register_engine("catalog") do |conf|
-  conf.engine = "BentoSearch::MockEngine"
-  conf.num_results = 6
+  conf.engine = "SierraKeywordEngine"
 end
 
 BentoSearch.register_engine("articles") do |conf|
