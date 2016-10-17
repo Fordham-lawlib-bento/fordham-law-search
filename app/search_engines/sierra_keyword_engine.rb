@@ -3,6 +3,8 @@ require 'http_client_patch/include_client'
 require 'httpclient'
 require 'nokogiri'
 
+require_dependency 'sierra_keyword_engine/item_extractor'
+
 
 # Developed for Fordham Law Sierra at http://lawpac.lawnet.fordham.edu/
 # as of Oct 2016. Unclear if this would work out of the box on Sierra
