@@ -19,7 +19,12 @@ describe SierraKeywordEngine do
       # not everything has a year
       #expect(item.year).to be_present, item.to_json
 
-      expect(item.format_str).to be_present
+      expect(item.format_str).to be_present, item.to_json
+
+      # has call number and location OR extra link
+      expect(item.custom_data[:call_number] || item.other_links).to be_present, item.to_json
+
+      expect(item.custom_data[:location]).to be_present, item.to_json
     end
   end
 end

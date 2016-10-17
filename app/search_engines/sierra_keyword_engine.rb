@@ -21,6 +21,8 @@ require 'nokogiri'
 #  * `base_url` defaults to https://lawpac.lawnet.fordham.edu
 #  * `sort_code` defaults to RZ (relevance)
 #  * `search_type` defaults to X (keyword anywhere)
+#  * call number in custom_data[:call_number]
+#  * location in custom_data[:location]
 class SierraKeywordEngine
   include BentoSearch::SearchEngine
 
@@ -94,11 +96,34 @@ class SierraKeywordEngine
           end
 
 
+          # Location, yeah, it's extracted crazy fragile
+          if innerBriefcitDetail =~ /Location:\s*(.*)(\n|\z)/
+            result_item.custom_data[:location] = $1
+          end
+
           # format
           img_url = item_node.at_css(".mattype img").try {|n| n['src']}
           if img_url
             result_item.format_str = configuration.format_filename_map[File.basename(img_url)]
           end
+
+          # call number, yes we extract with this terrible path
+          call_number = extract_text(item_node.at_css("td.briefcitDetail span.briefcitDetail span.briefcitDetail"))
+          if call_number
+            result_item.custom_data[:call_number] = call_number
+          end
+
+          # 856 links, sierra uses an illegal class name starting with a number, argh
+          result_item.other_links.concat(
+            item_node.css("a[class*='856display']").collect do |node|
+              BentoSearch::Link.new(
+                label: node.text,
+                url: node['href']
+              )
+            end
+          )
+
+
         end
       end
     )
