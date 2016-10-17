@@ -6,8 +6,9 @@ Rails.application.configure do
   # since you don't have to restart the web server when you make code changes.
   config.cache_classes = false
 
-  # Do not eager load code on boot.
-  config.eager_load = false
+  # We seem to need eager_load to be true, or we get a hang on current future.
+  # Not sure if there's a better way to do this in Rails5.
+  config.eager_load = true
 
   # Show full error reports.
   config.consider_all_requests_local = true
