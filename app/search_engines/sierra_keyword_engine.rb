@@ -6,7 +6,7 @@ require 'nokogiri'
 require_dependency 'sierra_keyword_engine/item_extractor'
 
 
-# Developed for Fordham Law Sierra at http://lawpac.lawnet.fordham.edu/
+# Developed for Fordham Law Sierra WEBPAC at http://lawpac.lawnet.fordham.edu/
 # as of Oct 2016. Unclear if this would work out of the box on Sierra
 # OPACs, it might or might not.
 #
@@ -33,7 +33,10 @@ class SierraKeywordEngine
 
   def self.default_configuration
     {
-      base_url: "https://lawpac.lawnet.fordham.edu",
+      # Using https oddly messes up non-ascii on the way in and way out,
+      # seems to get confused between UTF-8 and WINDOWS-1252. Don't have
+      # this problem with http version. Weird proxy issues on Webpac end?
+      base_url: "http://lawpac.lawnet.fordham.edu",
       sort_code: "RZ",
       search_type: "X",
       format_filename_map: {
@@ -53,6 +56,7 @@ class SierraKeywordEngine
   # TODO test error handling
   def search_implementation(args)
     scrape_url = construct_search_url(args)
+
     response = http_client.get(scrape_url)
 
     document = Nokogiri::HTML(response.body)
@@ -77,7 +81,7 @@ class SierraKeywordEngine
 
 
   def extract_total_items(document)
-    text = document.css(".browseSearchtoolMessage").text()
+    text = document.css(".browseSearchtoolMessage").text().scrub
     if text =~ /(\d+) results found/
       $1.to_i
     else

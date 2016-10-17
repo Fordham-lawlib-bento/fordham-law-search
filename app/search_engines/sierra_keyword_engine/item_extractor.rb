@@ -20,7 +20,7 @@ class SierraKeywordEngine
     # pass in node included in #item_nodes results, returns a ResultItem
     def extract_item(item_node)
       BentoSearch::ResultItem.new.tap do |result_item|
-        result_item.title = item_node.at_css(".briefcitTitle a").try(:text)
+        result_item.title = extract_text(item_node.at_css(".briefcitTitle a"))
 
         result_item.authors.concat extract_authors(item_node)
 
@@ -39,7 +39,8 @@ class SierraKeywordEngine
     def extract_authors(item_node)
       # getting author out is super annoying, first direct text child
       # that's not all newlines.
-      authorish = extract_text(item_node.at_css("td.briefcitDetail").xpath("text()").to_a.delete_if {|n| n.text =~ /\A\n+\z/ }.first)
+      byebug unless item_node.text.valid_encoding?
+      authorish = extract_text(item_node.at_css("td.briefcitDetail").xpath("text()").to_a.delete_if {|n| n.text.scrub =~ /\A\n+\z/ }.first)
       if authorish
         [ BentoSearch::Author.new(display: authorish) ]
       else
@@ -103,11 +104,12 @@ class SierraKeywordEngine
 
     # Returns nil if no text.
     # Changes unicode non-breaking-spaces to ordinary spaces
+    # Scrubs bad UTF8, which for some reason happen if we scrape from https fordham webpac
     # strips leading/trailing whitespace
     def extract_text(node)
       return nil unless node
 
-      node.text.gsub("\u00A0", " ").strip.presence
+      node.text.gsub("\u00A0", " ").scrub.strip.presence
     end
 
   end

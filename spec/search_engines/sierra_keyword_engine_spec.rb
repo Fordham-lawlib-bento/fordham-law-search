@@ -27,4 +27,20 @@ describe SierraKeywordEngine do
       expect(item.custom_data[:location]).to be_present, item.to_json
     end
   end
+
+  describe "non-ascii search and results" do
+    it "are good chars" do
+      results = SierraKeywordEngine.new.search("Cirión")
+
+      expect(results.count > 0).to be true
+      results.each do |item|
+        expect(item.title.valid_encoding?).to be(true), item.to_json
+        expect(item.title.index('�')).to be_nil
+
+        expect(item.authors.all? { |a| a.display.valid_encoding? }).to be(true), item.to_json
+        expect(item.authors.all? { |a| a.display.index('�').nil? }).to be(true)
+      end
+    end
+  end
+
 end
