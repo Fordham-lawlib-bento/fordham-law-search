@@ -48,6 +48,19 @@ describe SierraKeywordEngine do
       results = SierraKeywordEngine.new(base_url: "http://lawpac.lawnet.fordham.edu/bad/path/nope").search("foo")
       expect(results.failed?).to be true
     end
+
+    it "bad host" do
+      results = SierraKeywordEngine.new(base_url: "http://no-such-host.lawnet.fordham.edu").search("foo")
+      expect(results.failed?).to be true
+    end
+
+    it "no results" do
+      # Sierra doesn't like empty search
+      results = SierraKeywordEngine.new.search("adlfjakldfjopieajirojdfaadf")
+      expect(results.failed?).to be false
+      expect(results.count).to eq(0)
+    end
+
   end
 
 end

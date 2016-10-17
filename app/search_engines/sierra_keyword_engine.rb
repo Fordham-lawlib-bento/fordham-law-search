@@ -56,7 +56,6 @@ class SierraKeywordEngine
   # TODO test error handling
   def search_implementation(args)
     scrape_url = construct_search_url(args)
-
     response = http_client.get(scrape_url)
 
     unless response.ok?
@@ -80,6 +79,9 @@ class SierraKeywordEngine
     return results
   end
 
+  def auto_rescue_exceptions
+    super + [SocketError]
+  end
 
   def construct_search_url(args)
     # https://lawpac.lawnet.fordham.edu/search/?searchtype=X&searcharg=thomas+chalk&SORT=RZ
