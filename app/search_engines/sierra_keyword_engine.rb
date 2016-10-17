@@ -87,7 +87,9 @@ class SierraKeywordEngine
           dates = parts.pop if parts.last =~ /\d\d\d\d/
           publisher, place = parts[0..2].reverse
 
-          place, publisher, dates = [place, publisher, dates].collect { |s| s.gsub(/\A *\[ */, '').gsub(/ *\] *\z/, '') if s }
+          place, publisher, dates = [place, publisher, dates].collect { |s| s.strip.gsub(/\A *\[ */, '').gsub(/ *\] *\z/, '') if s }
+
+
           if publisher.try(:downcase) != "s.n."
             result_item.publisher = publisher.presence
           end
