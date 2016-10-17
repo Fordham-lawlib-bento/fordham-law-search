@@ -64,6 +64,8 @@ class SierraKeywordEngine
         status: response.status,
         response: response.body
       }
+      fill_in_search_metadata_for(error, args)
+
       return error
     end
 
