@@ -18,6 +18,8 @@ describe SierraKeywordEngine do
 
       # not everything has a year
       #expect(item.year).to be_present, item.to_json
+
+      expect(item.format_str).to be_present
     end
   end
 end

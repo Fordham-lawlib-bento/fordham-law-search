@@ -15,6 +15,7 @@ require 'nokogiri'
 # WebPAC HTML isn't as nice for screen-scraping as one might like, but
 # we force it out.
 # * 'author' is just whatever's on the screen, looks like 245$c maybe.
+# * format is uncontrolled format_str, and translated from sierra icons (!).
 #
 # # Optional configuration
 #  * `base_url` defaults to https://lawpac.lawnet.fordham.edu
@@ -30,9 +31,20 @@ class SierraKeywordEngine
     {
       base_url: "https://lawpac.lawnet.fordham.edu",
       sort_code: "RZ",
-      search_type: "X"
+      search_type: "X",
+      format_filename_map: {
+        't_book.gif' => 'Book',
+        't_jourser.gif' => 'Journal/Serial',
+        't_micro.gif' => 'Microform',
+        't_ebook.gif' => 'E-Book',
+        't_online.gif' => 'Online Resource',
+        't_vidvd.gif' => 'Video/DVD',
+        't_audio.gif' => 'Audio',
+        't_cd.gif' => 'CD-ROM/Disk',
+      }
     }
   end
+
 
   def search_implementation(args)
     scrape_url = construct_search_url(args)
@@ -61,6 +73,7 @@ class SierraKeywordEngine
           innerBriefcitDetail = extract_text(item_node.at_css("td.briefcitDetail span.briefcitDetail").xpath("text()"))
 
 
+          # Publisher info
           pub_info = innerBriefcitDetail.split("\n").first.gsub(/\A\[/, '').gsub(/\]\z/, '')
 
           first_colon = pub_info.index(":")
@@ -78,6 +91,13 @@ class SierraKeywordEngine
           end
           if /(\d\d\d\d)/ =~ dates
             result_item.year = $1
+          end
+
+
+          # format
+          img_url = item_node.at_css(".mattype img").try {|n| n['src']}
+          if img_url
+            result_item.format_str = configuration.format_filename_map[File.basename(img_url)]
           end
         end
       end
