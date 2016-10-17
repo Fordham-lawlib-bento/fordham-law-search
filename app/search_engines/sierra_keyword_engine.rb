@@ -20,7 +20,7 @@ require_dependency 'sierra_keyword_engine/item_extractor'
 # * format is uncontrolled format_str, and translated from sierra icons (!).
 #
 # # Optional configuration
-#  * `base_url` defaults to https://lawpac.lawnet.fordham.edu
+#  * `base_url` defaults to http://lawpac.lawnet.fordham.edu
 #  * `sort_code` defaults to RZ (relevance)
 #  * `search_type` defaults to X (keyword anywhere)
 #  * call number in custom_data[:call_number]
@@ -58,6 +58,15 @@ class SierraKeywordEngine
     scrape_url = construct_search_url(args)
 
     response = http_client.get(scrape_url)
+
+    unless response.ok?
+      error = BentoSearch::Results.new
+      error.error = {
+        status: response.status,
+        response: response.body
+      }
+      return error
+    end
 
     document = Nokogiri::HTML(response.body)
 
