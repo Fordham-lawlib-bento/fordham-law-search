@@ -48,6 +48,7 @@ class SierraKeywordEngine
   end
 
 
+  # TODO test error handling
   def search_implementation(args)
     scrape_url = construct_search_url(args)
     response = http_client.get(scrape_url)
