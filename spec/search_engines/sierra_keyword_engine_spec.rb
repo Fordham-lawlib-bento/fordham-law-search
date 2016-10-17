@@ -32,6 +32,14 @@ describe SierraKeywordEngine do
     end
   end
 
+  describe "limited max_results" do
+    let(:max_results) { 6 }
+    it "returns only max_results" do
+      results = SierraKeywordEngine.new(max_results: 6, id: 'mock').search("brooklyn")
+      expect(results.count).to eq(6)
+    end
+  end
+
   describe "non-ascii search and results" do
     it "are good chars" do
       results = SierraKeywordEngine.new.search("Cirión")

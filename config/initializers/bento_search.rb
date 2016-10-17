@@ -1,5 +1,6 @@
 BentoSearch.register_engine("catalog") do |conf|
   conf.engine = "SierraKeywordEngine"
+  conf.max_results = 8
 end
 
 BentoSearch.register_engine("articles") do |conf|

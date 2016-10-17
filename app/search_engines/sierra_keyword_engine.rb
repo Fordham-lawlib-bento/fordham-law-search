@@ -20,6 +20,8 @@ require_dependency 'sierra_keyword_engine/item_extractor'
 # * format is uncontrolled format_str, and translated from sierra icons (!).
 #
 # # Optional configuration
+#  * `max_results` can always only return whatever the page size is on Webpac, at
+#     most. But set this to limit to even less.
 #  * `base_url` defaults to http://lawpac.lawnet.fordham.edu
 #  * `sort_code` defaults to RZ (relevance)
 #  * `search_type` defaults to X (keyword anywhere)
@@ -53,7 +55,7 @@ class SierraKeywordEngine
   end
 
 
-  # TODO test error handling
+  # TODO why is it so slow, profile
   def search_implementation(args)
     scrape_url = construct_search_url(args)
     response = http_client.get(scrape_url)
