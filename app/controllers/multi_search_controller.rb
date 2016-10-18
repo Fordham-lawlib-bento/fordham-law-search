@@ -4,6 +4,8 @@ class MultiSearchController < ApplicationController
   class_attribute :engines
   self.engines = %w{catalog articles reserves databases website flash}
 
+  helper LinkOutHelper
+
 
   def index
     # We're getting weird deadlock I think coming from auto-load concurrency errors, unless we force
