@@ -1,8 +1,8 @@
 require 'concurrent'
 
 class MultiSearchController < ApplicationController
-  class_attribute :engines
-  self.engines = %w{catalog articles reserves databases website flash}
+  class_attribute :engine_ids
+  self.engine_ids = %w{catalog articles reserves databases website flash}
 
   helper LinkOutHelper
 
@@ -33,10 +33,7 @@ class MultiSearchController < ApplicationController
         # then assemble them all into a hash of engine_id => Response.
         # Making them into a hash will wait on each one for value, so will wait
         # for them all to complete.
-        engines.collect do |engine_id|
-          # have to collect engines not in the future for reasons I don't fully
-          # understand, or there seems to be a deadlock.
-          engine = BentoSearch.get_engine(engine_id)
+        engines.collect do |engine|
           Concurrent::Future.execute { engine.search(query) }
         end.collect { |future| [future.value!.engine_id, future.value!] }.to_h
       else
@@ -45,5 +42,16 @@ class MultiSearchController < ApplicationController
     end
   end
   helper_method :search_results
+
+  def engines
+    engine_ids.collect do |engine_id|
+      engine = BentoSearch.get_engine(engine_id)
+    end
+  end
+
+  def options_for_search_type_select
+
+  end
+  helper_method :options_for_search_type_select
 
 end
