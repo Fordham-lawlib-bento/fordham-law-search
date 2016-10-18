@@ -5,8 +5,8 @@
 # with "%i" standing in for number of hits. If left unset a default will be used.
 
 BentoSearch.register_engine("catalog") do |conf|
-  conf.engine = "BentoSearch::MockEngine"
-  conf.num_results = 6
+  conf.engine = "SierraKeywordEngine"
+  conf.max_results = 8
 
   conf.for_display do |display|
     display.heading = "Catalog"
