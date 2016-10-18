@@ -1,3 +1,9 @@
 .div.search-results-box class=results.engine_id
-  h2 = results.engine_id
+  h2
+    = results.display_configuration.heading || results.engine_id
+    '
+    span.count = "(#{results.total_items} hits)"
+  - if results.display_configuration.hint
+    div.hint = results.display_configuration.hint
+  hr
   = bento_search results
