@@ -14,6 +14,7 @@ describe SierraKeywordEngine do
       expect(item.engine_id).to eq("mock")
 
       expect(item.title).to be_present, item.to_json
+      expect(item.link).to be_present, item.to_json
 
       # not all results have authors, gah
       if item.authors.present?

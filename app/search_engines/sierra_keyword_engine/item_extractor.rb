@@ -26,7 +26,10 @@ class SierraKeywordEngine
     # pass in node included in #item_nodes results, returns a ResultItem
     def extract_item(item_node)
       BentoSearch::ResultItem.new.tap do |result_item|
-        result_item.title = extract_text(item_node.at_css(".briefcitTitle a"))
+        link = item_node.at_css(".briefcitTitle a")
+
+        result_item.title = extract_text(link)
+        result_item.link = URI.join(configuration.base_url, link["href"]).to_s if link["href"]
 
         result_item.authors.concat extract_authors(item_node)
 
