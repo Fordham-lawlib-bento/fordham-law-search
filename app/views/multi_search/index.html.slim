@@ -6,7 +6,5 @@
 - if search_results.present?
   .search-results
     - search_results.each_pair do |engine_id, results|
-      .div.search-results-box class=engine_id
-        h2 = engine_id
-        = bento_search results
+      = render partial: 'search_results_box', locals: { results: results }
 
