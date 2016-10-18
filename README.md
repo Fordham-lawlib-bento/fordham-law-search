@@ -1,4 +1,5 @@
 # Fordham Law Search
+[![Build Status](https://travis-ci.org/Fordham-lawlib-bento/fordham-law-search.svg?branch=master)](https://travis-ci.org/Fordham-lawlib-bento/fordham-law-search)
 
 Developed by Friends of the Web http://friendsoftheweb.com
 
