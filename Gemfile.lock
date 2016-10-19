@@ -1,5 +1,11 @@
 GIT
-  remote: git@github.com:jrochkind/bento_search.git
+  remote: https://github.com/alexpeattie/heroku_secrets.git
+  revision: 717af8e0acf399bc88d2c8c1a7e230023942af0f
+  specs:
+    heroku_secrets (0.0.2)
+
+GIT
+  remote: https://github.com/jrochkind/bento_search.git
   revision: 6e57e4f4245bdf9a179fa9f5b07ef4ee2e4d7123
   specs:
     bento_search (1.6.0)
@@ -12,12 +18,6 @@ GIT
       openurl (>= 0.3.1, < 1.1)
       rails (>= 3.2.3, < 6)
       summon
-
-GIT
-  remote: https://github.com/alexpeattie/heroku_secrets.git
-  revision: 717af8e0acf399bc88d2c8c1a7e230023942af0f
-  specs:
-    heroku_secrets (0.0.2)
 
 GEM
   remote: https://rubygems.org/
