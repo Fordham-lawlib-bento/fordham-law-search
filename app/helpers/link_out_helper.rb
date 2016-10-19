@@ -23,5 +23,4 @@ module LinkOutHelper
 
     text_template.gsub("%i", bento_results.total_items.to_s)
   end
-
 end

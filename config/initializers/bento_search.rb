@@ -13,6 +13,28 @@ BentoSearch.register_engine("catalog") do |conf|
     display.hint = "Library books, journals, music, videos, databases, archival collections, and online resources"
     display.link_out = "http://encore.lawnet.fordham.edu/iii/encore/search?formids=target&lang=eng&suite=def&reservedids=lang%2Csuite&target=%s"
     display.link_out_text "View and filter all %i catalog results"
+
+    display.extra_links = [
+      {
+        label: "Worldcat",
+        link_out: "https://www.worldcat.org/search?qt=worldcat_org_all&q=%s"
+      },
+      {
+        label: "Fordham Law Classic Catalog",
+        link_out: "http://lawpac.lawnet.fordham.edu/search/X?%28%s%29&SORT=R"
+      },
+      {
+        label: "Fordham University Libraries Catalog",
+        post: true,
+        action: "https://catalog.library.fordham.edu/uhtbin/cgisirsi/x/0/0/5",
+        hidden_fields: [
+          ['srchfield1', "GENERAL^SUBJECT^GENERAL^^words or phrase"],
+          ['searchdata1', '%s'],
+          ['sort_by', 'relevance']
+        ]
+      }
+    ]
+
   end
 end
 
@@ -34,6 +56,13 @@ BentoSearch.register_engine("articles") do |conf|
     display.heading = "Articles"
     display.hint = "Articles, e-books, dissertations, music, images, and more from a mostly full-text database"
     display.link_out = "http://encore.lawnet.fordham.edu/iii/encore/eds/C__S%s__Orightresult__U"
+
+    display.extra_links = [
+      {
+        label: "Google Scholar",
+        link_out: "https://scholar.google.com/scholar?q=%s"
+      }
+    ]
   end
 end
 
