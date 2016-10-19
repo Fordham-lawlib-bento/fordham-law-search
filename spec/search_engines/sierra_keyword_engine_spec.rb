@@ -41,6 +41,14 @@ describe SierraKeywordEngine do
     end
   end
 
+  describe "no hits" do
+    it "has a proper BentoSearch::Results" do
+      results = SierraKeywordEngine.new(id: 'mock').search("adfkjadf akdfjadf no results for this")
+      expect(results.count).to eq(0)
+      expect(results.total_items).to eq(0)
+    end
+  end
+
   describe "non-ascii search and results" do
     it "are good chars" do
       results = SierraKeywordEngine.new.search("Cirión")
