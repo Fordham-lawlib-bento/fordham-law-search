@@ -56,8 +56,13 @@ BentoSearch.register_engine("databases") do |conf|
 end
 
 BentoSearch.register_engine("website") do |conf|
-  conf.engine = "BentoSearch::MockEngine"
-  conf.num_results = 3
+  conf.engine = "BentoSearch::GoogleSiteSearchEngine"
+
+  conf.cx       = Rails.application.secrets.google_search_website_engine_id
+  conf.api_key  = Rails.application.secrets.google_search_website_api_key
+
+  conf.highlighting = true
+  conf.default_per_page = 3 # how many to show on dashboard
 
   conf.for_display do |display|
     display.heading = "Library Website"
@@ -67,8 +72,13 @@ end
 
 # bepress institutional repository
 BentoSearch.register_engine("flash") do |conf|
-  conf.engine = "BentoSearch::MockEngine"
-  conf.num_results = 2
+  conf.engine = "BentoSearch::GoogleSiteSearchEngine"
+
+  conf.cx       = Rails.application.secrets.google_search_flash_engine_id
+  conf.api_key  = Rails.application.secrets.google_search_flash_api_key
+
+  conf.highlighting = true
+  conf.default_per_page = 5 # how many to show on dashboard
 
   conf.for_display do |display|
     display.heading = "FLASH"

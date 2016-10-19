@@ -1,6 +1,9 @@
 .search-form
   = form_tag multi_search_path, method: :get, enforce_utf8: false
+    = select_tag :direct_search, options_for_select(search_type_select_options, params[:direct_search])
+    '
     = text_field_tag :q, params[:q]
+    '
     = submit_tag :search, name: 'c'
 
 - if search_results.present?
