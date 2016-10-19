@@ -33,7 +33,13 @@ class SierraKeywordEngine
   include BentoSearch::SearchEngine
 
   extend HTTPClientPatch::IncludeClient
-  include_http_client
+
+  class_attribute :http_timeout
+  self.http_timeout = 8
+
+  include_http_client do |client|
+    client.connect_timeout = client.send_timeout = client.receive_timeout = self.http_timeout
+  end
 
   def self.default_configuration
     {
