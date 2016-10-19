@@ -6,7 +6,7 @@
 
 BentoSearch.register_engine("catalog") do |conf|
   conf.engine = "SierraKeywordEngine"
-  conf.max_results = 8
+  conf.max_results = 8 # how many to show on multi results page
 
   conf.for_display do |display|
     display.heading = "Catalog"
@@ -16,9 +16,19 @@ BentoSearch.register_engine("catalog") do |conf|
   end
 end
 
+# Right now this is an unconstrained search of entire EDS profile.
 BentoSearch.register_engine("articles") do |conf|
-  conf.engine = "BentoSearch::MockEngine"
-  conf.num_results = 8
+  conf.engine = "BentoSearch::EdsEngine"
+
+  conf.user_id = Rails.application.secrets.eds_api_user_id
+  conf.password = Rails.application.secrets.eds_api_password
+  conf.profile = "wsapi"
+
+  # If we have 'guest' access from EDS or not. Doesn't seem to make
+  # any difference though?
+  conf.auth = false
+
+  conf.default_per_page = 8 # how many to show on bento page
 
   conf.for_display do |display|
     display.heading = "Articles"
