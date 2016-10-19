@@ -76,7 +76,21 @@ describe SierraKeywordEngine do
       expect(results.count).to eq(0)
       expect(results.engine_id).to eq('test')
     end
+  end
 
+  describe "construct_search_url" do
+    describe "extra_webpac_query_params" do
+      let(:extra_params) { {m: 'f', foo: 'bar'} }
+      let(:engine) { SierraKeywordEngine.new(extra_webpac_query_params: extra_params ) }
+      it 'includes the extra params' do
+        url = engine.construct_search_url(query: 'some search')
+        query_params = CGI.parse(URI.parse(url).query)
+
+        extra_params.each_pair do |k, v|
+          expect(query_params[k.to_s]).to eq([v])
+        end
+      end
+    end
   end
 
 end
