@@ -78,9 +78,10 @@ class SierraKeywordEngine
     results = BentoSearch::Results.new
     results.total_items = extract_total_items(document)
 
-    extractor = ItemExtractor.new(document, configuration)
-
-    results.concat extractor.extract
+    unless results.total_items == 0
+      extractor = ItemExtractor.new(document, configuration)
+      results.concat extractor.extract
+    end
 
     return results
   end
@@ -110,6 +111,8 @@ class SierraKeywordEngine
     text = document.css(".browseSearchtoolMessage").text().scrub
     if text =~ /(\d+) results found/
       $1.to_i
+    elsif document.at_css("td.searchform2 h2").try(:text).try(:strip) == "NO ENTRIES FOUND"
+      0
     else
       nil
     end
