@@ -14,6 +14,8 @@ BentoSearch.register_engine("catalog") do |conf|
     display.link_out = "http://encore.lawnet.fordham.edu/iii/encore/search?formids=target&lang=eng&suite=def&reservedids=lang%2Csuite&target=%s"
     display.link_out_text "View and filter all %i catalog results"
 
+    display.item_partial = "catalog_item"
+
     display.extra_links = [
       {
         label: "Worldcat",
