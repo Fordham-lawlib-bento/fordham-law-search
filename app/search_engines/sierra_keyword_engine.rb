@@ -27,6 +27,8 @@ require_dependency 'sierra_keyword_engine/item_extractor'
 #  * `search_type` defaults to X (keyword anywhere)
 #  * call number in custom_data[:call_number]
 #  * location in custom_data[:location]
+#  * extra_webpac_query_params Extra query params to add on to webpac query, as a ruby
+#    hash. Eg `{m: 'f'}` to apply a format pre-limit.
 class SierraKeywordEngine
   include BentoSearch::SearchEngine
 
@@ -89,9 +91,18 @@ class SierraKeywordEngine
 
   def construct_search_url(args)
     # https://lawpac.lawnet.fordham.edu/search/?searchtype=X&searcharg=thomas+chalk&SORT=RZ
-    query = args[:query]
 
-    "#{configuration.base_url}/search/?searchtype=#{CGI.escape configuration.search_type}&SORT=#{CGI.escape configuration.sort_code}&searcharg=#{CGI.escape query}"
+    # Needs to have parens surrounding, and can't include any internal parens or
+    # will mess up Sierra webpac
+    embedded_query = "(#{args[:query].tr('()', '  ')})"
+
+    url = "#{configuration.base_url}/search/X?#{CGI.escape embedded_query}&SORT=#{CGI.escape configuration.sort_code}"
+
+    if configuration.extra_webpac_query_params.present?
+      url += "&#{configuration.extra_webpac_query_params.to_param}"
+    end
+
+    return url
   end
 
 

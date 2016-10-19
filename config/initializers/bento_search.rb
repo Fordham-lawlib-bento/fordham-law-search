@@ -28,8 +28,11 @@ BentoSearch.register_engine("articles") do |conf|
 end
 
 BentoSearch.register_engine("reserves") do |conf|
-  conf.engine = "BentoSearch::MockEngine"
-  conf.num_results = 3
+  conf.engine = "SierraKeywordEngine"
+
+  conf.extra_webpac_query_params = {
+    m: 'f'
+  }
 
   conf.for_display do |display|
     display.heading = "Reserves/Exams"
