@@ -17,7 +17,7 @@ class MultiSearchController < ApplicationController
     # We're getting weird deadlock I think coming from auto-load concurrency errors, unless we force
     # auto-loading of everything first with a test run. Bah. TODO, shouldn't
     # need this.
-    e = BentoSearch.global_registrar.get_engine("catalog")
+    e = BentoSearch::MockEngine.new(id: "mock")
     e.search("foo")
 
     # trigger lazy load in controller, just cause
