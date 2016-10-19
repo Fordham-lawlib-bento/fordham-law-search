@@ -1,13 +1,19 @@
 require 'concurrent'
 
 class MultiSearchController < ApplicationController
-  class_attribute :engines
-  self.engines = %w{catalog articles reserves databases website flash}
+  class_attribute :engine_ids
+  self.engine_ids = %w{catalog articles reserves databases website flash}
 
+  include LinkOutHelper
   helper LinkOutHelper
 
 
   def index
+    if redirect = redirect_to_search
+      redirect_to redirect, status: :found
+      return
+    end
+
     # We're getting weird deadlock I think coming from auto-load concurrency errors, unless we force
     # auto-loading of everything first with a test run. Bah. TODO, shouldn't
     # need this.
@@ -33,10 +39,7 @@ class MultiSearchController < ApplicationController
         # then assemble them all into a hash of engine_id => Response.
         # Making them into a hash will wait on each one for value, so will wait
         # for them all to complete.
-        engines.collect do |engine_id|
-          # have to collect engines not in the future for reasons I don't fully
-          # understand, or there seems to be a deadlock.
-          engine = BentoSearch.get_engine(engine_id)
+        engines.collect do |engine|
           Concurrent::Future.execute { engine.search(query) }
         end.collect { |future| [future.value!.engine_id, future.value!] }.to_h
       else
@@ -45,5 +48,28 @@ class MultiSearchController < ApplicationController
     end
   end
   helper_method :search_results
+
+  def engines
+    engine_ids.collect do |engine_id|
+      engine = BentoSearch.get_engine(engine_id)
+    end
+  end
+
+  def search_type_select_options
+    [['ALL', nil]].concat(
+      engines.collect do |e|
+        if e.configuration.for_display.link_out
+          [ e.configuration.for_display.heading || e.configuration.id, e.configuration.id ]
+        end
+      end.compact
+    )
+  end
+  helper_method :search_type_select_options
+
+  def redirect_to_search
+    if params[:direct_search].present? && params[:q].present? && engine = BentoSearch.get_engine(params[:direct_search])
+      complete_link_out_template( engine.configuration.for_display.link_out, params[:q]  )
+    end
+  end
 
 end

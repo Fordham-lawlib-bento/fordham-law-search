@@ -2,11 +2,15 @@ require 'cgi'
 
 module LinkOutHelper
 
+  def complete_link_out_template(template, query)
+    template.gsub("%s", CGI.escape(query))
+  end
+
   def link_out_to_results_url(bento_results)
     url_template = bento_results.display_configuration.link_out
 
     if url_template
-      url_template.gsub("%s", CGI.escape(bento_results.search_args[:query]))
+      complete_link_out_template(url_template, CGI.escape(bento_results.search_args[:query]))
     end
   end
 
