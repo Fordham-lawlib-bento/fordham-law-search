@@ -22,7 +22,14 @@ You need to get the correct secrets.yml through some other secure channel.
 TBD how we deal with it on deployment.
 
 If deploying to heroku, and you have a secrets.yml on disk with correct
-production values, you can copy them to heroku with (TBD).
+production values, you can copy them to heroku with:
+
+    bin/rake heroku:secrets RAILS_ENV=production
+
+This will copy the production values from your secrets.yml on disk
+to heroku config/env variables beginning with `_SECRET_`. We use the
+`heroku_secrets` gem to then load these into Rails secrets on boot
+on heroku.
 
 
 ## Tests
@@ -44,5 +51,3 @@ These files can be used in other deployment scenarios too, depending on setup.
 Procfile is used by the `foreman` tool. This simple app prob doesn't need
 a procfile in non-heroku scenario, just start it with puma.
 
-### Heroku notes
-  * Needed to remove the postgres add-on from heroku config, since we don't have a db.
