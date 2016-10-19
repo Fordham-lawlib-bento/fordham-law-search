@@ -43,3 +43,6 @@ with puma, using `./config/puma.rb` for more configuration.
 These files can be used in other deployment scenarios too, depending on setup.
 Procfile is used by the `foreman` tool. This simple app prob doesn't need
 a procfile in non-heroku scenario, just start it with puma.
+
+### Heroku notes
+  * Needed to remove the postgres add-on from heroku config, since we don't have a db.
