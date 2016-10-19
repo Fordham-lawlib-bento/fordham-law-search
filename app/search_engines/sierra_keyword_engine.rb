@@ -91,7 +91,11 @@ class SierraKeywordEngine
     # https://lawpac.lawnet.fordham.edu/search/?searchtype=X&searcharg=thomas+chalk&SORT=RZ
     query = args[:query]
 
-    "#{configuration.base_url}/search/?searchtype=#{CGI.escape configuration.search_type}&SORT=#{CGI.escape configuration.sort_code}&searcharg=#{CGI.escape query}"
+    # Needs to have parens surrounding, and can't include any internal parens or
+    # will mess up Sierra webpac
+    embedded_query = "(#{query.tr('()', '  ')})"
+
+    "#{configuration.base_url}/search/X?#{CGI.escape embedded_query}&SORT=#{CGI.escape configuration.sort_code}"
   end
 
 
