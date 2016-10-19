@@ -25,3 +25,10 @@ If deploying to heroku, and you have a secrets.yml on disk with correct
 production values, you can copy them to heroku with (TBD).
 
 
+## Tests
+
+Some automated tests are provided using rspec. Run with `bundle exec rake`
+or `bundle exec rspec`.
+
+TBD: Tests use VCR, instructions on re-generating cassettes and setting auth
+for regenerating tests.
