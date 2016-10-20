@@ -36,6 +36,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bento_search', git: 'https://github.com/jrochkind/bento_search.git' # '~> 1.6'
 gem 'slim-rails', '~> 3.1'
 gem 'concurrent-ruby', '~>1.0'
+gem 'kaminari' # pagination
 
 # heroku suggested, see config/rack_timeout.rb
 gem "rack-timeout"

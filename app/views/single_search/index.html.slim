@@ -1,0 +1,17 @@
+.div.single-search class=engine_id
+  h2
+    = engine.configuration.for_display.heading || engine_id
+  - if engine.configuration.for_display.hint
+    div.hint = engine.configuration.for_display.hint
+
+  .search-form
+    = form_tag single_search_path(engine_id), method: :get, enforce_utf8: false
+      = text_field_tag :q, query
+      '
+      = submit_tag :search, name: 'c'
+
+  -if results
+    hr
+    = paginate results.pagination
+    = bento_search results
+    = paginate results.pagination
