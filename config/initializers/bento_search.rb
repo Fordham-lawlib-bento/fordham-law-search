@@ -101,6 +101,11 @@ BentoSearch.register_engine("website") do |conf|
   conf.for_display do |display|
     display.heading = "Library Website"
     display.hint = "Information about the libraries from the The Maloney Library website"
+
+    display.link_out = proc {
+      single_search_path("website", q: query )
+    }
+    display.link_out_text = "View all website results"
   end
 end
 
