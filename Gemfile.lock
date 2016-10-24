@@ -6,9 +6,9 @@ GIT
 
 GIT
   remote: https://github.com/jrochkind/bento_search.git
-  revision: 6e57e4f4245bdf9a179fa9f5b07ef4ee2e4d7123
+  revision: de5bbd9ab9065917474fc9e804227eacf5b73935
   specs:
-    bento_search (1.6.0)
+    bento_search (1.7.0.beta.1)
       confstruct (~> 1.0)
       htmlentities
       httpclient (>= 2.2.5, < 3.0.0)
