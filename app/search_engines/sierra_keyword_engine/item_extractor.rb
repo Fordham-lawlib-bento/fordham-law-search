@@ -48,8 +48,9 @@ class SierraKeywordEngine
     def extract_authors(item_node)
       # getting author out is super annoying, first direct text child
       # that's not all newlines.
-      byebug unless item_node.text.valid_encoding?
-      authorish = extract_text(item_node.at_css("td.briefcitDetail").xpath("text()").to_a.delete_if {|n| n.text.scrub =~ /\A\n+\z/ }.first)
+      briefCitDetail = item_node.at_css("td.briefcitDetail")
+      authorish = briefCitDetail &&
+        extract_text(item_node.at_css("td.briefcitDetail").xpath("text()").to_a.delete_if {|n| n.text.scrub =~ /\A\n+\z/ }.first)
       if authorish
         [ BentoSearch::Author.new(display: authorish) ]
       else
@@ -82,7 +83,9 @@ class SierraKeywordEngine
     # this is some crazy scraping.
     def insert_weird_stuff(result_item, item_node)
       # The publication info is... here? Really?
-      innerBriefcitDetail = extract_text(item_node.at_css("td.briefcitDetail span.briefcitDetail").xpath("text()"))
+      innerBriefcitDetailNode = item_node.at_css("td.briefcitDetail span.briefcitDetail")
+      return unless innerBriefcitDetailNode
+      innerBriefcitDetail = extract_text(innerBriefcitDetailNode.xpath("text()"))
 
       # Publisher info
       pub_info = innerBriefcitDetail.split("\n").first.gsub(/\A\[/, '').gsub(/\]\z/, '')
