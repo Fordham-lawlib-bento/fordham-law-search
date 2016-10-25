@@ -82,10 +82,8 @@ end
 
 BentoSearch.register_engine("databases") do |conf|
   conf.engine = "SierraKeywordEngine"
-  conf.max_results = 5
-
   conf.query_suffix = " (inDatabases)"
-  conf.item_extract_css_path = "tr.briefCitRow"
+  conf.max_results = 5
 
   conf.for_display do |display|
     display.heading = "Databases"

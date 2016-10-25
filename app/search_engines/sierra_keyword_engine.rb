@@ -28,8 +28,6 @@ require_dependency 'sierra_keyword_engine/item_extractor'
 #  * extra_webpac_query_params Extra query params to add on to webpac query, as a ruby
 #    hash. Eg `{m: 'f'}` to apply a format pre-limit.
 #  * query_suffix: eg ` (inDatabases)` for Tom's custom database limit.
-#  * item_extract_css_path: default `"td.briefCitRow"` set to `"tr.briefCitRow"` for
-#    the weird databases keyword type results.
 #
 # # custom_data
 #  * call number in custom_data[:call_number]
@@ -55,7 +53,6 @@ class SierraKeywordEngine
       base_url: "http://lawpac.lawnet.fordham.edu",
       sort_code: "RZ",
       search_type: "X",
-      item_extract_path: 'td.briefCitRow',
       format_filename_map: {
         't_book.gif' => 'Book',
         't_jourser.gif' => 'Journal/Serial',

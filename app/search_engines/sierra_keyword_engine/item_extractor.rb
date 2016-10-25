@@ -14,7 +14,7 @@ class SierraKeywordEngine
 
     # Returns a nokogiri nodeset of nodes representing individual result items
     def item_nodes
-      node_set = document.css(configuration.item_extract_css_path)
+      node_set = document.css("td.briefCitRow")
 
       if configuration.max_results
         node_set = node_set.slice(0, configuration.max_results.to_i)
