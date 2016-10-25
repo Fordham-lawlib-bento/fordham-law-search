@@ -36,6 +36,8 @@ class SierraKeywordEngine
 
         result_item.format_str = extract_format_str(item_node)
 
+        result_item.abstract = extract_abstract(item_node)
+
         result_item.custom_data[:call_number] = extract_call_number(item_node)
 
         # 856 links, sierra uses an illegal class name starting with a number, argh
@@ -57,6 +59,13 @@ class SierraKeywordEngine
       else
         []
       end
+    end
+
+    def extract_abstract(item_node)
+      # this is a weird one, there's no classes involved, bah,
+      # hope we don't get any false positives
+      # Mostly this is here for ERM "database" records.
+      item_node.at_xpath("td/table/tr[2]/td[@colspan=2]").try(:text)
     end
 
     def extract_format_str(item_node)
