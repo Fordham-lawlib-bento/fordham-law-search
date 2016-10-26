@@ -50,7 +50,6 @@ class SierraKeywordEngine
     def extract_authors(item_node)
       # getting author out is super annoying, first direct text child
       # that's not all newlines.
-      byebug unless item_node.text.valid_encoding?
       authorish = extract_text(item_node.at_css("td.briefcitDetail").xpath("text()").to_a.delete_if {|n| n.text.scrub =~ /\A\n+\z/ }.first)
       if authorish
         [ BentoSearch::Author.new(display: authorish) ]
