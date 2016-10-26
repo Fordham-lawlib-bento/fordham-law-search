@@ -3,7 +3,8 @@ require 'http_client_patch/include_client'
 require 'httpclient'
 require 'nokogiri'
 
-require_dependency 'sierra_keyword_engine/item_extractor'
+require_dependency 'sierra_keyword_engine/multi_item_extractor'
+require_dependency 'sierra_keyword_engine/single_item_extractor'
 
 
 # Developed for Fordham Law Sierra WEBPAC at http://lawpac.lawnet.fordham.edu/
@@ -86,10 +87,21 @@ class SierraKeywordEngine
     document = Nokogiri::HTML(response.body)
 
     results = BentoSearch::Results.new
-    results.total_items = extract_total_items(document)
 
-    unless results.total_items == 0
-      extractor = ItemExtractor.new(document, configuration)
+    if results.total_items == 0
+      # nothing
+    elsif single_result_page?(document)
+      results.total_items = extract_single_total_items(document)
+      item = SingleItemExtractor.new(document, configuration).extract
+      if item
+        # best we can do for link is the search URL we scraped...
+        item.link ||= scrape_url
+        results << item
+      end
+    else
+      results.total_items = extract_multi_total_items(document)
+
+      extractor = MultiItemExtractor.new(document, configuration)
       results.concat extractor.extract
     end
 
@@ -117,7 +129,7 @@ class SierraKeywordEngine
   end
 
 
-  def extract_total_items(document)
+  def extract_multi_total_items(document)
     text = document.css(".browseSearchtoolMessage").text().scrub
     if text =~ /(\d+) results found/
       $1.to_i
@@ -126,6 +138,48 @@ class SierraKeywordEngine
     else
       nil
     end
+  end
+
+  def extract_single_total_items(document)
+    if document.css(".bibSearchtoolMessage").try(:text) =~ /(\d+) result found/
+      return $1.to_i
+    end
+  end
+
+  def single_result_page?(document)
+    !! document.at_css(".bibinnertable") || document.at_css("#bibDisplayBody")
+  end
+
+  def self.extract_publication_info(cataloging_text)
+    publisher, place, dates = nil, nil, nil
+
+    first_colon = cataloging_text.index(":")
+    last_comma = cataloging_text.rindex(/,/)
+    divisions = [-1, first_colon, last_comma, cataloging_text.length].compact
+
+    parts = divisions.each_cons(2).collect { |s,e| cataloging_text.slice(s + 1..e - 1) }
+
+    dates = parts.pop if parts.last =~ /\d\d\d\d/
+    publisher, place = parts[0..2].reverse
+
+    place, publisher, dates = [place, publisher, dates].collect { |s| s.strip.gsub(/\A *\[ */, '').gsub(/ *\] *\z/, '') if s }
+
+    if publisher.try(:downcase) == "s.n."
+      publisher = nil
+    end
+    if place.try(:downcase) == "s.l."
+      place = nil
+    end
+
+    if /(\d\d\d\d)/ =~ dates
+      year = $1
+    end
+
+    return OpenStruct.new(
+      publisher: publisher,
+      place: place,
+      year: year
+    )
   end
 
 end

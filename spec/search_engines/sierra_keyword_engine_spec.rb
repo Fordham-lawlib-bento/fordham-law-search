@@ -33,6 +33,37 @@ describe SierraKeywordEngine do
     end
   end
 
+  describe "single-hit results" do
+    context "a book" do
+      it "returns results" do
+        results = SierraKeywordEngine.new().search('"The Europeanisation of UK competition law"')
+
+        expect(results.total_items).to eq(1)
+        expect(results.count).to eq(1)
+
+        expect(results.first.title).to be_present
+        expect(results.first.link).to be_present
+        expect(results.first.authors).to be_present
+        expect(results.first.year).to be_present
+        expect(results.first.publisher).to be_present
+        expect(results.first.custom_data[:location]).to be_present
+        expect(results.first.custom_data[:call_number]).to be_present
+      end
+    end
+    context "a database" do
+      it "returns results" do
+        results = SierraKeywordEngine.new().search('"MOML Foreign, Comparative, and International Law"')
+
+        expect(results.total_items).to eq(1)
+        expect(results.count).to eq(1)
+
+        expect(results.first.title).to be_present
+        expect(results.first.link).to be_present
+      end
+    end
+  end
+
+
   describe "limited max_results" do
     let(:max_results) { 6 }
     it "returns only max_results" do
