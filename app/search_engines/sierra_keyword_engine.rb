@@ -147,4 +147,36 @@ class SierraKeywordEngine
     !! document.at_css(".bibinnertable") || document.at_css("#bibDisplayBody")
   end
 
+  def self.extract_publication_info(cataloging_text)
+    publisher, place, dates = nil, nil, nil
+
+    first_colon = cataloging_text.index(":")
+    last_comma = cataloging_text.rindex(/,/)
+    divisions = [-1, first_colon, last_comma, cataloging_text.length].compact
+
+    parts = divisions.each_cons(2).collect { |s,e| cataloging_text.slice(s + 1..e - 1) }
+
+    dates = parts.pop if parts.last =~ /\d\d\d\d/
+    publisher, place = parts[0..2].reverse
+
+    place, publisher, dates = [place, publisher, dates].collect { |s| s.strip.gsub(/\A *\[ */, '').gsub(/ *\] *\z/, '') if s }
+
+    if publisher.try(:downcase) == "s.n."
+      publisher = nil
+    end
+    if place.try(:downcase) == "s.l."
+      place = nil
+    end
+
+    if /(\d\d\d\d)/ =~ dates
+      year = $1
+    end
+
+    return OpenStruct.new(
+      publisher: publisher,
+      place: place,
+      year: year
+    )
+  end
+
 end

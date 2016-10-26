@@ -84,27 +84,11 @@ class SierraKeywordEngine
     def insert_weird_stuff(result_item, item_node)
       # The publication info is... here? Really?
       innerBriefcitDetail = extract_text(item_node.at_css("td.briefcitDetail span.briefcitDetail").xpath("text()"))
-
-      # Publisher info
       pub_info = innerBriefcitDetail.split("\n").first.gsub(/\A\[/, '').gsub(/\]\z/, '')
 
-      first_colon = pub_info.index(":")
-      last_comma = pub_info.rindex(/,/)
-      divisions = [-1, first_colon, last_comma, pub_info.length].compact
-
-      parts = divisions.each_cons(2).collect { |s,e| pub_info.slice(s + 1..e - 1) }
-
-      dates = parts.pop if parts.last =~ /\d\d\d\d/
-      publisher, place = parts[0..2].reverse
-
-      place, publisher, dates = [place, publisher, dates].collect { |s| s.strip.gsub(/\A *\[ */, '').gsub(/ *\] *\z/, '') if s }
-
-      if publisher.try(:downcase) != "s.n."
-        result_item.publisher = publisher.presence
-      end
-      if /(\d\d\d\d)/ =~ dates
-        result_item.year = $1
-      end
+      publication_info = SierraKeywordEngine.extract_publication_info(pub_info)
+      result_item.publisher = publication_info.publisher
+      result_item.year = publication_info.year
 
       # Location, yeah, it's extracted crazy fragile
       if innerBriefcitDetail =~ /Location:\s*(.*)(\n|\z)/
