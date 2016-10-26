@@ -14,12 +14,6 @@ class MultiSearchController < ApplicationController
       return
     end
 
-    # We're getting weird deadlock I think coming from auto-load concurrency errors, unless we force
-    # auto-loading of everything first with a test run. Bah. TODO, shouldn't
-    # need this.
-    e = BentoSearch::MockEngine.new(id: "mock")
-    e.search("foo")
-
     # trigger lazy load in controller, just cause
     search_results
   end
@@ -39,9 +33,7 @@ class MultiSearchController < ApplicationController
         # then assemble them all into a hash of engine_id => Response.
         # Making them into a hash will wait on each one for value, so will wait
         # for them all to complete.
-        engines.collect do |engine|
-          Concurrent::Future.execute { engine.search(query) }
-        end.collect { |future| [future.value!.engine_id, future.value!] }.to_h
+        BentoSearch::ConcurrentSearcher.new(*engine_ids).search(query).results
       else
         {}
       end
