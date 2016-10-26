@@ -17,19 +17,23 @@ class SierraKeywordEngine
       item = BentoSearch::ResultItem.new
 
       if resource_type == :resource
-        item.title = value_for_label(document, "Resource")
-        item.abstract = value_for_label(document, "Description")
+        if resource_value_node = node_for_label(document, "Resource")
+          item.title = resource_value_node.text.strip
+          item.link = resource_value_node.at_xpath("./a").try { |a| a['href'] }
+        end
+
+        item.abstract = text_for_label(document, "Description")
       else
-        whole_title_str = value_for_label(document, "Title")
+        whole_title_str = text_for_label(document, "Title")
         title, author = whole_title_str.split("/", 2).collect(&:strip) if whole_title_str
         item.title = title
         item.authors << BentoSearch::Author.new(display: author) if author
 
-        publication_info = SierraKeywordEngine.extract_publication_info( value_for_label(document, "Publisher") )
+        publication_info = SierraKeywordEngine.extract_publication_info( text_for_label(document, "Publisher") )
         item.publisher = publication_info.publisher
         item.year = publication_info.year
 
-        item.custom_data[:call_number] = value_for_label(document, "Call Number")
+        item.custom_data[:call_number] = text_for_label(document, "Call Number")
         item.custom_data[:location] = document.at_css(".locadata").try(:text)
       end
 
@@ -41,15 +45,18 @@ class SierraKeywordEngine
 
     # Returns :resource or :generic at present
     def resource_type
-      @resource_type ||= value_for_label(document, "Resource") ? :resource : :generic
+      @resource_type ||= text_for_label(document, "Resource") ? :resource : :generic
     end
 
+    def text_for_label(xml_container, label_name)
+      node_for_label(xml_container, label_name).try(:text).try(:strip)
+    end
 
-    def value_for_label(xml_container, label_name)
+    def node_for_label(xml_container, label_name)
       xpath = "//tr[child::td[contains(@class, 'resourceInfoLabel') or contains(@class, 'bibInfoLabel') or contains(@class, 'resourceUrlLabel')][normalize-space(text())='#{label_name}']]" +
         "/td[contains(@class, 'resourceInfoData') or contains(@class, 'bibInfoData') or contains(@class, 'resourceUrlData')]"
 
-      xml_container.at_xpath(xpath).try(:text).try(:strip)
+      xml_container.at_xpath(xpath)
     end
   end
 end
