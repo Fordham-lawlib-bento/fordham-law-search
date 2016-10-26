@@ -1,5 +1,7 @@
 class SierraKeywordEngine
-  class ItemExtractor
+  # Extracts multiple items from a sierra classic keyword-style multiple results
+  # page.
+  class MultiItemExtractor
     attr_reader :document, :configuration
 
     def initialize(nokogiri_document, configuration)

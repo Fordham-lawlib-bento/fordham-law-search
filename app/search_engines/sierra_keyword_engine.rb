@@ -3,7 +3,7 @@ require 'http_client_patch/include_client'
 require 'httpclient'
 require 'nokogiri'
 
-require_dependency 'sierra_keyword_engine/item_extractor'
+require_dependency 'sierra_keyword_engine/multi_item_extractor'
 
 
 # Developed for Fordham Law Sierra WEBPAC at http://lawpac.lawnet.fordham.edu/
@@ -85,7 +85,7 @@ class SierraKeywordEngine
     results.total_items = extract_total_items(document)
 
     unless results.total_items == 0
-      extractor = ItemExtractor.new(document, configuration)
+      extractor = MultiItemExtractor.new(document, configuration)
       results.concat extractor.extract
     end
 
