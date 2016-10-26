@@ -16,7 +16,8 @@ class SierraKeywordEngine
 
     # Returns a nokogiri nodeset of nodes representing individual result items
     def item_nodes
-      node_set = document.css("td.briefCitRow")
+      # different sorts of results have items in td.briefCitRow or tr.briefCitRow
+      node_set = document.css(".briefCitRow")
 
       if configuration.max_results
         node_set = node_set.slice(0, configuration.max_results.to_i)
@@ -37,6 +38,8 @@ class SierraKeywordEngine
 
         result_item.format_str = extract_format_str(item_node)
 
+        result_item.abstract = extract_abstract(item_node)
+
         result_item.custom_data[:call_number] = extract_call_number(item_node)
 
         # 856 links, sierra uses an illegal class name starting with a number, argh
@@ -50,12 +53,21 @@ class SierraKeywordEngine
     def extract_authors(item_node)
       # getting author out is super annoying, first direct text child
       # that's not all newlines.
-      authorish = extract_text(item_node.at_css("td.briefcitDetail").xpath("text()").to_a.delete_if {|n| n.text.scrub =~ /\A\n+\z/ }.first)
+      briefCitDetail = item_node.at_css("td.briefcitDetail")
+      authorish = briefCitDetail &&
+        extract_text(item_node.at_css("td.briefcitDetail").xpath("text()").to_a.delete_if {|n| n.text.scrub =~ /\A\n+\z/ }.first)
       if authorish
         [ BentoSearch::Author.new(display: authorish) ]
       else
         []
       end
+    end
+
+    def extract_abstract(item_node)
+      # this is a weird one, there's no classes involved, bah,
+      # hope we don't get any false positives
+      # Mostly this is here for ERM "database" records.
+      item_node.at_xpath("td/table/tr[2]/td[@colspan=2]").try(:text)
     end
 
     def extract_format_str(item_node)
@@ -83,9 +95,12 @@ class SierraKeywordEngine
     # this is some crazy scraping.
     def insert_weird_stuff(result_item, item_node)
       # The publication info is... here? Really?
-      innerBriefcitDetail = extract_text(item_node.at_css("td.briefcitDetail span.briefcitDetail").xpath("text()"))
-      pub_info = innerBriefcitDetail.split("\n").first.gsub(/\A\[/, '').gsub(/\]\z/, '')
+      innerBriefcitDetailNode = item_node.at_css("td.briefcitDetail span.briefcitDetail")
+      return unless innerBriefcitDetailNode
+      innerBriefcitDetail = extract_text(innerBriefcitDetailNode.xpath("text()"))
 
+      # Publisher info
+      pub_info = innerBriefcitDetail.split("\n").first.gsub(/\A\[/, '').gsub(/\]\z/, '')
       publication_info = SierraKeywordEngine.extract_publication_info(pub_info)
       result_item.publisher = publication_info.publisher
       result_item.year = publication_info.year

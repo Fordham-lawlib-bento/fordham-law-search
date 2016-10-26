@@ -26,10 +26,14 @@ require_dependency 'sierra_keyword_engine/single_item_extractor'
 #  * `base_url` defaults to http://lawpac.lawnet.fordham.edu
 #  * `sort_code` defaults to RZ (relevance)
 #  * `search_type` defaults to X (keyword anywhere)
-#  * call number in custom_data[:call_number]
-#  * location in custom_data[:location]
 #  * extra_webpac_query_params Extra query params to add on to webpac query, as a ruby
 #    hash. Eg `{m: 'f'}` to apply a format pre-limit.
+#  * query_suffix: eg ` (inDatabases)` for Tom's custom database limit.
+#
+# # custom_data
+#  * call number in custom_data[:call_number]
+#  * location in custom_data[:location]
+
 class SierraKeywordEngine
   include BentoSearch::SearchEngine
 
@@ -104,17 +108,16 @@ class SierraKeywordEngine
     return results
   end
 
-
-  def auto_rescue_exceptions
-    super + [SocketError]
-  end
-
   def construct_search_url(args)
     # https://lawpac.lawnet.fordham.edu/search/?searchtype=X&searcharg=thomas+chalk&SORT=RZ
 
     # Needs to have parens surrounding, and can't include any internal parens or
     # will mess up Sierra webpac
     embedded_query = "(#{args[:query].tr('()', '  ')})"
+
+    if configuration.query_suffix.present?
+      embedded_query += configuration.query_suffix
+    end
 
     url = "#{configuration.base_url}/search/X?#{CGI.escape embedded_query}&SORT=#{CGI.escape configuration.sort_code}"
 

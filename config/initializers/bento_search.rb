@@ -50,7 +50,7 @@ BentoSearch.register_engine("articles") do |conf|
 
   # If we have 'guest' access from EDS or not. Doesn't seem to make
   # any difference though?
-  conf.auth = false
+  conf.auth = true
 
   conf.default_per_page = 8 # how many to show on bento page
 
@@ -81,8 +81,9 @@ BentoSearch.register_engine("reserves") do |conf|
 end
 
 BentoSearch.register_engine("databases") do |conf|
-  conf.engine = "BentoSearch::MockEngine"
-  conf.num_results = 5
+  conf.engine = "SierraKeywordEngine"
+  conf.query_suffix = " (inDatabases)"
+  conf.max_results = 5
 
   conf.for_display do |display|
     display.heading = "Databases"
