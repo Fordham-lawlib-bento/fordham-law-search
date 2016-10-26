@@ -87,6 +87,7 @@ BentoSearch.register_engine("databases") do |conf|
 
   conf.for_display do |display|
     display.heading = "Databases"
+    display.link_out = "http://lawpac.lawnet.fordham.edu/search/X?%28%s%20%28inDatabases%29%29&SORT=R&Da=&Db="
   end
 end
 
