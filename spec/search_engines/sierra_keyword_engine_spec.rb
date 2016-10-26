@@ -44,6 +44,8 @@ describe SierraKeywordEngine do
         expect(results.first.title).to be_present
         expect(results.first.link).to be_present
         expect(results.first.authors).to be_present
+        expect(results.first.year).to be_present
+        expect(results.first.publisher).to be_present
         expect(results.first.custom_data[:location]).to be_present
         expect(results.first.custom_data[:call_number]).to be_present
       end

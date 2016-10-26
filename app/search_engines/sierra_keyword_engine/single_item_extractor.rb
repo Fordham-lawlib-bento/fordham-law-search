@@ -25,6 +25,10 @@ class SierraKeywordEngine
         item.title = title
         item.authors << BentoSearch::Author.new(display: author) if author
 
+        publication_info = SierraKeywordEngine.extract_publication_info( value_for_label(document, "Publisher") )
+        item.publisher = publication_info.publisher
+        item.year = publication_info.year
+
         item.custom_data[:call_number] = value_for_label(document, "Call Number")
         item.custom_data[:location] = document.at_css(".locadata").try(:text)
       end
