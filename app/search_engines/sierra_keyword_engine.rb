@@ -4,6 +4,7 @@ require 'httpclient'
 require 'nokogiri'
 
 require_dependency 'sierra_keyword_engine/multi_item_extractor'
+require_dependency 'sierra_keyword_engine/single_item_extractor'
 
 
 # Developed for Fordham Law Sierra WEBPAC at http://lawpac.lawnet.fordham.edu/
@@ -82,15 +83,27 @@ class SierraKeywordEngine
     document = Nokogiri::HTML(response.body)
 
     results = BentoSearch::Results.new
-    results.total_items = extract_total_items(document)
 
-    unless results.total_items == 0
+    if results.total_items == 0
+      # nothing
+    elsif single_result_page?(document)
+      results.total_items = extract_single_total_items(document)
+      item = SingleItemExtractor.new(document, configuration).extract
+      if item
+        # best we can do for link is the search URL we scraped...
+        item.link ||= scrape_url
+        results << item
+      end
+    else
+      results.total_items = extract_multi_total_items(document)
+
       extractor = MultiItemExtractor.new(document, configuration)
       results.concat extractor.extract
     end
 
     return results
   end
+
 
   def auto_rescue_exceptions
     super + [SocketError]
@@ -113,7 +126,7 @@ class SierraKeywordEngine
   end
 
 
-  def extract_total_items(document)
+  def extract_multi_total_items(document)
     text = document.css(".browseSearchtoolMessage").text().scrub
     if text =~ /(\d+) results found/
       $1.to_i
@@ -122,6 +135,16 @@ class SierraKeywordEngine
     else
       nil
     end
+  end
+
+  def extract_single_total_items(document)
+    if document.css(".bibSearchtoolMessage").try(:text) =~ /(\d+) result found/
+      return $1.to_i
+    end
+  end
+
+  def single_result_page?(document)
+    !! document.at_css(".bibinnertable") || document.at_css("#bibDisplayBody")
   end
 
 end
