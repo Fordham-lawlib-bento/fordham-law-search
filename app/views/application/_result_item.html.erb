@@ -34,7 +34,7 @@
     <div class="bento_item_body">
 
       <% if item.any_present?(:authors, :display_date) %>
-        <p class="bento_item_row first_about">
+        <div class="bento_item_row first_about">
 
           <% if item.authors.present? %>
             <span class="authors">
@@ -52,31 +52,31 @@
             </span>
           <% end %>
 
-        </p>
+        </div>
       <% end %>
 
       <% if item.abstract %>
-        <p class="bento_item_row abstract">
+        <div class="bento_item_row abstract">
           <%= item.render_summary  %>
-        </p>
+        </div>
       <% end %>
 
       <% if item.has_source_info? %>
-        <p class="bento_item_row second_about">
+        <div class="bento_item_row second_about">
           <%= item.render_source_info %>
-        </p>
+        </div>
       <% end %>
 
-      <p class="bento_item_row shelf-location">
+      <div class="bento_item_row shelf-location">
         Shelf location:
         <%= item.custom_data[:location] %>
         <%= item.custom_data[:call_number] %>
-      </p>
+      </div>
 
       <% if item.other_links.present? %>
-        <p class="bento_item_other_links">
+        <div class="bento_item_other_links">
           <%= render :partial => "bento_search/link", :collection => item.other_links %>
-        </p>
+        </div>
       <% end %>
     </div>
 
