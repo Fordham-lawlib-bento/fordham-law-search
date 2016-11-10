@@ -1,8 +1,22 @@
 require 'concurrent'
 
 class MultiSearchController < ApplicationController
-  class_attribute :engine_ids
-  self.engine_ids = %w{catalog articles reserves databases website flash}
+  class_attribute :main_engine_ids
+  self.main_engine_ids = %w{catalog articles}
+  helper_method :main_engine_ids
+
+  class_attribute :secondary_engine_ids
+  self.secondary_engine_ids = %w{website databases reserves flash}
+  helper_method :secondary_engine_ids
+
+  def self.engine_ids
+    main_engine_ids + secondary_engine_ids
+  end
+  def engine_ids
+    main_engine_ids + secondary_engine_ids
+  end
+
+
 
   include LinkOutHelper
   helper LinkOutHelper
