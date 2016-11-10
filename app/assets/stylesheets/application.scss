@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i');
+
 @import 'globals';
 @import 'bento-item';
 
 .search-results {
   width: 90%;
   margin: 0 auto;
+  max-width: 2000px;
 }
 
 @media screen and (min-width: 1600px) {
@@ -13,15 +16,16 @@
   }
 
   .search-results-main {
-    flex: 3;
+    flex: 7;
     margin-right: 3%;
   }
 
   .search-results-secondary {
-    flex: 1;
+    flex: 2;
     flex-direction: column;
 
     .search-results-box {
+      flex: 0 0 auto;
       margin: 0 0 1em 0;
     }
   }
