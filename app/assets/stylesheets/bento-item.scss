@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: $light-gray;
+}
+
+.bento_item {
+  padding: 1em;
+  background: #fff;
+  margin: 0 0 1em 0;
+  box-shadow: 0 3px 12px rgba($black, 0.1);
+}
