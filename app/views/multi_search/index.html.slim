@@ -8,6 +8,10 @@
 
 - if search_results.present?
   .search-results
-    - search_results.each_pair do |engine_id, results|
-      = render partial: 'search_results_box', locals: { results: results }
+    .search-results-main
+      - main_engine_ids.each do |engine_id|
+        = render partial: 'search_results_box', locals: { results: search_results[engine_id] }
+    .search-results-secondary
+      - secondary_engine_ids.each do |engine_id|
+        = render partial: 'search_results_box', locals: { results: search_results[engine_id] }
 
