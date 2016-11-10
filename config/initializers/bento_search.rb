@@ -4,7 +4,7 @@
 # conf.for_display.link_out_text is an optional template for exact text on the link,
 # with "%i" standing in for number of hits. If left unset a default will be used.
 
-BentoSearch.defaults.item_partial = '/multi_search/result_item'
+BentoSearch.defaults.item_partial = 'result_item'
 
 BentoSearch.register_engine("catalog") do |conf|
   conf.engine = "SierraKeywordEngine"
