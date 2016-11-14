@@ -23,6 +23,7 @@
   }
 }
 
+
 // xxxxxx
 // Three Column Breakpoint
 // xxxxxx
@@ -49,6 +50,7 @@
   }
 }
 
+
 // xxxxxx
 // One Column Breakpoint
 // xxxxxx
@@ -61,5 +63,25 @@
 
   .search-results-box {
     margin-right: 0;
+  }
+}
+
+
+// xxxxxx
+// Secondary Results Breakpoint
+// xxxxxx
+
+@media screen and (min-width: 761px) and (max-width: 1024px) {
+  .search-results-secondary {
+    flex-wrap: wrap;
+
+    .search-results-box {
+      flex: 0 0 auto;
+      width: calc(50% - 1em);
+
+      &:nth-of-type(2n) {
+        margin-right: 0;
+      }
+    }
   }
 }
