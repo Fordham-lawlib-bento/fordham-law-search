@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i');
 
+// Shared
 @import 'globals';
 @import 'typography';
+
+// Components
+@import 'search-form';
 @import 'search-results';
 @import 'bento-item';
 

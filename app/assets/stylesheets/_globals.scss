@@ -1,6 +1,13 @@
 $light-gray: #F7F7F7;
 $black: #333;
+$highlight-color: #8E052A;
 
 $light-gray-text: mix($black, #fff, 50%);
 
 $primary-border: 1px solid mix($black, #fff, 15%);
+
+%content-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 2000px;
+}
