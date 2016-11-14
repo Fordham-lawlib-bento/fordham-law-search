@@ -6,12 +6,19 @@
 }
 
 .source_title {
-  display: block;
-  white-space: pre-wrap;
   word-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+
+  b {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
 }
 
 .abstract {
   font-size: 12px;
+  line-height: 16px;
   font-style: italic;
+  color: $light-gray-text;
 }

@@ -1,4 +1,6 @@
 $light-gray: #F7F7F7;
-$black: #222;
+$black: #333;
+
+$light-gray-text: mix($black, #fff, 50%);
 
 $primary-border: 1px solid mix($black, #fff, 20%);
