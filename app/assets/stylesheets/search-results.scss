@@ -16,6 +16,7 @@ $gutter: 2%;
 .search-results-box {
   flex: 1;
   margin-right: $gutter;
+  margin-bottom: 3em;
   min-width: 1px;
 
   &:last-of-type {
@@ -45,7 +46,7 @@ $gutter: 2%;
 
     .search-results-box {
       flex: 0 0 auto;
-      margin: 0 0 1em 0;
+      margin-right: 0;
     }
   }
 }
