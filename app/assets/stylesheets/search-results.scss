@@ -1,0 +1,50 @@
+// xxxxxx
+// Search Results Layout
+// xxxxxx
+
+.search-results {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 2000px;
+}
+
+.search-results-main,
+.search-results-secondary {
+  display: flex;
+}
+
+.search-results-box {
+  flex: 1;
+  margin-right: 2em;
+  min-width: 1px;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+// xxxxxx
+// Three Column Breakpoint
+// xxxxxx
+
+@media screen and (min-width: 1600px) {
+
+  .search-results {
+    display: flex;
+  }
+
+  .search-results-main {
+    flex: 7;
+    margin-right: 3%;
+  }
+
+  .search-results-secondary {
+    flex: 2;
+    flex-direction: column;
+
+    .search-results-box {
+      flex: 0 0 auto;
+      margin: 0 0 1em 0;
+    }
+  }
+}

@@ -1,56 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i');
 
 @import 'globals';
+@import 'typography';
+@import 'search-results';
 @import 'bento-item';
 
-.search-results {
-  width: 90%;
-  margin: 0 auto;
-  max-width: 2000px;
-}
 
-@media screen and (min-width: 1600px) {
-
-  .search-results {
-    display: flex;
-  }
-
-  .search-results-main {
-    flex: 7;
-    margin-right: 3%;
-  }
-
-  .search-results-secondary {
-    flex: 2;
-    flex-direction: column;
-
-    .search-results-box {
-      flex: 0 0 auto;
-      margin: 0 0 1em 0;
-    }
-  }
-}
-
-.search-results-main {
-  display: flex;
-}
-
-.search-results-secondary {
-  display: flex;
-}
-
-.search-results-box {
-  flex: 1;
-  margin-right: 2em;
-  min-width: 1px;
-
-  &:last-of-type {
-    margin-right: 0;
-  }
-}
-
-.source_title {
-  display: block;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-}
