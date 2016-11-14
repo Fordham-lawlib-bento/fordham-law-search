@@ -55,12 +55,6 @@
         </div>
       <% end %>
 
-      <% if item.abstract %>
-        <div class="bento_item_row abstract">
-          <%= item.render_summary  %>
-        </div>
-      <% end %>
-
       <% if item.has_source_info? %>
         <div class="bento_item_row second_about">
           <%= item.render_source_info %>
@@ -79,6 +73,13 @@
         </div>
       <% end %>
     </div>
+
+    <% if item.abstract %>
+      <hr />
+      <div class="bento_item_row abstract">
+        &ldquo;<%= item.render_summary  %>&rdquo;
+      </div>
+    <% end %>
 
   </div>
 <% end %>

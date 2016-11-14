@@ -1,7 +1,7 @@
 .bento_item {
   padding: 1em;
   background: #fff;
-  margin: 0 0 1em 0;
+  margin: 1em 0;
   box-shadow: 0 3px 12px rgba($black, 0.1);
 }
 
@@ -9,4 +9,9 @@
   display: block;
   white-space: pre-wrap;
   word-wrap: break-word;
+}
+
+.abstract {
+  font-size: 12px;
+  font-style: italic;
 }

@@ -27,7 +27,7 @@
 // Three Column Breakpoint
 // xxxxxx
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 80em) {
 
   .search-results {
     display: flex;
@@ -46,5 +46,20 @@
       flex: 0 0 auto;
       margin: 0 0 1em 0;
     }
+  }
+}
+
+// xxxxxx
+// One Column Breakpoint
+// xxxxxx
+
+@media screen and (max-width: 760px) {
+  .search-results-main,
+  .search-results-secondary {
+    flex-direction: column;
+  }
+
+  .search-results-box {
+    margin-right: 0;
   }
 }

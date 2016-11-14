@@ -2,10 +2,13 @@
   box-sizing: border-box;
 }
 
+$internal-spacing: 0.65em;
+
 body {
   font-family: 'Raleway', sans-serif;
   margin: 0;
   background: $light-gray;
+  font-size: 14px;
 }
 
 a {
@@ -13,6 +16,14 @@ a {
   text-decoration: none;
 }
 
+hr {
+  border: 0;
+  height: 0;
+  border-bottom: $primary-border;
+  margin: $internal-spacing 0;
+}
+
+
 h4 {
-  margin: 0;
+  margin: 0 0 $internal-spacing;
 }
