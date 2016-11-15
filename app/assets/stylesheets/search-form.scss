@@ -3,6 +3,7 @@ $form-element-border-radius: 4px;
 %form-element {
   appearance: none;
   border: none;
+  outline: none;
   font-size: 1em;
   padding: 0.6em 0.75em;
 }
@@ -46,6 +47,7 @@ input[type=text] {
   border-radius: $form-element-border-radius;
   margin-right: 0.5em;
   flex: 1;
+  outline: none;
 }
 
 input[type=submit] {
@@ -56,9 +58,11 @@ input[type=submit] {
   border: $primary-border;
   text-transform: uppercase;
   letter-spacing: 1px;
+  font-size: 0.85em;
+  padding: 0 1.25em;
 
   &:hover {
-    background: saturate($highlight-color, 70%);
+    background: lighten($highlight-color, 4%);
     cursor: pointer;
   }
 }

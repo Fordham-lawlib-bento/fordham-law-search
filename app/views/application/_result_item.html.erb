@@ -28,15 +28,18 @@
       one, in a data-unique-id attribute. %>
 
   <div class="bento_item" data-unique-id="<%= item.unique_id %>">
+    <% if item.display_format.present? || item.display_language.present? %>
+      <div class="bento_item_about">
+        <%- if item.display_format.present? -%>
+          <span class="bento_format"><%= item.display_format -%></span>
+        <%- end -%>
+        <%- if item.display_language.present? -%>
+          <span class="bento_language"> in <%= item.display_language -%></span>
+        <%- end -%>
+      </div>
+    <% end %>
     <h4 class="bento_item_title">
       <%= link_to_unless(item.link.blank?, item.complete_title, item.link) %>
-
-      <% if item.display_format.present? || item.display_language.present? %>
-        <small class="bento_item_about">
-          <%# sorry, no whitespace so parens are flush %>
-          (<%- if item.display_format.present? -%><span class="bento_format"><%= item.display_format -%></span><%- end -%><%- if item.display_language.present? -%><span class="bento_language"> in <%= item.display_language -%></span><%- end -%>)
-        </small>
-      <% end %>
 
       <% if item.display_configuration.try{|h| h[:indicate_fulltext]} && item.link_is_fulltext? %>
         <small class="bento_available_online">Online</small>
