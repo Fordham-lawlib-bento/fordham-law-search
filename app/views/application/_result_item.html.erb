@@ -28,11 +28,22 @@
       one, in a data-unique-id attribute. %>
 
   <div class="bento_item" data-unique-id="<%= item.unique_id %>">
-    <%= render :partial => "bento_search/item_title", :object => item, :as => 'item', :locals => {:index => bento_item_counter(local_assigns[:item_counter], local_assigns[:results]) } %>
+    <h4 class="bento_item_title">
+      <%= link_to_unless(item.link.blank?, item.complete_title, item.link) %>
 
+      <% if item.display_format.present? || item.display_language.present? %>
+        <small class="bento_item_about">
+          <%# sorry, no whitespace so parens are flush %>
+          (<%- if item.display_format.present? -%><span class="bento_format"><%= item.display_format -%></span><%- end -%><%- if item.display_language.present? -%><span class="bento_language"> in <%= item.display_language -%></span><%- end -%>)
+        </small>
+      <% end %>
+
+      <% if item.display_configuration.try{|h| h[:indicate_fulltext]} && item.link_is_fulltext? %>
+        <small class="bento_available_online">Online</small>
+      <% end %>
+    </h4>
 
     <div class="bento_item_body">
-
       <% if item.any_present?(:authors, :display_date) %>
         <div class="bento_item_row first_about">
 

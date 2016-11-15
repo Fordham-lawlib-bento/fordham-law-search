@@ -35,7 +35,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Gems added for fordham law search app specifically:
 # temporarily point bento_search to master
-gem 'bento_search', git: 'https://github.com/jrochkind/bento_search.git', branch: "concurrent_searcher" # '~> 1.6'
+gem 'bento_search', git: 'https://github.com/jrochkind/bento_search.git' #, branch: "concurrent_searcher" # '~> 1.6'
 gem 'slim-rails', '~> 3.1'
 gem 'concurrent-ruby', '~>1.0'
 gem 'kaminari' # pagination

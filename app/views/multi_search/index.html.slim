@@ -2,11 +2,12 @@
   h1 = link_to "The Maloney Library", root_path
   = link_to "Fordham University School of Law", "http://www.fordham.edu/info/20346/school_of_law", class: "school-name"
   = form_tag multi_search_path, method: :get, enforce_utf8: false
-    = select_tag :direct_search, options_for_select(search_type_select_options, params[:direct_search])
-    '
     = text_field_tag :q, params[:q]
     '
     = submit_tag :search, name: 'c'
+    .search-type-options
+      - search_type_select_options.each do |text, id|
+        = radio_button name: :direct_search, value: id, label: text
 
 - if search_results.present?
   .search-results
