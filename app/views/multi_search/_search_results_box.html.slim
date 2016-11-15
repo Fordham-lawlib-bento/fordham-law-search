@@ -10,7 +10,7 @@
   = bento_search results
   - if link_out_to_results_url(results)
     hr
-    = link_out_to_results results, label: link_out_to_results_text(results)
+    = link_out_to_results results, label: link_out_to_results_text(results), class: "view-all-results-link"
   - if results.display_configuration.extra_links.present?
     .additional-resources
       .extra-link-prompt Additional Resources

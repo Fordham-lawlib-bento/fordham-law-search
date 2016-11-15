@@ -49,16 +49,26 @@ $gutter: 2%;
   }
 }
 
+.view-all-results-link {
+  text-decoration: underline;
+  color: $highlight-color;
+
+  &:after {
+    content: " →";
+  }
+}
+
 .additional-resources {
   border: $primary-border;
   padding: 1em;
+  margin-top: $internal-spacing;
 
   .extra-link-prompt {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: $light-gray-text;
     font-size: 0.8em;
-    margin-bottom: 0.75em;
+    margin-bottom: $internal-spacing;
   }
 
   ul.extra-links {
