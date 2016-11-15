@@ -1,16 +1,24 @@
 .div.search-results-box class=results.engine_id
   .search-results-box-header
     h2 = results.display_configuration.heading || results.engine_id
-      '
-    = link_out_to_results results, label: "#{results.total_items} Results →", class: "search-results-count" || results.engine_id
-      '
+    '
+    = link_to_results(search_args: {query: query},
+                      url_template: results.display_configuration.link_out,
+                      label_template: '%i Results →',
+                      class: "search-results-count",
+                      total_items: (results.total_items if results))
+    '
   - if results.display_configuration.hint
     div.hint = results.display_configuration.hint
   hr
   = bento_search results
-  - if link_out_to_results_url(results)
+  - if results.display_configuration.link_out.present?
     hr
-    = link_out_to_results results, label: link_out_to_results_text(results)
+    = link_to_results(search_args: {query: query},
+                      url_template: results.display_configuration.link_out,
+                      label_template: results.display_configuration.link_out_text,
+                      total_items: (results.total_items if results))
+
   - if results.display_configuration.extra_links.present?
     hr
     .extra-link-prompt Or Try...

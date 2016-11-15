@@ -3,27 +3,30 @@ require 'cgi'
 module LinkOutHelper
 
   def complete_link_out_template(template, query)
-    template.gsub("%s", CGI.escape(query))
-  end
-
-  def link_out_to_results_url(bento_results)
-    url_template = bento_results.display_configuration.link_out
-
-    if url_template && url_template.is_a?(Proc)
-      instance_exec &url_template
-    elsif url_template
-      complete_link_out_template(url_template, CGI.escape(bento_results.search_args[:query]))
+    if template && template.is_a?(Proc)
+      instance_exec &template
+    elsif template
+      template.gsub("%s", CGI.escape(query))
     end
   end
 
-  def link_out_to_results(bento_results, label:, **link_to_options)
-    link_to_options.reverse_merge!(target: "_blank")
-    link_to_if(link_out_to_results_url(bento_results), label, link_out_to_results_url(bento_results), link_to_options )
-  end
+  def link_to_results(search_args:,
+                      url_template: nil,
+                      label_template: nil,
+                      total_items: nil,
+                      **link_to_options)
+    return "" unless url_template.present?
 
-  def link_out_to_results_text(bento_results)
-    text_template = bento_results.display_configuration.link_out_text || "View and filter all %i results"
+    link_to_options.reverse_merge!(
+      target: "_blank",
+      data: {
+        label_template: label_template
+      }
+    )
 
-    text_template.gsub("%i", bento_results.total_items.to_s)
+    label_template = label_template.presence || "View and filter all %i results"
+    compiled_label = label_template.gsub("%i", total_items.to_s)
+
+    link_to compiled_label, complete_link_out_template(url_template, search_args[:query]), link_to_options
   end
 end
