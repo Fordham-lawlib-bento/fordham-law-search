@@ -46,7 +46,42 @@ $gutter: 2%;
         border-color: $black;
       }
     }
+  }
+}
 
+.additional-resources {
+  border: $primary-border;
+  padding: 1em;
+
+  .extra-link-prompt {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $light-gray-text;
+    font-size: 0.8em;
+    margin-bottom: 0.75em;
+  }
+
+  ul.extra-links {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li {
+
+       a,
+       input {
+        text-decoration: underline;
+        color: $highlight-color;
+        line-height: 150%;
+        background: none;
+        display: inline;
+        text-transform: none;
+        font-size: 1em;
+        letter-spacing: 0;
+        padding: 0;
+        border: 0;
+      }
+    }
   }
 }
 
