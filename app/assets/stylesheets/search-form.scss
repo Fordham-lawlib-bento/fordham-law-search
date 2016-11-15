@@ -13,7 +13,7 @@ $form-element-border-radius: 4px;
   margin-bottom: 3em;
   position: relative;
 
-  form {
+  .search-field {
     width: 65%;
     display: flex;
     max-width: 50em;
@@ -59,5 +59,39 @@ input[type=submit] {
   &:hover {
     background: saturate($highlight-color, 70%);
     cursor: pointer;
+  }
+}
+
+.search-type-options {
+  margin: 0.6em 0;
+  white-space: normal;
+
+  label {
+    display: inline-block;
+    margin: 0.4em 1.5em 0.4em 0;
+    white-space: nowrap;
+    cursor: pointer;
+
+    &:hover input[type=radio] {
+      border-color: $highlight-color;
+    }
+  }
+}
+
+input[type=radio] {
+  appearance: none;
+  display: inline-block;
+  vertical-align: -15%;
+  width: 14px;
+  height: 14px;
+  margin: 0 0.5em 0 0;
+  background: #fff;
+  border: $primary-border;
+  border-radius: 7px;
+  outline: none;
+
+  &:checked {
+    background: $highlight-color;
+    border-color: darken($highlight-color, 20%);
   }
 }
