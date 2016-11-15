@@ -12,6 +12,10 @@ body {
   font-size: 14px;
 }
 
+.highlight-color-fill {
+  fill: $highlight-color;
+}
+
 a {
   color: inherit;
   text-decoration: none;

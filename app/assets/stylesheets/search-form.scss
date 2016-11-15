@@ -9,6 +9,13 @@ $form-element-border-radius: 4px;
   padding: 0.6em 0.75em;
 }
 
+.logo {
+  display: inline-block;
+  height: 0.9em;
+  width: auto;
+  margin-right: 0.25em;
+}
+
 .search-form {
   @extend %content-wrapper;
   margin-top: 3em;
