@@ -20,9 +20,9 @@
                       total_items: (results.total_items if results))
 
   - if results.display_configuration.extra_links.present?
-    hr
-    .extra-link-prompt Or Try...
-    ul.extra-links
-      - results.display_configuration.extra_links.each do |extra_link_conf|
-        li.extra-link
-          = render partial: 'extra_search_link', locals: { bento_results: results, extra_link_conf: extra_link_conf }
+    .additional-resources
+      .extra-link-prompt Additional Resources
+      ul.extra-links
+        - results.display_configuration.extra_links.each do |extra_link_conf|
+          li.extra-link
+            = render partial: 'extra_search_link', locals: { bento_results: results, extra_link_conf: extra_link_conf }

@@ -12,6 +12,10 @@ body {
   font-size: 14px;
 }
 
+.highlight-color-fill {
+  fill: $highlight-color;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -31,6 +35,7 @@ h1 {
 
 h2 {
   margin: 0;
+  line-height: 110%;
 }
 
 h4 {

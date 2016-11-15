@@ -5,6 +5,19 @@
   box-shadow: 0 3px 12px rgba($black, 0.1);
 }
 
+.bento_item_about {
+  color: $highlight-color;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 10px;
+  font-weight: 700;
+  margin-bottom: 0.75em;
+}
+
+.bento_item_title a:hover {
+  text-decoration: underline;
+}
+
 .source_title {
   word-wrap: break-word;
   word-break: break-word;
@@ -26,4 +39,8 @@
   word-wrap: break-word;
   word-break: break-word;
   font-size: 12px;
+
+  p {
+    margin: 0 0 0.8em 0;
+  }
 }
