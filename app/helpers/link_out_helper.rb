@@ -16,8 +16,9 @@ module LinkOutHelper
     end
   end
 
-  def link_out_to_results(bento_results, label:)
-    link_to_if(link_out_to_results_url(bento_results), label, link_out_to_results_url(bento_results), target: "_blank" )
+  def link_out_to_results(bento_results, label:, **link_to_options)
+    link_to_options.reverse_merge!(target: "_blank")
+    link_to_if(link_out_to_results_url(bento_results), label, link_out_to_results_url(bento_results), link_to_options )
   end
 
   def link_out_to_results_text(bento_results)
