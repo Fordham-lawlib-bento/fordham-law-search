@@ -9,11 +9,6 @@
   word-wrap: break-word;
   word-break: break-word;
   hyphens: auto;
-
-  b {
-    white-space: pre-wrap;
-    word-wrap: break-word;
-  }
 }
 
 .abstract {
@@ -21,4 +16,14 @@
   line-height: 16px;
   font-style: italic;
   color: $light-gray-text;
+}
+
+.bento_search_error {
+  padding: 1em;
+  border: 1px solid mix($highlight-color, #fff, 30%);
+  background: mix($highlight-color, #fff, 15%);
+  color: $highlight-color;
+  word-wrap: break-word;
+  word-break: break-word;
+  font-size: 12px;
 }

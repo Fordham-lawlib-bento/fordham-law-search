@@ -33,12 +33,13 @@ $gutter: 2%;
       margin-right: 1em;
     }
 
-    .search-results-count a {
+    .search-results-count {
       display: block;
       padding: 0.3em 0.6em;
       border-radius: 4px;
       border: 1px solid $highlight-color;
       color: $highlight-color;
+      white-space: nowrap;
 
       &:hover {
         color: $black;
