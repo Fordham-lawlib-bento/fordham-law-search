@@ -2,7 +2,7 @@
   .search-results-box-header
     h2 = results.display_configuration.heading || results.engine_id
       '
-    = link_out_to_results results, label: "#{results.total_items} Results →", class: "search-results-count" || results.engine_id
+    = link_out_to_results results, label: "#{results.total_items} Results →" || results.engine_id, class: "search-results-count"
       '
   - if results.display_configuration.hint
     div.hint = results.display_configuration.hint

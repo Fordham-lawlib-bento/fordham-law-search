@@ -75,11 +75,13 @@
         </div>
       <% end %>
 
-      <div class="bento_item_row shelf-location">
-        Shelf location:
-        <%= item.custom_data[:location] %>
-        <%= item.custom_data[:call_number] %>
-      </div>
+      <% if item.custom_data[:location].present? || item.custom_data[:call_number].present? %>
+        <div class="bento_item_row shelf-location">
+          Shelf location:
+          <%= item.custom_data[:location] %>
+          <%= item.custom_data[:call_number] %>
+        </div>
+      <% end %>
 
       <% if item.other_links.present? %>
         <div class="bento_item_other_links">
