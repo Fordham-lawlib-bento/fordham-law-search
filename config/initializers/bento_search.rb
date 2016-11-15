@@ -12,7 +12,7 @@ BentoSearch.register_engine("catalog") do |conf|
 
   conf.for_display do |display|
     display.heading = "Catalog"
-    display.hint = "Library books, journals, music, videos, databases, archival collections, and online resources"
+    #display.hint = "Library books, journals, music, videos, databases, archival collections, and online resources"
     display.link_out = "http://encore.lawnet.fordham.edu/iii/encore/search?formids=target&lang=eng&suite=def&reservedids=lang%2Csuite&target=%s"
     display.link_out_text "View and filter all %i catalog results"
 
@@ -56,7 +56,7 @@ BentoSearch.register_engine("articles") do |conf|
 
   conf.for_display do |display|
     display.heading = "Articles"
-    display.hint = "Articles, e-books, dissertations, music, images, and more from a mostly full-text database"
+    #display.hint = "Articles, e-books, dissertations, music, images, and more from a mostly full-text database"
     display.link_out = "http://encore.lawnet.fordham.edu/iii/encore/eds/C__S%s__Orightresult__U"
 
     display.extra_links = [
@@ -103,7 +103,7 @@ BentoSearch.register_engine("website") do |conf|
 
   conf.for_display do |display|
     display.heading = "Library Website"
-    display.hint = "Information about the libraries from the The Maloney Library website"
+    #display.hint = "Information about the libraries from the The Maloney Library website"
 
     display.link_out = proc {
       single_search_path("website", q: query )
