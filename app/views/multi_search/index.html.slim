@@ -1,10 +1,11 @@
 .search-form
   = form_tag multi_search_path, method: :get, enforce_utf8: false
-    = select_tag :direct_search, options_for_select(search_type_select_options, params[:direct_search])
-    '
     = text_field_tag :q, params[:q]
     '
     = submit_tag :search, name: 'c'
+    .search-type-options
+      - search_type_select_options.each do |text, id|
+        = radio_button name: :direct_search, value: id, label: text
 
 - if search_results.present?
   .search-results
