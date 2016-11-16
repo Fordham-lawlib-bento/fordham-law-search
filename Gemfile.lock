@@ -6,7 +6,7 @@ GIT
 
 GIT
   remote: https://github.com/jrochkind/bento_search.git
-  revision: 089cf72f04b092ab46eb1337f93a4106dd18d8c0
+  revision: c590a023c06c3bd6cc82784463a66c75ca30f1f8
   specs:
     bento_search (1.7.0.beta.1)
       confstruct (~> 1.0)
