@@ -18,7 +18,7 @@ BentoSearch.register_engine("catalog") do |conf|
   conf.allow_routable_results = true
 
   conf.engine = "SierraKeywordEngine"
-  conf.max_results = 8 # how many to show on multi results page
+  conf.max_results = 6 # how many to show on multi results page
 
   conf.for_display do |display|
     display.heading = "Catalog"
@@ -66,7 +66,7 @@ BentoSearch.register_engine("articles") do |conf|
   # any difference though?
   conf.auth = true
 
-  conf.default_per_page = 8 # how many to show on bento page
+  conf.default_per_page = 6 # how many to show on bento page
 
   conf.for_display do |display|
     display.heading = "Articles"
@@ -105,7 +105,7 @@ BentoSearch.register_engine("databases") do |conf|
 
   conf.engine = "SierraKeywordEngine"
   conf.query_suffix = " (inDatabases)"
-  conf.max_results = 5
+  conf.max_results = 3
 
   conf.for_display do |display|
     display.ajax = :auto
@@ -147,7 +147,7 @@ BentoSearch.register_engine("flash") do |conf|
   conf.api_key  = Rails.application.secrets.google_search_flash_api_key
 
   conf.highlighting = true
-  conf.default_per_page = 5 # how many to show on dashboard
+  conf.default_per_page = 3 # how many to show on dashboard
 
   conf.for_display do |display|
     display.heading = "FLASH"
