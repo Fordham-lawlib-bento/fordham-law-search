@@ -70,6 +70,8 @@ BentoSearch.register_engine("articles") do |conf|
     #display.hint = "Articles, e-books, dissertations, music, images, and more from a mostly full-text database"
     display.link_out = "http://encore.lawnet.fordham.edu/iii/encore/eds/C__S%s__Orightresult__U"
 
+    display.ajax = :auto
+
     display.extra_links = [
       {
         label: "Google Scholar",
@@ -89,6 +91,7 @@ BentoSearch.register_engine("reserves") do |conf|
   }
 
   conf.for_display do |display|
+    display.ajax = :auto
     display.heading = "Reserves/Exams"
     display.link_out = "http://lawpac.lawnet.fordham.edu/search/X?%28%s%20%28inReserves%29%29&SORT=R&Da=&Db="
   end
@@ -102,6 +105,7 @@ BentoSearch.register_engine("databases") do |conf|
   conf.max_results = 5
 
   conf.for_display do |display|
+    display.ajax = :auto
     display.heading = "Databases"
     display.link_out = "http://lawpac.lawnet.fordham.edu/search/X?%28%s%20%28inDatabases%29%29&SORT=R&Da=&Db="
   end
