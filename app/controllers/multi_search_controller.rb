@@ -40,20 +40,49 @@ class MultiSearchController < ApplicationController
   end
   helper_method :query
 
+  def immediate_search_results
+    @immediate_search_results ||= begin
+      immediate_engine_ids = engine_ids.find_all { |id| BentoSearch.get_engine(id).display_configuration.ajax != :auto   }
+
+      BentoSearch::ConcurrentSearcher.new(*immediate_engine_ids).search(query).results
+    end
+  end
+
+  def background_search_engines
+    @background_search_engines ||= begin
+      bg_engines = engine_ids.collect do |id|
+        engine = BentoSearch.get_engine(id)
+        engine if engine.display_configuration.ajax == :auto
+      end.compact
+
+      bg_engines.collect do |engine|
+        [engine.engine_id, engine]
+      end.to_h
+    end
+  end
+
+
+  # Returns a hash key'd by ID. The value will be a hash which always has an engine key/value,
+  # and also has a results key/value if target is NOT going to be searched bg-ajax.
   def search_results
     @search_results ||= begin
       if query
-        # Execute all the searches in futures, so they each get their own thread,
-        # then assemble them all into a hash of engine_id => Response.
-        # Making them into a hash will wait on each one for value, so will wait
-        # for them all to complete.
-        BentoSearch::ConcurrentSearcher.new(*engine_ids).search(query).results
+        background_search_engines.merge(immediate_search_results)
       else
         {}
       end
     end
   end
   helper_method :search_results
+
+  def bento_search_args_for_object(obj)
+    if obj == BentoSearch::Results
+      [obj]
+    else # it's a BentoSearch::SearchEngine loaded in bg ajax
+      [obj, {query: query, load: :ajax_auto}]
+    end
+  end
+  helper_method :bento_search_args_for_object
 
   def engines
     engine_ids.collect do |engine_id|
