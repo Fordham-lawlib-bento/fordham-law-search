@@ -11,6 +11,9 @@
 
 BentoSearch.defaults.item_partial = 'result_item'
 
+# EDS is slow...
+BentoSearch::EdsEngine.http_timeout = 8
+
 BentoSearch.register_engine("catalog") do |conf|
   conf.allow_routable_results = true
 
