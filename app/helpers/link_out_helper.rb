@@ -17,15 +17,16 @@ module LinkOutHelper
                       **link_to_options)
     return "" unless url_template.present?
 
+    label_template = label_template.presence || "View and filter all %i results"
+    compiled_label = label_template.gsub("%i", total_items.to_s)
+
     link_to_options.reverse_merge!(
       target: "_blank",
       data: {
-        label_template: label_template
+        label_template: label_template,
+        has_results_load_template: true,
       }
     )
-
-    label_template = label_template.presence || "View and filter all %i results"
-    compiled_label = label_template.gsub("%i", total_items.to_s)
 
     link_to compiled_label, complete_link_out_template(url_template, search_args[:query]), link_to_options
   end
