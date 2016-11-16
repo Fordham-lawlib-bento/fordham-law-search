@@ -1,5 +1,5 @@
 <% # copy and paste modification of bento_search _std_item.html.erb
-   # to add location/call number
+   # to add location/call number and various other customizations
 %>
 
 <% #  must pass in locals:
@@ -69,7 +69,7 @@
         </div>
       <% end %>
 
-      <% if item.has_source_info? %>
+      <% if item.display_configuration.display_source_info != false && item.has_source_info? %>
         <div class="bento_item_row second_about">
           <%= item.render_source_info %>
         </div>

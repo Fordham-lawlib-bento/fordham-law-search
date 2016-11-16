@@ -109,6 +109,7 @@ BentoSearch.register_engine("website") do |conf|
       single_search_path("website", q: query )
     }
     display.link_out_text = "View all website results"
+    display.display_source_info = false
   end
 end
 
@@ -127,5 +128,6 @@ BentoSearch.register_engine("flash") do |conf|
     display.hint = "Fordham Law Archive of Scholarship & History"
     display.link_out = "http://ir.lawnet.fordham.edu/do/search/?q=%s"
     display.link_out_text = "Visit FLASH to view, filter and explore results"
+    display.display_source_info = false
   end
 end
