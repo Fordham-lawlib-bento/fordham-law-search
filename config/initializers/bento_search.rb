@@ -3,10 +3,17 @@
 #
 # conf.for_display.link_out_text is an optional template for exact text on the link,
 # with "%i" standing in for number of hits. If left unset a default will be used.
+#
+# Engines will be background ajax loaded if they have BOTH of:
+# * `conf.allow_routable_results = true``
+# * `conf.display.ajax = :auto`
+
 
 BentoSearch.defaults.item_partial = 'result_item'
 
 BentoSearch.register_engine("catalog") do |conf|
+  conf.allow_routable_results = true
+
   conf.engine = "SierraKeywordEngine"
   conf.max_results = 8 # how many to show on multi results page
 
@@ -15,6 +22,8 @@ BentoSearch.register_engine("catalog") do |conf|
     #display.hint = "Library books, journals, music, videos, databases, archival collections, and online resources"
     display.link_out = "http://encore.lawnet.fordham.edu/iii/encore/search?formids=target&lang=eng&suite=def&reservedids=lang%2Csuite&target=%s"
     display.link_out_text "View and filter all %i catalog results"
+
+    display.ajax = :auto
 
     display.extra_links = [
       {
@@ -42,6 +51,8 @@ end
 
 # Right now this is an unconstrained search of entire EDS profile.
 BentoSearch.register_engine("articles") do |conf|
+  conf.allow_routable_results = true
+
   conf.engine = "BentoSearch::EdsEngine"
 
   conf.user_id = Rails.application.secrets.eds_api_user_id
@@ -69,6 +80,8 @@ BentoSearch.register_engine("articles") do |conf|
 end
 
 BentoSearch.register_engine("reserves") do |conf|
+  conf.allow_routable_results = true
+
   conf.engine = "SierraKeywordEngine"
 
   conf.extra_webpac_query_params = {
@@ -82,6 +95,8 @@ BentoSearch.register_engine("reserves") do |conf|
 end
 
 BentoSearch.register_engine("databases") do |conf|
+  conf.allow_routable_results = true
+
   conf.engine = "SierraKeywordEngine"
   conf.query_suffix = " (inDatabases)"
   conf.max_results = 5
@@ -93,6 +108,8 @@ BentoSearch.register_engine("databases") do |conf|
 end
 
 BentoSearch.register_engine("website") do |conf|
+  conf.allow_routable_results = true
+
   conf.engine = "BentoSearch::GoogleSiteSearchEngine"
 
   conf.cx       = Rails.application.secrets.google_search_website_engine_id
@@ -114,6 +131,8 @@ end
 
 # bepress institutional repository
 BentoSearch.register_engine("flash") do |conf|
+  conf.allow_routable_results = true
+
   conf.engine = "BentoSearch::GoogleSiteSearchEngine"
 
   conf.cx       = Rails.application.secrets.google_search_flash_engine_id

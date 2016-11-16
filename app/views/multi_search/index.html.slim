@@ -16,8 +16,8 @@
   .search-results
     .search-results-main
       - main_engine_ids.each do |engine_id|
-        = render partial: 'search_results_box', locals: { results: search_results[engine_id] }
+        = render partial: 'search_results_box', locals: { search_object: search_results[engine_id] }
     .search-results-secondary
       - secondary_engine_ids.each do |engine_id|
-        = render partial: 'search_results_box', locals: { results: search_results[engine_id] }
+        = render partial: 'search_results_box', locals: { search_object: search_results[engine_id] }
 

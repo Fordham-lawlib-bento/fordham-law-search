@@ -1,28 +1,31 @@
-.div.search-results-box class=results.engine_id
+-# `search_object` local passed in is either a BentoSearch::Results or a BentoSearch::Engine.
+-# if it's just an engine, we load it ajax bg, if it's results we show it.
+
+.div.search-results-box class=search_object.engine_id
   .search-results-box-header
-    h2 = results.display_configuration.heading || results.engine_id
+    h2 = search_object.display_configuration.heading || search_object.engine_id
     '
     = link_to_results(search_args: {query: query},
-                      url_template: results.display_configuration.link_out,
+                      url_template: search_object.display_configuration.link_out,
                       label_template: '%i Results →',
                       class: "search-results-count",
-                      total_items: (results.total_items if results))
+                      total_items: search_object.try(:total_items).presence)
     '
-  - if results.display_configuration.hint
-    div.hint = results.display_configuration.hint
+  - if search_object.display_configuration.hint
+    div.hint = search_object.display_configuration.hint
   hr
-  = bento_search results
-  - if results.display_configuration.link_out.present?
+  = bento_search *bento_search_args_for_object(search_object)
+  - if search_object.display_configuration.link_out.present?
     hr
     = link_to_results(search_args: {query: query},
-                      url_template: results.display_configuration.link_out,
-                      label_template: results.display_configuration.link_out_text,
-                      total_items: (results.total_items if results))
+                      url_template: search_object.display_configuration.link_out,
+                      label_template: search_object.display_configuration.link_out_text,
+                      total_items: search_object.try(:total_items).presence)
 
-  - if results.display_configuration.extra_links.present?
+  - if search_object.display_configuration.extra_links.present?
     .additional-resources
       .extra-link-prompt Additional Resources
       ul.extra-links
-        - results.display_configuration.extra_links.each do |extra_link_conf|
+        - search_object.display_configuration.extra_links.each do |extra_link_conf|
           li.extra-link
-            = render partial: 'extra_search_link', locals: { bento_results: results, extra_link_conf: extra_link_conf }
+            = render partial: 'extra_search_link', locals: { query: query, extra_link_conf: extra_link_conf }

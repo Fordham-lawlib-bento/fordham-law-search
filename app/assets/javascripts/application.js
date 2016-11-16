@@ -13,3 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+//
+//= require 'bento_search/ajax_load'
+//
+//= require bento_ajax_load_customize
+
+
