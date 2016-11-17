@@ -1,5 +1,5 @@
 // xxxxxx
-// Search Results Layout
+// Multi-Search Results Layout
 // xxxxxx
 
 .search-results {
@@ -9,6 +9,16 @@
 .search-results-main,
 .search-results-secondary {
   display: flex;
+}
+
+
+// xxxxxx
+// Single-Search Results Layout
+// xxxxxx
+
+.single-search-results {
+  @extend %content-wrapper;
+  margin-bottom: 8em;
 }
 
 
