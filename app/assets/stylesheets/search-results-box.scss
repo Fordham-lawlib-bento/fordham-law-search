@@ -44,8 +44,10 @@
 }
 
 .view-all-results-link {
+  display: inline-block;
   text-decoration: underline;
   color: $highlight-color;
+  margin: 0 0 1em;
 
   &:after {
     content: " →";
