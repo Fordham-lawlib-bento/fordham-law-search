@@ -16,7 +16,7 @@ $form-element-border-radius: 4px;
 %secondary-button {
   display: inline-block;
   padding: 0.3em 0.6em;
-  border-radius: 4px;
+  border-radius: $form-element-border-radius;
   border: 1px solid $highlight-color;
   color: $highlight-color;
   white-space: nowrap;
