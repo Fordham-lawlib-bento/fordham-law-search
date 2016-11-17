@@ -1,0 +1,116 @@
+// xxxxxx
+// Search Results Box
+// xxxxxx
+
+.search-results-box {
+  flex: 1;
+  margin-right: $gutter;
+  margin-bottom: 4em;
+  min-width: 1px;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+
+  @include one-column-breakpoint {
+    margin-right: 0;
+  }
+
+  @include three-column-breakpoint {
+    margin-right: $gutter / 0.7;
+  }
+}
+
+
+// xxxxxx
+// Search Results Box Header
+// xxxxxx
+
+.search-results-box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1em;
+
+  h2 {
+    margin-right: 1em;
+  }
+
+  .search-results-count {
+    display: block;
+    padding: 0.3em 0.6em;
+    border-radius: 4px;
+    border: 1px solid $highlight-color;
+    color: $highlight-color;
+    white-space: nowrap;
+
+    &:hover {
+      color: $black;
+      border-color: $black;
+    }
+  }
+}
+
+.view-all-results-link {
+  display: inline-block;
+  text-decoration: underline;
+  color: $highlight-color;
+  margin: 0 0 1em;
+
+  &:after {
+    content: " →";
+  }
+}
+
+
+// xxxxxx
+// Additional Results
+// xxxxxx
+
+.additional-resources {
+  border: $primary-border;
+  padding: 1em;
+  margin-top: $internal-spacing;
+
+  .extra-link-prompt {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $light-gray-text;
+    font-size: 0.8em;
+    margin-bottom: $internal-spacing;
+  }
+
+  ul.extra-links {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li {
+
+       a,
+       input {
+        text-decoration: underline;
+        color: $highlight-color;
+        line-height: 150%;
+        background: none;
+        display: inline;
+        text-transform: none;
+        font-size: 1em;
+        letter-spacing: 0;
+        padding: 0;
+        border: 0;
+      }
+    }
+  }
+}
+
+
+// xxxxxx
+// Loading State
+// xxxxxx
+
+.bento_search_ajax_loading {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}

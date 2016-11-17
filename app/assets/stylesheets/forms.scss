@@ -1,0 +1,58 @@
+// xxxxxx
+// Forms
+// xxxxxx
+
+$form-element-border-radius: 4px;
+
+%form-element {
+  font-family: 'Raleway', sans-serif;
+  appearance: none;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  padding: 0.6em 0.75em;
+}
+
+input[type=radio] {
+  appearance: none;
+  display: inline-block;
+  vertical-align: -15%;
+  width: 14px;
+  height: 14px;
+  margin: 0 0.5em 0 0;
+  background: #fff;
+  border: $primary-border;
+  border-radius: 7px;
+  outline: none;
+
+  &:checked {
+    background: $highlight-color;
+  }
+}
+
+input[type=text] {
+  @extend %form-element;
+  background: #fff;
+  border: $primary-border;
+  border-radius: $form-element-border-radius;
+  margin-right: 0.5em;
+  flex: 1;
+  outline: none;
+}
+
+input[type=submit] {
+  @extend %form-element;
+  background: $highlight-color;
+  color: #fff;
+  border-radius: $form-element-border-radius;
+  border: $primary-border;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.85em;
+  padding: 0 1.25em;
+
+  &:hover {
+    background: lighten($highlight-color, 4%);
+    cursor: pointer;
+  }
+}

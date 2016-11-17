@@ -1,3 +1,7 @@
+// xxxxxx
+// Global Variables
+// xxxxxx
+
 $light-gray: #F7F7F7;
 $black: #333;
 $highlight-color: #8E052A;
@@ -6,8 +10,30 @@ $light-gray-text: mix($black, #fff, 50%);
 
 $primary-border: 1px solid mix($black, #fff, 15%);
 
+$gutter: 5%;
+
+
+// xxxxxx
+// Layout and Media Queries
+// xxxxxx
+
 %content-wrapper {
   width: 90%;
   margin: 0 auto;
   max-width: 2000px;
+}
+
+$one-column-break: 54em;
+$three-column-break: 80em;
+
+@mixin one-column-breakpoint {
+  @media screen and (max-width: $one-column-break) {
+    @content;
+  }
+}
+
+@mixin three-column-breakpoint {
+  @media screen and (min-width: $three-column-break) {
+    @content;
+  }
 }
