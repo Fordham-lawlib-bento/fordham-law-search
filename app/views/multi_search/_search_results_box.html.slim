@@ -20,6 +20,7 @@
     = link_to_results(search_args: {query: query},
                       url_template: search_object.display_configuration.link_out,
                       label_template: search_object.display_configuration.link_out_text,
+                      class: "view-all-results-link",
                       total_items: number_with_delimiter(search_object.try(:total_items).presence))
 
   - if search_object.display_configuration.extra_links.present?
