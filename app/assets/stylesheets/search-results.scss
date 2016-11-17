@@ -1,4 +1,4 @@
-$gutter: 2%;
+$gutter: 5%;
 
 // xxxxxx
 // Search Results Layout
@@ -26,7 +26,7 @@ $gutter: 2%;
 
   .search-results-main {
     flex: 7;
-    margin-right: $gutter * 1.5;
+    margin-right: $gutter;
   }
 
   .search-results-secondary {
@@ -45,14 +45,10 @@ $gutter: 2%;
 // One Column Breakpoint
 // xxxxxx
 
-@media screen and (max-width: 760px) {
+@include one-column-breakpoint {
   .search-results-main,
   .search-results-secondary {
     flex-direction: column;
-  }
-
-  .search-results-box {
-    margin-right: 0;
   }
 }
 

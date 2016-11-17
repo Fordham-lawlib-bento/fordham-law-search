@@ -11,6 +11,14 @@
   &:last-of-type {
     margin-right: 0;
   }
+
+  @include one-column-breakpoint {
+    margin-right: 0;
+  }
+
+  @include three-column-breakpoint {
+    margin-right: $gutter / 0.7;
+  }
 }
 
 

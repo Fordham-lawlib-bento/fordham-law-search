@@ -11,3 +11,15 @@ $primary-border: 1px solid mix($black, #fff, 15%);
   margin: 0 auto;
   max-width: 2000px;
 }
+
+@mixin one-column-breakpoint {
+  @media screen and (max-width: 760px) {
+    @content;
+  }
+}
+
+@mixin three-column-breakpoint {
+  @media screen and (min-width: 80em) {
+    @content;
+  }
+}
