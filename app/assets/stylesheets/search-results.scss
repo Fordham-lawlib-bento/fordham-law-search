@@ -18,7 +18,7 @@ $gutter: 5%;
 // Three Column Breakpoint
 // xxxxxx
 
-@media screen and (min-width: 80em) {
+@include three-column-breakpoint {
 
   .search-results {
     display: flex;
@@ -57,7 +57,7 @@ $gutter: 5%;
 // Secondary Results Breakpoint
 // xxxxxx
 
-@media screen and (min-width: 761px) and (max-width: 1024px) {
+@media screen and (min-width: 761px) and (max-width: 80em) {
   .search-results-secondary {
     flex-wrap: wrap;
 
