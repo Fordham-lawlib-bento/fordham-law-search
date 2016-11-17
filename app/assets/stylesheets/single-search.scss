@@ -1,0 +1,17 @@
+// xxxxxx
+// Single-Search Results Layout
+// xxxxxx
+
+.single-search-results {
+  @extend %content-wrapper;
+  margin-bottom: 8em;
+}
+
+nav.pagination {
+  margin: 1em 0;
+
+  a {
+    color: $highlight-color;
+    text-decoration: underline;
+  }
+}
