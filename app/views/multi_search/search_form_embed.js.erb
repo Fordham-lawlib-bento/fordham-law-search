@@ -1,3 +1,5 @@
+// Code executed on 'host' page to load the embed iframe.
+
 (function() {
 
   var getUrlParameter = function(name) {
@@ -15,6 +17,7 @@
     return;
   }
 
+
   var iFrameUrl = '<%= search_embed_url(format: :html) %>?';
   ['search.focus', 'search.type'].forEach(function(key){
     var value = getUrlParameter(key);
@@ -29,6 +32,12 @@
   iFrame.style.width = '100%';
   iFrame.style.height = "74px";
   iFrame.scrolling = "no";
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.embedFormHeight) {
+      iFrame.style.height = event.data.embedFormHeight + "px";
+    }
+  });
 
   self_script_tag.parentElement.insertBefore(iFrame, self_script_tag);
 

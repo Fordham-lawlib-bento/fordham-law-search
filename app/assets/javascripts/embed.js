@@ -1,3 +1,5 @@
+// JS code run on the embedded iframe (guest)
+
 (function() {
 
   var getUrlParameter = function(name) {
@@ -13,7 +15,27 @@
     } else {
       document.addEventListener('DOMContentLoaded', fn);
     }
-  }
+  };
+
+  var outerHeight = function(el) {
+    var height = el.offsetHeight;
+    var style = getComputedStyle(el);
+
+    height += parseInt(style.marginTop) + parseInt(style.marginBottom);
+    return height;
+  };
+
+  var sendHeight = function() {
+    if(parent.postMessage)
+    {
+      parent.postMessage({ embedFormHeight: outerHeight(document.body)}, '*');
+    }
+  };
+
+  window.addEventListener('resize', function(event) {
+    sendHeight();
+  });
+
 
   ready(function() {
     if (getUrlParameter("search.focus") == "true") {
@@ -27,6 +49,8 @@
         selectedRadio.checked = true;
       }
     }
+
+    sendHeight();
   });
 
 })();
