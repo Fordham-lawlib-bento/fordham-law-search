@@ -63,6 +63,15 @@ The search form will be placed just before the element whose id is specified.
 **note** url `fordham-law-search-demo.herokuapp.com` is the demo, final
 URL yet to be determined.
 
+### trigger focus and/or selection of search type
+
+If the _host_ page that includes the embed is accessed with special URL query
+params, it can trigger search form setup:
+
+* `&search.focus=true` => focus on search text input
+* '&search.type=$type' => pre-select a specific search radio button. valid `$type`
+   values are:  catalog ; articles ; website ; databases ; reserves ; flash
+
 ## Tests
 
 Some automated tests are provided using rspec. Run with `bundle exec rake`
