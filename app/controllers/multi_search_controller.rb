@@ -32,6 +32,10 @@ class MultiSearchController < ApplicationController
     search_results
   end
 
+  def search_form_embed
+    render layout: 'embed'
+  end
+
 
   protected
 

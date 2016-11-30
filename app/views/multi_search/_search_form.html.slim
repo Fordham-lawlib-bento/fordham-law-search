@@ -1,0 +1,7 @@
+.search-field
+  = text_field_tag :q, params[:q]
+  '
+  = submit_tag :search, name: 'c'
+.search-type-options
+  - search_type_select_options.each do |text, id|
+    = radio_button name: :direct_search, value: id, label: text
