@@ -1,12 +1,12 @@
 (function() {
 
-  var outerHeight = function(el) {
-    var height = el.offsetHeight;
-    var style = getComputedStyle(el);
+  var getUrlParameter = function(name) {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    var results = regex.exec(location.search);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+  };
 
-    height += parseInt(style.marginTop) + parseInt(style.marginBottom);
-    return height;
-  }
 
   var self_script_tag = document.querySelector("script[src='<%= search_embed_url(format: :js) %>']");
 
@@ -15,8 +15,16 @@
     return;
   }
 
+  var iFrameUrl = '<%= search_embed_url(format: :html) %>?';
+  ['search.focus', 'search.type'].forEach(function(key){
+    var value = getUrlParameter(key);
+    if(value) {
+      iFrameUrl += key + "=" + value + "&";
+    }
+  });
+
   var iFrame   = document.createElement("iframe");
-  iFrame.src   = '<%= search_embed_url(format: :html) %>';
+  iFrame.src   = iFrameUrl;
   iFrame.style.border = 'none';
   iFrame.style.width = '100%';
   iFrame.style.height = "74px";
