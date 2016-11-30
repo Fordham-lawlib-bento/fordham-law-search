@@ -9,45 +9,54 @@
     return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
   };
 
-
-  var domNodeInsertionPoint;
-  var hostDomId = '<%= params["hostDomId"] %>';
-
-  if (hostDomId) {
-    domNodeInsertionPoint = document.querySelector("#" + hostDomId);
-  }
-  if(! hostDomId ) {
-    // find the script tag
-    domNodeInsertionPoint = document.querySelector("script[src='<%= search_embed_url(format: :js) %>']");
-  }
-
-  if (! domNodeInsertionPoint) {
-    console.log("search_form_embed.js couldn't find a host DOM element to insert at, " + getUrlParameter("hostDomId"));
-    return;
-  }
-
-
-  var iFrameUrl = '<%= search_embed_url(format: :html) %>?';
-  ['search.focus', 'search.type'].forEach(function(key){
-    var value = getUrlParameter(key);
-    if(value) {
-      iFrameUrl += key + "=" + value + "&";
+  var ready = function(fn) {
+    if (document.readyState != 'loading'){
+      fn();
+    } else {
+      document.addEventListener('DOMContentLoaded', fn);
     }
-  });
+  };
 
-  var iFrame   = document.createElement("iframe");
-  iFrame.src   = iFrameUrl;
-  iFrame.style.border = 'none';
-  iFrame.style.width = '100%';
-  iFrame.style.height = "74px";
-  iFrame.scrolling = "no";
+  ready(function() {
+    var domNodeInsertionPoint;
+    var hostDomId = '<%= params["hostDomId"] %>';
 
-  window.addEventListener('message', function(event) {
-    if (event.data && event.data.embedFormHeight) {
-      iFrame.style.height = event.data.embedFormHeight + "px";
+    if (hostDomId) {
+      domNodeInsertionPoint = document.querySelector("#" + hostDomId);
     }
-  });
+    if(! hostDomId ) {
+      // find the script tag
+      domNodeInsertionPoint = document.querySelector("script[src='<%= search_embed_url(format: :js) %>']");
+    }
 
-  domNodeInsertionPoint.parentElement.insertBefore(iFrame, domNodeInsertionPoint);
+    if (! domNodeInsertionPoint) {
+      console.log("search_form_embed.js couldn't find a host DOM element to insert at, " + getUrlParameter("hostDomId"));
+      return;
+    }
+
+
+    var iFrameUrl = '<%= search_embed_url(format: :html) %>?';
+    ['search.focus', 'search.type'].forEach(function(key){
+      var value = getUrlParameter(key);
+      if(value) {
+        iFrameUrl += key + "=" + value + "&";
+      }
+    });
+
+    var iFrame   = document.createElement("iframe");
+    iFrame.src   = iFrameUrl;
+    iFrame.style.border = 'none';
+    iFrame.style.width = '100%';
+    iFrame.style.height = "74px";
+    iFrame.scrolling = "no";
+
+    window.addEventListener('message', function(event) {
+      if (event.data && event.data.embedFormHeight) {
+        iFrame.style.height = event.data.embedFormHeight + "px";
+      }
+    });
+
+    domNodeInsertionPoint.parentElement.insertBefore(iFrame, domNodeInsertionPoint);
+  });
 
 })();
