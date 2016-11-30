@@ -1,4 +1,4 @@
-// JS code run on the embedded iframe (guest)
+// JS code run on the embedded iframe 'guest' page
 
 (function() {
 

@@ -10,10 +10,19 @@
   };
 
 
-  var self_script_tag = document.querySelector("script[src='<%= search_embed_url(format: :js) %>']");
+  var domNodeInsertionPoint;
+  var hostDomId = '<%= params["hostDomId"] %>';
 
-  if (! self_script_tag) {
-    console.log("search_form_embed.js couldn't find self_script_tag");
+  if (hostDomId) {
+    domNodeInsertionPoint = document.querySelector("#" + hostDomId);
+  }
+  if(! hostDomId ) {
+    // find the script tag
+    domNodeInsertionPoint = document.querySelector("script[src='<%= search_embed_url(format: :js) %>']");
+  }
+
+  if (! domNodeInsertionPoint) {
+    console.log("search_form_embed.js couldn't find a host DOM element to insert at, " + getUrlParameter("hostDomId"));
     return;
   }
 
@@ -39,6 +48,6 @@
     }
   });
 
-  self_script_tag.parentElement.insertBefore(iFrame, self_script_tag);
+  domNodeInsertionPoint.parentElement.insertBefore(iFrame, domNodeInsertionPoint);
 
 })();
