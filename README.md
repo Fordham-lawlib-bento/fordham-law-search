@@ -38,7 +38,7 @@ javascript to do the embed, the javascript places an iframe on the host page.
 
 There are two ways to trigger embedding:
 
-1. Script tag
+### 1. Script tag
 
 Anywhere on your page, place a script tag:
 
@@ -46,7 +46,7 @@ Anywhere on your page, place a script tag:
 
 The search form will appear on the page where the script tag has been placed.
 
-2. Specified insertion point with DOM id
+### 2. Specified insertion point with DOM id
 
 Anywhere on your page, include an HTML element, perhaps an empty placeholder div,
 with a unique 'id' of your choice:
