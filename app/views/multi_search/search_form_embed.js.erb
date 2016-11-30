@@ -1,0 +1,27 @@
+(function() {
+
+  var outerHeight = function(el) {
+    var height = el.offsetHeight;
+    var style = getComputedStyle(el);
+
+    height += parseInt(style.marginTop) + parseInt(style.marginBottom);
+    return height;
+  }
+
+  var self_script_tag = document.querySelector("script[src='<%= search_embed_url(format: :js) %>']");
+
+  if (! self_script_tag) {
+    console.log("search_form_embed.js couldn't find self_script_tag");
+    return;
+  }
+
+  var iFrame   = document.createElement("iframe");
+  iFrame.src   = '<%= search_embed_url(format: :html) %>';
+  iFrame.style.border = 'none';
+  iFrame.style.width = '100%';
+  iFrame.style.height = "74px";
+  iFrame.scrolling = "no";
+
+  self_script_tag.parentElement.insertBefore(iFrame, self_script_tag);
+
+})();

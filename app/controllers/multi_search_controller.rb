@@ -1,6 +1,9 @@
 require 'concurrent'
 
 class MultiSearchController < ApplicationController
+  skip_before_action :verify_authenticity_token, only: :search_form_embed
+  after_action :no_x_frame_options, only: "search_form_embed"
+
   class_attribute :main_engine_ids
   self.main_engine_ids = %w{catalog articles}
   helper_method :main_engine_ids
@@ -109,6 +112,10 @@ class MultiSearchController < ApplicationController
     if params[:direct_search].present? && params[:q].present? && engine = BentoSearch.get_engine(params[:direct_search])
       complete_link_out_template( engine.configuration.for_display.link_out, params[:q]  )
     end
+  end
+
+  def no_x_frame_options
+    response.headers.delete("X-Frame-Options")
   end
 
 end
