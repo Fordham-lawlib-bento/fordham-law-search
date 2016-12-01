@@ -23,7 +23,8 @@ BentoSearch.register_engine("catalog") do |conf|
   conf.for_display do |display|
     display.heading = "Catalog"
     #display.hint = "Library books, journals, music, videos, databases, archival collections, and online resources"
-    display.link_out = "http://encore.lawnet.fordham.edu/iii/encore/search?formids=target&lang=eng&suite=def&reservedids=lang%2Csuite&target=%s"
+    #display.link_out = "http://encore.lawnet.fordham.edu/iii/encore/search?formids=target&lang=eng&suite=def&reservedids=lang%2Csuite&target=%s"
+    display.link_out ="http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944740&groupid=main&profile=eds&direct=true&cli0=FC&clv0=Y&&bquery=%s"
     display.link_out_text "View and filter all %i catalog results"
 
     display.ajax = :auto
