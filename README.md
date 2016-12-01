@@ -31,6 +31,46 @@ to heroku config/env variables beginning with `_SECRET_`. We use the
 `heroku_secrets` gem to then load these into Rails secrets on boot
 on heroku.
 
+## Embed Search Form
+
+A utility to embed the search form on a remote page is included. It uses
+javascript to do the embed, the javascript places an iframe on the host page.
+
+There are two ways to trigger embedding:
+
+### 1. Script tag
+
+Anywhere on your page, place a script tag:
+
+    <script src="//fordham-law-search-demo.herokuapp.com/search-embed.js" async></script>
+
+The search form will appear on the page where the script tag has been placed.
+
+### 2. Specified insertion point with DOM id
+
+Anywhere on your page, include an HTML element, perhaps an empty placeholder div,
+with a unique 'id' of your choice:
+
+    <div id="searchFormHere"></div>
+
+Now include a javascript script tag wherever you'd like (such as `<head>`
+section), specifying that id:
+
+     <script src="//fordham-law-search-demo.herokuapp.com/search-embed.js?hostDomId=searchFormHere" async></script>
+
+The search form will be placed just before the element whose id is specified.
+
+**note** url `fordham-law-search-demo.herokuapp.com` is the demo, final
+URL yet to be determined.
+
+### trigger focus and/or selection of search type
+
+If the _host_ page that includes the embed is accessed with special URL query
+params, it can trigger search form setup:
+
+* `&search.focus=true` => focus on search text input
+* '&search.type=$type' => pre-select a specific search radio button. valid `$type`
+   values are:  catalog ; articles ; website ; databases ; reserves ; flash
 
 ## Tests
 
