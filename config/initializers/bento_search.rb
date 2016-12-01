@@ -95,7 +95,7 @@ BentoSearch.register_engine("reserves") do |conf|
 
   conf.for_display do |display|
     display.ajax = :auto
-    display.heading = "Reserves/Exams"
+    display.heading = "Course Reserves"
     display.link_out = "http://lawpac.lawnet.fordham.edu/search/X?%28%s%20%28inReserves%29%29&SORT=R&Da=&Db="
   end
 end
