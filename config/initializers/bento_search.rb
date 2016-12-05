@@ -17,14 +17,20 @@ BentoSearch::EdsEngine.http_timeout = 8
 BentoSearch.register_engine("catalog") do |conf|
   conf.allow_routable_results = true
 
-  conf.engine = "SierraKeywordEngine"
-  conf.max_results = 6 # how many to show on multi results page
+  conf.engine = "BentoSearch::EdsEngine"
+
+  conf.user_id = Rails.application.secrets.eds_api_user_id
+  conf.password = Rails.application.secrets.eds_api_password
+  conf.profile = "apicat"
+
+  conf.default_per_page = 6 # how many to show on bento page
 
   conf.for_display do |display|
     display.heading = "Catalog"
     #display.hint = "Library books, journals, music, videos, databases, archival collections, and online resources"
     #display.link_out = "http://encore.lawnet.fordham.edu/iii/encore/search?formids=target&lang=eng&suite=def&reservedids=lang%2Csuite&target=%s"
-    display.link_out ="http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944740&groupid=main&profile=eds&direct=true&cli0=FC&clv0=Y&bquery=%s"
+    #display.link_out ="http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944740&groupid=main&profile=eds&direct=true&cli0=FC&clv0=Y&bquery=%s"
+    display.link_out ="http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944740&groupid=main&profile=edscatonly&direct=true&bquery=%s"
     display.link_out_text "View and filter all %i catalog results"
 
     display.ajax = :auto
@@ -61,7 +67,7 @@ BentoSearch.register_engine("articles") do |conf|
 
   conf.user_id = Rails.application.secrets.eds_api_user_id
   conf.password = Rails.application.secrets.eds_api_password
-  conf.profile = "wsapi"
+  conf.profile = "apinocat"
 
   # If we have 'guest' access from EDS or not. Doesn't seem to make
   # any difference though?
@@ -72,7 +78,8 @@ BentoSearch.register_engine("articles") do |conf|
   conf.for_display do |display|
     display.heading = "Articles"
     #display.hint = "Articles, e-books, dissertations, music, images, and more from a mostly full-text database"
-    display.link_out = "http://encore.lawnet.fordham.edu/iii/encore/eds/C__S%s__Orightresult__U"
+    #display.link_out = "http://encore.lawnet.fordham.edu/iii/encore/eds/C__S%s__Orightresult__U"
+    display.link_out ="http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944740&groupid=main&profile=edsnocat&direct=true&bquery=%s"
 
     display.ajax = :auto
 
