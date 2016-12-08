@@ -58,7 +58,13 @@
       <% if item.display_configuration.display_source_info != false %>
         <div class="bento_item_row second_about">
           <% if item.display_date.present? %>
-            <span class="date"><%= item.display_date %></span>.
+            <span class="date"><%=
+            if item.display_configuration.year_only
+              I18n.localize(item.publication_date, :format => "%Y")
+            else
+              item.display_date
+            end
+            %></span>.
           <% end %>
 
           <% if item.source_title.present? %>
@@ -76,7 +82,7 @@
       <%# some adapters return shelf loc like this... %>
       <% if item.custom_data[:location].present? || item.custom_data[:call_number].present? %>
         <div class="bento_item_row shelf-location">
-          Location:
+          <span class="location-label">Location:</span>
           <%= item.custom_data[:location] %>
           <%= item.custom_data[:call_number] %>
         </div>
@@ -85,7 +91,7 @@
       <%# other adapters return shelf loc like this... %>
       <% (item.custom_data[:holdings] || []).each do |holding|  %>
         <div class="bento_item_row shelf-location">
-          Location:
+          <span class="location-label">Location:</span>
           <%= holding.location %>
           <%= holding.call_number %>
         </div>
