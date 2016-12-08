@@ -34,6 +34,10 @@
   color: $light-gray-text;
 }
 
+.bento_item_other_links a {
+  text-decoration: underline;
+}
+
 .bento_search_error {
   padding: 1em;
   border: 1px solid mix($highlight-color, #fff, 30%);
