@@ -140,7 +140,6 @@ BentoSearch.register_engine("website") do |conf|
     display.link_out = proc {
       single_search_path("website", q: query )
     }
-    display.link_out_text = "View all website results"
     display.display_source_info = false
   end
 end
