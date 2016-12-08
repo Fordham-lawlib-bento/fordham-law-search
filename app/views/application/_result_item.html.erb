@@ -39,7 +39,7 @@
       </div>
     <% end %>
     <h4 class="bento_item_title">
-      <%= link_to_unless(item.link.blank?, item.complete_title, item.link) %>
+      <%= link_to_unless(item.link.blank?, item.complete_title, item.link, target: "_blank") %>
 
       <% if item.display_configuration.try{|h| h[:indicate_fulltext]} && item.link_is_fulltext? %>
         <small class="bento_available_online">Online</small>
