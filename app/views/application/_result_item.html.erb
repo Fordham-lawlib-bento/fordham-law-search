@@ -73,11 +73,21 @@
         </div>
       <% end %>
 
+      <%# some adapters return shelf loc like this... %>
       <% if item.custom_data[:location].present? || item.custom_data[:call_number].present? %>
         <div class="bento_item_row shelf-location">
-          Shelf location:
+          Location:
           <%= item.custom_data[:location] %>
           <%= item.custom_data[:call_number] %>
+        </div>
+      <% end %>
+
+      <%# other adapters return shelf loc like this... %>
+      <% (item.custom_data[:holdings] || []).each do |holding|  %>
+        <div class="bento_item_row shelf-location">
+          Location:
+          <%= holding.location %>
+          <%= holding.call_number %>
         </div>
       <% end %>
 
