@@ -39,7 +39,7 @@
       </div>
     <% end %>
     <h4 class="bento_item_title">
-      <%= link_to_unless(item.link.blank?, item.complete_title, item.link) %>
+      <%= link_to_unless(item.link.blank?, item.complete_title, item.link, target: "_blank") %>
 
       <% if item.display_configuration.try{|h| h[:indicate_fulltext]} && item.link_is_fulltext? %>
         <small class="bento_available_online">Online</small>
@@ -47,39 +47,53 @@
     </h4>
 
     <div class="bento_item_body">
-      <% if item.any_present?(:authors, :display_date) %>
+      <% if item.authors.present? %>
         <div class="bento_item_row first_about">
-
-          <% if item.authors.present? %>
             <span class="authors">
               <%= item.render_authors_list %>
             </span>
-          <% end %>
-
-          <% if item.authors.present? && item.display_date.present? %>
-            <span class="seperator"><%= I18n.t("bento_search.author_date_seperator", :default=>"—") %></span>
-          <% end %>
-
-          <% if item.display_date.present? %>
-            <span class="date">
-              <%= item.display_date %>
-            </span>
-          <% end %>
-
         </div>
       <% end %>
 
-      <% if item.display_configuration.display_source_info != false && item.has_source_info? %>
+      <% if item.display_configuration.display_source_info != false %>
         <div class="bento_item_row second_about">
-          <%= item.render_source_info %>
+          <% if item.display_date.present? %>
+            <span class="date"><%=
+            if item.display_configuration.year_only
+              I18n.localize(item.publication_date, :format => "%Y")
+            else
+              item.display_date
+            end
+            %></span>.
+          <% end %>
+
+          <% if item.source_title.present? %>
+            <span class="source_title"><%= item.source_title %></span>.
+          <% elsif item.publisher.present? %>
+            <span class="publisher"><%= item.publisher %></span>.
+          <% end %>
+
+          <% if text = item.render_citation_details %>
+            <%= text %>.
+          <% end %>
         </div>
       <% end %>
 
+      <%# some adapters return shelf loc like this... %>
       <% if item.custom_data[:location].present? || item.custom_data[:call_number].present? %>
         <div class="bento_item_row shelf-location">
-          Shelf location:
+          <span class="location-label">Location:</span>
           <%= item.custom_data[:location] %>
           <%= item.custom_data[:call_number] %>
+        </div>
+      <% end %>
+
+      <%# other adapters return shelf loc like this... %>
+      <% (item.custom_data[:holdings] || []).each do |holding|  %>
+        <div class="bento_item_row shelf-location">
+          <span class="location-label">Location:</span>
+          <%= holding.location %>
+          <%= holding.call_number %>
         </div>
       <% end %>
 

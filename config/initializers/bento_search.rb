@@ -33,6 +33,8 @@ BentoSearch.register_engine("catalog") do |conf|
     display.link_out ="http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944740&groupid=main&profile=edscatonly&direct=true&bquery=%s"
     display.link_out_text "View and filter all %i catalog results"
 
+    display.year_only = true
+
     display.ajax = :auto
 
     display.extra_links = [
@@ -140,7 +142,6 @@ BentoSearch.register_engine("website") do |conf|
     display.link_out = proc {
       single_search_path("website", q: query )
     }
-    display.link_out_text = "View all website results"
     display.display_source_info = false
   end
 end

@@ -24,11 +24,18 @@
   hyphens: auto;
 }
 
+.bento_item_row {
+  margin: $internal-spacing 0;
+}
+
 .abstract {
   font-size: 12px;
   line-height: 16px;
-  font-style: italic;
   color: $light-gray-text;
+}
+
+.bento_item_other_links a {
+  text-decoration: underline;
 }
 
 .bento_search_error {
