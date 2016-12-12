@@ -1,0 +1,9 @@
+/ Extremely limited pagination, just first/prev/next to deal with
+/ google's unpredictable hit counts.
+= paginator.render do
+  nav.pagination
+    == first_page_tag unless current_page.first?
+    == prev_page_tag unless current_page.first?
+    - if !(current_page.first? || current_page.last?)
+      | |
+    == next_page_tag unless current_page.last?
