@@ -161,8 +161,11 @@ BentoSearch.register_engine("flash") do |conf|
   conf.for_display do |display|
     display.heading = "FLASH"
     display.hint = "Fordham Law Archive of Scholarship & History"
-    display.link_out = "http://ir.lawnet.fordham.edu/do/search/?q=%s"
-    display.link_out_text = "Visit FLASH to view, filter and explore results"
+    #display.link_out = "http://ir.lawnet.fordham.edu/do/search/?q=%s"
+    #display.link_out_text = "Visit FLASH to view, filter and explore results"
+    display.link_out = proc {
+      single_search_path("flash", q: query )
+    }
     display.display_source_info = false
   end
 end

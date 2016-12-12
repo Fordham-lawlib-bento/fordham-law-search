@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
   # constrained to just the engine(s) we want to show our own single-search
   # results for.
-  get "/search/:engine" => "single_search#index", engine: /website/, as: 'single_search'
+  get "/search/:engine" => "single_search#index", engine: /website|flash/, as: 'single_search'
 
   # ajax results loader
   BentoSearch::Routes.new(self).draw
