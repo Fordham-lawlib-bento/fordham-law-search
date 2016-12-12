@@ -5,6 +5,11 @@
 .single-search-results {
   @extend %content-wrapper;
   margin-bottom: 8em;
+
+  .bento_item {
+    max-width: $one-column-break;
+  }
+
 }
 
 nav.pagination {
