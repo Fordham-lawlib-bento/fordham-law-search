@@ -6,7 +6,7 @@ GIT
 
 GIT
   remote: https://github.com/jrochkind/bento_search.git
-  revision: f61b5e8b2511294723fde57f6d167686e14a18b9
+  revision: 8aad85a48aff1a25765b2050453eec7a277a15ff
   specs:
     bento_search (1.7.0.beta.1)
       confstruct (~> 1.0)
@@ -83,7 +83,7 @@ GEM
       activesupport (>= 4.1.0)
     hashie (3.4.6)
     htmlentities (4.3.4)
-    httpclient (2.8.2.4)
+    httpclient (2.8.3)
     i18n (0.7.0)
     jbuilder (2.6.0)
       activesupport (>= 3.0.0, < 5.1)
