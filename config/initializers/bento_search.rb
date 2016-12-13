@@ -98,15 +98,12 @@ BentoSearch.register_engine("reserves") do |conf|
   conf.allow_routable_results = true
 
   conf.engine = "SierraKeywordEngine"
-
-  conf.extra_webpac_query_params = {
-    m: 'f'
-  }
+  conf.query_suffix = " (inCourseReserve)"
 
   conf.for_display do |display|
     display.ajax = :auto
     display.heading = "Course Reserves/Exams"
-    display.link_out = "http://lawpac.lawnet.fordham.edu/search/X?%28%s%20%28inReserves%29%29&SORT=R&Da=&Db="
+    display.link_out = "http://lawpac.lawnet.fordham.edu/search/X?%28%s%20%28inCourseReserve%29%29&SORT=R&Da=&Db="
   end
 end
 
