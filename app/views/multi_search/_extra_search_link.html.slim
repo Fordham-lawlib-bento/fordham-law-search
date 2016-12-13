@@ -2,10 +2,10 @@
 -# A hyperlink or form, depending on extra_link_conf.post == true
 
 - if extra_link_conf.post
-  = form_tag(extra_link_conf.action) do
+  = form_tag(extra_link_conf.action, target: "_blank") do
     - extra_link_conf.hidden_fields.each do |hidden_field_conf|
       = hidden_field_tag hidden_field_conf.first, complete_link_out_template(hidden_field_conf.second, query)
     = submit_tag(extra_link_conf.label, class: "extra-link-submit")
 - else
-  = link_to extra_link_conf.label, complete_link_out_template(extra_link_conf.link_out, query)
+  = link_to extra_link_conf.label, complete_link_out_template(extra_link_conf.link_out, query), target: "_blank"
 
