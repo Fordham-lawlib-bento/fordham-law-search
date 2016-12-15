@@ -11,10 +11,9 @@
 
 # Since this fordham search app uses no database, it's extra threads are pretty cheap.
 # Becuase of the AJAX callbacks, it is hungry for concurrent requests, which
-# means threads. This number was arrived at with benchmark testing while keeping
-# an eye on heroku stats. A Professional Standard-1X dyno seems to have enough
-# RAM to handle this many threads no problem.
-threads_count = ENV.fetch("RAILS_MAX_THREADS") { 20 }.to_i
+# means threads. So as many threads as we can fit in heroku dyno RAM is great.
+# Pay attention to heroku config var RAILS_MAX_THREADS, it will override this.
+threads_count = ENV.fetch("RAILS_MAX_THREADS") { 10 }.to_i
 threads threads_count, threads_count
 
 # Specifies the `port` that Puma will listen on to receive requests, default is 3000.
