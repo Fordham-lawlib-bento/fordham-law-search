@@ -11,6 +11,8 @@
 
 BentoSearch.defaults.item_partial = 'result_item'
 
+BentoSearch.defaults.log_failed_results = true
+
 # EDS is slow...
 BentoSearch::EdsEngine.http_timeout = 8
 
