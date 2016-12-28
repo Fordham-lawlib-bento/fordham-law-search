@@ -4,12 +4,33 @@
 Developed by Friends of the Web http://friendsoftheweb.com
 
 This app was generated with `rails new --skip-active-record --skip-spring --skip-turbolinks ...`
-We don't need a database for this first version of the app.
+This app does not use a database/activerecord!
 
-## Configuration
+## Configuration and Code of Interest
 
 Configuration of search targets and text and links
-related to each is in ./configuration/bento_search.rb
+related to each is in [./config/initializers/bento_search.rb](./config/initializers/bento_search.rb)
+This file includes a section for each search target, configuring a bunch of stuff,
+sorry it gets a bit confusing:
+  * which BentoSearch search engine adapter to use. Most adapters are located in the
+    [bento_search](https://github.com/jrochkind/bento_search) gem, but
+    there are some local ones, such as for screen-scraping Sierra Classic,
+    in [./app/search_engines](./app/search_engines).  `conf.engine`
+  * Other adapter-specific configuration, max per page, hard-coded search limits, etc.
+    Authentication information for adapters that need it.
+  * Titles and sub-titles for each section. `display.heading`, `display.hint`
+  * URL and label to link out to full results, `display.link_out` and `display.link_out_text`.
+  * "See also" links for each section, in `display.extra_links`
+
+We use a customized partial template to display each search results, at
+[./app/views/application/_result_item.html.erb](./app/views/application/_result_item.html.erb).
+This specifies how a result will work, and is used for all search targets -- it does
+ have some conditionals in it to display different sorts of results differently.
+
+Additionally some search targets may have a BentoSearch [Item Decorator](https://github.com/jrochkind/bento_search/wiki/Customizing-Results-Display#item-decorators-customizing-links-or-output-even-on-an-engine-by-engine-basis)
+configured, with custom overrides on a search-adapter-specific basis. Configured
+in [./config/initializers/bento_search.rb](./config/initializers/bento_search.rb), `display.decorator`.
+For instance, an EDS decorator to suppress any "other_link" with a label `Availability`.
 
 ### 'Secret' Configuration
 
