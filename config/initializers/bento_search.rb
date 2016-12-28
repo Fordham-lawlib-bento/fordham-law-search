@@ -101,6 +101,7 @@ BentoSearch.register_engine("reserves") do |conf|
 
   conf.engine = "SierraKeywordEngine"
   conf.query_suffix = " (inCourseReserve)"
+  conf.max_results = 3
 
   conf.for_display do |display|
     display.ajax = :auto
