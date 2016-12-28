@@ -28,6 +28,8 @@ BentoSearch.register_engine("catalog") do |conf|
   conf.default_per_page = 6 # how many to show on bento page
 
   conf.for_display do |display|
+    display.decorator = "EdsDecorator"
+
     display.heading = "Catalog"
     #display.hint = "Library books, journals, music, videos, databases, archival collections, and online resources"
     #display.link_out = "http://encore.lawnet.fordham.edu/iii/encore/search?formids=target&lang=eng&suite=def&reservedids=lang%2Csuite&target=%s"
@@ -80,6 +82,8 @@ BentoSearch.register_engine("articles") do |conf|
   conf.default_per_page = 6 # how many to show on bento page
 
   conf.for_display do |display|
+    display.decorator = "EdsDecorator"
+
     display.heading = "Articles"
     #display.hint = "Articles, e-books, dissertations, music, images, and more from a mostly full-text database"
     #display.link_out = "http://encore.lawnet.fordham.edu/iii/encore/eds/C__S%s__Orightresult__U"
