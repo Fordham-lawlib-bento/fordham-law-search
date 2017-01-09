@@ -9,7 +9,7 @@ class MultiSearchController < ApplicationController
   helper_method :main_engine_ids
 
   class_attribute :secondary_engine_ids
-  self.secondary_engine_ids = %w{databases reserves website flash}
+  self.secondary_engine_ids = %w{databases reserves website flash flash-google}
   helper_method :secondary_engine_ids
 
   def self.engine_ids

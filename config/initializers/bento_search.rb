@@ -163,8 +163,26 @@ BentoSearch.register_engine("flash") do |conf|
   conf.default_per_page = 3 # how many to show on dashboard
 
   conf.for_display do |display|
-    display.heading = "FLASH"
+    display.heading = "FLASH (EDS)"
     display.hint = "Fordham Law Archive of Scholarship & History"
     display.link_out ="http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944740&groupid=main&profile=edsflash&direct=true&bquery=%s"
+  end
+end
+
+BentoSearch.register_engine("flash-google") do |conf|
+  conf.allow_routable_results = true
+
+  conf.engine = "BentoSearch::GoogleSiteSearchEngine"
+  conf.default_per_page = 3 # how many to show on dashboard
+
+  conf.cx       = Rails.application.secrets.google_search_flash_engine_id
+  conf.api_key  = Rails.application.secrets.google_search_flash_api_key
+
+  conf.for_display do |display|
+    display.heading = "FLASH (Google)"
+    display.hint = "Fordham Law Archive of Scholarship & History"
+    display.link_out = proc {
+      single_search_path("flash-google", q: query )
+    }
   end
 end
