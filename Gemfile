@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 # Heroku uses this to determine ruby version; otherwise, it's just
 # a guard that will prevent app from running unless current ruby version matches.
-ruby '2.3.1'
+ruby '2.3.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
