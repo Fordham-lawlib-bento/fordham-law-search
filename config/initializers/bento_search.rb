@@ -41,6 +41,8 @@ BentoSearch.register_engine("catalog") do |conf|
 
     display.ajax = :auto
 
+
+    display.extra_links_label = "More Catalogs"
     display.extra_links = [
       {
         label: "Worldcat",
@@ -91,6 +93,7 @@ BentoSearch.register_engine("articles") do |conf|
 
     display.ajax = :auto
 
+    display.extra_links_label = "Additional Resources"
     display.extra_links = [
       {
         label: "Google Scholar",

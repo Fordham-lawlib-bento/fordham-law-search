@@ -25,7 +25,7 @@
 
   - if search_object.display_configuration.extra_links.present?
     .additional-resources
-      .extra-link-prompt Additional Resources
+      .extra-link-prompt = search_object.display_configuration.extra_links_label || "Additional Resources"
       ul.extra-links
         - search_object.display_configuration.extra_links.each do |extra_link_conf|
           li.extra-link
