@@ -24,9 +24,10 @@
   position: relative;
 
   .search-field {
-    width: 65%;
+    //width: 65%;
+    width: 75%;
     display: flex;
-    max-width: 50em;
+    //max-width: 50em;
     margin-top: 1em;
 
     @media screen and (max-width: 42em) {
