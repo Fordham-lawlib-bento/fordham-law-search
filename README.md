@@ -102,6 +102,19 @@ or `bundle exec rspec`.
 TBD: Tests use VCR, instructions on re-generating cassettes and setting auth
 for regenerating tests.
 
+## Note on Windows development
+
+Windows and unixy OSs (like Heroku) can't share a `Gemfile.lock`. See:
+
+https://devcenter.heroku.com/articles/bundler-windows-gemfile
+
+Recommend avoid committing or pushing a Gemfile.lock on Windows if possible.
+
+Eventually dependencies will need to be updated, which will require
+update of the Gemfile.lock.  Not sure the best way to do this on Windows, a VM
+might be wise, even just for Gemfile/Gemfile.lock updating.
+
+
 ## Deployment
 
 TBD, we're working on a final plan.
