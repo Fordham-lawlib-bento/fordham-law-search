@@ -79,6 +79,7 @@ GEM
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.14)
+    ffi (1.9.14-x86-mingw32)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     hashie (3.4.6)
@@ -116,6 +117,8 @@ GEM
     multi_json (1.12.1)
     nio4r (1.2.1)
     nokogiri (1.6.8.1)
+      mini_portile2 (~> 2.1.0)
+    nokogiri (1.6.8.1-x86-mingw32)
       mini_portile2 (~> 2.1.0)
     openurl (1.0.0)
       marc
@@ -199,11 +202,14 @@ GEM
     tilt (2.0.5)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2016.10)
+      tzinfo (>= 1.0.0)
     uglifier (3.0.2)
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.2)
+    unf_ext (0.0.7.2-x86-mingw32)
     web-console (3.3.1)
       actionview (>= 5.0)
       activemodel (>= 5.0)
@@ -215,6 +221,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86-mingw32
 
 DEPENDENCIES
   autoprefixer-rails
@@ -238,7 +245,7 @@ DEPENDENCIES
   web-console
 
 RUBY VERSION
-   ruby 2.3.1p112
+   ruby 2.3.3p222
 
 BUNDLED WITH
    1.13.6
