@@ -33,6 +33,14 @@ configured, with custom overrides on a search-adapter-specific basis. Configured
 in [./config/initializers/bento_search.rb](./config/initializers/bento_search.rb), `display.decorator`.
 For instance, an EDS decorator to suppress any "other_link" with a label `Availability`.
 
+While bento search targets are configured in [./config/initializers/bento_search.rb], they are also
+mentioned in the top-of-file class variables for [./app/controllers/multi_search_controller.rb](./app/controllers/multi_search_controller.rb).
+`main_engine_ids` are the two engines that show up in wide columns of their own, and
+`secondary_engine_ids` are the engines that show up stacked in the additional narrower
+column. To remove an engine, remove it from these lists, and it will no longer
+be displayed. Subsequently removing it from config/initializers/bento_search.rb is just tidying up
+to not leave dead code around.
+
 ### 'Secret' Configuration
 
 Confidential configuration (passwords, api keys) is stored in `./config/secrets.yml`.
@@ -96,10 +104,10 @@ params, it can trigger search form setup:
 
 ## Tests
 
-Some automated tests are provided using rspec. Run with `bundle exec rake`
+There aren't really any tests at present, if you were you'd run with `bundle exec rake`
 or `bundle exec rspec`.
 
-TBD: Tests use VCR, instructions on re-generating cassettes and setting auth
+And I'd plan to use [VCR](https://github.com/vcr/vcr) in tests. TBD instructions on re-generating cassettes and setting auth
 for regenerating tests.
 
 ## Note on Windows development
@@ -117,12 +125,10 @@ might be wise, even just for Gemfile/Gemfile.lock updating.
 
 ## Deployment
 
-TBD, we're working on a final plan.
-
 For heroku deploy, the `Procfile` is used by heroku, and specifies deploying
 with puma, using `./config/puma.rb` for more configuration.
 
 These files can be used in other deployment scenarios too, depending on setup.
 Procfile is used by the `foreman` tool. This simple app prob doesn't need
-a procfile in non-heroku scenario, just start it with puma.
+a procfile in non-heroku scenario, just start it with puma, or `rails server`.
 
