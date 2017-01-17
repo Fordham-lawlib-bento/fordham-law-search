@@ -49,6 +49,7 @@
     iFrame.style.width = '100%';
     iFrame.style.height = "74px";
     iFrame.scrolling = "no";
+    iFrame.className += ' ' + 'fordham-bento-search-form';
 
     window.addEventListener('message', function(event) {
       if (event.data && event.data.embedFormHeight) {
