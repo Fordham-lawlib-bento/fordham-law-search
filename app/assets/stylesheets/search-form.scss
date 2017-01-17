@@ -24,9 +24,11 @@
   position: relative;
 
   .search-field {
-    width: 65%;
+    //width: 65%;
+    width: 75%;
     display: flex;
-    max-width: 50em;
+    //max-width: 50em;
+    max-width: 75em;
     margin-top: 1em;
 
     @media screen and (max-width: 42em) {
@@ -52,6 +54,8 @@
 .search-type-options {
   margin: 0.6em 0;
   white-space: normal;
+  //added width to make responsiveness neater - tk
+  width: 75%;
 
   label {
     display: inline-block;
