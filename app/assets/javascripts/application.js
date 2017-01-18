@@ -16,6 +16,8 @@
 //
 //= require 'bento_search/ajax_load'
 //
+//= require ga
 //= require bento_ajax_load_customize
+//= require google_analytics_offsite_links
 
 
