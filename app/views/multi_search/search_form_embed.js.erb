@@ -25,8 +25,9 @@
       domNodeInsertionPoint = document.querySelector("#" + hostDomId);
     }
     if(! hostDomId ) {
-      // find the script tag
-      domNodeInsertionPoint = document.querySelector("script[src='<%= search_embed_url(format: :js) %>']");
+      // find the script tag that points to ourselves, with either http or https
+      // or protocol-relative.
+      domNodeInsertionPoint = document.querySelector("script[src='<%= search_embed_url(format: :js, protocol: false) %>'], script[src='<%= search_embed_url(format: :js, protocol: 'http') %>'], script[src='<%= search_embed_url(format: :js, protocol: 'https') %>']");
     }
 
     if (! domNodeInsertionPoint) {
@@ -34,8 +35,7 @@
       return;
     }
 
-
-    var iFrameUrl = '<%= search_embed_url(format: :html) %>?';
+    var iFrameUrl = '<%= search_embed_url(format: :html, protocol: false) %>?';
     ['search.focus', 'search.type'].forEach(function(key){
       var value = getUrlParameter(key);
       if(value) {
