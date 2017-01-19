@@ -182,7 +182,8 @@ BentoSearch.register_engine("flash-google") do |conf|
   conf.api_key  = Rails.application.secrets.google_search_flash_api_key
 
   conf.for_display do |display|
-    display.heading = "FLASH (Google)"
+    ##display.heading = "FLASH (Google)"
+    display.heading = "FLASH"
     display.hint = "Fordham Law Archive of Scholarship & History"
     display.link_out = proc {
       single_search_path("flash-google", q: query )
