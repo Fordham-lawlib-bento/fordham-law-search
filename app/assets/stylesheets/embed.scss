@@ -17,10 +17,14 @@ body {
 }
 
 .search-form {
+  width: auto;
+  max-width: none;
   margin-top: 0;
   margin-bottom: 0;
   .search-field {
     margin-top: 0;
+    width: auto;
+    max-width: none;
   }
 }
 
