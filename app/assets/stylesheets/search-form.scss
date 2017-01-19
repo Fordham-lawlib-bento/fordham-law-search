@@ -25,10 +25,11 @@
 
   .search-field {
     //width: 65%;
-    width: 75%;
+    //width: 75%; //use with both flash options
     display: flex;
     //max-width: 50em;
-    max-width: 75em;
+    //max-width: 75em; //use with both flash options
+    max-width: 62em;
     margin-top: 1em;
 
     @media screen and (max-width: 42em) {
