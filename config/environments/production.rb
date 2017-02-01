@@ -84,5 +84,5 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   # config.active_record.dump_schema_after_migration = false
 
-  config.middleware.insert_before ActionDispatch::SSL, Letsencrypt::Middleware
+  config.middleware.use Letsencrypt::Middleware
 end
