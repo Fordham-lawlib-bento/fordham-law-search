@@ -5,6 +5,14 @@ GIT
     heroku_secrets (0.0.2)
 
 GIT
+  remote: https://github.com/jalada/platform-api.git
+  revision: 45ddb3c1a7e2c7f85d979c0791db18e99affb237
+  branch: master
+  specs:
+    platform-api (0.8.0)
+      heroics (~> 0.0.17)
+
+GIT
   remote: https://github.com/jrochkind/bento_search.git
   revision: d1a95819a4c50a6eb98c6ef50408e17011abe121
   specs:
@@ -22,6 +30,8 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
+    acme-client (0.4.1)
+      faraday (~> 0.9, >= 0.9.1)
     actioncable (5.0.1)
       actionpack (= 5.0.1)
       nio4r (~> 1.2)
@@ -77,11 +87,20 @@ GEM
     debug_inspector (0.0.2)
     diff-lcs (1.2.5)
     erubis (2.7.0)
+    excon (0.54.0)
     execjs (2.7.0)
+    faraday (0.11.0)
+      multipart-post (>= 1.2, < 3)
     ffi (1.9.14)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     hashie (3.4.6)
+    heroics (0.0.17)
+      erubis (~> 2.0)
+      excon
+      moneta
+      multi_json (>= 1.9.2)
+      netrc
     htmlentities (4.3.4)
     httpclient (2.8.3)
     i18n (0.7.0)
@@ -97,6 +116,9 @@ GEM
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
     language_list (1.1.0)
+    letsencrypt-rails-heroku (0.3.0)
+      acme-client (~> 0.4.0)
+      platform-api
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -113,7 +135,10 @@ GEM
     mime-types-data (3.2016.0521)
     mini_portile2 (2.1.0)
     minitest (5.10.1)
+    moneta (0.8.1)
     multi_json (1.12.1)
+    multipart-post (2.0.0)
+    netrc (0.11.0)
     nio4r (1.2.1)
     nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
@@ -226,7 +251,9 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   kaminari
+  letsencrypt-rails-heroku
   listen (~> 3.0.5)
+  platform-api!
   puma (~> 3.0)
   rack-timeout
   rails (~> 5.0.0, >= 5.0.0.1)
