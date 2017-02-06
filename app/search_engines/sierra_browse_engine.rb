@@ -125,7 +125,9 @@ class SierraBrowseEngine
       if hit_row && hit_link = hit_row.at_css("td.bibInfoData a")
         return BentoSearch::ResultItem.new(
           title: hit_link.text.strip,
-          link: (base_url + hit_link["href"]).to_s
+          # using the actual link['href'] goes to a weird place, use the base_url
+          # that got us here to single result page.
+          link: (base_url).to_s
         )
       end
     end
