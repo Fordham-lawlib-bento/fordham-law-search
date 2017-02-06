@@ -58,7 +58,7 @@ class SierraBrowseEngine
     base_url = Addressable::URI.parse(scrape_url)
 
     if no_results?(document)
-      results.total_items = 0
+      # nothing
     elsif result = extract_single_result(document, base_url: base_url, query: args[:query])
       results << result
     else # browse screen
