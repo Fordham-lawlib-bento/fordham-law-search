@@ -62,7 +62,13 @@ class SierraBrowseEngine
     elsif result = extract_single_result(document, base_url: base_url, query: args[:query])
       results << result
     else # browse screen
+      i = 0
+
       document.css("td.browseEntryData a:not(:empty)").each do |link|
+        i += 1
+
+        break if configuration.max_results && i > configuration.max_results
+
         result =  BentoSearch::ResultItem.new(
           title: link.text,
           link: (base_url + link["href"]).to_s

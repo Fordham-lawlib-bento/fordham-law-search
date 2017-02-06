@@ -32,6 +32,16 @@ describe SierraBrowseEngine do
         expect(Addressable::URI.parse(result.link)).to be_absolute
       end
     end
+
+    describe "with limit" do
+      let(:max_results) { 1 }
+      let(:engine) { SierraBrowseEngine.new(max_results: max_results, id: "mock", search_type: search_type, format_str: format_str) }
+      it "returns results within max" do
+        results = engine.search(query)
+        expect(results.failed?).not_to be(true)
+        expect(results.size).to eq(max_results)
+      end
+    end
   end
 
   describe "one result" do
