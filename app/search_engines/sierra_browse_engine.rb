@@ -84,7 +84,7 @@ class SierraBrowseEngine
 
   # Sierra returns a weird bib page if there's only ONE result, we need to
   # do some RIDICULOUS shenanigans to get the single phrase hit out
-  def extract_single_result(doc, base_url: base_url, query: query)
+  def extract_single_result(doc, base_url:, query:)
     # does it have the single-page search feedback thing on it?
     if doc.at_css("td.bibInfoData")
       # Need to find the right line of data, from the echo'd back search type,
