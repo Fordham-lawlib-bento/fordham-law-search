@@ -1,6 +1,4 @@
 function _gaLt(event){
-    debugger
-
     var el = event.srcElement || event.target;
 
     /* Loop up the DOM tree through parent elements if clicked element is not a link (eg: an image inside a link) */
