@@ -1,0 +1,366 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://lawpac.lawnet.fordham.edu/search/X?(Ciri%C3%B3n)&SORT=RZ
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.3.3 (2016-11-21))
+      Accept:
+      - "*/*"
+      Date:
+      - Tue, 07 Feb 2017 21:58:54 GMT
+      Cookie:
+      - SESSION_LANGUAGE=eng; III_EXPT_FILE=aa28676; III_SESSION_ID=e3b0c7bcc2cbc98cc8a2bd3313f80193;
+        SESSION_SCOPE=0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 07 Feb 2017 21:58:54 GMT
+      Server:
+      - III 100
+      Pragma:
+      - no-cache
+      Content-Type:
+      - text/html; charset=UTF-8
+      Expires:
+      - Tue, 7 Feb 2017 21:58:54 GMT
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - SESSION_LANGUAGE=eng; path=/; domain=.lawnet.fordham.edu; path=/
+      - SESSION_SCOPE=0; path=/
+      Vary:
+      - User-Agent,Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: "<html   dir=\"LTR\">\n<head>\n<title>Fordham Law School Library        \n
+        \                                          </title>\n<base target=\"_self\"/>\n<link
+        rel=\"stylesheet\" type=\"text/css\" href=\"/scripts/ProStyles.css\" />\n<link
+        rel=\"stylesheet\" type=\"text/css\" href=\"/screens/styles.css\" />\n<link
+        rel=\"shortcut icon\" type=\"ximage/icon\" href=\"/screens/favicon.ico\" />\n<script
+        type=\"text/javascript\" src=\"/scripts/common.js\"></script>\n\n<script type=\"text/javascript\"
+        src=\"/scripts/elcontent.js\"></script>\n\n<script type=\"text/JavaScript\">\n<!--
+        Hide the JS\nstartTimeout(6000000, \"/\");\n// -->\n</script>\n<noscript>\n<meta
+        http-equiv=\"Refresh\" content=\"6000;URL=/\" />\n</noscript>\n\n<link rel=\"stylesheet\"
+        href=\"/screens/styles_mobile.css\" type=\"text/css\" media=\"handheld\" /><link
+        rel=\"stylesheet\" media=\"screen and (max-device-width: 480px)\" href=\"/screens/styles_mobile.css\"
+        /><meta name=\"format-detection\" content=\"telephone=no\"><meta name=\"viewport\"
+        content=\"width=device-width; initial-scale=1.0;\" />\n</head>\n<body bgcolor=\"#FFFFFF\"
+        >\n<base target=\"_self\"/>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/scripts/ProStyles.css\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/screens/styles.css\"
+        />\n<link rel=\"shortcut icon\" type=\"ximage/icon\" href=\"/screens/favicon.ico\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/screens/mym.css\">\n\n<!--
+        for non-smartphones only -->\n<link  rel=\"stylesheet\" type=\"text/css\"
+        href=\"/screens/killsp.css\" media=\"screen and (min-device-width: 765px)\"/>\n\n<!--for
+        smartphones only-->\n<link rel=\"stylesheet\" href=\"http://lawpac.lawnet.fordham.edu/screens/styles_mobile.css\"
+        type=\"text/css\" media=\"handheld\" /><link rel=\"stylesheet\" media=\"screen
+        and (max-device-width: 480px)\" href=\"/screens/styles_mobile.css\" /><meta
+        name=\"format-detection\" content=\"telephone=no\"><meta name=\"viewport\"
+        content=\"width=device-width; initial-scale=1.0;\" />\n\n<script language=\"JavaScript\"
+        type=\"text/javascript\" src=\"/scripts/common.js\"></script>\n<script language=\"JavaScript\"
+        type=\"text/javascript\" src=\"/scripts/elcontent.js\"></script>\n<script
+        language=\"JavaScript\"> \n<!-- Hide the JS\nstartTimeout(6000000, \"/\");\n//
+        -->\n</script>\n<noscript>\n<meta http-equiv=\"Refresh\" content=\"6000;URL=/\"
+        />\n</noscript>\n\n\n\n \n<body bgcolor=\"#FFFFFF\" class=\"justified\" >\n<!--
+        Make sure IE uses our killsp ss -->\n<!--[if IE]>     <link rel=\"stylesheet\"
+        type=\"text/css\" href=\"/screens/killsp.css\" />  <![endif]-->\n\n\n<table
+        border=\"0\"  cellpadding=\"0\" cellspacing=\"0\" valign=\"top\" class=\"lockwidth\">\n<!--
+        Law Lib Banner  -->\n<tr>\n<td colspan=\"3\"  valign=\"middle\" height=\"55\"
+        class=\"banner\">\n\n<table border=\"0\" width=\"900px;\" cellpadding=\"0\"
+        cellspacing=\"0\"> \n<tr> \n<td bgcolor=\"white\" width=\"375\" > \n<a href=\"http://law.fordham.edu\"><img
+        style=\"margin-left:12px;\" src=\"/screens/pics/cornerbanner.taller1.gif\"
+        name=\"Fordham Logo\" alt=\"Fordham Logo\" align=\"left\" border=\"0\"  width=\"357\"></a></td>
+        \n<td bgcolor=\"white\" align=\"right\"><a href=\"http://lawpac.lawnet.fordham.edu/search/X\">\n<!--fpbanner2.gif-->\n<img
+        style=\"margin-right:12px;vertical-align:top;\" src=\"/screens/pics/maloney.gif\"
+        name=\"Library Name\" alt=\"Library Homepage\" align=\"right\" border=\"0\"
+        ></a><br />\n<a href=\"http://lawpac.lawnet.fordham.edu/search/X\">\n<img
+        style=\"margin-right:12px; vertical-align:bottom; padding:0px;\" src=\"/screens/pics/fpclassic1.gif\"
+        name=\"Search Page\" alt=\"Search Page\" align=\"right\" border=\"0\" ></a>\n</td>
+        \n</tr> \n</table>\n\n</td>\n</tr>\n\n<!--Beginning navigation bar at the
+        top of the page #E19898 D9A8A8 E9C5C5 FBD9C9 faaa5f ffa245 ffbb71 edc4ad-->\n<tr>\n<td
+        class=\"navrow\" cellpadding=\"0\" cellspacing=\"0\">\n\n<table border=\"0\"
+        width=\"900px\" cellpadding=\"0\" cellspacing=\"0\" valign=\"top\" bgcolor=\"#edc4ad\">\n<tr>\n\n<td
+        class=\"limenu\" height=\"24px\" width=\"900px\" align=\"left\"> \n<span style=\"float:left;margin-left:16px;margin-right:16px;width:104px;\">\n<a
+        class=\"limenulinks\" href=\"http://lawlib1.lawnet.fordham.edu\"><font color=\"black\">LIBRARY
+        HOME</font></a>\n</span>\n\n<span style=\"float:left; margin-right:9px; width:90px;\">\n<a
+        class=\"limenulinks\" href=\"/search/X\"><font color=\"black\">NEW SEARCH</font></a>\n</span>\n\n<span
+        style=\"float:left; margin-right:9px; width:50px;\">\n<a class=\"limenulinks\"
+        href=\"https://fordhamlaw.illiad.oclc.org/illiad/logon.html\"><font color=\"black\">ILLIAD</font></a>\n</span>\n\n<span
+        style=\"float:left;margin-right:7px; width:100px;\">\n<a class=\"limenulinks\"
+        href=\"https://catalog.library.fordham.edu/uhtbin/cgisirsi/0/0/0/38/X/POWER_SEARCH\"><font
+        color=\"black\">FORDHAM CAT</font></a>\n</span>\n\n\n<span style=\"float:left;margin-right:7px;width:94px;\">\n<a
+        class=\"limenulinks\" href=\"http://0-firstsearch.oclc.org.lawpac.lawnet.fordham.edu/FSIP?dbname=worldcat\"><font
+        color=\"black\">WORLDCAT</font></a>\n</span>\n\n<span style=\"float:left;\">\n<a
+        class=\"limenulinks\" href=\"/screens/help_index.html\" onclick=\"return replace_or_redraw('/screens/help_index.html')\"><font
+        color=\"black\">HELP</font></a>\n</span>\n\n\n<!--<font color=\"#114F8C\">-->\n<!--\n<span>\n\n<a
+        class=\"limenulinks\" style=\"float:right; margin-right:9px; vertical-align:bottom;
+        font-size:13px;font-weight:normal;color:black;\" href=\"http://lawpac.lawnet.fordham.edu/screens/discovery.html\">FULLPAC
+        DISCOVERY</a>\n</span>\n\n\n<span >\n<a class=\"myfullpac\" style=\"float:right;
+        margin-right:20px; vertical-align:top;\" href=\"/patroninfo\"><i>MY</i> FULLPAC</a>\n</span>\n-->\n\n\n<span
+        >\n<a class=\"myfullpac\" style=\"float:right; margin-right:18px; vertical-align:top;
+        width: 90px;\" href=\"/patroninfo\">MY</i> FULLPAC</b></a>\n</span>\n\n<span>\n<a
+        class=\"fpdiscovery\" style=\"float:right; margin-right:16px; vertical-align:bottom;
+        font-size:13px;\" href=\"http://lawpac.lawnet.fordham.edu/screens/discovery.html\">FULLPAC
+        DISCOVERY</b></a>\n</span>\n\n\n</td>\n\n</tr>\n</table>\n<!-- End of the
+        top navigation bar -->\n\n</td>\n</tr>\n\n\n<tr>\n<td bgcolor= \"#F1EFF0\"
+        colspan=\"3\" class=\"lockwidth\" >\n\n<!-- Smartphone only banner -->\n<div
+        class=\"sphead\"><a href=\"http://lawlib1.lawnet.fordham.edu/mobile\">The
+        Maloney Library</a>\n<hr />\n</div>\n\n\n<!-- end toplogo.html file -->\n\n<div
+        align=\"center\" class=\"navigationRow\">\n<form>\n<a href=\"/search/X\"><img
+        src=\"/screens/startover.gif\" class=\"button2\" alt=\"Start Over\" border=\"0\"
+        /></a>\n<a href=\"/search/X?NOSRCH=%28Ciri%C3%B3n%29&SORT=RZ&SUBKEY=(Ciri%C3%B3n)\"><img
+        src=\"/screens/modify.gif\" class=\"button2\" alt=\"Modify Search\" border=\"0\"
+        /></a>\n<a href=\"http://128.59.177.5/search/X?%28Cirión%29&SORT=RZ&backlink=lawpac.lawnet.fordham.edu/search?/X%28Ciri%C3%B3n%29&SORT=RZ/X%28Ciri%C3%B3n%29&SORT=RZ&SUBKEY=(Ciri%C3%B3n)/1%2C4%2C4%2CB/browse\"><br
+        class=\"space\" /><img class=\"button2\" border=\"0\" src=\"/screens/s_columbia.gif\"></a>\n<a
+        href=\"http://128.122.159.10/search/X?%28Cirión%29&SORT=RZ&backlink=lawpac.lawnet.fordham.edu/search?/X%28Ciri%C3%B3n%29&SORT=RZ/X%28Ciri%C3%B3n%29&SORT=RZ&SUBKEY=(Ciri%C3%B3n)/1%2C4%2C4%2CB/browse\"><img
+        class=\"button2\" border=\"0\" src=\"/screens/s_nyu.gif\"></a>\n<a href=\"http://ringding.law.yale.edu/search/X?%28Cirión%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28Ciri%C3%B3n%29&SORT=RZ/X%28Ciri%C3%B3n%29&SORT=RZ&SUBKEY=(Ciri%C3%B3n)/1%2C4%2C4%2CB/browse\"><img
+        class=\"button2\" border=\"0\" src=\"/screens/s_yale.gif\"></a>\n<a href=\"http://130.91.144.191/search/X?%28Cirión%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28Ciri%C3%B3n%29&SORT=RZ/X%28Ciri%C3%B3n%29&SORT=RZ&SUBKEY=(Ciri%C3%B3n)/1%2C4%2C4%2CB/browse\"><img
+        class=\"button2\" border=\"0\" src=\"/screens/s_upenn.gif\"></a>\n<a href=\"/search/X\"><img
+        src=\"/screens/another.gif\" alt=\"Another Search\" border=\"0\" /></a>\n<select
+        name=HISTORY onChange=\"onSelectChange(this, '')\"><option value=\"\">(Search
+        History)</option>\n<OPTION VALUE=\"X%28Ciri%C3%B3n%29&SORT=RZ\">WORDS anywhere:
+        (Cirión)\n<OPTION VALUE=\"X%28adfkjadf+akdfjadf+no+results+for+this%29&SORT=RZ\">WORDS
+        anywhere: (adfkjadf akdfjadf no results for this)\n<OPTION VALUE=\"X%28brooklyn%29&SORT=RZ\">WORDS
+        anywhere: (brooklyn)\n<OPTION VALUE=\"X%28%22MOML+Foreign%2C+Comparative%2C+and+International+Law%22%29&SORT=RZ\">WORDS
+        anywhere: (\"MOML Foreign, Comparative, and International Law\")\n<OPTION
+        VALUE=\"X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ\">WORDS
+        anywhere: (\"The Europeanisation of UK competition law\")\n<option value=\"+/search/X?%28Ciri%C3%B3n%29&SORT=RZ&clear_history\">(Clear
+        Search History)</option>\n<option value=\"+/\">(End Search Session)</option>\n</select>\n<noscript>\n<h2>Search
+        history function requires JavaScript.</h2>\n</noscript>\n</form>\n</div>\n\n<!--
+        BEGIN BROWSE SCREEN TABLE -->\n<table cellpadding=\"2\" cellspacing=\"0\"
+        border=\"0\" class=\"browseScreen\">\n<!-- BEGIN SEARCH WIDGET -->\n<div align=\"center\">\n<tr
+        align=\"center\" valign=\"middle\">\n<td valign=\"middle\" colspan=\"2\">\n<div
+        \ class=\"browseSearchtool\">\n<script type=\"text/JavaScript\">\n<!-- Hide
+        the JS\nvar savedScope;\nvar savedTag;\nvar savedSearch;\nvar sortButtonText
+        = null;\nvar savedExactSearch = null;\nvar sortButtonEvent = null;\nvar sortExactBrowseURL
+        = null;\nvar sortTypes = new Array();\nvar sortLabels = new Array();\nsortTypes[0]
+        = \"r\";\nsortLabels[0] = \"Relevance\";\nsortTypes[1] = \"r\";\nsortLabels[1]
+        = \"Newest First\";\nsortTypes[2] = \"c\";\nsortLabels[2] = \"Oldest First\";\nsortTypes[3]
+        = \"t\";\nsortLabels[3] = \"Title\";\nsortLabels[4] = \"System Sorted\";\nsortTypes[4]
+        = \"-\";\nvar sortSelectedValue = \"4\";\nvar nonSortTags = \"XYZprWw\"\n//
+        Unhide the JS -->\n</script>\n<form name=\"searchtool\" target=\"_self\" action=\"/search/\"
+        method='GET'>\n      <label for=\"searchtype\" style=\"display:none;\">SearchType</label>
+        <select name=\"searchtype\" id=\"searchtype\" onChange=\"initSort()\">\n        <option
+        value=\"t\"> TITLE begins with</option>\n        <option value=\"a\"> AUTHOR
+        (last name first)</option>\n        <option value=\"X\" selected=\"selected\">
+        WORDS anywhere</option>\n        <option value=\"d\"> SUBJECT begins with</option>\n
+        \       <option value=\"c\"> CALL Number</option>\n        <option value=\"i\">
+        ISBN/ISSN</option>\n        <option value=\"g\"> GOV DOC Number</option>\n
+        \       <option value=\"o\"> OCLC Number</option>\n      </select>\n      &nbsp;\n
+        \     <label for=\"searcharg\" style=\"display:none;\">Search</label><input
+        type=\"text\" name=\"searcharg\" id=\"searcharg\" size=\"30\" onchange='return
+        searchtoolSubmitAction()'maxlength=\"75\" value=\"Cirión\" />\n      &nbsp;\n\n<span
+        id=\"sort_cell\">\n</span>\n\n<script type=\"text/JavaScript\">\n<!-- Hide
+        the JS\ninitSort();\n// Unhide the JS -->\n</script>\n      <input type=\"hidden\"
+        name=\"SORT\" value=\"RZ\" /><input type=\"hidden\" name=\"extended\" value=\"0\"
+        />      <input type=\"submit\" name=\"SUBMIT\" value=\"Search\" onclick='return
+        searchtoolSubmitAction();' />\n<div>\n      <input type=\"checkbox\" name=\"availlim\"
+        value=\"1\"  /> <span class=\"availLimMessage\">Limit search to available
+        items</span><br/>\n</div>\n<div>\n      <input type=\"hidden\" name=\"searchlimits\"
+        value=\"\" />\n      <input type=\"hidden\" name=\"searchorigarg\" value=\"XCiri{u00F3}n\"
+        />\n</div>\n</form>\n<div  class=\"browseSearchtoolMessage\">       <i>4 results
+        found. </i>Sorted by  <strong>relevance</strong>  | <a href=\"/search/X?%28Ciri%C3%B3n%29&SORT=DXZ\">date</a>
+        \ | <a href=\"/search/X?%28Ciri%C3%B3n%29&SORT=AXZ\">title</a> .\n</div>\n<div></div></div>\n\n</td>\n</tr>\n</div>\n<!--
+        END SEARCH WIDGET -->\n\n<!-- BEGIN BROWSE PAGER -->\n<!-- END BROWSE PAGER
+        -->\n\n<!-- BEGIN BROWSE SCREEN LEFT CELL: BROWSELIST/BRIEFCIT AREA -->\n<tr><td>\n<table
+        border=\"0\" cellpadding=\"3\" cellspacing=\"1\" class=\"briefcitdata\" align=\"center\">\n<tr
+        align=\"CENTER\" valign=\"MIDDLE\">\n<td colspan=\"5\"  class=\"browseSaveJump\"
+        width=\"85%\">\n<form method=\"POST\" action=\"/search?/X%28Ciri%C3%B3n%29&SORT=RZ/X%28Ciri%C3%B3n%29&SORT=RZ&SUBKEY=(Ciri%C3%B3n)/1%2C4%2C4%2CB/browse\"
+        name=\"export_form\" id=\"export_form\" >\n<input type=\"hidden\" name=\"jumpref\"
+        value=\"X%28Ciri{u00F3}n%29\">\n<input type=\"hidden\" id=\"save_func\" name=\"save_func\"
+        value=\"\"/>\n<span name='save_page_btn1' id='save_page_btn1' style='visibility:
+        visible' ><a href=\"#\" onclick=\"process_save(1);\" style=\"text-decoration:none\">\n<img
+        src=\"/screens/saveallpage.gif\" alt=\"Save all on page\" class=\"button4\"
+        \ height=\"28\" border=\"0\" /></a>\n</span>\n</td></tr>\n\n\n</td>\n</tr>\n<tr
+        \ class=\"browseHeader\">\n<td align=\"center\" class=\"browseHeaderData\">\nWORDS
+        anywhere (1-4 of 4)\n</td>\n</tr>\n<!-- Right Result rank 2 -->\n<tr  class=\"browseSuperEntry
+        browseEntryRelGroup2\"><td colspan=\"1\"><img src=\"/screens/relevance4.gif\"
+        alt=\"\">&nbsp;Highly relevant titles&nbsp;entries 1-1</td></tr>\n\n\n<!--{toplogo}-->\n\n\n<!--
+        briefcit.html -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with
+        bib listings -->\n<table width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\"
+        valign=\"top\" width=\"5%\" class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_1'></a>
+        1\n</b>\n<br />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td
+        align=\"left\" valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28Ciri%C3%B3n%29&SORT=RZ/X%28Ciri%C3%B3n%29&SORT=RZ&SUBKEY=(Ciri%C3%B3n)/1%2C4%2C4%2CB/frameset&FF=X%28Ciri%C3%B3n%29&SORT=RZ&1%2C1%2C\">Global
+        food security: ethical and legal challenges : EurSafe 2010, Bilbao, Spain,
+        16-18 September 20</a></span>&nbsp;\n\nedited by: Carlos M. Romeo Casabona,
+        Leire Escajedo San Epifanio, Aitziber Emalid Cirión</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\nWageningen, The Netherlands
+        : Wageningen Academic Publishers, 2010\n<!-- span class=\"briefcitStatus\"
+        -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br
+        />\n<span class=\"briefcitDetail\">\n<!-- call number -->\n<b>\nK3626.A6 G66
+        2010</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nStacks\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
+        href=\"http://syndetics.com/index.aspx?isbn=9789086861545/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=9789086861545/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
+        width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
+        class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_book.gif\" alt=\"Book\">\n</td>\n\n\n\n\n<td
+        valign=\"top\" width=\"5%\" class=\"briefcitActions\" style=\"padding-right:
+        5px;\">\n<a href=\"#anchor_1\" onClick=\"return replace_or_redraw('/search?/X%28Ciri%C3%B3n%29&SORT=RZ/X%28Ciri%C3%B3n%29&SORT=RZ&SUBKEY=(Ciri%C3%B3n)/1%2C4%2C4%2CB/browse?save=b371151#anchor_1')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n<!-- Right Result rank 3 -->\n<tr
+        \ class=\"browseSuperEntry browseEntryRelGroup3\"><td colspan=\"1\"><img src=\"/screens/relevance3.gif\"
+        alt=\"\">&nbsp;Very relevant titles&nbsp;entries 2-4</td></tr>\n\n\n<!--{toplogo}-->\n\n\n<!--
+        briefcit.html -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with
+        bib listings -->\n<table width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\"
+        valign=\"top\" width=\"5%\" class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_2'></a>
+        2\n</b>\n<br />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td
+        align=\"left\" valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28Ciri%C3%B3n%29&SORT=RZ/X%28Ciri%C3%B3n%29&SORT=RZ&SUBKEY=(Ciri%C3%B3n)/1%2C4%2C4%2CB/frameset&FF=X%28Ciri%C3%B3n%29&SORT=RZ&2%2C2%2C\">Zivilrechtliche
+        Regelungen zur Absicherung der Patientenautonomie am Ende des Lebens : eine
+        internat</a></span>&nbsp;\n\nherausgegeben von Jochen Taupitz</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\nBerlin ; New York : Springer,
+        c2000\n<!-- span class=\"briefcitStatus\" -->\n<!-- holdingsmsg {} br -->\n<!--
+        holds {} br -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!--
+        call number -->\n<b>\nK3611.I5 Z58 2000</b>\n</span>\n<br />\n\n\n<!-- location
+        -->\nLocation:&nbsp;\nStacks\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
+        href=\"http://syndetics.com/index.aspx?isbn=3540677054/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=3540677054/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
+        width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
+        class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_book.gif\" alt=\"Book\">\n</td>\n\n\n\n\n<td
+        valign=\"top\" width=\"5%\" class=\"briefcitActions\" style=\"padding-right:
+        5px;\">\n<a href=\"#anchor_2\" onClick=\"return replace_or_redraw('/search?/X%28Ciri%C3%B3n%29&SORT=RZ/X%28Ciri%C3%B3n%29&SORT=RZ&SUBKEY=(Ciri%C3%B3n)/1%2C4%2C4%2CB/browse?save=b199047#anchor_2')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_3'></a> 3\n</b>\n<br />\n<!--
+        \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28Ciri%C3%B3n%29&SORT=RZ/X%28Ciri%C3%B3n%29&SORT=RZ&SUBKEY=(Ciri%C3%B3n)/1%2C4%2C4%2CB/frameset&FF=X%28Ciri%C3%B3n%29&SORT=RZ&3%2C3%2C\">Genetic
+        testing and the criminal law</a></span>&nbsp;\n\nedited by Don Chalmers</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\nLondon : UCL Press ; Portland,
+        Or. : Cavendish Pub., 2005\n<!-- span class=\"briefcitStatus\" -->\n<!-- holdingsmsg
+        {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!--
+        call number -->\n<b>\nK5486.A6 G46 2005</b>\n</span>\n<br />\n\n\n<!-- location
+        -->\nLocation:&nbsp;\nStacks\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
+        href=\"http://syndetics.com/index.aspx?isbn=1844720160/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=1844720160/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
+        width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
+        class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_book.gif\" alt=\"Book\">\n</td>\n\n\n\n\n<td
+        valign=\"top\" width=\"5%\" class=\"briefcitActions\" style=\"padding-right:
+        5px;\">\n<a href=\"#anchor_3\" onClick=\"return replace_or_redraw('/search?/X%28Ciri%C3%B3n%29&SORT=RZ/X%28Ciri%C3%B3n%29&SORT=RZ&SUBKEY=(Ciri%C3%B3n)/1%2C4%2C4%2CB/browse?save=b211868#anchor_3')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_4'></a> 4\n</b>\n<br />\n<!--
+        \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28Ciri%C3%B3n%29&SORT=RZ/X%28Ciri%C3%B3n%29&SORT=RZ&SUBKEY=(Ciri%C3%B3n)/1%2C4%2C4%2CB/frameset&FF=X%28Ciri%C3%B3n%29&SORT=RZ&4%2C4%2C\">Altruism
+        reconsidered : exploring new approaches to property in human tissue</a></span>&nbsp;\n\nedited
+        by Michael Steinmann, Peter Sýkora, Urban Wiesing</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\nFarnham, Surrey, England ; Burlington, VT : Ashgate, c2009\n<!--
+        span class=\"briefcitStatus\" -->\n<!-- holdingsmsg {} br -->\n<!-- holds
+        {} br -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!--
+        call number -->\n<b>\nK3611.T7 A85 2009</b>\n</span>\n<br />\n\n\n<!-- location
+        -->\nLocation:&nbsp;\nStacks\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
+        href=\"http://syndetics.com/index.aspx?isbn=9780754672708/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=9780754672708/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
+        width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
+        class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_book.gif\" alt=\"Book\">\n</td>\n\n\n\n\n<td
+        valign=\"top\" width=\"5%\" class=\"briefcitActions\" style=\"padding-right:
+        5px;\">\n<a href=\"#anchor_4\" onClick=\"return replace_or_redraw('/search?/X%28Ciri%C3%B3n%29&SORT=RZ/X%28Ciri%C3%B3n%29&SORT=RZ&SUBKEY=(Ciri%C3%B3n)/1%2C4%2C4%2CB/browse?save=b334106#anchor_4')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n<tr align=\"CENTER\" valign=\"MIDDLE\">\n<td
+        colspan=\"5\"  class=\"browseSaveJump\" width=\"85%\">\n</form>\n</td></tr>\n\n\n</td>\n</tr>\n</table>\n<!--
+        END BROWSELIST/BRIEFCIT AREA -->\n</td>\n<!-- END BROWSE SCREEN LEFT CELL
+        -->\n\n</tr>\n\n<!-- BEGIN BOTTOM BROWSE PAGER -->\n<!-- END BOTTOM BROWSE
+        PAGER -->\n</table>\n<!-- END BROWSE SCREEN TABLE -->\n<div align=\"center\"
+        class=\"navigationRow\">\n<form>\n<a href=\"/search/X\"><img src=\"/screens/startover.gif\"
+        class=\"button2\" alt=\"Start Over\" border=\"0\" /></a>\n<a href=\"/search/X?NOSRCH=%28Ciri%C3%B3n%29&SORT=RZ&SUBKEY=(Ciri%C3%B3n)\"><img
+        src=\"/screens/modify.gif\" class=\"button2\" alt=\"Modify Search\" border=\"0\"
+        /></a>\n<a href=\"http://128.59.177.5/search/X?%28Cirión%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28Ciri%C3%B3n%29&SORT=RZ/X%28Ciri%C3%B3n%29&SORT=RZ&SUBKEY=(Ciri%C3%B3n)/1%2C4%2C4%2CB/browse\"><br
+        class=\"space\" /><img class=\"button2\" border=\"0\" src=\"/screens/s_columbia.gif\"></a>\n<a
+        href=\"http://128.122.159.10/search/X?%28Cirión%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28Ciri%C3%B3n%29&SORT=RZ/X%28Ciri%C3%B3n%29&SORT=RZ&SUBKEY=(Ciri%C3%B3n)/1%2C4%2C4%2CB/browse\"><img
+        class=\"button2\" border=\"0\" src=\"/screens/s_nyu.gif\"></a>\n<a href=\"http://ringding.law.yale.edu/search/X?%28Cirión%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28Ciri%C3%B3n%29&SORT=RZ/X%28Ciri%C3%B3n%29&SORT=RZ&SUBKEY=(Ciri%C3%B3n)/1%2C4%2C4%2CB/browse\"><img
+        class=\"button2\" border=\"0\" src=\"/screens/s_yale.gif\"></a>\n<a href=\"http://130.91.144.191/search/X?%28Cirión%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28Ciri%C3%B3n%29&SORT=RZ/X%28Ciri%C3%B3n%29&SORT=RZ&SUBKEY=(Ciri%C3%B3n)/1%2C4%2C4%2CB/browse\"><img
+        class=\"button2\" border=\"0\" src=\"/screens/s_upenn.gif\"></a>\n<a href=\"/search/X\"><img
+        src=\"/screens/another.gif\" alt=\"Another Search\" border=\"0\" /></a>\n<select
+        name=HISTORY onChange=\"onSelectChange(this, '')\"><option value=\"\">(Search
+        History)</option>\n<OPTION VALUE=\"X%28Ciri%C3%B3n%29&SORT=RZ\">WORDS anywhere:
+        (Cirión)\n<OPTION VALUE=\"X%28adfkjadf+akdfjadf+no+results+for+this%29&SORT=RZ\">WORDS
+        anywhere: (adfkjadf akdfjadf no results for this)\n<OPTION VALUE=\"X%28brooklyn%29&SORT=RZ\">WORDS
+        anywhere: (brooklyn)\n<OPTION VALUE=\"X%28%22MOML+Foreign%2C+Comparative%2C+and+International+Law%22%29&SORT=RZ\">WORDS
+        anywhere: (\"MOML Foreign, Comparative, and International Law\")\n<OPTION
+        VALUE=\"X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ\">WORDS
+        anywhere: (\"The Europeanisation of UK competition law\")\n<option value=\"+/search/X?%28Ciri%C3%B3n%29&SORT=RZ&clear_history\">(Clear
+        Search History)</option>\n<option value=\"+/\">(End Search Session)</option>\n</select>\n</form>\n</div>\n\n\n\n\n<!--
+        This page written in wordpad by tom k. -->\n\n<LINK REL=\"stylesheet\" TYPE=\"text/css\"
+        HREF=\"/screens/css/mym.css\">\n<LINK REL=\"stylesheet\" TYPE=\"text/css\"
+        HREF=\"/screens/css/template.css\">\n<tr><td>\n<table border=\"0\" cellpadding=\"0\"
+        cellspacing=\"0\" class=\"pconly\">\n<tr>\n\n<!-- Law Lib Footer -->\n<!--
+        light gray is #F1EFF0 -->\n<td class=\"ban2\" align=\"center\" bgcolor=\"white\"
+        height=\"35\" width=\"190px\"> \n<a class=\"ftr\" href=\"http://law.fordham.edu/\">Fordham
+        Law </a>\n</td>      \n<td class=\"ban2\" bgcolor=\"white\" align=\"center\"
+        Height=\"35\" width=\"485px\"><div class=\"nfo\">150 W 62 St. New York, NY
+        10023 &nbsp; (212) 636-6900 </div></td>      \n<td class=\"ban2\" align=\"center\"
+        bgcolor=\"white\" width=\"225px\"> \n<a class=\"ftr\" href=\"http://www.fordham.edu/\">Fordham
+        University </a></td>    \n</tr>\n<!-- End Law Lib Footer -->  \n<tr><td class=\"space\">&nbsp;</td></tr>\n</table>\n</td>\n</tr>\n\n</table>\n\n<!--
+        End of Page Table -->\n<!-- attempt to track offsite clicks below -->\n<script>\n/*
+        this is for pages using the \"new\" GA js */\nfunction _gaLt(event){\n    var
+        el = event.srcElement || event.target;\n\n    /* Loop up the DOM tree through
+        parent elements if clicked element is not a link (eg: an image inside a link)
+        */\n    while(el && (typeof el.tagName == 'undefined' || el.tagName.toLowerCase()
+        != 'a' || !el.href)){\n        el = el.parentNode;\n    }\n\n    if(el &&
+        el.href){\n        /* link */\n        var link = el.href;\n        if(link.indexOf(location.host)
+        == -1 && !link.match(/^javascript\\:/i)){ /* external link */\n            /*
+        HitCallback function to either open link in either same or new window */\n
+        \           var hitBack = function(link, target){\n                target
+        ? window.open(link, target) : window.location.href = link;\n            };\n
+        \           /* Is target set and not _(self|parent|top)? */\n            var
+        target = (el.target && !el.target.match(/^_(self|parent|top)$/i)) ? el.target
+        : false;\n            /* send event with callback */\n            ga(\n                \"send\",
+        \"event\", \"Outgoing Links\", link,\n                document.location.pathname
+        + document.location.search,\n                {\"hitCallback\": hitBack(link,
+        target)}\n            );\n\n            /* Prevent standard click */\n            event.preventDefault
+        ? event.preventDefault() : event.returnValue = !1;\n        }\n\n    }\n}\n\n/*
+        Attach the event to all clicks in the document after page has loaded */\nvar
+        w = window;\nw.addEventListener ? w.addEventListener(\"load\",function(){document.body.addEventListener(\"click\",_gaLt,!1)},!1)\n
+        : w.attachEvent && w.attachEvent(\"onload\",function(){document.body.attachEvent(\"onclick\",_gaLt)});\n
+        \n </script>\n<!-- end offsite click js -->\n\n<!-- google analytics below
+        -->\n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
+        \ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n
+        \ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n
+        \ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n
+        \ ga('create', 'UA-4308917-1', 'auto');\n  ga('send', 'pageview');\n\n</script>\n<!--
+        end google analytics -->\n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Tue, 07 Feb 2017 21:58:54 GMT
+recorded_with: VCR 3.0.3

@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe SierraBrowseEngine do
+describe SierraBrowseEngine, vcr: true do
   let(:search_type) { "p" }
   let(:format_str) { "Some Thing" }
   let(:engine) { SierraBrowseEngine.new(id: "mock", search_type: search_type, format_str: format_str) }

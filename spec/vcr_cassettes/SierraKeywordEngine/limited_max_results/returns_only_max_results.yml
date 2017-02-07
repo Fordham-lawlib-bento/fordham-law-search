@@ -1,0 +1,1554 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://lawpac.lawnet.fordham.edu/search/X?(brooklyn)&SORT=RZ
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.3.3 (2016-11-21))
+      Accept:
+      - "*/*"
+      Date:
+      - Tue, 07 Feb 2017 21:58:52 GMT
+      Cookie:
+      - SESSION_LANGUAGE=eng; III_EXPT_FILE=aa28676; III_SESSION_ID=e3b0c7bcc2cbc98cc8a2bd3313f80193;
+        SESSION_SCOPE=0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 07 Feb 2017 21:58:52 GMT
+      Server:
+      - III 100
+      Pragma:
+      - no-cache
+      Content-Type:
+      - text/html; charset=UTF-8
+      Expires:
+      - Tue, 7 Feb 2017 21:58:52 GMT
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - SESSION_LANGUAGE=eng; path=/; domain=.lawnet.fordham.edu; path=/
+      - SESSION_SCOPE=0; path=/
+      Vary:
+      - User-Agent,Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: "<html   dir=\"LTR\">\n<head>\n<title>Fordham Law School Library        \n
+        \                                          </title>\n<base target=\"_self\"/>\n<link
+        rel=\"stylesheet\" type=\"text/css\" href=\"/scripts/ProStyles.css\" />\n<link
+        rel=\"stylesheet\" type=\"text/css\" href=\"/screens/styles.css\" />\n<link
+        rel=\"shortcut icon\" type=\"ximage/icon\" href=\"/screens/favicon.ico\" />\n<script
+        type=\"text/javascript\" src=\"/scripts/common.js\"></script>\n\n<script type=\"text/javascript\"
+        src=\"/scripts/elcontent.js\"></script>\n\n<script type=\"text/JavaScript\">\n<!--
+        Hide the JS\nstartTimeout(6000000, \"/\");\n// -->\n</script>\n<noscript>\n<meta
+        http-equiv=\"Refresh\" content=\"6000;URL=/\" />\n</noscript>\n\n<link rel=\"stylesheet\"
+        href=\"/screens/styles_mobile.css\" type=\"text/css\" media=\"handheld\" /><link
+        rel=\"stylesheet\" media=\"screen and (max-device-width: 480px)\" href=\"/screens/styles_mobile.css\"
+        /><meta name=\"format-detection\" content=\"telephone=no\"><meta name=\"viewport\"
+        content=\"width=device-width; initial-scale=1.0;\" />\n</head>\n<body bgcolor=\"#FFFFFF\"
+        >\n<base target=\"_self\"/>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/scripts/ProStyles.css\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/screens/styles.css\"
+        />\n<link rel=\"shortcut icon\" type=\"ximage/icon\" href=\"/screens/favicon.ico\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/screens/mym.css\">\n\n<!--
+        for non-smartphones only -->\n<link  rel=\"stylesheet\" type=\"text/css\"
+        href=\"/screens/killsp.css\" media=\"screen and (min-device-width: 765px)\"/>\n\n<!--for
+        smartphones only-->\n<link rel=\"stylesheet\" href=\"http://lawpac.lawnet.fordham.edu/screens/styles_mobile.css\"
+        type=\"text/css\" media=\"handheld\" /><link rel=\"stylesheet\" media=\"screen
+        and (max-device-width: 480px)\" href=\"/screens/styles_mobile.css\" /><meta
+        name=\"format-detection\" content=\"telephone=no\"><meta name=\"viewport\"
+        content=\"width=device-width; initial-scale=1.0;\" />\n\n<script language=\"JavaScript\"
+        type=\"text/javascript\" src=\"/scripts/common.js\"></script>\n<script language=\"JavaScript\"
+        type=\"text/javascript\" src=\"/scripts/elcontent.js\"></script>\n<script
+        language=\"JavaScript\"> \n<!-- Hide the JS\nstartTimeout(6000000, \"/\");\n//
+        -->\n</script>\n<noscript>\n<meta http-equiv=\"Refresh\" content=\"6000;URL=/\"
+        />\n</noscript>\n\n\n\n \n<body bgcolor=\"#FFFFFF\" class=\"justified\" >\n<!--
+        Make sure IE uses our killsp ss -->\n<!--[if IE]>     <link rel=\"stylesheet\"
+        type=\"text/css\" href=\"/screens/killsp.css\" />  <![endif]-->\n\n\n<table
+        border=\"0\"  cellpadding=\"0\" cellspacing=\"0\" valign=\"top\" class=\"lockwidth\">\n<!--
+        Law Lib Banner  -->\n<tr>\n<td colspan=\"3\"  valign=\"middle\" height=\"55\"
+        class=\"banner\">\n\n<table border=\"0\" width=\"900px;\" cellpadding=\"0\"
+        cellspacing=\"0\"> \n<tr> \n<td bgcolor=\"white\" width=\"375\" > \n<a href=\"http://law.fordham.edu\"><img
+        style=\"margin-left:12px;\" src=\"/screens/pics/cornerbanner.taller1.gif\"
+        name=\"Fordham Logo\" alt=\"Fordham Logo\" align=\"left\" border=\"0\"  width=\"357\"></a></td>
+        \n<td bgcolor=\"white\" align=\"right\"><a href=\"http://lawpac.lawnet.fordham.edu/search/X\">\n<!--fpbanner2.gif-->\n<img
+        style=\"margin-right:12px;vertical-align:top;\" src=\"/screens/pics/maloney.gif\"
+        name=\"Library Name\" alt=\"Library Homepage\" align=\"right\" border=\"0\"
+        ></a><br />\n<a href=\"http://lawpac.lawnet.fordham.edu/search/X\">\n<img
+        style=\"margin-right:12px; vertical-align:bottom; padding:0px;\" src=\"/screens/pics/fpclassic1.gif\"
+        name=\"Search Page\" alt=\"Search Page\" align=\"right\" border=\"0\" ></a>\n</td>
+        \n</tr> \n</table>\n\n</td>\n</tr>\n\n<!--Beginning navigation bar at the
+        top of the page #E19898 D9A8A8 E9C5C5 FBD9C9 faaa5f ffa245 ffbb71 edc4ad-->\n<tr>\n<td
+        class=\"navrow\" cellpadding=\"0\" cellspacing=\"0\">\n\n<table border=\"0\"
+        width=\"900px\" cellpadding=\"0\" cellspacing=\"0\" valign=\"top\" bgcolor=\"#edc4ad\">\n<tr>\n\n<td
+        class=\"limenu\" height=\"24px\" width=\"900px\" align=\"left\"> \n<span style=\"float:left;margin-left:16px;margin-right:16px;width:104px;\">\n<a
+        class=\"limenulinks\" href=\"http://lawlib1.lawnet.fordham.edu\"><font color=\"black\">LIBRARY
+        HOME</font></a>\n</span>\n\n<span style=\"float:left; margin-right:9px; width:90px;\">\n<a
+        class=\"limenulinks\" href=\"/search/X\"><font color=\"black\">NEW SEARCH</font></a>\n</span>\n\n<span
+        style=\"float:left; margin-right:9px; width:50px;\">\n<a class=\"limenulinks\"
+        href=\"https://fordhamlaw.illiad.oclc.org/illiad/logon.html\"><font color=\"black\">ILLIAD</font></a>\n</span>\n\n<span
+        style=\"float:left;margin-right:7px; width:100px;\">\n<a class=\"limenulinks\"
+        href=\"https://catalog.library.fordham.edu/uhtbin/cgisirsi/0/0/0/38/X/POWER_SEARCH\"><font
+        color=\"black\">FORDHAM CAT</font></a>\n</span>\n\n\n<span style=\"float:left;margin-right:7px;width:94px;\">\n<a
+        class=\"limenulinks\" href=\"http://0-firstsearch.oclc.org.lawpac.lawnet.fordham.edu/FSIP?dbname=worldcat\"><font
+        color=\"black\">WORLDCAT</font></a>\n</span>\n\n<span style=\"float:left;\">\n<a
+        class=\"limenulinks\" href=\"/screens/help_index.html\" onclick=\"return replace_or_redraw('/screens/help_index.html')\"><font
+        color=\"black\">HELP</font></a>\n</span>\n\n\n<!--<font color=\"#114F8C\">-->\n<!--\n<span>\n\n<a
+        class=\"limenulinks\" style=\"float:right; margin-right:9px; vertical-align:bottom;
+        font-size:13px;font-weight:normal;color:black;\" href=\"http://lawpac.lawnet.fordham.edu/screens/discovery.html\">FULLPAC
+        DISCOVERY</a>\n</span>\n\n\n<span >\n<a class=\"myfullpac\" style=\"float:right;
+        margin-right:20px; vertical-align:top;\" href=\"/patroninfo\"><i>MY</i> FULLPAC</a>\n</span>\n-->\n\n\n<span
+        >\n<a class=\"myfullpac\" style=\"float:right; margin-right:18px; vertical-align:top;
+        width: 90px;\" href=\"/patroninfo\">MY</i> FULLPAC</b></a>\n</span>\n\n<span>\n<a
+        class=\"fpdiscovery\" style=\"float:right; margin-right:16px; vertical-align:bottom;
+        font-size:13px;\" href=\"http://lawpac.lawnet.fordham.edu/screens/discovery.html\">FULLPAC
+        DISCOVERY</b></a>\n</span>\n\n\n</td>\n\n</tr>\n</table>\n<!-- End of the
+        top navigation bar -->\n\n</td>\n</tr>\n\n\n<tr>\n<td bgcolor= \"#F1EFF0\"
+        colspan=\"3\" class=\"lockwidth\" >\n\n<!-- Smartphone only banner -->\n<div
+        class=\"sphead\"><a href=\"http://lawlib1.lawnet.fordham.edu/mobile\">The
+        Maloney Library</a>\n<hr />\n</div>\n\n\n<!-- end toplogo.html file -->\n\n<div
+        align=\"center\" class=\"navigationRow\">\n<form>\n<a href=\"/search/X\"><img
+        src=\"/screens/startover.gif\" class=\"button2\" alt=\"Start Over\" border=\"0\"
+        /></a>\n<a href=\"/search/X?NOSRCH=%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)\"><img
+        src=\"/screens/modify.gif\" class=\"button2\" alt=\"Modify Search\" border=\"0\"
+        /></a>\n<a href=\"http://128.59.177.5/search/X?%28brooklyn%29&SORT=RZ&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><br
+        class=\"space\" /><img class=\"button2\" border=\"0\" src=\"/screens/s_columbia.gif\"></a>\n<a
+        href=\"http://128.122.159.10/search/X?%28brooklyn%29&SORT=RZ&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><img
+        class=\"button2\" border=\"0\" src=\"/screens/s_nyu.gif\"></a>\n<a href=\"http://ringding.law.yale.edu/search/X?%28brooklyn%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><img
+        class=\"button2\" border=\"0\" src=\"/screens/s_yale.gif\"></a>\n<a href=\"http://130.91.144.191/search/X?%28brooklyn%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><img
+        class=\"button2\" border=\"0\" src=\"/screens/s_upenn.gif\"></a>\n<a href=\"/search/X\"><img
+        src=\"/screens/another.gif\" alt=\"Another Search\" border=\"0\" /></a>\n<select
+        name=HISTORY onChange=\"onSelectChange(this, '')\"><option value=\"\">(Search
+        History)</option>\n<OPTION VALUE=\"X%28brooklyn%29&SORT=RZ\">WORDS anywhere:
+        (brooklyn)\n<OPTION VALUE=\"X%28%22MOML+Foreign%2C+Comparative%2C+and+International+Law%22%29&SORT=RZ\">WORDS
+        anywhere: (\"MOML Foreign, Comparative, and International Law\")\n<OPTION
+        VALUE=\"X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ\">WORDS
+        anywhere: (\"The Europeanisation of UK competition law\")\n<option value=\"+/search/X?%28brooklyn%29&SORT=RZ&clear_history\">(Clear
+        Search History)</option>\n<option value=\"+/\">(End Search Session)</option>\n</select>\n<noscript>\n<h2>Search
+        history function requires JavaScript.</h2>\n</noscript>\n</form>\n</div>\n\n<!--
+        BEGIN BROWSE SCREEN TABLE -->\n<table cellpadding=\"2\" cellspacing=\"0\"
+        border=\"0\" class=\"browseScreen\">\n<!-- BEGIN SEARCH WIDGET -->\n<div align=\"center\">\n<tr
+        align=\"center\" valign=\"middle\">\n<td valign=\"middle\" colspan=\"2\">\n<div
+        \ class=\"browseSearchtool\">\n<script type=\"text/JavaScript\">\n<!-- Hide
+        the JS\nvar savedScope;\nvar savedTag;\nvar savedSearch;\nvar sortButtonText
+        = null;\nvar savedExactSearch = null;\nvar sortButtonEvent = null;\nvar sortExactBrowseURL
+        = null;\nvar sortTypes = new Array();\nvar sortLabels = new Array();\nsortTypes[0]
+        = \"r\";\nsortLabels[0] = \"Relevance\";\nsortTypes[1] = \"r\";\nsortLabels[1]
+        = \"Newest First\";\nsortTypes[2] = \"c\";\nsortLabels[2] = \"Oldest First\";\nsortTypes[3]
+        = \"t\";\nsortLabels[3] = \"Title\";\nsortLabels[4] = \"System Sorted\";\nsortTypes[4]
+        = \"-\";\nvar sortSelectedValue = \"4\";\nvar nonSortTags = \"XYZprWw\"\n//
+        Unhide the JS -->\n</script>\n<form name=\"searchtool\" target=\"_self\" action=\"/search/\"
+        method='GET'>\n      <label for=\"searchtype\" style=\"display:none;\">SearchType</label>
+        <select name=\"searchtype\" id=\"searchtype\" onChange=\"initSort()\">\n        <option
+        value=\"t\"> TITLE begins with</option>\n        <option value=\"a\"> AUTHOR
+        (last name first)</option>\n        <option value=\"X\" selected=\"selected\">
+        WORDS anywhere</option>\n        <option value=\"d\"> SUBJECT begins with</option>\n
+        \       <option value=\"c\"> CALL Number</option>\n        <option value=\"i\">
+        ISBN/ISSN</option>\n        <option value=\"g\"> GOV DOC Number</option>\n
+        \       <option value=\"o\"> OCLC Number</option>\n      </select>\n      &nbsp;\n
+        \     <label for=\"searcharg\" style=\"display:none;\">Search</label><input
+        type=\"text\" name=\"searcharg\" id=\"searcharg\" size=\"30\" onchange='return
+        searchtoolSubmitAction()'maxlength=\"75\" value=\"brooklyn\" />\n      &nbsp;\n\n<span
+        id=\"sort_cell\">\n</span>\n\n<script type=\"text/JavaScript\">\n<!-- Hide
+        the JS\ninitSort();\n// Unhide the JS -->\n</script>\n      <input type=\"hidden\"
+        name=\"SORT\" value=\"RZ\" /><input type=\"hidden\" name=\"extended\" value=\"0\"
+        />      <input type=\"submit\" name=\"SUBMIT\" value=\"Search\" onclick='return
+        searchtoolSubmitAction();' />\n<div>\n      <input type=\"checkbox\" name=\"availlim\"
+        value=\"1\"  /> <span class=\"availLimMessage\">Limit search to available
+        items</span><br/>\n</div>\n<div>\n      <input type=\"hidden\" name=\"searchlimits\"
+        value=\"\" />\n      <input type=\"hidden\" name=\"searchorigarg\" value=\"Xbrooklyn\"
+        />\n</div>\n</form>\n<div  class=\"browseSearchtoolMessage\">       <i>153
+        results found. </i>Sorted by  <strong>relevance</strong>  | <a href=\"/search/X?%28brooklyn%29&SORT=DXZ\">date</a>
+        \ | <a href=\"/search/X?%28brooklyn%29&SORT=AXZ\">title</a> .\n</div>\n<div></div></div>\n\n</td>\n</tr>\n</div>\n<!--
+        END SEARCH WIDGET -->\n\n<!-- BEGIN BROWSE PAGER -->\n<!-- begin page widgit
+        -->\n<tr  class=\"browsePager\"><td align=\"center\"  class=\"browsePager\"
+        colspan=\"5\">\n\n<font color=\"maroon\">Result Page:</font>&nbsp;&nbsp;<strong>1</strong>\n<a
+        href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/51%2C153%2C153%2CB/browse\">2</a>\n<a
+        href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/101%2C153%2C153%2CB/browse\">3</a>\n<a
+        href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/151%2C153%2C153%2CB/browse\">4</a>\n<a
+        href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/51%2C153%2C153%2CB/browse\">Next</a>\n<!--
+        end page widgit -->\n</td>\n</tr>\n<!-- END BROWSE PAGER -->\n\n<!-- BEGIN
+        BROWSE SCREEN LEFT CELL: BROWSELIST/BRIEFCIT AREA -->\n<tr><td>\n<table border=\"0\"
+        cellpadding=\"3\" cellspacing=\"1\" class=\"briefcitdata\" align=\"center\">\n<tr
+        align=\"CENTER\" valign=\"MIDDLE\">\n<td colspan=\"5\"  class=\"browseSaveJump\"
+        width=\"85%\">\n<form method=\"POST\" action=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"
+        name=\"export_form\" id=\"export_form\" >\n<input type=\"hidden\" name=\"jumpref\"
+        value=\"X%28brooklyn%29\">\n<input type=\"hidden\" id=\"save_func\" name=\"save_func\"
+        value=\"\"/>\n<span name='save_page_btn1' id='save_page_btn1' style='visibility:
+        visible' ><a href=\"#\" onclick=\"process_save(1);\" style=\"text-decoration:none\">\n<img
+        src=\"/screens/saveallpage.gif\" alt=\"Save all on page\" class=\"button4\"
+        \ height=\"28\" border=\"0\" /></a>\n</span>\n</td></tr>\n\n\n</td>\n</tr>\n<tr
+        \ class=\"browseHeader\">\n<td align=\"center\" class=\"browseHeaderData\">\nWORDS
+        anywhere (1-50 of 153)\n</td>\n</tr>\n<!-- Right Result rank 1 -->\n<tr  class=\"browseSuperEntry
+        browseEntryRelGroup1\"><td colspan=\"1\"><img src=\"/screens/relevance5.gif\"
+        alt=\"\">&nbsp;Most relevant titles&nbsp;entries 1-31</td></tr>\n\n\n<!--{toplogo}-->\n\n\n<!--
+        briefcit.html -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with
+        bib listings -->\n<table width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\"
+        valign=\"top\" width=\"5%\" class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_1'></a>
+        1\n</b>\n<br />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td
+        align=\"left\" valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&1%2C1%2C\">Draft
+        environmental impact statement and section 4(f) statement for West Side highway,
+        Interstate ro</a></span>&nbsp;\n\nU. S. Dept. of Transportation, Federal Highway
+        Administration and New York State Dept. of Transportation</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\n[S.l. : s.n., 1974?]\n<!--
+        span class=\"briefcitStatus\" -->\n<!-- holdingsmsg {} br -->\n<!-- holds
+        {} br -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!--
+        call number -->\n<b>\nHE356.5.N5 D72 1974</b>\n</span>\n<br />\n\n\n<!-- location
+        -->\nLocation:&nbsp;\nQuinn Annex\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_book.gif\"
+        alt=\"Book\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_1\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b116260#anchor_1')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_2'></a> 2\n</b>\n<br />\n<!--
+        \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&2%2C2%2C\">Brooklyn
+        barrister</a></span>&nbsp;\n\n</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\nBrooklyn, N.Y., Brooklyn Bar Association\n<!-- span class=\"briefcitStatus\"
+        -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br
+        />\n<span class=\"briefcitDetail\">\n<!-- call number -->\n<b>\nKF200 .B77</b>\n</span>\n<br
+        />\n\n\n<!-- location -->\nLocation:&nbsp;\nQuinn Annex\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
+        href=\"http://syndetics.com/index.aspx?isbn=0007232X/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=0007232X/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
+        width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
+        class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_jourser.gif\"
+        alt=\"Journal/Serial\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_2\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b118021#anchor_2')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_3'></a> 3\n</b>\n<br />\n<!--
+        \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&3%2C3%2C\">A
+        Tenant's guide to Brooklyn Housing Court</a></span>&nbsp;\n\nThe Association
+        of the Bar of the City of New York, Special Committee on Public Service and
+        Education</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!-- publisher
+        -->\nNew York : The Committee, 1990\n<!-- span class=\"briefcitStatus\" -->\n<!--
+        holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br />\n<span
+        class=\"briefcitDetail\">\n<!-- call number -->\n<b>\nKFX2022 .T283 1990</b>\n</span>\n<br
+        />\n\n\n<!-- location -->\nLocation:&nbsp;\nStacks\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_book.gif\"
+        alt=\"Book\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_3\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b132399#anchor_3')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_4'></a> 4\n</b>\n<br />\n<!--
+        \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&4%2C4%2C\">A
+        history of the city of Brooklyn : including the old town and village of Brooklyn,
+        the town of Bush</a></span>&nbsp;\n\nby Henry R. Stiles</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\nBrooklyn, N.Y. : Pub. by subscription,
+        1867-1870\n<!-- span class=\"briefcitStatus\" -->\n<!-- holdingsmsg {} br
+        -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!--
+        call number -->\n<b>\nF129 .B7</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nQuinn
+        Annex\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!-- items {}-->\n<!--
+        Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u} \n\">\n-->\n\n\n<br
+        />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display the 856 field data
+        briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_book.gif\"
+        alt=\"Book\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_4\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b134997#anchor_4')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_5'></a> 5\n</b>\n<br />\n<!--
+        \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&5%2C5%2C\">Centennial
+        journal commemorating the 100th anniversary of the Brooklyn Bar Association,
+        1872-1972</a></span>&nbsp;\n\n</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\n[Brooklyn : Brooklyn Bar Association, 1972]\n<!-- span class=\"briefcitStatus\"
+        -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br
+        />\n<span class=\"briefcitDetail\">\n<!-- call number -->\n<b>\nKF334 .B76</b>\n</span>\n<br
+        />\n\n\n<!-- location -->\nLocation:&nbsp;\nQuinn Annex\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_book.gif\"
+        alt=\"Book\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_5\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b141658#anchor_5')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_6'></a> 6\n</b>\n<br />\n<!--
+        \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&6%2C6%2C\">Brooklyn
+        Law School : the first hundred years</a></span>&nbsp;\n\nJeffrey Brandon Morris</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\nBrooklyn, N.Y. : Brooklyn Law
+        School, c2001\n<!-- span class=\"briefcitStatus\" -->\n<!-- holdingsmsg {}
+        br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!--
+        call number -->\n<b>\nKF292.B764 M67 2001</b>\n</span>\n<br />\n\n\n<!-- location
+        -->\nLocation:&nbsp;\nStacks\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
+        href=\"http://syndetics.com/index.aspx?isbn=0971295301/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=0971295301/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
+        width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
+        class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_book.gif\" alt=\"Book\">\n</td>\n\n\n\n\n<td
+        valign=\"top\" width=\"5%\" class=\"briefcitActions\" style=\"padding-right:
+        5px;\">\n<a href=\"#anchor_6\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b201372#anchor_6')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_7'></a> 7\n</b>\n<br />\n<!--
+        \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&7%2C7%2C\">The
+        bench and bar of Kings County, N.Y. and the bench and bar of the city of Brooklyn,
+        1686-1884 wit</a></span>&nbsp;\n\nby L.B. Proctor</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\nBrooklyn : [s.n.], 1884\n<!-- span class=\"briefcitStatus\"
+        -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br
+        />\n<span class=\"briefcitDetail\">\n<!-- call number -->\n<b>\n</b>\n</span>\n<br
+        />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F100387242&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_7\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b215096#anchor_7')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_8'></a> 8\n</b>\n<br />\n<!--
+        \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&8%2C8%2C\">Special
+        reports of the Board of Mediation and Arbitration on the Brooklyn street railway
+        strike</a></span>&nbsp;\n\n</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\nAlbany : J.B. Lyon, 1895\n<!-- span class=\"briefcitStatus\"
+        -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br
+        />\n<span class=\"briefcitDetail\">\n<!-- call number -->\n<b>\n</b>\n</span>\n<br
+        />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F102006426&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_8\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b218538#anchor_8')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_9'></a> 9\n</b>\n<br />\n<!--
+        \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&9%2C9%2C\">Before
+        the Governor on the \"Act to amend the articles of association of the Atlantic
+        Avenue Railroad</a></span>&nbsp;\n\nof Rufus W. Peckham on the constitutionality
+        of the bill</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!-- publisher
+        -->\nBrooklyn : Union-Argus Steam Printing Establishment, 1879\n<!-- span
+        class=\"briefcitStatus\" -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br
+        -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!-- call
+        number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F105080134&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_9\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b225930#anchor_9')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_10'></a> 10\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&10%2C10%2C\">Trial
+        of Pasach N. Rubenstein for the murder of Sarah Alexander, in the town of
+        New Lots (near Brook</a></span>&nbsp;\n\n</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\nNew York : Baker, Voorhis, 1876\n<!-- span class=\"briefcitStatus\"
+        -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br
+        />\n<span class=\"briefcitDetail\">\n<!-- call number -->\n<b>\n</b>\n</span>\n<br
+        />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F106597618&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_10\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b228931#anchor_10')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_11'></a> 11\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&11%2C11%2C\">The
+        report of the Honorable Elihu Root, secretary of state, on the petition to
+        the president of repr</a></span>&nbsp;\n\n</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\n[Washington, D.C.? : s.n., 1908?]\n<!-- span class=\"briefcitStatus\"
+        -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br
+        />\n<span class=\"briefcitDetail\">\n<!-- call number -->\n<b>\n</b>\n</span>\n<br
+        />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F152423919&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_11\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b236042#anchor_11')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_12'></a> 12\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&12%2C12%2C\">VAMC
+        Brooklyn and related issues hearing before the Subcommittee on Hospitals and
+        Health Care of the</a></span>&nbsp;\n\n</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\nWashington : U.S. G.P.O. : For sale by the U.S. G.P.O., Supt.
+        of Docs., Congressional Sales Office, 1996\n<!-- span class=\"briefcitStatus\"
+        -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br
+        />\n<span class=\"briefcitDetail\">\n<!-- call number -->\n<b>\nMICROFICHE</b>\n</span>\n<br
+        />\n\n\n<!-- location -->\nLocation:&nbsp;\nMicroforms Room\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
+        href=\"http://syndetics.com/index.aspx?isbn=0160522528/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=0160522528/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
+        width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
+        class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_micro.gif\" alt=\"Microform\">\n</td>\n\n\n\n\n<td
+        valign=\"top\" width=\"5%\" class=\"briefcitActions\" style=\"padding-right:
+        5px;\">\n<a href=\"#anchor_12\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b267541#anchor_12')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_13'></a> 13\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&13%2C13%2C\">Brooklyn
+        journal of corporate, financial & commercial law</a></span>&nbsp;\n\n</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\nBrooklyn, N.Y.  : Brooklyn
+        Law School, 2006-\n<!-- span class=\"briefcitStatus\" -->\n<!-- holdingsmsg
+        {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!--
+        call number -->\n<b>\nK2 .R635</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nReserve\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
+        href=\"http://syndetics.com/index.aspx?isbn=19342497/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=19342497/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
+        width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
+        class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_jourser.gif\"
+        alt=\"Journal/Serial\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_13\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b309133#anchor_13')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_14'></a> 14\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&14%2C14%2C\">Brooklyn
+        barrister</a></span>&nbsp;\n\n</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\nBrooklyn, N.Y. : Brooklyn Bar Association, 1950-\n<!-- span
+        class=\"briefcitStatus\" -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br
+        -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!-- call
+        number -->\n<b>\nMICROFICHE</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nMicroforms
+        Room\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!-- items {}-->\n<!--
+        Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u} \n\">\n-->\n\n\n<br
+        />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display the 856 field data
+        briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
+        href=\"http://syndetics.com/index.aspx?isbn=0007232X/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=0007232X/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
+        width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
+        class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_micro.gif\" alt=\"Microform\">\n</td>\n\n\n\n\n<td
+        valign=\"top\" width=\"5%\" class=\"briefcitActions\" style=\"padding-right:
+        5px;\">\n<a href=\"#anchor_14\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b313885#anchor_14')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_15'></a> 15\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&15%2C15%2C\">Brownsville,
+        Brooklyn : Blacks, Jews, and the changing face of the ghetto</a></span>&nbsp;\n\nWendell
+        Pritchett</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!-- publisher
+        -->\nChicago : University of Chicago Press, 2002\n<!-- span class=\"briefcitStatus\"
+        -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br
+        />\n<span class=\"briefcitDetail\">\n<!-- call number -->\n<b>\nF129.B7 P75
+        2002</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nStacks\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
+        href=\"http://syndetics.com/index.aspx?isbn=0226684466/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=0226684466/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
+        width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
+        class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_book.gif\" alt=\"Book\">\n</td>\n\n\n\n\n<td
+        valign=\"top\" width=\"5%\" class=\"briefcitActions\" style=\"padding-right:
+        5px;\">\n<a href=\"#anchor_15\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b332926#anchor_15')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_16'></a> 16\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&16%2C16%2C\">Brooklyn
+        journal of corporate, financial & commercial law</a></span>&nbsp;\n\n</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\nBrooklyn, N.Y. : Brooklyn Law
+        School, 2006-\n<!-- span class=\"briefcitStatus\" -->\n<!-- holdingsmsg {}
+        br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!--
+        call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://TE7DQ2DS4M.search.serialssolutions.com/?V=1.0&L=TE7DQ2DS4M&S=JCs&C=BJOCF&T=marc\">\nOnline
+        Access Information</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_16\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b338022#anchor_16')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_17'></a> 17\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&17%2C17%2C\">Brooklyn
+        journal of international law</a></span>&nbsp;\n\n</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\nBrooklyn, N.Y. : Brooklyn Law School\n<!-- span class=\"briefcitStatus\"
+        -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br
+        />\n<span class=\"briefcitDetail\">\n<!-- call number -->\n<b>\n</b>\n</span>\n<br
+        />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://TE7DQ2DS4M.search.serialssolutions.com/?V=1.0&L=TE7DQ2DS4M&S=JCs&C=BROOJOUOFIN&T=marc\">\nOnline
+        Access Information</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
+        href=\"http://syndetics.com/index.aspx?isbn=21630895/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=21630895/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
+        width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
+        class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\" alt=\"Online
+        Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_17\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b338025#anchor_17')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_18'></a> 18\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&18%2C18%2C\">Brooklyn
+        law review</a></span>&nbsp;\n\n</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\nBrooklyn : [Brooklyn Law School], 1932-\n<!-- span class=\"briefcitStatus\"
+        -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br
+        />\n<span class=\"briefcitDetail\">\n<!-- call number -->\n<b>\n</b>\n</span>\n<br
+        />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://TE7DQ2DS4M.search.serialssolutions.com/?V=1.0&L=TE7DQ2DS4M&S=JCs&C=BROOLAWREV&T=marc\">\nOnline
+        Access Information</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_18\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b338026#anchor_18')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_19'></a> 19\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&19%2C19%2C\">Is
+        Brooklyn being counted? problems with the 2010 census : hearing before the
+        Committee on Oversight</a></span>&nbsp;\n\n</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\nWashington : U.S. G.P.O., 2011\n<!-- span class=\"briefcitStatus\"
+        -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br
+        />\n<span class=\"briefcitDetail\">\n<!-- call number -->\n<b>\n</b>\n</span>\n<br
+        />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://purl.fdlp.gov/GPO/gpo8598\">\nOnline
+        Resource via GPO</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_19\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b378517#anchor_19')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_20'></a> 20\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&20%2C20%2C\">The
+        city of Brooklyn, 1865-1898 : a political history</a></span>&nbsp;\n\nby Harold
+        Coffin Syrett</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!-- publisher
+        -->\nNew York : Columbia University Press, 1944\n<!-- span class=\"briefcitStatus\"
+        -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br
+        />\n<span class=\"briefcitDetail\">\n<!-- call number -->\n<b>\n</b>\n</span>\n<br
+        />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.beal/cibroo0001&id=1&collection=newyork\">\nOnline
+        Resource via HeinOnline (access: current Fordham community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_20\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b428822#anchor_20')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_21'></a> 21\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&21%2C21%2C\">Is
+        Brooklyn being counted? : problems with the 2010 census : hearing before the
+        Committee on Oversig</a></span>&nbsp;\n\n</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\nWashington : U.S. Government Printing Office, 2011\n<!-- span
+        class=\"briefcitStatus\" -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br
+        -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!-- call
+        number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.cbhear/cbhearings96325&id=1&size=2&collection=congrec&index=cbhear\">\nOnline
+        Resource via HeinOnline (access: current Fordham community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_21\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b453918#anchor_21')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_22'></a> 22\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&22%2C22%2C\">The
+        true history of the Brooklyn scandal : being a complete account of the trial
+        of the Rev. Henry W</a></span>&nbsp;\n\nby Charles F. Marshall</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\nPhiladelphia, Pa. ; Chicago,
+        Ill. : National Pub. Co., [1874]\n<!-- span class=\"briefcitStatus\" -->\n<!--
+        holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br />\n<span
+        class=\"briefcitDetail\">\n<!-- call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!--
+        location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.trials/abld0001&id=1&collection=religion&index=religion#1\">\nOnline
+        Resource via HeinOnline (access: current Fordham community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_22\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b525550#anchor_22')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_23'></a> 23\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&23%2C23%2C\">The
+        Brooklyn murders</a></span>&nbsp;\n\nby G.D.H. Cole</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\nNew York : Thomas Seltzer,
+        1924\n<!-- span class=\"briefcitStatus\" -->\n<!-- holdingsmsg {} br -->\n<!--
+        holds {} br -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!--
+        call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.trials/brkmrd0001&id=1&collection=trials&index=alpha/B_trials#1\">\nOnline
+        Resource via HeinOnline (access: current Fordham community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_23\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b550180#anchor_23')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_24'></a> 24\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&24%2C24%2C\">Crooked
+        Brooklyn : taking down corrupt judges, dirty politicians, killers, and body
+        snatchers</a></span>&nbsp;\n\nMichael Vecchione and Jerry Schmetterer</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\nNew York : Thomas Dunne Books,
+        2015\n<!-- span class=\"briefcitStatus\" -->\n<!-- holdingsmsg {} br -->\n<!--
+        holds {} br -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!--
+        call number -->\n<b>\nF129.B7 V43 2015</b>\n</span>\n<br />\n\n\n<!-- location
+        -->\nLocation:&nbsp;\nStacks\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
+        href=\"http://syndetics.com/index.aspx?isbn=9781250065186/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=9781250065186/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
+        width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
+        class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_book.gif\" alt=\"Book\">\n</td>\n\n\n\n\n<td
+        valign=\"top\" width=\"5%\" class=\"briefcitActions\" style=\"padding-right:
+        5px;\">\n<a href=\"#anchor_24\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b593472#anchor_24')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_25'></a> 25\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&25%2C25%2C\">The
+        argument of Rev. S.T. Spear, D.D., before the Brooklyn Presbytery, at the
+        trial of Rev. T. De Wi</a></span>&nbsp;\n\n</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\nNew York : [publisher not identified], 1879\n<!-- span class=\"briefcitStatus\"
+        -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br
+        />\n<span class=\"briefcitDetail\">\n<!-- call number -->\n<b>\n</b>\n</span>\n<br
+        />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.trials/zzrh0001&id=1&collection=religion&index=alpha/A_religion\">\nOnline
+        Resource via HeinOnline (access: current Fordham community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_25\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b600354#anchor_25')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_26'></a> 26\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&26%2C26%2C\">The
+        great Brooklyn romance : all the documents in the famous Beecher-Tilton case,
+        unabridged</a></span>&nbsp;\n\n</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\nNew York, N.Y. : J. H. Paxon, 1874\n<!-- span class=\"briefcitStatus\"
+        -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br
+        />\n<span class=\"briefcitDetail\">\n<!-- call number -->\n<b>\n</b>\n</span>\n<br
+        />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.trials/aapi0001&id=1&size=2&collection=trials&index=trials/aapi\">\nOnline
+        Resource via HeinOnline (access: current Fordham community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_26\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b610381#anchor_26')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_27'></a> 27\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&27%2C27%2C\">Sylvester
+        J. Sherman, versus the city of Brooklyn : points for plaintiff, on motion
+        before His Honor</a></span>&nbsp;\n\n</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\n[New York] : Tompkins, [1871]\n<!-- span class=\"briefcitStatus\"
+        -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br
+        />\n<span class=\"briefcitDetail\">\n<!-- call number -->\n<b>\n</b>\n</span>\n<br
+        />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.trials/abjf0001&id=1&size=2&collection=trials&index=alpha/N_trials\">\nOnline
+        Resource via HeinOnline (access: current Fordham community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_27\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b611253#anchor_27')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_28'></a> 28\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&28%2C28%2C\">VAMC
+        Brooklyn and related issues : hearing before the Subcommittee on Hospitals
+        and Health Care of t</a></span>&nbsp;\n\n</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\nWashington : U.S. Government Printing Office, 1996\n<!-- span
+        class=\"briefcitStatus\" -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br
+        -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!-- call
+        number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.cbhear/fdsysacmq0001&id=1&size=2&collection=congrec&index=cbhear\">\nOnline
+        Resource via HeinOnline (access: current Fordham community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_28\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b628199#anchor_28')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_29'></a> 29\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&29%2C29%2C\">Battle
+        for Brooklyn</a></span>&nbsp;\n\nMPI ; a RUMUR film ; directed & produced
+        by Michael Galinsky & Suki Hawley ; produced by  David Beilinson</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\n[Brooklyn, NY] : RUMUR, 2011\n<!--
+        span class=\"briefcitStatus\" -->\n<!-- holdingsmsg {} br -->\n<!-- holds
+        {} br -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!--
+        call number -->\n<b>\nHT177.N5 B388 2011</b>\n</span>\n<br />\n\n\n<!-- location
+        -->\nLocation:&nbsp;\nMedia\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_vidvd.gif\"
+        alt=\"Video/DVD\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_29\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b447088#anchor_29')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_30'></a> 30\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&30%2C30%2C\">Brooklyn
+        law review</a></span>&nbsp;\n\n</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\nBrooklyn : [Brooklyn Law School]\n<!-- span class=\"briefcitStatus\"
+        -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br
+        />\n<span class=\"briefcitDetail\">\n<!-- call number -->\n<b>\nK2 .R65</b>\n</span>\n<br
+        />\n\n\n<!-- location -->\nLocation:&nbsp;\nReserve\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
+        href=\"http://syndetics.com/index.aspx?isbn=00072362/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=00072362/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
+        width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
+        class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_jourser.gif\"
+        alt=\"Journal/Serial\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_30\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b118022#anchor_30')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_31'></a> 31\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&31%2C31%2C\">A
+        sermon preached on the day of the National Fast, January 4th, A.D. 1861, in
+        St. John's Church, Bro</a></span>&nbsp;\n\nby the Rector, Rev. Thomas T. Guion</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\nBrooklyn : I. Van Anden's Print,
+        10 and 12 Fulton Street, 1861\n<!-- span class=\"briefcitStatus\" -->\n<!--
+        holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br />\n<span
+        class=\"briefcitDetail\">\n<!-- call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!--
+        location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.religion/snatlfst0001&id=1&size=2&collection=religion&index=alpha/S_religion\">\nOnline
+        Resource via HeinOnline (access: current Fordham community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_31\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b605802#anchor_31')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n<!-- Right Result rank 2 -->\n<tr
+        \ class=\"browseSuperEntry browseEntryRelGroup2\"><td colspan=\"1\"><img src=\"/screens/relevance4.gif\"
+        alt=\"\">&nbsp;Highly relevant titles&nbsp;entries 32-71</td></tr>\n\n\n<!--{toplogo}-->\n\n\n<!--
+        briefcit.html -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with
+        bib listings -->\n<table width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\"
+        valign=\"top\" width=\"5%\" class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_32'></a>
+        32\n</b>\n<br />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td
+        align=\"left\" valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&32%2C32%2C\">Transcript
+        of Testimony : Brooklyn public hearing, April 23, 1987,  Brooklyn Law School,
+        250 Joralem</a></span>&nbsp;\n\nNew York City Charter Revision Commission</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\nNew York : The Commission,
+        [1987]\n<!-- span class=\"briefcitStatus\" -->\n<!-- holdingsmsg {} br -->\n<!--
+        holds {} br -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!--
+        call number -->\n<b>\nKFX2015 .N483 1987</b>\n</span>\n<br />\n\n\n<!-- location
+        -->\nLocation:&nbsp;\nStacks\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_book.gif\"
+        alt=\"Book\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_32\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b125047#anchor_32')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_33'></a> 33\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&33%2C33%2C\">Conduct
+        unbecoming a woman : medicine on trial in turn-of-the-century Brooklyn</a></span>&nbsp;\n\nRegina
+        Morantz-Sanchez</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!-- publisher
+        -->\nNew York : Oxford University Press, 1999\n<!-- span class=\"briefcitStatus\"
+        -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br
+        />\n<span class=\"briefcitDetail\">\n<!-- call number -->\n<b>\nRG67.U6 M67
+        1999</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nStacks\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
+        href=\"http://syndetics.com/index.aspx?isbn=0195126246/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=0195126246/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
+        width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
+        class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_book.gif\" alt=\"Book\">\n</td>\n\n\n\n\n<td
+        valign=\"top\" width=\"5%\" class=\"briefcitActions\" style=\"padding-right:
+        5px;\">\n<a href=\"#anchor_33\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b181382#anchor_33')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_34'></a> 34\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&34%2C34%2C\">An
+        impartial account of the life of the Rev. John N. Maffitt with a narrative
+        of the difficulties at</a></span>&nbsp;\n\nby Moses Elsemore</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\nNew York : J.F. Feeks, 1848\n<!--
+        span class=\"briefcitStatus\" -->\n<!-- holdingsmsg {} br -->\n<!-- holds
+        {} br -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!--
+        call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F100426960&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_34\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b215585#anchor_34')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_35'></a> 35\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&35%2C35%2C\">Dinner
+        to Hon. Benjamin D. Silliman given by the Bar of New York and Brooklyn, May
+        24, 1889, at Delm</a></span>&nbsp;\n\n</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\nNew York : Press of Fleming, Brewster & Alley, 1889\n<!-- span
+        class=\"briefcitStatus\" -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br
+        -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!-- call
+        number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F100473349&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_35\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b215627#anchor_35')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_36'></a> 36\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&36%2C36%2C\">Wages
+        and tariffs influence of the protective system on wages, social organization
+        and the distribut</a></span>&nbsp;\n\nby E.J. Donnell</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\nNew York : Wilcox & O'Donnell,
+        [1884]\n<!-- span class=\"briefcitStatus\" -->\n<!-- holdingsmsg {} br -->\n<!--
+        holds {} br -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!--
+        call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F102914415&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_36\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b220448#anchor_36')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_37'></a> 37\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&37%2C37%2C\">Fugitive
+        slave law the religious duty of obedience to law : a sermon preached in the
+        Second Presbyte</a></span>&nbsp;\n\nby Ichabod S. Spencer</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\nNew York : M.W. Dodd, 1850\n<!--
+        span class=\"briefcitStatus\" -->\n<!-- holdingsmsg {} br -->\n<!-- holds
+        {} br -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!--
+        call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F102950646&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_37\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b220836#anchor_37')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_38'></a> 38\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&38%2C38%2C\">Notes
+        on criminal anthropology and bio-sociology being a study of seventy-three
+        Irish and Irish-Amer</a></span>&nbsp;\n\nby Henry Lyle Winter</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\nUtica, N.Y. : State Hospitals
+        Press, 1897\n<!-- span class=\"briefcitStatus\" -->\n<!-- holdingsmsg {} br
+        -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!--
+        call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F102946096&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_38\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b221041#anchor_38')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_39'></a> 39\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&39%2C39%2C\">Constitutions
+        and by-laws of the Municipal League of Philadelphia City Club of New York,
+        Citizens' A</a></span>&nbsp;\n\n</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\n[Philadelphia : The League], 1895\n<!-- span class=\"briefcitStatus\"
+        -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br
+        />\n<span class=\"briefcitDetail\">\n<!-- call number -->\n<b>\n</b>\n</span>\n<br
+        />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F105877220&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_39\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b227446#anchor_39')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_40'></a> 40\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&40%2C40%2C\">The
+        tax laws of the state of New York including the tax law of 1896, and other
+        laws relating to gene</a></span>&nbsp;\n\nedited by Robert C. Cumming and
+        Frank B. Gilbert</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!-- publisher
+        -->\nNew York : Baker, Voorhis, 1896\n<!-- span class=\"briefcitStatus\" -->\n<!--
+        holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br />\n<span
+        class=\"briefcitDetail\">\n<!-- call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!--
+        location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F106202125&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_40\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b227707#anchor_40')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_41'></a> 41\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&41%2C41%2C\">Alexander
+        Hamilton stenographic report of an address delivered at the Hamilton Club
+        of Brooklyn, N.Y</a></span>&nbsp;\n\nby Nicholas Murray Butler</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\n[New York : s.n., 1913]\n<!--
+        span class=\"briefcitStatus\" -->\n<!-- holdingsmsg {} br -->\n<!-- holds
+        {} br -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!--
+        call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F150483097&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_41\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b229367#anchor_41')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_42'></a> 42\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&42%2C42%2C\">Daniel
+        Webster, the orator an address delivered before the Brooklyn Institute of
+        Arts and Sciences a</a></span>&nbsp;\n\nby Albert E. Pillsbury</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\n[Boston? : s.n.], c1903\n<!--
+        span class=\"briefcitStatus\" -->\n<!-- holdingsmsg {} br -->\n<!-- holds
+        {} br -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!--
+        call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F151690221&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_42\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b230198#anchor_42')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_43'></a> 43\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&43%2C43%2C\">Outline
+        of the law of trusts prepared for the use of students in the Brooklyn Law
+        School of St. Lawr</a></span>&nbsp;\n\nby George Ingalls Woolley</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\nBrooklyn, N.Y. : [s.n.], 1905\n<!--
+        span class=\"briefcitStatus\" -->\n<!-- holdingsmsg {} br -->\n<!-- holds
+        {} br -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!--
+        call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F150268050&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_43\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b230664#anchor_43')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_44'></a> 44\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&44%2C44%2C\">A
+        statement addressed to Hon. Charles S. Whitman, governor, upon the failure
+        of the Industrial Commi</a></span>&nbsp;\n\n</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\n[New York : s.n., 1915]\n<!-- span class=\"briefcitStatus\"
+        -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br
+        />\n<span class=\"briefcitDetail\">\n<!-- call number -->\n<b>\n</b>\n</span>\n<br
+        />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F152112536&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_44\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b231792#anchor_44')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_45'></a> 45\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&45%2C45%2C\">Relation
+        of employer and employee in reference to inventions a paper read before the
+        Modern Science </a></span>&nbsp;\n\nby Grafton L. McGill</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\n[New York? : s.n., 1903?]\n<!--
+        span class=\"briefcitStatus\" -->\n<!-- holdingsmsg {} br -->\n<!-- holds
+        {} br -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!--
+        call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F152509500&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_45\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b232153#anchor_45')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_46'></a> 46\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&46%2C46%2C\">Torrens
+        land title registration in its historical, practical and legal aspects address
+        delivered Oct</a></span>&nbsp;\n\nby Gilbert Ray Hawes</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\n[U.S. : s.n., 1910?]\n<!--
+        span class=\"briefcitStatus\" -->\n<!-- holdingsmsg {} br -->\n<!-- holds
+        {} br -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!--
+        call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F152542784&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_46\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b235336#anchor_46')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_47'></a> 47\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&47%2C47%2C\">Report
+        of Committee on Legal Ethics presented at the fortieth annual meeting of the
+        New York State B</a></span>&nbsp;\n\n</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\n[N.Y.? : s.n., 1917?]\n<!-- span class=\"briefcitStatus\" -->\n<!--
+        holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br />\n<span
+        class=\"briefcitDetail\">\n<!-- call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!--
+        location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F152423901&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_47\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b236035#anchor_47')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_48'></a> 48\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&48%2C48%2C\">Magnuson
+        Act and seafood safety : hearing before the Subcommittee on Fisheries Management
+        of the Com</a></span>&nbsp;\n\n</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\nWashington : U.S. Government Printing Office, 1993\n<!-- span
+        class=\"briefcitStatus\" -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br
+        -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!-- call
+        number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.cbhear/cbhearings12425&id=1&size=2&collection=congrec&index=cbhear\">\nOnline
+        Resource via HeinOnline (access: current Fordham community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_48\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b446236#anchor_48')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_49'></a> 49\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&49%2C49%2C\">Marriage
+        at the crossroads : law, policy, and the brave new world of twenty-first-century
+        families</a></span>&nbsp;\n\nedited by Marsha Garrison, Brooklyn Law School
+        ; Elizabeth S. Scott, Columbia University Law School</span>\n\n<br>\n<span
+        class=\"briefcitDetail\">\n<!-- publisher -->\nCambridge New York : Cambridge
+        University Press, 2012\n<!-- span class=\"briefcitStatus\" -->\n<!-- holdingsmsg
+        {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br />\n<span class=\"briefcitDetail\">\n<!--
+        call number -->\n<b>\nHQ536 .M3243 2012</b>\n</span>\n<br />\n\n\n<!-- location
+        -->\nLocation:&nbsp;\nStacks\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
+        href=\"http://syndetics.com/index.aspx?isbn=9781107018273/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=9781107018273/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
+        width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
+        class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_book.gif\" alt=\"Book\">\n</td>\n\n\n\n\n<td
+        valign=\"top\" width=\"5%\" class=\"briefcitActions\" style=\"padding-right:
+        5px;\">\n<a href=\"#anchor_49\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b454875#anchor_49')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n\n\n<!--{toplogo}-->\n\n\n<!-- briefcit.html
+        -->\n\n<tr>\n\n<td class=\"briefCitRow\" >\n<!-- table with bib listings -->\n<table
+        width=\"100%\" border=\"0\">\n<tr>\n<td align=\"center\" valign=\"top\" width=\"5%\"
+        class=\"briefcitResultInfo\">\n<b>\n<a name='anchor_50'></a> 50\n</b>\n<br
+        />\n<!-- \nmedia -->\n<br />\n<!--\n{avsrelevance}-->\n</td>\n\n<td align=\"left\"
+        valign=\"top\" width=\"90%\" class=\"briefcitDetail\">\n<!--{nohitmsg}-->\n\n<span
+        class=\"briefcitTitle\">\n<!--\n{linkfieldspec:Vbt}-->\n<a href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/frameset&FF=X%28brooklyn%29&SORT=RZ&50%2C50%2C\">The
+        miscellaneous reports : cases decided in the inferior courts of record of
+        the state of New York </a></span>&nbsp;\n\n</span>\n\n<br>\n<span class=\"briefcitDetail\">\n<!--
+        publisher -->\nAlbany : J.B. Lyon, 1893-1942\n<!-- span class=\"briefcitStatus\"
+        -->\n<!-- holdingsmsg {} br -->\n<!-- holds {} br -->\n<!-- /span -->\n\n\n<br
+        />\n<span class=\"briefcitDetail\">\n<!-- call number -->\n<b>\n</b>\n</span>\n<br
+        />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
+        items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
+        \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Index?index=newyork/repsnyaad&collection=newyork\">\nOnline
+        Resource via HeinOnline (access: current Fordham community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
+        class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
+        valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
+        14px;\"><center>\n-->\n<td class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\"
+        alt=\"Online Resource\">\n</td>\n\n\n\n\n<td valign=\"top\" width=\"5%\" class=\"briefcitActions\"
+        style=\"padding-right: 5px;\">\n<a href=\"#anchor_50\" onClick=\"return replace_or_redraw('/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse?save=b457267#anchor_50')\"><img
+        src=\"/screens/bookcart.gif\" alt=\"Add to Book Cart\" class=\"button2\" border=\"0\"
+        /></a><!--\n#t# {mylists}-->\n<br />\n<br class=\"space\">\n<!--\n{request}-->\n\n</td>\n</tr>\n</table>\n<!--
+        end of table -->\n\n</td>\n</tr>\n\n\n<!-- another row -->\n\n\n\n\n\n<!--this
+        is customized <screens/briefcit.html>-->\n<tr align=\"CENTER\" valign=\"MIDDLE\">\n<td
+        colspan=\"5\"  class=\"browseSaveJump\" width=\"85%\">\n</form>\n\n<form action=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse/indexsort=D\"
+        method=\"POST\">\n<input type=\"HIDDEN\" name=\"jumpref\" value=\"X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\">\n<script
+        type=\"text/JavaScript\">\n\nfunction iiiDoSubmit_1()\n{\n//getFormHandleForm()
+        is in common.js\nvar obj = getFormHandleForm(1);\nobj.submit();\n}\n</script>\n<input
+        type=\"hidden\" id=\"iiiFormHandle_1\"/>\n<a href=\"#\" onclick=\"iiiDoSubmit_1();\"><img
+        src=\"/screens/locateinresults.gif\" alt=\"Locate in results\" class=\"button3\"
+        width=\"120\" height=\"20\" border=\"0\" /></a>\n\n\n\n<script type=\"text/JavaScript\">\n\n//getFormHandleForm()
+        is in common.js\nvar evtobj = getFormHandleForm(1);\nif (document.layers)\n
+        \   {\n    document.captureEvents(Event.KEYUP);\n    }\ndocument.onkeyup =
+        function(evt)\n{\nif (!evt) evt = window.event;\nvar keyCode;\nif (evt.which)
+        keyCode = evt.which;\nelse if (evt.keyCode) keyCode = evt.keyCode;\nvar targ;\nif
+        (evt.target) targ = evt.target;\nelse if (evt.srcElement) targ = evt.srcElement;\nif
+        (targ.nodeType == 3) //for Safari bug\n    targ = targ.parentNode;\nif (targ.form)\n
+        \   {\n    targ = targ.form;\n    //alert('targ='+targ+'  evtobj='+evtobj);\n
+        \   if (keyCode == 13 && targ == evtobj)\n        {\n        iiiDoSubmit_1();\n
+        \       }\n    }\n};\n\n</script>\n<input type=\"TEXT\" name=\"jumpto\" value=\"153\"
+        size=\"3\" maxlength=\"3\">\n</form>\n\n</td></tr>\n\n\n</td>\n</tr>\n</table>\n<!--
+        END BROWSELIST/BRIEFCIT AREA -->\n</td>\n<!-- END BROWSE SCREEN LEFT CELL
+        -->\n\n</tr>\n\n<!-- BEGIN BOTTOM BROWSE PAGER -->\n<!-- begin page widgit
+        -->\n<tr  class=\"browsePager\"><td align=\"center\"  class=\"browsePager\"
+        colspan=\"5\">\n\n<font color=\"maroon\">Result Page:</font>&nbsp;&nbsp;<strong>1</strong>\n<a
+        href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/51%2C153%2C153%2CB/browse\">2</a>\n<a
+        href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/101%2C153%2C153%2CB/browse\">3</a>\n<a
+        href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/151%2C153%2C153%2CB/browse\">4</a>\n<a
+        href=\"/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/51%2C153%2C153%2CB/browse\">Next</a>\n<!--
+        end page widgit -->\n</td>\n</tr>\n<!-- END BOTTOM BROWSE PAGER -->\n</table>\n<!--
+        END BROWSE SCREEN TABLE -->\n<div align=\"center\" class=\"navigationRow\">\n<form>\n<a
+        href=\"/search/X\"><img src=\"/screens/startover.gif\" class=\"button2\" alt=\"Start
+        Over\" border=\"0\" /></a>\n<a href=\"/search/X?NOSRCH=%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)\"><img
+        src=\"/screens/modify.gif\" class=\"button2\" alt=\"Modify Search\" border=\"0\"
+        /></a>\n<a href=\"http://128.59.177.5/search/X?%28brooklyn%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><br
+        class=\"space\" /><img class=\"button2\" border=\"0\" src=\"/screens/s_columbia.gif\"></a>\n<a
+        href=\"http://128.122.159.10/search/X?%28brooklyn%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><img
+        class=\"button2\" border=\"0\" src=\"/screens/s_nyu.gif\"></a>\n<a href=\"http://ringding.law.yale.edu/search/X?%28brooklyn%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><img
+        class=\"button2\" border=\"0\" src=\"/screens/s_yale.gif\"></a>\n<a href=\"http://130.91.144.191/search/X?%28brooklyn%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><img
+        class=\"button2\" border=\"0\" src=\"/screens/s_upenn.gif\"></a>\n<a href=\"/search/X\"><img
+        src=\"/screens/another.gif\" alt=\"Another Search\" border=\"0\" /></a>\n<select
+        name=HISTORY onChange=\"onSelectChange(this, '')\"><option value=\"\">(Search
+        History)</option>\n<OPTION VALUE=\"X%28brooklyn%29&SORT=RZ\">WORDS anywhere:
+        (brooklyn)\n<OPTION VALUE=\"X%28%22MOML+Foreign%2C+Comparative%2C+and+International+Law%22%29&SORT=RZ\">WORDS
+        anywhere: (\"MOML Foreign, Comparative, and International Law\")\n<OPTION
+        VALUE=\"X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ\">WORDS
+        anywhere: (\"The Europeanisation of UK competition law\")\n<option value=\"+/search/X?%28brooklyn%29&SORT=RZ&clear_history\">(Clear
+        Search History)</option>\n<option value=\"+/\">(End Search Session)</option>\n</select>\n</form>\n</div>\n\n\n\n\n<!--
+        This page written in wordpad by tom k. -->\n\n<LINK REL=\"stylesheet\" TYPE=\"text/css\"
+        HREF=\"/screens/css/mym.css\">\n<LINK REL=\"stylesheet\" TYPE=\"text/css\"
+        HREF=\"/screens/css/template.css\">\n<tr><td>\n<table border=\"0\" cellpadding=\"0\"
+        cellspacing=\"0\" class=\"pconly\">\n<tr>\n\n<!-- Law Lib Footer -->\n<!--
+        light gray is #F1EFF0 -->\n<td class=\"ban2\" align=\"center\" bgcolor=\"white\"
+        height=\"35\" width=\"190px\"> \n<a class=\"ftr\" href=\"http://law.fordham.edu/\">Fordham
+        Law </a>\n</td>      \n<td class=\"ban2\" bgcolor=\"white\" align=\"center\"
+        Height=\"35\" width=\"485px\"><div class=\"nfo\">150 W 62 St. New York, NY
+        10023 &nbsp; (212) 636-6900 </div></td>      \n<td class=\"ban2\" align=\"center\"
+        bgcolor=\"white\" width=\"225px\"> \n<a class=\"ftr\" href=\"http://www.fordham.edu/\">Fordham
+        University </a></td>    \n</tr>\n<!-- End Law Lib Footer -->  \n<tr><td class=\"space\">&nbsp;</td></tr>\n</table>\n</td>\n</tr>\n\n</table>\n\n<!--
+        End of Page Table -->\n<!-- attempt to track offsite clicks below -->\n<script>\n/*
+        this is for pages using the \"new\" GA js */\nfunction _gaLt(event){\n    var
+        el = event.srcElement || event.target;\n\n    /* Loop up the DOM tree through
+        parent elements if clicked element is not a link (eg: an image inside a link)
+        */\n    while(el && (typeof el.tagName == 'undefined' || el.tagName.toLowerCase()
+        != 'a' || !el.href)){\n        el = el.parentNode;\n    }\n\n    if(el &&
+        el.href){\n        /* link */\n        var link = el.href;\n        if(link.indexOf(location.host)
+        == -1 && !link.match(/^javascript\\:/i)){ /* external link */\n            /*
+        HitCallback function to either open link in either same or new window */\n
+        \           var hitBack = function(link, target){\n                target
+        ? window.open(link, target) : window.location.href = link;\n            };\n
+        \           /* Is target set and not _(self|parent|top)? */\n            var
+        target = (el.target && !el.target.match(/^_(self|parent|top)$/i)) ? el.target
+        : false;\n            /* send event with callback */\n            ga(\n                \"send\",
+        \"event\", \"Outgoing Links\", link,\n                document.location.pathname
+        + document.location.search,\n                {\"hitCallback\": hitBack(link,
+        target)}\n            );\n\n            /* Prevent standard click */\n            event.preventDefault
+        ? event.preventDefault() : event.returnValue = !1;\n        }\n\n    }\n}\n\n/*
+        Attach the event to all clicks in the document after page has loaded */\nvar
+        w = window;\nw.addEventListener ? w.addEventListener(\"load\",function(){document.body.addEventListener(\"click\",_gaLt,!1)},!1)\n
+        : w.attachEvent && w.attachEvent(\"onload\",function(){document.body.attachEvent(\"onclick\",_gaLt)});\n
+        \n </script>\n<!-- end offsite click js -->\n\n<!-- google analytics below
+        -->\n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
+        \ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n
+        \ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n
+        \ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n
+        \ ga('create', 'UA-4308917-1', 'auto');\n  ga('send', 'pageview');\n\n</script>\n<!--
+        end google analytics -->\n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Tue, 07 Feb 2017 21:58:53 GMT
+recorded_with: VCR 3.0.3
