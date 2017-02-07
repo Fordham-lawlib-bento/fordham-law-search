@@ -16,7 +16,7 @@
   hr
   = bento_search *bento_search_args_for_object(search_object)
   - if search_object.display_configuration.link_out.present?
-    hr
+    hr.link-out-separator
     = link_to_results(search_args: {query: query},
                       url_template: search_object.display_configuration.link_out,
                       label_template: search_object.display_configuration.link_out_text,
