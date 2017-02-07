@@ -44,6 +44,30 @@ describe SierraBrowseEngine do
     end
   end
 
+  describe "super entry result" do
+    # If you match one heading that has multiple "next level" headings, you
+    # get a weird super-heading result that has to be handled special.
+    # Currently course name "civil" is such a result.
+    let(:query) { "civil" }
+    let(:search_type) { "r" }
+
+    it "returns proper heading result" do
+      results = engine.search(query)
+
+      expect(results.size).to eq(1)
+
+      result = results.first
+
+      expect(result.title).to be_present
+      expect(result.title.downcase.start_with?(query)).to be(true)
+
+      expect(result.format_str).to eq(format_str)
+
+      expect(result.link).to be_present
+      expect(Addressable::URI.parse(result.link)).to be_absolute
+    end
+  end
+
   describe "one result" do
     # Sierra jumps straight to bib record when there's only one hit
     let(:query) { "silverstein" }

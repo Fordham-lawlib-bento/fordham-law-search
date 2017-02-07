@@ -59,6 +59,8 @@ class SierraBrowseEngine
 
     if no_results?(document)
       # nothing
+    elsif result = extract_super_heading_result(document, base_url: base_url, query: args[:query])
+      results << result
     elsif result = extract_single_result(document, base_url: base_url, query: args[:query])
       results << result
     else # browse screen
@@ -86,6 +88,17 @@ class SierraBrowseEngine
 
   def no_results?(doc)
     !!(doc.text =~ /No matches found/)
+  end
+
+  # If you match one heading that has multiple "next level" headings, you
+  # get a weird super-heading result that has to be handled special.
+  def extract_super_heading_result(doc, base_url:, query:)
+    if super_entry_heading = doc.at_css("tr.browseSuperEntry")
+      return BentoSearch::ResultItem.new(
+        title: super_entry_heading.text.strip,
+        link: base_url.to_s
+      )
+    end
   end
 
   # Sierra returns a weird bib page if there's only ONE result, we need to
