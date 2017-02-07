@@ -111,11 +111,21 @@ params, it can trigger search form setup:
 
 ## Tests
 
-There aren't really any tests at present, if you were you'd run with `bundle exec rake`
-or `bundle exec rspec`.
+There are some limited automated tests. At present, just of the custom Sierra
+screen-scraping bento_search adapters, not of the actual UI.
 
-And I'd plan to use [VCR](https://github.com/vcr/vcr) in tests. TBD instructions on re-generating cassettes and setting auth
-for regenerating tests.
+Run tests with `bundle exec rake` or `bundle exec rspec`.
+
+We use [VCR](https://github.com/vcr/vcr) in tests, to record the transactions
+with Sierra, so ordinarily when running tests the code is not actually interacting
+with the Fordham Sierra, but using pre-recorded interactions.
+
+You might want to run tests with live sierra (and re-record VCR cassettes) to make
+sure everything is still good with actual Sierra behavior. But beware, if Fordham
+Sierra index has changed, you may need to find new queries that still demonstrate
+what's meant to be demo'd in tests. To re-record VCR cassettes with live interactions:
+
+    VCR=all bundle exec rspec
 
 ## Note on Windows development
 
