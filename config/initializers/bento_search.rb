@@ -147,7 +147,7 @@ BentoSearch.register_engine("reserves") do |conf|
       single_search_path("reserves", q: query )
     }
 
-    display.extra_links_label = "Full Reserves/Exams Searches"
+    display.extra_links_label = "Full Reserves/Exams Browse"
     display.extra_links = [
       {
         label: "By Professor →",
