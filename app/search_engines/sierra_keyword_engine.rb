@@ -87,10 +87,7 @@ class SierraKeywordEngine
     document = Nokogiri::HTML(response.body)
 
     results = BentoSearch::Results.new
-
-    if results.total_items == 0
-      # nothing
-    elsif single_result_page?(document)
+    if single_result_page?(document)
       results.total_items = extract_single_total_items(document)
       item = SingleItemExtractor.new(document, configuration).extract
       if item

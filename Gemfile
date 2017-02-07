@@ -39,6 +39,7 @@ gem 'bento_search', git: 'https://github.com/jrochkind/bento_search.git' #, bran
 gem 'slim-rails', '~> 3.1'
 gem 'concurrent-ruby', '~>1.0'
 gem 'kaminari' # pagination
+gem 'addressable', '~> 2.5' # completing partial URLs
 
 # heroku suggested, see config/rack_timeout.rb
 gem "rack-timeout"

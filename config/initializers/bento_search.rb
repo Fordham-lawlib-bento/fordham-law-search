@@ -103,18 +103,47 @@ BentoSearch.register_engine("articles") do |conf|
   end
 end
 
+# BentoSearch.register_engine("reserves") do |conf|
+#   conf.allow_routable_results = true
+
+#   conf.engine = "SierraKeywordEngine"
+#   conf.query_suffix = " (inCourseReserve)"
+#   conf.max_results = 3
+
+#   conf.for_display do |display|
+#     display.ajax = :auto
+#     display.heading = "Course Reserves/Exams"
+#     display.link_out = "http://lawpac.lawnet.fordham.edu/search/X?%28%s%20%28inCourseReserve%29%29&SORT=R&Da=&Db="
+#   end
+# end
+
+# This engine isn't exposed directly, but used by the reserves combo-searcher
+BentoSearch.register_engine("reserves_prof") do |conf|
+  conf.engine = "SierraBrowseEngine"
+  conf.search_type = "p"
+  conf.format_str = "Professor/TA"
+end
+
+# This engine isn't exposed directly, but used by the reserves combo-searcher
+BentoSearch.register_engine("reserves_course") do |conf|
+  conf.engine = "SierraBrowseEngine"
+  conf.search_type = "r"
+  conf.max_results = 3
+
+  conf.format_str = "Course"
+end
+
 BentoSearch.register_engine("reserves") do |conf|
   conf.allow_routable_results = true
+  conf.engine = "SierraCombinedBrowseEngine"
 
-  conf.engine = "SierraKeywordEngine"
-  conf.query_suffix = " (inCourseReserve)"
-  conf.max_results = 3
+  conf.component_engine_ids = ["reserves_prof", "reserves_course"]
 
   conf.for_display do |display|
     display.ajax = :auto
     display.heading = "Course Reserves/Exams"
-    display.link_out = "http://lawpac.lawnet.fordham.edu/search/X?%28%s%20%28inCourseReserve%29%29&SORT=R&Da=&Db="
   end
+
 end
 
 BentoSearch.register_engine("databases") do |conf|
