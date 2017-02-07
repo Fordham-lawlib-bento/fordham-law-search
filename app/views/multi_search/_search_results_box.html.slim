@@ -15,9 +15,7 @@
     div.hint = search_object.display_configuration.hint
   hr
   = bento_search *bento_search_args_for_object(search_object)
-  - if search_object.display_configuration.custom_link_out_footer_template.present?
-    = render search_object.display_configuration.custom_link_out_footer_template, search_object: search_object
-  - elsif search_object.display_configuration.link_out.present?
+  - if search_object.display_configuration.link_out.present?
     hr
     = link_to_results(search_args: {query: query},
                       url_template: search_object.display_configuration.link_out,

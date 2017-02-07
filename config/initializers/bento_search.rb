@@ -142,7 +142,6 @@ BentoSearch.register_engine("reserves") do |conf|
   conf.for_display do |display|
     display.ajax = :auto
     display.heading = "Course Reserves/Exams"
-    display.custom_link_out_footer_template = "reserves_link_out_footer"
   end
 
 end
