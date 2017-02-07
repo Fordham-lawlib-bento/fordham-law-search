@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe SierraKeywordEngine do
+describe SierraKeywordEngine, vcr: true do
   it "gets basic search results" do
     results = SierraKeywordEngine.new(id: 'mock').search("brooklyn")
 

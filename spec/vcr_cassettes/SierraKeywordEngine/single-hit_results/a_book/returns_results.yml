@@ -1,0 +1,354 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://lawpac.lawnet.fordham.edu/search/X?(%22The%2BEuropeanisation%2Bof%2BUK%2Bcompetition%2Blaw%22)&SORT=RZ
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.3.3 (2016-11-21))
+      Accept:
+      - "*/*"
+      Date:
+      - Tue, 07 Feb 2017 21:58:51 GMT
+      Cookie:
+      - SESSION_LANGUAGE=eng; III_EXPT_FILE=aa28676; III_SESSION_ID=e3b0c7bcc2cbc98cc8a2bd3313f80193;
+        SESSION_SCOPE=0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 07 Feb 2017 21:58:51 GMT
+      Server:
+      - III 100
+      Pragma:
+      - no-cache
+      Content-Type:
+      - text/html; charset=UTF-8
+      Expires:
+      - Tue, 7 Feb 2017 21:58:51 GMT
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - SESSION_LANGUAGE=eng; path=/; domain=.lawnet.fordham.edu; path=/
+      - SESSION_SCOPE=0; path=/
+      Vary:
+      - User-Agent,Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: "<!-- bib_display.html -->\n\n<!-- SMS WORKS -->\n<script type=\"text/javascript\"
+        src='/screens/sms.js'> </script>\n\n<html   dir=\"LTR\">\n<head>\n<title>Fordham
+        Law School Library        \n                                           </title>\n<base
+        target=\"_self\"/>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/scripts/ProStyles.css\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/screens/styles.css\"
+        />\n<link rel=\"shortcut icon\" type=\"ximage/icon\" href=\"/screens/favicon.ico\"
+        />\n<script type=\"text/javascript\" src=\"/scripts/common.js\"></script>\n\n<script
+        type=\"text/javascript\" src=\"/scripts/elcontent.js\"></script>\n\n<script
+        type=\"text/JavaScript\">\n<!-- Hide the JS\nstartTimeout(6000000, \"/\");\n//
+        -->\n</script>\n<noscript>\n<meta http-equiv=\"Refresh\" content=\"6000;URL=/\"
+        />\n</noscript>\n\n<link rel=\"stylesheet\" href=\"/screens/styles_mobile.css\"
+        type=\"text/css\" media=\"handheld\" /><link rel=\"stylesheet\" media=\"screen
+        and (max-device-width: 480px)\" href=\"/screens/styles_mobile.css\" /><meta
+        name=\"format-detection\" content=\"telephone=no\"><meta name=\"viewport\"
+        content=\"width=device-width; initial-scale=1.0;\" />\n</head>\n<body bgcolor=\"#FFFFFF\"
+        >\n<base target=\"_self\"/>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/scripts/ProStyles.css\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/screens/styles.css\"
+        />\n<link rel=\"shortcut icon\" type=\"ximage/icon\" href=\"/screens/favicon.ico\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/screens/mym.css\">\n\n<!--
+        for non-smartphones only -->\n<link  rel=\"stylesheet\" type=\"text/css\"
+        href=\"/screens/killsp.css\" media=\"screen and (min-device-width: 765px)\"/>\n\n<!--for
+        smartphones only-->\n<link rel=\"stylesheet\" href=\"http://lawpac.lawnet.fordham.edu/screens/styles_mobile.css\"
+        type=\"text/css\" media=\"handheld\" /><link rel=\"stylesheet\" media=\"screen
+        and (max-device-width: 480px)\" href=\"/screens/styles_mobile.css\" /><meta
+        name=\"format-detection\" content=\"telephone=no\"><meta name=\"viewport\"
+        content=\"width=device-width; initial-scale=1.0;\" />\n\n<script language=\"JavaScript\"
+        type=\"text/javascript\" src=\"/scripts/common.js\"></script>\n<script language=\"JavaScript\"
+        type=\"text/javascript\" src=\"/scripts/elcontent.js\"></script>\n<script
+        language=\"JavaScript\"> \n<!-- Hide the JS\nstartTimeout(6000000, \"/\");\n//
+        -->\n</script>\n<noscript>\n<meta http-equiv=\"Refresh\" content=\"6000;URL=/\"
+        />\n</noscript>\n\n\n\n \n<body bgcolor=\"#FFFFFF\" class=\"justified\" >\n<!--
+        Make sure IE uses our killsp ss -->\n<!--[if IE]>     <link rel=\"stylesheet\"
+        type=\"text/css\" href=\"/screens/killsp.css\" />  <![endif]-->\n\n\n<table
+        border=\"0\"  cellpadding=\"0\" cellspacing=\"0\" valign=\"top\" class=\"lockwidth\">\n<!--
+        Law Lib Banner  -->\n<tr>\n<td colspan=\"3\"  valign=\"middle\" height=\"55\"
+        class=\"banner\">\n\n<table border=\"0\" width=\"900px;\" cellpadding=\"0\"
+        cellspacing=\"0\"> \n<tr> \n<td bgcolor=\"white\" width=\"375\" > \n<a href=\"http://law.fordham.edu\"><img
+        style=\"margin-left:12px;\" src=\"/screens/pics/cornerbanner.taller1.gif\"
+        name=\"Fordham Logo\" alt=\"Fordham Logo\" align=\"left\" border=\"0\"  width=\"357\"></a></td>
+        \n<td bgcolor=\"white\" align=\"right\"><a href=\"http://lawpac.lawnet.fordham.edu/search/X\">\n<!--fpbanner2.gif-->\n<img
+        style=\"margin-right:12px;vertical-align:top;\" src=\"/screens/pics/maloney.gif\"
+        name=\"Library Name\" alt=\"Library Homepage\" align=\"right\" border=\"0\"
+        ></a><br />\n<a href=\"http://lawpac.lawnet.fordham.edu/search/X\">\n<img
+        style=\"margin-right:12px; vertical-align:bottom; padding:0px;\" src=\"/screens/pics/fpclassic1.gif\"
+        name=\"Search Page\" alt=\"Search Page\" align=\"right\" border=\"0\" ></a>\n</td>
+        \n</tr> \n</table>\n\n</td>\n</tr>\n\n<!--Beginning navigation bar at the
+        top of the page #E19898 D9A8A8 E9C5C5 FBD9C9 faaa5f ffa245 ffbb71 edc4ad-->\n<tr>\n<td
+        class=\"navrow\" cellpadding=\"0\" cellspacing=\"0\">\n\n<table border=\"0\"
+        width=\"900px\" cellpadding=\"0\" cellspacing=\"0\" valign=\"top\" bgcolor=\"#edc4ad\">\n<tr>\n\n<td
+        class=\"limenu\" height=\"24px\" width=\"900px\" align=\"left\"> \n<span style=\"float:left;margin-left:16px;margin-right:16px;width:104px;\">\n<a
+        class=\"limenulinks\" href=\"http://lawlib1.lawnet.fordham.edu\"><font color=\"black\">LIBRARY
+        HOME</font></a>\n</span>\n\n<span style=\"float:left; margin-right:9px; width:90px;\">\n<a
+        class=\"limenulinks\" href=\"/search/X\"><font color=\"black\">NEW SEARCH</font></a>\n</span>\n\n<span
+        style=\"float:left; margin-right:9px; width:50px;\">\n<a class=\"limenulinks\"
+        href=\"https://fordhamlaw.illiad.oclc.org/illiad/logon.html\"><font color=\"black\">ILLIAD</font></a>\n</span>\n\n<span
+        style=\"float:left;margin-right:7px; width:100px;\">\n<a class=\"limenulinks\"
+        href=\"https://catalog.library.fordham.edu/uhtbin/cgisirsi/0/0/0/38/X/POWER_SEARCH\"><font
+        color=\"black\">FORDHAM CAT</font></a>\n</span>\n\n\n<span style=\"float:left;margin-right:7px;width:94px;\">\n<a
+        class=\"limenulinks\" href=\"http://0-firstsearch.oclc.org.lawpac.lawnet.fordham.edu/FSIP?dbname=worldcat\"><font
+        color=\"black\">WORLDCAT</font></a>\n</span>\n\n<span style=\"float:left;\">\n<a
+        class=\"limenulinks\" href=\"/screens/help_index.html\" onclick=\"return replace_or_redraw('/screens/help_index.html')\"><font
+        color=\"black\">HELP</font></a>\n</span>\n\n\n<!--<font color=\"#114F8C\">-->\n<!--\n<span>\n\n<a
+        class=\"limenulinks\" style=\"float:right; margin-right:9px; vertical-align:bottom;
+        font-size:13px;font-weight:normal;color:black;\" href=\"http://lawpac.lawnet.fordham.edu/screens/discovery.html\">FULLPAC
+        DISCOVERY</a>\n</span>\n\n\n<span >\n<a class=\"myfullpac\" style=\"float:right;
+        margin-right:20px; vertical-align:top;\" href=\"/patroninfo\"><i>MY</i> FULLPAC</a>\n</span>\n-->\n\n\n<span
+        >\n<a class=\"myfullpac\" style=\"float:right; margin-right:18px; vertical-align:top;
+        width: 90px;\" href=\"/patroninfo\">MY</i> FULLPAC</b></a>\n</span>\n\n<span>\n<a
+        class=\"fpdiscovery\" style=\"float:right; margin-right:16px; vertical-align:bottom;
+        font-size:13px;\" href=\"http://lawpac.lawnet.fordham.edu/screens/discovery.html\">FULLPAC
+        DISCOVERY</b></a>\n</span>\n\n\n</td>\n\n</tr>\n</table>\n<!-- End of the
+        top navigation bar -->\n\n</td>\n</tr>\n\n\n<tr>\n<td bgcolor= \"#F1EFF0\"
+        colspan=\"3\" class=\"lockwidth\" >\n\n<!-- Smartphone only banner -->\n<div
+        class=\"sphead\"><a href=\"http://lawlib1.lawnet.fordham.edu/mobile\">The
+        Maloney Library</a>\n<hr />\n</div>\n\n\n<!-- end toplogo.html file -->\n\n\n<div
+        align=\"center\" class=\"navigationRow\">\n<a href=\"/search/X\"><img src=\"/screens/startover.gif\"
+        class=\"button2\" alt=\"Start Over\" border=\"0\" /></a>\n<a href=\"/search?/X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ/X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ&SUBKEY=(%22The+Europeanisation+of+UK+competition+law%22)/1%2C1%2C1%2CB/request~b181365&FF=X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ&1%2C1%2C\"><img
+        src=\"/screens/request.gif\" alt=\"Request\" border=\"0\" class=\"button2\"
+        /></a>\n<a href=\"/search?/X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ/X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ&SUBKEY=(%22The+Europeanisation+of+UK+competition+law%22)/1,1,1,B/frameset&FF=X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ&1,1,?save=b181365\"><img
+        src=\"/screens/bibexport.gif\" class=\"button2\" alt=\"Export\" border=\"0\"
+        /></a>\n<a href=\"/search?/X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ/X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ&SUBKEY=(%22The+Europeanisation+of+UK+competition+law%22)/1%2C1%2C1%2CB/marc&FF=X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ&1%2C1%2C\"><img
+        src=\"/screens/marc_display.gif\" class=\"button2\" alt=\"MARC Display\" border=\"0\"
+        /></a>\n<a href=\"/search/X?NOSRCH=%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ&SUBKEY=(%22The+Europeanisation+of+UK+competition+law%22)\"><img
+        src=\"/screens/modify.gif\" class=\"button2\" alt=\"Modify Search\" border=\"0\"
+        /></a>\n<a href=\"/search?/X?d%3A%28antitrust+and+law+and+great%29+or+d%3A%28antitrust+and+law+and+european%29&SORT=D\"><img
+        src=\"/screens/showsim.gif\" class=\"button2\" alt=\"Show Similar Items\"
+        border=\"0\" /></a>\n<a href=\"http://128.59.177.5/search/X?%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=R&backlink=lawpac.lawnet.fordham.edu/search?/X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ/X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ&SUBKEY=(%22The+Europeanisation+of+UK+competition+law%22)/1%2C1%2C1%2CB/frameset&FF=X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ&1%2C1%2C\"><br
+        class=\"space\" /><img class=\"button2\" border=\"0\" src=\"/screens/s_columbia.gif\"></a>\n<a
+        href=\"http://128.122.159.10/search/X?%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=R&backlink=lawpac.lawnet.fordham.edu/search?/X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ/X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ&SUBKEY=(%22The+Europeanisation+of+UK+competition+law%22)/1%2C1%2C1%2CB/frameset&FF=X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ&1%2C1%2C\"><img
+        class=\"button2\" border=\"0\" src=\"/screens/s_nyu.gif\"></a>\n<a href=\"http://ringding.law.yale.edu/search/X?%2528%2522The%2BEuropeanisation%2Bof%2BUK%2Bcompetition%2Blaw%2522%2529%26SORT%3DRZ%2FX%2528%2522The%2BEuropeanisation%2Bof%2BUK%2Bcompetition%2Blaw%2522%2529%26SORT%3DRZ%26SUBKEY%3D%28%2522The%2BEuropeanisation%2Bof%2BUK%2Bcompetition%2Blaw%2522%29%2F1%2C1%2C1%2CB%2Fframeset%26FF%3DX%2528%2522The%2BEuropeanisation%2Bof%2BUK%2Bcompetition%2Blaw%2522%2529%26SORT%3DRZ%261%2C1%2C&backlink=lawpac.lawnet.fordham.edu/search?/X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ/X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ&SUBKEY=(%22The+Europeanisation+of+UK+competition+law%22)/1%2C1%2C1%2CB/frameset&FF=X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ&1%2C1%2C\"><img
+        class=\"button2\" border=\"0\" src=\"/screens/s_yale.gif\"></a>\n<a href=\"http://130.91.144.191/search/X?%2528%2522The%2BEuropeanisation%2Bof%2BUK%2Bcompetition%2Blaw%2522%2529%26SORT%3DRZ%2FX%2528%2522The%2BEuropeanisation%2Bof%2BUK%2Bcompetition%2Blaw%2522%2529%26SORT%3DRZ%26SUBKEY%3D%28%2522The%2BEuropeanisation%2Bof%2BUK%2Bcompetition%2Blaw%2522%29%2F1%2C1%2C1%2CB%2Fframeset%26FF%3DX%2528%2522The%2BEuropeanisation%2Bof%2BUK%2Bcompetition%2Blaw%2522%2529%26SORT%3DRZ%261%2C1%2C&backlink=lawpac.lawnet.fordham.edu/search?/X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ/X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ&SUBKEY=(%22The+Europeanisation+of+UK+competition+law%22)/1%2C1%2C1%2CB/frameset&FF=X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ&1%2C1%2C\"><img
+        class=\"button2\" border=\"0\" src=\"/screens/s_upenn.gif\"></a>\n<a href=\"/search/X\"><img
+        src=\"/screens/another.gif\" alt=\"Another Search\" border=\"0\" /></a>\n<form>\n<select
+        name=HISTORY onChange=\"onSelectChange(this, '')\"><option value=\"\">(Search
+        History)</option>\n<OPTION VALUE=\"X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ\">WORDS
+        anywhere: (\"The Europeanisation of UK competition law\")\n<OPTION VALUE=\"X%28brooklyn%29&SORT=RZ\">WORDS
+        anywhere: (brooklyn)\n<option value=\"+/search/X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ/X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ&SUBKEY=(%22The+Europeanisation+of+UK+competition+law%22)/1,1,1,B/frameset&FF=X%28%22The+Europeanisation+of+UK+competition+law%22%29&SORT=RZ&1,1,&clear_history\">(Clear
+        Search History)</option>\n<option value=\"+/\">(End Search Session)</option>\n</select>\n<noscript>\n<h2>Search
+        history function requires JavaScript.</h2>\n</noscript>\n</form>\n</div>\n\n<center>\n<br
+        class=\"space\">\n<div class=\"bibSearchtool\">\n\n<script type=\"text/JavaScript\">\n<!--
+        Hide the JS\nvar savedScope;\nvar savedTag;\nvar savedSearch;\nvar sortButtonText
+        = null;\nvar savedExactSearch = null;\nvar sortButtonEvent = null;\nvar sortExactBrowseURL
+        = null;\nvar sortTypes = new Array();\nvar sortLabels = new Array();\nsortTypes[0]
+        = \"r\";\nsortLabels[0] = \"Relevance\";\nsortTypes[1] = \"r\";\nsortLabels[1]
+        = \"Newest First\";\nsortTypes[2] = \"c\";\nsortLabels[2] = \"Oldest First\";\nsortTypes[3]
+        = \"t\";\nsortLabels[3] = \"Title\";\nsortLabels[4] = \"System Sorted\";\nsortTypes[4]
+        = \"-\";\nvar sortSelectedValue = \"4\";\nvar nonSortTags = \"XYZprWw\"\n//
+        Unhide the JS -->\n</script>\n<form name=\"searchtool\" target=\"_self\" action=\"/search/\"
+        method='GET'>\n      <label for=\"searchtype\" style=\"display:none;\">SearchType</label>
+        <select name=\"searchtype\" id=\"searchtype\" onChange=\"initSort()\">\n        <option
+        value=\"t\"> TITLE begins with</option>\n        <option value=\"a\"> AUTHOR
+        (last name first)</option>\n        <option value=\"X\" selected=\"selected\">
+        WORDS anywhere</option>\n        <option value=\"d\"> SUBJECT begins with</option>\n
+        \       <option value=\"c\"> CALL Number</option>\n        <option value=\"i\">
+        ISBN/ISSN</option>\n        <option value=\"g\"> GOV DOC Number</option>\n
+        \       <option value=\"o\"> OCLC Number</option>\n      </select>\n      &nbsp;\n
+        \     <label for=\"searcharg\" style=\"display:none;\">Search</label><input
+        type=\"text\" name=\"searcharg\" id=\"searcharg\" size=\"30\" onchange='return
+        searchtoolSubmitAction()'maxlength=\"75\" value=\"&quot;The Europeanisation
+        of UK competition law&quot;\" />\n      &nbsp;\n\n<span id=\"sort_cell\">\n</span>\n\n<script
+        type=\"text/JavaScript\">\n<!-- Hide the JS\ninitSort();\n// Unhide the JS
+        -->\n</script>\n      <input type=\"hidden\" name=\"SORT\" value=\"R\" /><input
+        type=\"hidden\" name=\"extended\" value=\"0\" />      <input type=\"submit\"
+        name=\"SUBMIT\" value=\"Search\" onclick='return searchtoolSubmitAction();'
+        />\n<div>\n      <input type=\"checkbox\" name=\"availlim\" value=\"1\"  />
+        <span class=\"availLimMessage\">Limit search to available items</span><br/>\n</div>\n<div>\n
+        \     <input type=\"hidden\" name=\"searchlimits\" value=\"\" />\n      <input
+        type=\"hidden\" name=\"searchorigarg\" value=\"X&quot;The Europeanisation
+        of UK competition law&quot;&SORT=RZ\" />\n</div>\n</form>\n<div  class=\"bibSearchtoolMessage\">
+        \      <i>1 result found. </i> <i>sorted by relevance</i> .\n</div>\n</div>\n\n\n\n<br
+        class=\"space\">\n<!--result pg next button-->\n<div class=\"bibPager\">\n<center>\n</div>\n<br
+        class=\"space\" />\n\n<center>\n<table cellpadding=\"0\" cellspacing=\"0\"
+        \ width=\"96%\" border=\"0\">\n<tr><td width=\"100%\" style=\"vertical-align:
+        top;\" class=\"bibrecord\">\n<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"
+        border=\"0\" style=\"margin: 0px; padding: 0px; vertical-align: top;\" >\n<tr><td
+        style=\"vertical-align: top; padding: 0px; margin: 0px;\">\n\n\n<!-- location,
+        stacks, syndetics -->\n\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\"
+        width=\"100%\">\n<tr>\n<td style=\"margin: 0px; padding: 0px;\">\n\n\n<table
+        class=\"bibinnertable\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" width=\"100%\">\n<tr>\n<td
+        class=\"loca\">\nLocation\n</td>\n<td class=\"locadata\">\nStacks</td>\n\n<td
+        class=\"smsstuff\">\n<div id=smsfeatures >\n<!-- REMOVE THIS COMMENT TO SHOW
+        TEXTIT BUTTON ON BIB DISPLAY -->\n<a href=\"#here\" name=smsbutton id=smsbutton
+        onClick=\"showsms();return false;\"><img style=\"vertical-align: bottom; padding:
+        0px; margin: 0px;\" src=\"/screens/smsbutton.gif\" border=0></a>\n<span id=\"smshelp\">\n<a
+        href=\"#here\" onClick=\"findPos(document.getElementById('smsbutton'),document.getElementById('info'),-340,30);document.getElementById('info').style.visibility='visible';return
+        false;\"><img style=\"vertical-align: bottom; margin: 0 4 4 4px;\" src='/screens/smsq.gif'
+        border=0></a>\n</span>\n<!-- REMOVE THIS COMMENT TO SHOW TEXTIT BUTTON ON
+        BIB DISPLAY -->\n</div>\n</td>\n\n<td class=\"syndetic\" rowspan=\"2\" width=\"50\">\n\n<a
+        href=\"http://syndetics.com/index.aspx?isbn=1841130362/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=1841130362/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        border=\"0\" alt=\"Book Cover\"></a>\n\n<!-- SP textit -->\n<div id=spsmsfeatures
+        >\n<a href=\"#here\" name=smsbutton id=smsbutton onClick=\"showsms();return
+        false;\"><img style=\"vertical-align: bottom; padding: 0px; margin: 0px;\"
+        src=\"/screens/smsbutton.gif\" border=0></a>\n</div>\n</td></tr>\n\n<tr><td
+        colspan=\"3\" class=\"recordinfo\">\n<!-- BEGIN BIBDETAIL TABLE BORDER -->\n<table
+        id=\"bib_detail\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"  class=\"bibDetail\">\n<tr
+        \ class=\"bibInfoEntry\" ><td>\n<!-- BEGIN INNER BIB TABLE -->\n<table width=\"100%\"
+        cellspacing=\"3\" cellpadding=\"0\">\n<tr><!-- next row for fieldtag=c -->\n<td
+        valign=\"top\" width=\"20%\"  class=\"bibInfoLabel\">Call Number</td>\n<td
+        class=\"bibInfoData\">\nKJE6456 .E82 1999</td></tr>\n<tr><!-- next row for
+        fieldtag=t -->\n<td valign=\"top\" width=\"20%\"  class=\"bibInfoLabel\">Title</td>\n<td
+        class=\"bibInfoData\">\n<strong><span  style=\"color:RED\" ><strong>The Europeanisation
+        of UK competition law</strong></span> / edited by Aidan Robertson and Nicholas
+        Green</strong></td></tr>\n</table>\n<!-- END INNER BIB TABLE -->\n</td></tr>\n</table>\n<!--
+        END BIBDETAIL TABLE -->\n</td></tr>\n</table>\n\n\n\n\n\n</td>\n</tr>\n\n\n\n<tr><td
+        colspan=\"2\">\n\n\n\n<!--click to view table-->\n<!--library has & latest
+        received-->\n\n\n<br class=\"space\"/>\n<a name=\"here\"></a>\n\n<div class=\"spitems\">\n<table
+        id=\"bib_items\" border=\"1\" bordercolor=\"#CDB79E\" cellspacing=\"1\" cellpadding=\"2\"
+        align=\"center\" bgcolor=\"white\" class=\"bibItems\">\n<tr  class=\"bibItemsHeader\">\n<th
+        width=\"30%\"  class=\"bibItemsHeader\">\nLOCATION\n</th>\n<th width=\"45%\"
+        \ class=\"bibItemsHeader\">\nCALL NUMBER\n</th>\n<th width=\"25%\"  class=\"bibItemsHeader\">\nSTATUS\n</th>\n</tr>\n<tr
+        \ class=\"bibItemsEntry\">\n\n<td width=\"30%\" ><!-- field 1 -->&nbsp;Stacks
+        \n</td>\n<td width=\"45%\" ><!-- field C -->&nbsp;<a href=\"/search?/cKJE6456+.E82+1999/ckje6456+e82+1999/-3,-1,,E/browse\">KJE6456
+        .E82 1999</a> <!-- field v --><!-- field # -->&nbsp;</td>\n<td width=\"25%\"
+        ><!-- field % -->&nbsp;Not Checked Out </td></tr>\n</table>\n</div>\n<!--
+        this div starts hidden and is just a note -->\n<div style=\"visibility:hidden;
+        text-align: center; font-size: 14px; padding-bottom: 10px;\" id='info'>You
+        could get a piece of paper, find a pencil, and write down the call \nnumber
+        so that you can find this item in the stacks.  Or you could text it to your
+        \nphone!  The text message will contain the call number, title and location
+        \nof the item on this page.  Be careful if you don't have a text messaging
+        \nplan for your phone - carrier charges may apply.<br /><a href=\"#here\"
+        onClick=\"document.getElementById('info').style.visibility='hidden';return
+        false\" >CLOSE</a></div>\n\n\n<!-- this is the button set we'll hide it if
+        the BIB has no items -->\n\n\n\n\n<!-- a quick script to hide the SMS menu
+        if there are no items. same as the javascript in the SMS form, but it's really
+        just to see if the items exist.  If they don't, we hide the buttons -->\n\n<script>\n
+        \ var f = document.getElementById('bib_detail');\ntry { \n var itms = document.getElementById('bib_items');\n
+        var tr = itms.getElementsByTagName('tr');\n  for(i = 1; i < tr.length; i++)
+        {\n    var x=tr[i].getElementsByTagName('td');\n    if (x.length == 3) {\n
+        \     var loc = x[0].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,\"\");\n      var
+        call = x[1].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,\"\");\n      var status
+        = x[2].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,\"\");\n    }\n }\t\n\n} catch
+        (e) {\ndocument.getElementById('smsfeatures').style.visibility='hidden';\n}\n\n</script>\n\n<!--
+        js for sp textit -->\n<script>\n  var f = document.getElementById('bib_detail');\ntry
+        { \n var itms = document.getElementById('bib_items');\n var tr = itms.getElementsByTagName('tr');\n
+        \ for(i = 1; i < tr.length; i++) {\n    var x=tr[i].getElementsByTagName('td');\n
+        \   if (x.length == 3) {\n      var loc = x[0].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,\"\");\n
+        \     var call = x[1].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,\"\");\n      var
+        status = x[2].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,\"\");\n    }\n }\t\n\n}
+        catch (e) {\ndocument.getElementById('spsmsfeatures').style.visibility='hidden';\n}\n\n</script>\n\n\n\n<span
+        id=\"moreSection\" class=\"bibContentSectionOptions\">\n<a id=\"recordnum\"
+        href=\"/record=b181365\"></a>\n<!--:renwi-->\n<table border=\"0\" cellspacing=\"1\"
+        class=\"bibTOC\">\n<tr align=\"center\">\n<th scope=\"col\" colspan=\"7\"><b><strong>Table
+        of Contents</strong></b></th></tr>\n<tr><td>&nbsp;</td><td valign=\"top\"
+        colspan=\"5\">Preface</td><td>&nbsp;</td></tr>\n<tr><td>&nbsp;</td><td valign=\"top\"
+        colspan=\"5\">Table of Cases</td><td>&nbsp;</td></tr>\n<tr><td>&nbsp;</td><td
+        valign=\"top\" colspan=\"5\">Table of Legislation</td><td>&nbsp;</td></tr>\n<tr><td>&nbsp;</td><td
+        valign=\"top\" colspan=\"5\">Table of Treaties</td><td>&nbsp;</td></tr>\n<tr><td
+        valign=\"top\" width=\"10%\"><strong>1.</strong></td><td valign=\"top\" colspan=\"5\">Europeanisation
+        of United Kingdom Competition Law / <a href=\"/search/a?Bellamy%2C+Christopher\">Christopher
+        Bellamy</a></td><td  valign=\"top\" align=\"right\">1</td></tr>\n<tr><td valign=\"top\"
+        width=\"10%\"><strong>2.</strong></td><td valign=\"top\" colspan=\"5\">OFT's
+        Role in the New Regime / <a href=\"/search/a?Bloom%2C+Margaret\">Margaret
+        Bloom</a></td><td  valign=\"top\" align=\"right\">11</td></tr>\n<tr><td valign=\"top\"
+        width=\"10%\"><strong>3.</strong></td><td valign=\"top\" colspan=\"5\">Some
+        Observations on the Civil Consequences of the Chapters I and II Prohibitions
+        / <a href=\"/search/a?Green%2C+Nicholas\">Nicholas Green</a></td><td  valign=\"top\"
+        align=\"right\">25</td></tr>\n<tr><td valign=\"top\" width=\"10%\"><strong>4.</strong></td><td
+        valign=\"top\" colspan=\"5\">Is More Like Europe Better?: An Economic Evaluation
+        of Recent Changes in UK Competition Policy / <a href=\"/search/a?Hay%2C+Donald\">Donald
+        Hay</a></td><td  valign=\"top\" align=\"right\">35</td></tr>\n<tr><td valign=\"top\"
+        width=\"10%\"><strong>5.</strong></td><td valign=\"top\" colspan=\"5\">Competition
+        Act: Some Foreseeable Problems / <a href=\"/search/a?Korah%2C+Valentine\">Valentine
+        Korah</a></td><td  valign=\"top\" align=\"right\">61</td></tr>\n<tr><td valign=\"top\"
+        width=\"10%\"><strong>6.</strong></td><td valign=\"top\" colspan=\"5\">Regulation
+        under the Competition Act and Existing Legislation for the Regulation of Utilities
+        / <a href=\"/search/a?Swift%2C+John\">John Swift</a></td><td  valign=\"top\"
+        align=\"right\">79</td></tr>\n<tr><td valign=\"top\" width=\"10%\"><strong>7.</strong></td><td
+        valign=\"top\" colspan=\"5\">UK and EC Competition Laws: Will They Operate
+        in Complete Harmony? / <a href=\"/search/a?Robertson%2C+Aidan\">Aidan Robertson</a></td><td
+        \ valign=\"top\" align=\"right\">89</td></tr>\n<tr><td>&nbsp;</td><td valign=\"top\"
+        colspan=\"5\">Index</td><td  valign=\"top\" align=\"right\">105</td></tr>\n</table>\n\n</span>\n\n<span
+        id=\"similarSection\" class=\"bibContentSectionOptions\">\n\n<!-- BEGIN BIBDETAIL
+        TABLE BORDER -->\n<table id=\"bib_detail\" border=\"0\" cellspacing=\"0\"
+        cellpadding=\"0\"  class=\"bibDetail\">\n<tr  class=\"bibInfoEntry\" ><td>\n<!--
+        BEGIN INNER BIB TABLE -->\n<table width=\"100%\" cellspacing=\"3\" cellpadding=\"0\">\n<tr><!--
+        next row for fieldtag=p -->\n<td valign=\"top\" width=\"20%\"  class=\"bibInfoLabel\">Publisher</td>\n<td
+        class=\"bibInfoData\">\nOxford : Hart, 1999</td></tr>\n<tr><!-- next row for
+        fieldtag=d -->\n<td valign=\"top\" width=\"20%\"  class=\"bibInfoLabel\">Subject</td>\n<td
+        class=\"bibInfoData\">\n<a href=\"/search?/dAntitrust+law+--+Great+Britain+--+Congresses/dantitrust+law+great+britain+congresses/-3,-1,0,B/browse\">Antitrust
+        law -- Great Britain -- Congresses</a>\n\n</td></tr>\n<tr><!-- next row for
+        fieldtag=d -->\n<td></td>\n<td class=\"bibInfoData\">\n<a href=\"/search?/dAntitrust+law+--+European+Union+countries+--+Cong/dantitrust+law+european+union+countries+congresses/-3,-1,0,B/browse\">Antitrust
+        law -- European Union countries -- Congresses</a>\n\n</td></tr>\n<tr><!--
+        next row for fieldtag=r -->\n<td valign=\"top\" width=\"20%\"  class=\"bibInfoLabel\">Description</td>\n<td
+        class=\"bibInfoData\">\n[xvii], 144 p. &#59; 24 cm</td></tr>\n<tr><!-- next
+        row for fieldtag=n -->\n<td valign=\"top\" width=\"20%\"  class=\"bibInfoLabel\">Note</td>\n<td
+        class=\"bibInfoData\">\nPapers presented at a conference hosted by the Centre
+        for the Law of the European Union at University College, London, September
+        1998</td></tr>\n<tr><!-- next row for fieldtag=b -->\n<td valign=\"top\" width=\"20%\"
+        \ class=\"bibInfoLabel\">Alternate Author</td>\n<td class=\"bibInfoData\">\n<a
+        href=\"/search?/aRobertson%2C+Aidan/arobertson+aidan/-3,-1,0,B/browse\">Robertson,
+        Aidan</a>\n\n</td></tr>\n<tr><!-- next row for fieldtag=b -->\n<td></td>\n<td
+        class=\"bibInfoData\">\n<a href=\"/search?/aGreen%2C+Nicholas%2C+1958-/agreen+nicholas+++++1958/-3,-1,0,B/browse\">Green,
+        Nicholas, 1958-</a>\n\n</td></tr>\n<tr><!-- next row for fieldtag=b -->\n<td></td>\n<td
+        class=\"bibInfoData\">\n<a href=\"/search?/aCentre+for+the+Law+of+the+European+Union.+Conference+%281998+%3A+University+College%2C+London%2C+England%29/acentre+for+the+law+of+the+european+union+conference+++++1998+university+college+london+england/-3,-1,0,B/browse\">Centre
+        for the Law of the European Union. Conference (1998 : University College,
+        London, England)</a>\n\n</td></tr>\n<tr><!-- next row for fieldtag=i -->\n<td
+        valign=\"top\" width=\"20%\"  class=\"bibInfoLabel\">ISBN</td>\n<td class=\"bibInfoData\">\n1841130362</td></tr>\n<tr><!--
+        next row for fieldtag=o -->\n<td valign=\"top\" width=\"20%\"  class=\"bibInfoLabel\">OCLC/Control
+        #</td>\n<td class=\"bibInfoData\">\n40587998</td></tr>\n</table>\n<!-- END
+        INNER BIB TABLE -->\n</td></tr>\n</table>\n<!-- END BIBDETAIL TABLE -->\n\n</span>\n\n\n<!--
+        just a placeholder for the sms form -->\n<div id='sms' style=\"visibility:hidden;display:none\">\n</div>\n\n\n</td>\n</tr>\n</table>\n\n</td>\n</tr>\n</table>\n</td>\n</tr>\n</table>\n\n<!--
+        STACKMAP CHANGES BEGIN HERE -->\n<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js\"
+        type=\"text/javascript\"></script> \n<script src=\"http://stackmap.com/integration/fordhamlaw2/StackMap.js\"
+        type=\"text/javascript\"></script> \n<link rel=\"stylesheet\" media=\"all\"
+        type=\"text/css\" href=\"http://stackmap.com/integration/fordhamlaw2/StackMap.css\"
+        /> \n<!-- STACKMAP CHANGES END HERE -->\n\n\n\n\n<br />\n\n\n\n<!-- This page
+        written in wordpad by tom k. -->\n\n<LINK REL=\"stylesheet\" TYPE=\"text/css\"
+        HREF=\"/screens/css/mym.css\">\n<LINK REL=\"stylesheet\" TYPE=\"text/css\"
+        HREF=\"/screens/css/template.css\">\n<tr><td>\n<table border=\"0\" cellpadding=\"0\"
+        cellspacing=\"0\" class=\"pconly\">\n<tr>\n\n<!-- Law Lib Footer -->\n<!--
+        light gray is #F1EFF0 -->\n<td class=\"ban2\" align=\"center\" bgcolor=\"white\"
+        height=\"35\" width=\"190px\"> \n<a class=\"ftr\" href=\"http://law.fordham.edu/\">Fordham
+        Law </a>\n</td>      \n<td class=\"ban2\" bgcolor=\"white\" align=\"center\"
+        Height=\"35\" width=\"485px\"><div class=\"nfo\">150 W 62 St. New York, NY
+        10023 &nbsp; (212) 636-6900 </div></td>      \n<td class=\"ban2\" align=\"center\"
+        bgcolor=\"white\" width=\"225px\"> \n<a class=\"ftr\" href=\"http://www.fordham.edu/\">Fordham
+        University </a></td>    \n</tr>\n<!-- End Law Lib Footer -->  \n<tr><td class=\"space\">&nbsp;</td></tr>\n</table>\n</td>\n</tr>\n\n</table>\n\n<!--
+        End of Page Table -->\n<!-- attempt to track offsite clicks below -->\n<script>\n/*
+        this is for pages using the \"new\" GA js */\nfunction _gaLt(event){\n    var
+        el = event.srcElement || event.target;\n\n    /* Loop up the DOM tree through
+        parent elements if clicked element is not a link (eg: an image inside a link)
+        */\n    while(el && (typeof el.tagName == 'undefined' || el.tagName.toLowerCase()
+        != 'a' || !el.href)){\n        el = el.parentNode;\n    }\n\n    if(el &&
+        el.href){\n        /* link */\n        var link = el.href;\n        if(link.indexOf(location.host)
+        == -1 && !link.match(/^javascript\\:/i)){ /* external link */\n            /*
+        HitCallback function to either open link in either same or new window */\n
+        \           var hitBack = function(link, target){\n                target
+        ? window.open(link, target) : window.location.href = link;\n            };\n
+        \           /* Is target set and not _(self|parent|top)? */\n            var
+        target = (el.target && !el.target.match(/^_(self|parent|top)$/i)) ? el.target
+        : false;\n            /* send event with callback */\n            ga(\n                \"send\",
+        \"event\", \"Outgoing Links\", link,\n                document.location.pathname
+        + document.location.search,\n                {\"hitCallback\": hitBack(link,
+        target)}\n            );\n\n            /* Prevent standard click */\n            event.preventDefault
+        ? event.preventDefault() : event.returnValue = !1;\n        }\n\n    }\n}\n\n/*
+        Attach the event to all clicks in the document after page has loaded */\nvar
+        w = window;\nw.addEventListener ? w.addEventListener(\"load\",function(){document.body.addEventListener(\"click\",_gaLt,!1)},!1)\n
+        : w.attachEvent && w.attachEvent(\"onload\",function(){document.body.attachEvent(\"onclick\",_gaLt)});\n
+        \n </script>\n<!-- end offsite click js -->\n\n<!-- google analytics below
+        -->\n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
+        \ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n
+        \ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n
+        \ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n
+        \ ga('create', 'UA-4308917-1', 'auto');\n  ga('send', 'pageview');\n\n</script>\n<!--
+        end google analytics -->\n</body>\n</html>\n\n\n\n<!--this is customized <screens/bib_display.html>-->\n"
+    http_version: 
+  recorded_at: Tue, 07 Feb 2017 21:58:52 GMT
+recorded_with: VCR 3.0.3

@@ -52,6 +52,8 @@ gem 'letsencrypt-rails-heroku', group: 'production'
 
 
 group :development, :test do
+  gem 'vcr', "~> 3.0"
+  gem 'webmock'
   gem 'rspec-rails', '~> 3.5'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
