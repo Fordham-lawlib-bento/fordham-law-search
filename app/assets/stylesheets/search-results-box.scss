@@ -94,6 +94,14 @@
   }
 }
 
+// xxxxxx
+// Hide link outs for reserves, since it's super funny and not useful
+.search-results-box.reserves {
+  .search-results-count, .view-all-results-link, .link-out-separator {
+    display: none;
+  }
+}
+
 
 // xxxxxx
 // Loading State

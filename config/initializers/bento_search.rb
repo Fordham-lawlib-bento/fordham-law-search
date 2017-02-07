@@ -142,8 +142,23 @@ BentoSearch.register_engine("reserves") do |conf|
   conf.for_display do |display|
     display.ajax = :auto
     display.heading = "Course Reserves/Exams"
-  end
 
+    display.link_out = proc {
+      single_search_path("reserves", q: query )
+    }
+
+    display.extra_links_label = "Full Reserves/Exams Browse"
+    display.extra_links = [
+      {
+        label: "By Professor →",
+        link_out: "http://lawpac.lawnet.fordham.edu/search/a?searchtype=p&searcharg=%s"
+      },
+      {
+        label: "By Course →",
+        link_out: "http://lawpac.lawnet.fordham.edu/search/a?searchtype=r&searcharg=%s"
+      },
+    ]
+  end
 end
 
 BentoSearch.register_engine("databases") do |conf|

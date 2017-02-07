@@ -16,17 +16,10 @@
   hr
   = bento_search *bento_search_args_for_object(search_object)
   - if search_object.display_configuration.link_out.present?
-    hr
+    hr.link-out-separator
     = link_to_results(search_args: {query: query},
                       url_template: search_object.display_configuration.link_out,
                       label_template: search_object.display_configuration.link_out_text,
                       class: "view-all-results-link",
                       total_items: number_with_delimiter(search_object.try(:total_items).presence))
-
-  - if search_object.display_configuration.extra_links.present?
-    .additional-resources
-      .extra-link-prompt = search_object.display_configuration.extra_links_label || "Additional Resources"
-      ul.extra-links
-        - search_object.display_configuration.extra_links.each do |extra_link_conf|
-          li.extra-link
-            = render partial: 'extra_search_link', locals: { query: query, extra_link_conf: extra_link_conf }
+    = render "extra_links_section", search_object: search_object

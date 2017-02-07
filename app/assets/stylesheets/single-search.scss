@@ -6,10 +6,9 @@
   @extend %content-wrapper;
   margin-bottom: 8em;
 
-  .bento_item {
+  .bento_item, .additional-resources {
     max-width: $one-column-break;
   }
-
 }
 
 nav.pagination {
