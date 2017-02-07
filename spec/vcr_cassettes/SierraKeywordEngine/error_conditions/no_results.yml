@@ -1,0 +1,303 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://lawpac.lawnet.fordham.edu/search/X?(adlfjakldfjopieajirojdfaadf)&SORT=RZ
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.3.3 (2016-11-21))
+      Accept:
+      - "*/*"
+      Date:
+      - Tue, 07 Feb 2017 21:58:54 GMT
+      Cookie:
+      - SESSION_LANGUAGE=eng; III_EXPT_FILE=aa28676; III_SESSION_ID=e3b0c7bcc2cbc98cc8a2bd3313f80193;
+        SESSION_SCOPE=0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 07 Feb 2017 21:58:54 GMT
+      Server:
+      - III 100
+      Pragma:
+      - no-cache
+      Content-Type:
+      - text/html; charset=UTF-8
+      Expires:
+      - Tue, 7 Feb 2017 21:58:54 GMT
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - SESSION_LANGUAGE=eng; path=/; domain=.lawnet.fordham.edu; path=/
+      - SESSION_SCOPE=0; path=/
+      Vary:
+      - User-Agent,Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n<head>\n<link
+        rel=\"stylesheet\" type=\"text/css\" href=\"/scripts/ProStyles.css\" />\n<link
+        rel=\"stylesheet\" type=\"text/css\" href=\"/screens/styles.css\" />\n<script
+        type=\"text/javascript\" src=\"/scripts/elcontent.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/scripts/common.js\"></script>\n<title>Fordham
+        Law Library: FULLPAC Search</title>\n<meta http-equiv=\"Content-Type\" content=\"text/html;
+        charset=utf-8\" />\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/scripts/ProStyles.css\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/screens/styles.css\"
+        />\n<link rel=\"shortcut icon\" type=\"ximage/icon\" href=\"/screens/favicon.ico\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/screens/mym.css\">\n<!--
+        for non-smartphones only -->\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/screens/killsp.css\"
+        media=\"screen and (min-device-width: 765px)\"/>\n \n<!--for smartphones only-->\n<link
+        rel=\"stylesheet\" type=\"text/css\" href=\"/screens/qr.css\" media=\"handheld\"
+        /><link rel=\"stylesheet\" media=\"screen and (max-device-width: 480px)\"
+        href=\"/screens/qr.css\" />\n<meta name=\"format-detection\" content=\"telephone=no\"><meta
+        name=\"viewport\" content=\"width=device-width; initial-scale=1.0;\" />\n\n<script
+        language=\" JavaScript\" ><!--\nfunction MyReload()\n{\nwindow.location.reload();\n}\n//--></script>\n\n<!--
+        force blackberrys to get their own page -->\n<script type=\"text/javascript\">
+        \     \nvar ua = navigator.userAgent;   \nvar url = \"http://lawpac.lawnet.fordham.edu/screens/srchhelp_bb.html\";
+        \  \nif (ua.indexOf(\"BlackBerry\") >= 0)   {      \nif (ua.indexOf(\"WebKit\")
+        >= 0)      {         \nwindow.location = url;      }   }\n</script>\n\n\n<SCRIPT
+        src=\"/screens/searchx.js\"></SCRIPT>\n\n\n</head>\n<!-- OnLoad=\"document.basic.searcharg.focus();
+        -->\n<body bgcolor=\"#FFFFFF\">\n<!-- Make sure IE uses our killsp ss -->\n<!--[if
+        IE]>     <link rel=\"stylesheet\" type=\"text/css\" href=\"/screens/killsp.css\"
+        />  <![endif]-->\n\n<!-- SP Search Page -->\n<div class=\"spsearch\">\n\n<div
+        class=\"sphead\"><a href=\"http://lawlib1.lawnet.fordham.edu/mobile\">The
+        Maloney Library</a>\n\n</div>\n\n<div class=\"sptopic\">\nFULLPAC Basic Search
+        \n<a href=\"/screens/srchhelp_Y.html\"><img src=\"/screens/tom4a.gif\" alt=\"Search
+        Help\" class=\"help\" border=\"0\" /></a>\n</div>\n\n<!-- basic search dropdown
+        -->\n\n<form action=\"http://lawpac.lawnet.fordham.edu/search/\" method=\"get\"
+        class=\"touchspace2\">\n\n<select name=\"searchtype\"> \n<option value=\"t\"
+        selected=\"selected\">TITLE begins with</option>\n<option value=\"a\">AUTHOR
+        (last name first)</option>\n<option value=\"X\">WORDS anywhere</option>\n<option
+        value=\"d\">SUBJECT begins with</option>\n<option value=\"c\">CALL Number
+        </option>\n<option value=\"i\">ISBN/ISSN</option>\n<option value=\"g\">GOVT
+        DOC Number</option>\n<option value=\"o\">OCLC Number</option>\n</select>\n\n<!--
+        basic search input box -->\n\n<div class=\"touchspace2\">\n<input maxlength=\"75\"
+        name=\"searcharg\" style=\"width: 90%; padding: 0 1 0 6px;\" />\n</div>\n\n<div
+        class=\"touchspace2\"> \n<input type=\"hidden\" name=\"sort\" value=\"D\"
+        /> \n<input type=\"submit\" value=\"Submit\" name=\"submit\" /> \n</div>\n</form>\n\n<div
+        class=\"touchspace\">\n<a class=\"qrlink\" style=\"font-size: 18px;\" href=\"http://lawpac.lawnet.fordham.edu/screens/srchhelp_XX.html\">\nNon-Mobile
+        Search Page</a>\n</div>\n\n\n\n</div>\n<!-- End SP Search Page -->\n\n\n\n\n\n<div
+        class=\"pconly\">\n\n<body onload=\"if (location.search.indexOf('SUBKEY')
+        != -1 || location.search.indexOf('SEARCH') != -1 || location.search.indexOf('searcharg=')
+        != -1 ) modifySearch(document.location.search); init_progsearch(); if (document.search)
+        document.search.searchText1.focus();\">\n\n<table border=\"0\" width=\"900px\"
+        cellpadding=\"0\" cellspacing=\"0\" valign=\"top\" >\n\n<!-- Law Lib Banner
+        \ -->\n<tr>\n<td colspan=\"3\"  valign=\"middle\" height=\"55\" class=\"banner\">\n\n<div
+        class=\"pconly\">\n<table border=\"0\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\">
+        \n<tr> \n<td bgcolor=\"white\" width=\"375\"> \n<a href=\"http://law.fordham.edu\"><img
+        style=\"margin-left:12px;\" src=\"/screens/pics/cornerbanner.taller1.gif\"
+        name=\"Fordham Logo\" alt=\"Fordham Logo\" align=\"left\" border=\"0\"  width=\"357\"></a></td>
+        \n<td bgcolor=\"white\" height=\"76px\" align=\"right\"><a href=\"http://lawlib1.lawnet.fordham.edu\">\n<!--fpbanner2.gif-->\n<img
+        style=\"margin-right:12px;vertical-align:top;\" src=\"/screens/pics/maloney.gif\"
+        name=\"Library Name\" alt=\"Library Homepage\" align=\"right\" border=\"0\"
+        ></a><br />\n<a href=\"http://lawpac.lawnet.fordham.edu/search/X\">\n<img
+        style=\"margin-right:12px; vertical-align:bottom; padding:0px;\" src=\"/screens/pics/fpclassic1.gif\"
+        name=\"Search Page\" alt=\"Search Page\" align=\"right\" border=\"0\" ></a>\n</td>
+        \n</tr> \n</table>\n\n</td>\n</tr>\n\n<!--Beginning navigation bar at the
+        top of the page #E19898 D9A8A8 E9C5C5 FBD9C9 faaa5f ffa245 ffbb71 edc4ad-->\n<tr>\n<td
+        class=\"navrow\" cellpadding=\"0\" cellspacing=\"0\">\n\n  \n\n<table border=\"0\"
+        width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" valign=\"top\" bgcolor=\"#edc4ad\">\n<tr>\n\n\n<td
+        class=\"limenu\" height=\"24px\" width=\"900px\" align=\"left\"> \n<span style=\"float:left;margin-left:16px;margin-right:16px;width:104px;\">\n<a
+        class=\"limenulinks\" href=\"http://lawlib1.lawnet.fordham.edu\"><font color=\"black\">LIBRARY
+        HOME</font></a>\n</span>\n\n<span style=\"float:left; margin-right:9px; width:90px;\">\n<a
+        class=\"limenulinks\" href=\"/search/X\"><font color=\"black\">NEW SEARCH</font></a>\n</span>\n\n<span
+        style=\"float:left; margin-right:9px; width:50px;\">\n<a class=\"limenulinks\"
+        href=\"https://fordhamlaw.illiad.oclc.org/illiad/logon.html\"><font color=\"black\">ILLIAD</font></a>\n</span>\n\n<span
+        style=\"float:left;margin-right:7px; width:100px;\">\n<a class=\"limenulinks\"
+        href=\"https://catalog.library.fordham.edu/uhtbin/cgisirsi/0/0/0/38/X/POWER_SEARCH\"><font
+        color=\"black\">FORDHAM CAT</font></a>\n</span>\n\n\n<span style=\"float:left;margin-right:7px;width:94px;\">\n<a
+        class=\"limenulinks\" href=\"http://0-firstsearch.oclc.org.lawpac.lawnet.fordham.edu/FSIP?dbname=worldcat\"><font
+        color=\"black\">WORLDCAT</font></a>\n</span>\n\n<span style=\"float:left;\">\n<a
+        class=\"limenulinks\" href=\"/screens/help_index.html\" onclick=\"return replace_or_redraw('/screens/help_index.html')\"><font
+        color=\"black\">HELP</font></a>\n</span>\n\n\n<!--<font color=\"#114F8C\">-->\n<!--\n<span>\n\n<a
+        class=\"limenulinks\" style=\"float:right; margin-right:9px; vertical-align:bottom;
+        font-size:13px;font-weight:normal;color:black;\" href=\"http://lawpac.lawnet.fordham.edu/screens/discovery.html\">FULLPAC
+        DISCOVERY</a>\n</span>\n\n\n<span >\n<a class=\"myfullpac\" style=\"float:right;
+        margin-right:20px; vertical-align:top;\" href=\"/patroninfo\"><i>MY</i> FULLPAC</a>\n</span>\n-->\n\n\n<span
+        >\n<a class=\"myfullpac\" style=\"float:right; margin-right:18px; vertical-align:top;
+        width: 90px;\" href=\"/patroninfo\">MY FULLPAC</a>\n</span>\n\n<span>\n<a
+        class=\"fpdiscovery\" style=\"float:right; margin-right:16px; vertical-align:bottom;
+        font-size:13px;\" href=\"http://lawpac.lawnet.fordham.edu/screens/discovery.html\">FULLPAC
+        DISCOVERY</a>\n</span>\n\n\n</td>\n</tr>\n</table>\n<!-- End of the top navigation
+        bar -->\n\n</td>\n</tr>\n\n<tr>\n<td bgcolor=\"#F1EFF0\" colspan=\"3\" >\n</div>\n\n<table
+        border=\"0\" width=\"900px\" cellpadding=\"0\" cellspacing=\"0\" valign=\"top\"
+        >\n\n\n<br />\n<!--Begin the main content table-->\n\n<table width=\"850\"
+        border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding:
+        0 0 20 0px;\">\n<tr>\n\n<!-- BASIC SEARCH -->\n\n<td> \n<table width=\"460\"
+        \ border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"tabBody2\" height=\"90px\">\n<tr>\n<td
+        class=\"searchhead2\" colspan=\"2\" >\nBasic Search \n<a href=\"/screens/srchhelp_Y.html\"><img
+        src=\"/screens/tom4a.gif\" class=\"help\" border=\"0\"></a>\n\n</td>\n</tr>\n<tr>\n\n<!--
+        basic search dropdown -->\n\n<td class=\"searchform2\" style=\"padding-top:
+        0px;\" height=\"30px\" width=\"10px\">\n<form action=\"http://lawpac.lawnet.fordham.edu/search/\"
+        method=get name=\"basic\">\n\n<SELECT name=\"searchtype\"> \n<OPTION value=\"t\"
+        selected=\"selected\">TITLE begins with</OPTION>\n<OPTION value=\"a\">AUTHOR
+        (last name first)</option>\n<OPTION value=\"X\">WORDS anywhere</option>\n<OPTION
+        value=\"d\">SUBJECT begins with</option>\n<OPTION value=\"c\">CALL Number
+        </option>\n<OPTION value=\"i\">ISBN/ISSN</option>\n<OPTION value=\"g\">GOVT
+        DOC Number</option>\n<OPTION value=\"o\">OCLC Number</option>\n</SELECT>\n</td>\n\n<!--
+        basic search input box -->\n\n<td class=\"searchform2\" height=\"30px\" style=\"padding:
+        0 1 0 6px;\">\n<INPUT maxLength=\"75\" name=\"searcharg\" style=\" width:
+        95%;\"  />\n</td>\n</tr>\n\n<tr>\n<td colspan=\"2\" class=\"searchform2\"
+        style=\"padding: 2 0 8 6px;\" > \n<INPUT type=\"hidden\" name=\"SORT\" value=\"D\">
+        \n<INPUT type=\"submit\" value=\"Submit\" name=\"submit\" /> \n</TD>\n</TR>\n</FORM>\n\n\n\n\n\n\n</td>\n</tr>\n</table>\n\n</td>\n\n<!--
+        COURSE RESERVE SEARCH -->\n\n<td align=\"right\">\n<table width=\"371\" border=\"0\"
+        cellpadding=\"0\" cellspacing=\"0\" class=\"tabBody2\" height=\"90px\">\n\n<tr>\n<td
+        class=\"searchhead2\" colspan=\"2\">Search Course Reserves</td>\n\n</td>\n</tr>\n<tr>\n\n<!--
+        search course reserves dropdown -->\n<td class=\"searchform2\" style=\"padding-top:
+        0px; width: 1px;\" height=\"30px\">\n\n<FORM action=http://lawpac.lawnet.fordham.edu/search/a?a
+        method=get>\n\n<SELECT name=\"searchtype\">\n<OPTION value=\"p\">PROFESSOR</OPTION>\n<OPTION
+        value=\"r\">COURSE NAME</option>\n\n</SELECT>\n</td>\n\n<!-- search course
+        reserves input box -->\n\n<td width=\"\" class=\"searchform2\" style=\"align:
+        left;\">\n<INPUT maxLength=\"75\" name=\"searcharg\" style=\" width: 95%;\"/>\n</td>\n</tr>\n\n<!--
+        search course reserves submit button -->\n\n<tr>\n<td  class=\"searchform2\"
+        style=\"padding: 2 0 8 6px;\" > \n\n\n<INPUT type=\"hidden\" name=\"SORT\">
+        \n<INPUT type=\"submit\" value=\"Submit\" name=\"submit\" /> \n</td>\n<td
+        class=\"searchform2\" style=\"padding: 0 0 0 50px;\">\n\n<!-- <a style=\"align:
+        right; font-weight: bold; font-size: 15px; font-family: arial; color: #000033;
+        text-decoration: none;\" -->\n<a class=\"scanned\" href=\"http://lawlib1.lawnet.fordham.edu/exams/public\">Electronic
+        Copies</a>\n</TD>\n</TR>\n</FORM>\n\n</td>\n</tr>\n</table>\n\n</td>\n\n</tr>\n</table>\n\n\n\n\n\n<!--
+        box containing advanced search -->\n\n\n<table width=\"850\" border=\"0\"
+        align=\"center\" cellpadding=\"0\" cellspacing=\"0\" class=\"tabBody2\" style=\"padding:
+        0 0 0 0px;\">\n\n<tr>\n<td colspan=\"2\" class=\"searchhead2\">Advanced Keyword
+        Search\n\t\t<a href=\"/screens/srchhelp_Y.html\"><img src=\"/screens/tom4a.gif\"
+        class=\"help\" border=\"0\"></a>\n</TD>\n</tr>\n<tr>\n<td colspan=\"2\" class=\"searchform2\"
+        height=\"17px\" style=\"vertical-align: top;\">\n\n\n\n\n\n\n\n<script language=\"JavaScript\"
+        type=\"text/javascript\">\n\n//global variables below are set by webpac\nencode
+        = \"UTF-8\";\nsavedScopeIndex = -1;\n//this func is created at runtime by
+        webpac\nfunction AdvancedSearchForm_initLimits(ths, form)\n{\n\nths.limitArray.lang
+        = (form.elements[\"l\"]) ? form.elements[\"l\"] : \"\";\nths.limitArray.mattype
+        = (form.elements[\"m\"]) ? form.elements[\"m\"] : \"\";\nths.limitArray.branch
+        = (form.elements[\"b\"]) ? form.elements[\"b\"] : \"\";\nths.limitArray.publish
+        = (form.elements[\"p\"]) ? form.elements[\"p\"] : \"\";\nths.limitArray.invnum
+        = (form.elements[\"i\"]) ? form.elements[\"i\"] : \"\";\nths.limitArray.accsprvdr
+        = (form.elements[\"a\"]) ? form.elements[\"a\"] : \"\";\n}\n\n</script>\n\n\n\n\n\n\n\n<b>Instructions:</b>
+        Enter words, select limits, and click Submit\n</td></tr>\n<tr><td class=\"searchform2\">\n\n<br
+        /><h2>NO ENTRIES FOUND</h2><br />\n\n</td></tr>\n<tr><td class=\"searchform2\"
+        width=\"500\" style=\"padding-top: 1px;\">\n\n\n\n\n<form action=\"#\" enctype=\"multipart/form-data:
+        charset=UTF-8\" name=\"search\" id=\"search\" onsubmit=\"return submitSearch(this,
+        location.pathname, false);\">\n\n\n\n\n<input name=\"reset\" type=\"reset\"
+        value=\"Clear Form\">\n<br /><br class=\"space\">\n<input type=\"hidden\"
+        name=\"startSearch\" />\n<select name=\"fieldLimit1\">\n<option value=\"\"
+        selected=\"selected\">Words anywhere</option>\n<option value=\"a:\">Words
+        in Author</option>\n<option value=\"t:\">Words in Title</option>\n<option
+        value=\"d:\">Words in Subject</option>\n<option value=\"N:\">Words in Note</option>\n</select>\n<input
+        maxlength=\"75\" size=\"35\" name=\"searchText1\" />\n<select name=\"boolean1\">\n\n<option
+        value=\"+and+\" selected=\"selected\">And</option>\n<option value=\"+or+\">Or</option>\n<option
+        value=\"+and+not+\">And not</option>\n<option value=\"+near+\">Near</option>\n<option
+        value=\"+before+\">Before</option>\n<option value=\"+after+\">After</option>\n</select>\n<br
+        />\n<select name=\"fieldLimit2\">\n<option value=\"\" selected=\"selected\">Words
+        anywhere</option>\n<option value=\"a:\">Words in Author</option>\n<option
+        value=\"t:\">Words in Title</option>\n<option value=\"d:\">Words in Subject</option>\n<option
+        value=\"N:\">Words in Note</option>\n</select>\n<input maxlength=\"75\" size=\"35\"
+        name=\"searchText2\" />\n<select name=\"boolean2\">\n<option value=\"+and+\"
+        selected=\"selected\">And</option>\n<option value=\"+or+\">Or</option>\n<option
+        value=\"+and+not+\">And not</option>\n<option value=\"+near+\">Near</option>\n<option
+        value=\"+before+\">Before</option>\n<option value=\"+after+\">After</option>\n</select>\n<br
+        />\n<select name=\"fieldLimit3\">\n<option value=\"\" selected=\"selected\">Words
+        anywhere</option>\n<option value=\"a:\">Words in Author</option>\n<option
+        value=\"t:\">Words in Title</option>\n<option value=\"d:\">Words in Subject</option>\n<option
+        value=\"N:\">Words in Note</option>\n\n\n</select>\n<input maxlength=\"75\"
+        size=\"35\" name=\"searchText3\" />\n<select name=\"boolean3\">\n<option value=\"+and+\"
+        selected=\"selected\">And</option>\n<option value=\"+or+\">Or</option>\n<option
+        value=\"+and+not+\">And not</option>\n<option value=\"+near+\">Near</option>\n<option
+        value=\"+before+\">Before</option>\n<option value=\"+after+\">After</option>\n\n</select>\n\n<br
+        />\n<select name=\"fieldLimit4\">\n<option value=\"\" selected=\"selected\">Words
+        anywhere</option>\n<option value=\"a:\">Words in Author</option>\n<option
+        value=\"t:\">Words in Title</option>\n<option value=\"d:\">Words in Subject</option>\n<option
+        value=\"N:\">Words in Note</option>\n</select>\n<input maxlength=\"75\" size=\"35\"
+        name=\"searchText4\" />\n\n<br /><br class=\"space\">\n\n<input type=\"hidden\"
+        name=\"startLimit\" />\n\n<input type=\"checkbox\" name=\"availlim\" value=\"1\"
+        />\n<span class=\"availLimMessage\">Limit search to available items</span>\n<br
+        /><br class=\"space\">\n\nSort By:&nbsp;<select name=\"SORT\">\n<option value=\"R\">Relevance</option><option
+        value=\"D\">Date</option><option value=\"A\">Title</option></select>\n\n</TD>\n\n<td
+        class=\"searchform2\" width=\"325\" style=\"padding-top: 3\">\n<table border=\"0\"
+        cellpadding=\"3\" cellspacing=\"0\" class=\"searchform2\">\n<tr>\n<td>\n<b>Search
+        Limits:</b>\n</td></tr>\n<tr><td>\n\nLocation:\n<select name=\"b\" >\n<option
+        value=\"\" selected=\"selected\">ANY</option>\n<option value=\"stcks\">Stacks</option>\n<option
+        value=\"ores \">Open Reserve</option>\n<option value=\"res  \">Closed Reserve</option>\n<option
+        value=\"ref  \">Reference</option>\n<option value=\"inet \">Internet</option>\n<option
+        value=\"cpc  \">CPC Resource Library</option>\n<option value=\"micro\">Microforms</option>\n<option
+        value=\"cpshv\">Compact Shelving</option>\n<option value=\"vf   \">Vertical
+        File</option>\n<option value=\"cores\">Course Reserve</option>\n</select>\n\n</td></tr>\n<TR><TD
+        \ ALIGN=\"left\">\n\n\t<input type=checkbox name=\"b\" value=\"inet \"> \n\t<span
+        class=\"availLimMessage\">Limit Search to Internet</span>\n\t\t\n</TD></TR>\n\n<tr><td>\nMaterial
+        Type:\n<select name=\"m\">\n<option value=\"\" selected=\"selected\">ANY</option>\n<option
+        value=\"b\">Book</option>\n<option value=\"e\">E-book</option>\n<option value=\"j\">Journal/Serial</option>\n<option
+        value=\"o\">Online Resource</option>\n<option value=\"m\">Microform</option>\n<option
+        value=\"v\">Video/DVD</option>\n<option value=\"a\">Audio</option>\n<option
+        value=\"c\">CD-ROM/Disk</option>\n<option value=\"g\">Graphic Material</option>\n<option
+        value=\"f\">Course Folders</option>\n</select>\n\n\n\n</td></tr>\n<tr><td>\nLanguage:\n<select
+        name=\"l\">\n<option value=\"\" selected=\"selected\">ANY</option>\n<option
+        value=\"eng\">English</option>\n\n<option value=\"fre\">French</option>\n<option
+        value=\"ger\">German</option>\n<option value=\"ita\">Italian</option>\n<option
+        value=\"rus\">Russian</option>\n<option value=\"spa\">Spanish</option>\n</select>\n</td></tr>\n<tr><td>\nYear:
+        After <input type=\"text\" size=\"5\" name=\"Da\" value=\"\"> and Before <input
+        type=\"text\" size=\"5\" name=\"Db\" value=\"\"></input>\n\n</td></tr>\n\n<tr><td>\nPublisher:
+        <input type=\"text\" size=\"20\" name=\"p\" value=\"\">\n<!--\n<table border=\"0\">\n<tr><td><label
+        for=\"b\">Location:</label></td>\n<td><select id=\"b\" name=\"b\" size=\"5\"
+        multiple=\"multiple\">\n<option value=\"\">ANY</option>\n<option value=\"stcks\">Stacks</option>\n<option
+        value=\"ores \">Open Reserve</option>\n<option value=\"res  \">Closed Reserve</option>\n<option
+        value=\"ref  \">Reference</option>\n<option value=\"inet \">Internet</option>\n<option
+        value=\"cpc  \">CPC Resource Library</option>\n<option value=\"micro\">Microforms</option>\n<option
+        value=\"cpshv\">Compact Shelving</option>\n<option value=\"vf   \">Vertical
+        File</option>\n</select>\n</td>\n</tr></table>\n\n{publish}-->\n\n\n<input
+        type=\"hidden\" name=\"endLimit\" />\n</td></tr>\n</TABLE>\n\n<tr>\n<td colspan=\"\"
+        class=\"searchform2\" style=\"padding: 4 0 6 5px; vertical-align: middle;
+        font-size: 13px\" >\n\n\n\n\n\n\n\n<script language=\"javascript\">\nfunction
+        iiiAdvSubmit()\n{\nobj = getObj(\"search\");\nsubmitSearch(obj, location.pathname,
+        false);\n}\nif (document.layers)\n  document.captureEvents(Event.KEYDOWN);\ndocument.onkeydown
+        =\n  function (evt) {\n    var keyCode = evt ? (evt.which ? evt.which : evt.keyCode)
+        : event.keyCode;\n    if (keyCode == 13) \n      iiiAdvSubmit(); };\n</script>\n<a
+        href=\"#\" onclick=\"iiiAdvSubmit();\"><img src=\"/screens/submit.gif\" alt=\"Submit\"
+        border=\"0\" class=\"button\" /></a>\n</td>\n</tr>\n</table>\n<input type=\"hidden\"
+        name=\"endLimit\" />\n\n\n</form>\n\n\n\n\n\n\n\n\n\n\n\n<br />\n\n</td></tr>\n\n</div>\n<!--End
+        the main content table-->\n\n\n\n\n<!-- This page written in wordpad by tom
+        k. -->\n\n<LINK REL=\"stylesheet\" TYPE=\"text/css\" HREF=\"/screens/css/mym.css\">\n<LINK
+        REL=\"stylesheet\" TYPE=\"text/css\" HREF=\"/screens/css/template.css\">\n<tr><td>\n<table
+        border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"pconly\">\n<tr>\n\n<!--
+        Law Lib Footer -->\n<!-- light gray is #F1EFF0 -->\n<td class=\"ban2\" align=\"center\"
+        bgcolor=\"white\" height=\"35\" width=\"190px\"> \n<a class=\"ftr\" href=\"http://law.fordham.edu/\">Fordham
+        Law </a>\n</td>      \n<td class=\"ban2\" bgcolor=\"white\" align=\"center\"
+        Height=\"35\" width=\"485px\"><div class=\"nfo\">150 W 62 St. New York, NY
+        10023 &nbsp; (212) 636-6900 </div></td>      \n<td class=\"ban2\" align=\"center\"
+        bgcolor=\"white\" width=\"225px\"> \n<a class=\"ftr\" href=\"http://www.fordham.edu/\">Fordham
+        University </a></td>    \n</tr>\n<!-- End Law Lib Footer -->  \n<tr><td class=\"space\">&nbsp;</td></tr>\n</table>\n</td>\n</tr>\n\n</table>\n\n<!--
+        End of Page Table -->\n<!-- attempt to track offsite clicks below -->\n<script>\n/*
+        this is for pages using the \"new\" GA js */\nfunction _gaLt(event){\n    var
+        el = event.srcElement || event.target;\n\n    /* Loop up the DOM tree through
+        parent elements if clicked element is not a link (eg: an image inside a link)
+        */\n    while(el && (typeof el.tagName == 'undefined' || el.tagName.toLowerCase()
+        != 'a' || !el.href)){\n        el = el.parentNode;\n    }\n\n    if(el &&
+        el.href){\n        /* link */\n        var link = el.href;\n        if(link.indexOf(location.host)
+        == -1 && !link.match(/^javascript\\:/i)){ /* external link */\n            /*
+        HitCallback function to either open link in either same or new window */\n
+        \           var hitBack = function(link, target){\n                target
+        ? window.open(link, target) : window.location.href = link;\n            };\n
+        \           /* Is target set and not _(self|parent|top)? */\n            var
+        target = (el.target && !el.target.match(/^_(self|parent|top)$/i)) ? el.target
+        : false;\n            /* send event with callback */\n            ga(\n                \"send\",
+        \"event\", \"Outgoing Links\", link,\n                document.location.pathname
+        + document.location.search,\n                {\"hitCallback\": hitBack(link,
+        target)}\n            );\n\n            /* Prevent standard click */\n            event.preventDefault
+        ? event.preventDefault() : event.returnValue = !1;\n        }\n\n    }\n}\n\n/*
+        Attach the event to all clicks in the document after page has loaded */\nvar
+        w = window;\nw.addEventListener ? w.addEventListener(\"load\",function(){document.body.addEventListener(\"click\",_gaLt,!1)},!1)\n
+        : w.attachEvent && w.attachEvent(\"onload\",function(){document.body.attachEvent(\"onclick\",_gaLt)});\n
+        \n </script>\n<!-- end offsite click js -->\n\n<!-- google analytics below
+        -->\n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
+        \ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n
+        \ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n
+        \ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n
+        \ ga('create', 'UA-4308917-1', 'auto');\n  ga('send', 'pageview');\n\n</script>\n<!--
+        end google analytics -->\n\n<!-- End of Page Table -->\n\n\n\n</body>\n</html>\n\n<!--this
+        is customized <screens/srchhelp_X.html>-->\n"
+    http_version: 
+  recorded_at: Tue, 07 Feb 2017 21:58:54 GMT
+recorded_with: VCR 3.0.3

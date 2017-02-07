@@ -1,0 +1,231 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://lawpac.lawnet.fordham.edu/search/a?searcharg=silverstein&searchtype=p
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.8.3, ruby 2.3.3 (2016-11-21))
+      Accept:
+      - "*/*"
+      Date:
+      - Tue, 07 Feb 2017 21:58:28 GMT
+      Cookie:
+      - SESSION_LANGUAGE=eng; III_EXPT_FILE=aa28676; III_SESSION_ID=ad4d68a0fb29a264942bc65e0b1b20cb;
+        SESSION_SCOPE=0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 07 Feb 2017 21:58:28 GMT
+      Server:
+      - III 100
+      Pragma:
+      - no-cache
+      Content-Type:
+      - text/html; charset=UTF-8
+      Expires:
+      - Tue, 7 Feb 2017 21:58:28 GMT
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - SESSION_LANGUAGE=eng; path=/; domain=.lawnet.fordham.edu; path=/
+      - SESSION_SCOPE=0; path=/
+      Vary:
+      - User-Agent,Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: "<html   dir=\"LTR\">\n<head>\n<title>Fordham Law School Library        \n
+        \                                          </title>\n<base target=\"_self\"/>\n<link
+        rel=\"stylesheet\" type=\"text/css\" href=\"/scripts/ProStyles.css\" />\n<link
+        rel=\"stylesheet\" type=\"text/css\" href=\"/screens/styles.css\" />\n<link
+        rel=\"shortcut icon\" type=\"ximage/icon\" href=\"/screens/favicon.ico\" />\n<script
+        type=\"text/javascript\" src=\"/scripts/common.js\"></script>\n\n<script type=\"text/javascript\"
+        src=\"/scripts/elcontent.js\"></script>\n\n<script type=\"text/JavaScript\">\n<!--
+        Hide the JS\nstartTimeout(6000000, \"/\");\n// -->\n</script>\n<noscript>\n<meta
+        http-equiv=\"Refresh\" content=\"6000;URL=/\" />\n</noscript>\n\n<link rel=\"stylesheet\"
+        href=\"/screens/styles_mobile.css\" type=\"text/css\" media=\"handheld\" /><link
+        rel=\"stylesheet\" media=\"screen and (max-device-width: 480px)\" href=\"/screens/styles_mobile.css\"
+        /><meta name=\"format-detection\" content=\"telephone=no\"><meta name=\"viewport\"
+        content=\"width=device-width; initial-scale=1.0;\" />\n</head>\n<body bgcolor=\"#FFFFFF\"
+        >\n<base target=\"_self\"/>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/scripts/ProStyles.css\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/screens/styles.css\"
+        />\n<link rel=\"shortcut icon\" type=\"ximage/icon\" href=\"/screens/favicon.ico\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/screens/mym.css\">\n\n<!--
+        for non-smartphones only -->\n<link  rel=\"stylesheet\" type=\"text/css\"
+        href=\"/screens/killsp.css\" media=\"screen and (min-device-width: 765px)\"/>\n\n<!--for
+        smartphones only-->\n<link rel=\"stylesheet\" href=\"http://lawpac.lawnet.fordham.edu/screens/styles_mobile.css\"
+        type=\"text/css\" media=\"handheld\" /><link rel=\"stylesheet\" media=\"screen
+        and (max-device-width: 480px)\" href=\"/screens/styles_mobile.css\" /><meta
+        name=\"format-detection\" content=\"telephone=no\"><meta name=\"viewport\"
+        content=\"width=device-width; initial-scale=1.0;\" />\n\n<script language=\"JavaScript\"
+        type=\"text/javascript\" src=\"/scripts/common.js\"></script>\n<script language=\"JavaScript\"
+        type=\"text/javascript\" src=\"/scripts/elcontent.js\"></script>\n<script
+        language=\"JavaScript\"> \n<!-- Hide the JS\nstartTimeout(6000000, \"/\");\n//
+        -->\n</script>\n<noscript>\n<meta http-equiv=\"Refresh\" content=\"6000;URL=/\"
+        />\n</noscript>\n\n\n\n \n<body bgcolor=\"#FFFFFF\" class=\"justified\" >\n<!--
+        Make sure IE uses our killsp ss -->\n<!--[if IE]>     <link rel=\"stylesheet\"
+        type=\"text/css\" href=\"/screens/killsp.css\" />  <![endif]-->\n\n\n<table
+        border=\"0\"  cellpadding=\"0\" cellspacing=\"0\" valign=\"top\" class=\"lockwidth\">\n<!--
+        Law Lib Banner  -->\n<tr>\n<td colspan=\"3\"  valign=\"middle\" height=\"55\"
+        class=\"banner\">\n\n<table border=\"0\" width=\"900px;\" cellpadding=\"0\"
+        cellspacing=\"0\"> \n<tr> \n<td bgcolor=\"white\" width=\"375\" > \n<a href=\"http://law.fordham.edu\"><img
+        style=\"margin-left:12px;\" src=\"/screens/pics/cornerbanner.taller1.gif\"
+        name=\"Fordham Logo\" alt=\"Fordham Logo\" align=\"left\" border=\"0\"  width=\"357\"></a></td>
+        \n<td bgcolor=\"white\" align=\"right\"><a href=\"http://lawpac.lawnet.fordham.edu/search/X\">\n<!--fpbanner2.gif-->\n<img
+        style=\"margin-right:12px;vertical-align:top;\" src=\"/screens/pics/maloney.gif\"
+        name=\"Library Name\" alt=\"Library Homepage\" align=\"right\" border=\"0\"
+        ></a><br />\n<a href=\"http://lawpac.lawnet.fordham.edu/search/X\">\n<img
+        style=\"margin-right:12px; vertical-align:bottom; padding:0px;\" src=\"/screens/pics/fpclassic1.gif\"
+        name=\"Search Page\" alt=\"Search Page\" align=\"right\" border=\"0\" ></a>\n</td>
+        \n</tr> \n</table>\n\n</td>\n</tr>\n\n<!--Beginning navigation bar at the
+        top of the page #E19898 D9A8A8 E9C5C5 FBD9C9 faaa5f ffa245 ffbb71 edc4ad-->\n<tr>\n<td
+        class=\"navrow\" cellpadding=\"0\" cellspacing=\"0\">\n\n<table border=\"0\"
+        width=\"900px\" cellpadding=\"0\" cellspacing=\"0\" valign=\"top\" bgcolor=\"#edc4ad\">\n<tr>\n\n<td
+        class=\"limenu\" height=\"24px\" width=\"900px\" align=\"left\"> \n<span style=\"float:left;margin-left:16px;margin-right:16px;width:104px;\">\n<a
+        class=\"limenulinks\" href=\"http://lawlib1.lawnet.fordham.edu\"><font color=\"black\">LIBRARY
+        HOME</font></a>\n</span>\n\n<span style=\"float:left; margin-right:9px; width:90px;\">\n<a
+        class=\"limenulinks\" href=\"/search/X\"><font color=\"black\">NEW SEARCH</font></a>\n</span>\n\n<span
+        style=\"float:left; margin-right:9px; width:50px;\">\n<a class=\"limenulinks\"
+        href=\"https://fordhamlaw.illiad.oclc.org/illiad/logon.html\"><font color=\"black\">ILLIAD</font></a>\n</span>\n\n<span
+        style=\"float:left;margin-right:7px; width:100px;\">\n<a class=\"limenulinks\"
+        href=\"https://catalog.library.fordham.edu/uhtbin/cgisirsi/0/0/0/38/X/POWER_SEARCH\"><font
+        color=\"black\">FORDHAM CAT</font></a>\n</span>\n\n\n<span style=\"float:left;margin-right:7px;width:94px;\">\n<a
+        class=\"limenulinks\" href=\"http://0-firstsearch.oclc.org.lawpac.lawnet.fordham.edu/FSIP?dbname=worldcat\"><font
+        color=\"black\">WORLDCAT</font></a>\n</span>\n\n<span style=\"float:left;\">\n<a
+        class=\"limenulinks\" href=\"/screens/help_index.html\" onclick=\"return replace_or_redraw('/screens/help_index.html')\"><font
+        color=\"black\">HELP</font></a>\n</span>\n\n\n<!--<font color=\"#114F8C\">-->\n<!--\n<span>\n\n<a
+        class=\"limenulinks\" style=\"float:right; margin-right:9px; vertical-align:bottom;
+        font-size:13px;font-weight:normal;color:black;\" href=\"http://lawpac.lawnet.fordham.edu/screens/discovery.html\">FULLPAC
+        DISCOVERY</a>\n</span>\n\n\n<span >\n<a class=\"myfullpac\" style=\"float:right;
+        margin-right:20px; vertical-align:top;\" href=\"/patroninfo\"><i>MY</i> FULLPAC</a>\n</span>\n-->\n\n\n<span
+        >\n<a class=\"myfullpac\" style=\"float:right; margin-right:18px; vertical-align:top;
+        width: 90px;\" href=\"/patroninfo\">MY</i> FULLPAC</b></a>\n</span>\n\n<span>\n<a
+        class=\"fpdiscovery\" style=\"float:right; margin-right:16px; vertical-align:bottom;
+        font-size:13px;\" href=\"http://lawpac.lawnet.fordham.edu/screens/discovery.html\">FULLPAC
+        DISCOVERY</b></a>\n</span>\n\n\n</td>\n\n</tr>\n</table>\n<!-- End of the
+        top navigation bar -->\n\n</td>\n</tr>\n\n\n<tr>\n<td bgcolor= \"#F1EFF0\"
+        colspan=\"3\" class=\"lockwidth\" >\n\n<!-- Smartphone only banner -->\n<div
+        class=\"sphead\"><a href=\"http://lawlib1.lawnet.fordham.edu/mobile\">The
+        Maloney Library</a>\n<hr />\n</div>\n\n\n<!-- end toplogo.html file -->\n\n<!--this
+        is default <course_display>-->\n<div class=\"bibScreen\">\n<div  class=\"navigationRow\">\n<a
+        href=\"/search/X\"><img src=\"/screens/startover.gif\" class=\"button2\" alt=\"Start
+        Over\" border=\"0\" /></a>\n<a href=\"/search/p\"><img src=\"/screens/another.gif\"
+        alt=\"Another Search\" border=\"0\" /></a>\n</div>\n<div  class=\"navSearchHistory\">\n<form>\n<select
+        name=HISTORY onChange=\"onSelectChange(this, '')\"><option value=\"\">(Search
+        History)</option>\n<OPTION VALUE=\"psilverstein\">PROF/TA: silverstein\n<OPTION
+        VALUE=\"rcivil\">COURSE: civil\n<OPTION VALUE=\"ps\">PROF/TA: s\n<OPTION VALUE=\"padzzzzzzzzakdjfzzzzz\">PROF/TA:
+        adzzzzzzzzakdjfzzzzz\n<option value=\"+/search/psilverstein/psilverstein/1,1,1,B/frameset&FF=psilverstein&1,1,&clear_history\">(Clear
+        Search History)</option>\n<option value=\"+/\">(End Search Session)</option>\n</select>\n<noscript>\n<h2>Search
+        history function requires JavaScript.</h2>\n</noscript>\n</form>\n</div>\n<div
+        \ class=\"bibSearchtool\">\n\n<script type=\"text/JavaScript\">\n<!-- Hide
+        the JS\nvar savedScope;\nvar savedTag;\nvar savedSearch;\nvar sortButtonText
+        = null;\nvar savedExactSearch = null;\nvar sortButtonEvent = null;\nvar sortExactBrowseURL
+        = null;\nvar sortTypes = new Array();\nvar sortLabels = new Array();\nsortTypes[0]
+        = \"r\";\nsortLabels[0] = \"Relevance\";\nsortTypes[1] = \"r\";\nsortLabels[1]
+        = \"Newest First\";\nsortTypes[2] = \"c\";\nsortLabels[2] = \"Oldest First\";\nsortTypes[3]
+        = \"t\";\nsortLabels[3] = \"Title\";\nsortLabels[4] = \"System Sorted\";\nsortTypes[4]
+        = \"-\";\nvar sortSelectedValue = \"4\";\nvar nonSortTags = \"XYZprWw\"\n//
+        Unhide the JS -->\n</script>\n<form name=\"searchtool\" target=\"_self\" action=\"/search/\"
+        method='GET'>\n      <label for=\"searchtype\" style=\"display:none;\">SearchType</label>
+        <select name=\"searchtype\" id=\"searchtype\" onChange=\"initSort()\">\n        <option
+        value=\"p\" selected=\"selected\"> PROF/TA</option>\n        <option value=\"r\">
+        COURSE</option>\n      </select>\n      &nbsp;\n      <label for=\"searcharg\"
+        style=\"display:none;\">Search</label><input type=\"text\" name=\"searcharg\"
+        id=\"searcharg\" size=\"30\" onchange='return searchtoolSubmitAction()'maxlength=\"75\"
+        value=\"silverstein\" />\n      &nbsp;\n\n<span id=\"sort_cell\">\n</span>\n\n<script
+        type=\"text/JavaScript\">\n<!-- Hide the JS\ninitSort();\n// Unhide the JS
+        -->\n</script>\n      <input type=\"hidden\" name=\"SORT\" value=\"D\" /><input
+        type=\"hidden\" name=\"extended\" value=\"0\" />      <input type=\"submit\"
+        name=\"SUBMIT\" value=\"Search\" onclick='return searchtoolSubmitAction();'
+        />\n<div>\n      <input type=\"hidden\" name=\"searchlimits\" value=\"\" />\n
+        \     <input type=\"hidden\" name=\"searchorigarg\" value=\"psilverstein\"
+        />\n</div>\n</form>\n</div>\n<br/>\n<div class=\"bibPager\">\n\nResult page:\n<a
+        href=\"/search?/psilverstein/psilverstein/1%2C1%2C1%2CB/frameset&FF=pshugerman+jed&0%2C0%2C\"><img
+        src=\"/screens/bib_paging_prev.gif\" class=\"button\" border=\"0\" alt=\"Previous
+        Record\" /></a>\n<a href=\"/search?/psilverstein/psilverstein/1%2C1%2C1%2CB/frameset&FF=psoden&1%2C1%2C\"><img
+        src=\"/screens/bib_paging_next.gif\" class=\"button\" border=\"0\" alt=\"Next
+        Record\" /></a>\n</div>\n<div  class=\"otherResources\">\n</div>\n<div class=\"bibMain\">\n<div
+        class=\"bibContent\">\n<div class=\"bibInfo\">\n<!-- BEGIN BIBDETAIL TABLE
+        BORDER -->\n<table id=\"bib_detail\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"
+        \ class=\"bibDetail\">\n<tr  class=\"bibInfoEntry\" ><td>\n<!-- BEGIN INNER
+        BIB TABLE -->\n<table width=\"100%\" cellspacing=\"3\" cellpadding=\"0\">\n<tr><!--
+        next row for fieldtag=p -->\n<td valign=\"top\" width=\"20%\"  class=\"bibInfoLabel\">Prof/ta</td>\n<td
+        class=\"bibInfoData\">\n<a href=\"/search?/pHodges%2C+Silvia/phodges+silvia/-3,-1,0,B/browse\">Hodges,
+        Silvia</a>\n\n</td></tr>\n<tr><!-- next row for fieldtag=p -->\n<td></td>\n<td
+        class=\"bibInfoData\">\n<a href=\"/search?/pSilverstein%2C+Sylvia+Hodges/psilverstein+sylvia+hodges/-3,-1,0,B/browse\">Silverstein,
+        Sylvia Hodges</a>\n\n</td></tr>\n<tr><!-- next row for fieldtag=p -->\n<td></td>\n<td
+        class=\"bibInfoData\">\n<a href=\"/search?/pHodges+Silverstein%2C+Sylvia/phodges+silverstein+sylvia/-3,-1,0,B/browse\">Hodges
+        Silverstein, Sylvia</a>\n\n</td></tr>\n<tr><!-- next row for fieldtag=r -->\n<td
+        valign=\"top\" width=\"20%\"  class=\"bibInfoLabel\">Course</td>\n<td class=\"bibInfoData\">\n<a
+        href=\"/search?/rLaw+Firm+Marketing/rlaw+firm+marketing/-3,-1,0,B/browse\">Law
+        Firm Marketing</a>\n\n</td></tr>\n<tr><!-- next row for fieldtag=n -->\n<td
+        valign=\"top\" width=\"20%\"  class=\"bibInfoLabel\">Cour note</td>\n<td class=\"bibInfoData\">\nSpring
+        Semester 2017</td></tr>\n</table>\n<!-- END INNER BIB TABLE -->\n</td></tr>\n</table>\n<!--
+        END BIBDETAIL TABLE -->\n</div>\n<div>\n<a id=\"recordnum\" href=\"/record=r101854\"></a>\n</div>\n<div>\n</div>\n<div>\n<tr
+        style=\"text-align:center\">\n<td >\n<table width=\"100%\" border=\"0\" cellpadding=\"3\"
+        cellspacing=\"0\" class=\"reserveBibs\">\n<tr style=\"text-align:center\">\n<td
+        scope=\"col\" colspan=\"4\">\n<b>Materials for this course</b>\n</td>\n\n</tr>\n<tr
+        style=\"text-align:center\">\n<td scope=\"col\">\n<b>Title</b>\n</td>\n\n<td
+        scope=\"col\">\n<b>Author</b>\n</td>\n\n<td scope=\"col\">\n<b>Call #</b>\n</td>\n\n<td
+        scope=\"col\">\n<b>Format</b>\n</td>\n\n</tr>\n<tr>\n<td><a href=\"/search?/psilverstein/psilverstein/1,1,1,B/frameset~512361&FF=psilverstein&1,1,\">Readings
+        for Law Firm Marketing</a>\n</td>\n<td >\n[multiple]\n</td>\n\n<td >\nCourse
+        Reserve -- 6  -- Recently Returned\n</td>\n\n<td >\n&nbsp;\n</td>\n\n</tr>\n</table>\n</div>\n<div>\n</div>\n</div>\n</div>\n<div
+        \ class=\"navigationRow\">\n<a href=\"/search/X\"><img src=\"/screens/startover.gif\"
+        class=\"button2\" alt=\"Start Over\" border=\"0\" /></a>\n<a href=\"/search/p\"><img
+        src=\"/screens/another.gif\" alt=\"Another Search\" border=\"0\" /></a>\n</div>\n<div
+        \ class=\"navSearchHistory\">\n<form>\n<select name=HISTORY onChange=\"onSelectChange(this,
+        '')\"><option value=\"\">(Search History)</option>\n<OPTION VALUE=\"psilverstein\">PROF/TA:
+        silverstein\n<OPTION VALUE=\"rcivil\">COURSE: civil\n<OPTION VALUE=\"ps\">PROF/TA:
+        s\n<OPTION VALUE=\"padzzzzzzzzakdjfzzzzz\">PROF/TA: adzzzzzzzzakdjfzzzzz\n<option
+        value=\"+/search/psilverstein/psilverstein/1,1,1,B/frameset&FF=psilverstein&1,1,&clear_history\">(Clear
+        Search History)</option>\n<option value=\"+/\">(End Search Session)</option>\n</select>\n</form>\n</div>\n</div>\n<br
+        />\n\n\n\n<!-- This page written in wordpad by tom k. -->\n\n<LINK REL=\"stylesheet\"
+        TYPE=\"text/css\" HREF=\"/screens/css/mym.css\">\n<LINK REL=\"stylesheet\"
+        TYPE=\"text/css\" HREF=\"/screens/css/template.css\">\n<tr><td>\n<table border=\"0\"
+        cellpadding=\"0\" cellspacing=\"0\" class=\"pconly\">\n<tr>\n\n<!-- Law Lib
+        Footer -->\n<!-- light gray is #F1EFF0 -->\n<td class=\"ban2\" align=\"center\"
+        bgcolor=\"white\" height=\"35\" width=\"190px\"> \n<a class=\"ftr\" href=\"http://law.fordham.edu/\">Fordham
+        Law </a>\n</td>      \n<td class=\"ban2\" bgcolor=\"white\" align=\"center\"
+        Height=\"35\" width=\"485px\"><div class=\"nfo\">150 W 62 St. New York, NY
+        10023 &nbsp; (212) 636-6900 </div></td>      \n<td class=\"ban2\" align=\"center\"
+        bgcolor=\"white\" width=\"225px\"> \n<a class=\"ftr\" href=\"http://www.fordham.edu/\">Fordham
+        University </a></td>    \n</tr>\n<!-- End Law Lib Footer -->  \n<tr><td class=\"space\">&nbsp;</td></tr>\n</table>\n</td>\n</tr>\n\n</table>\n\n<!--
+        End of Page Table -->\n<!-- attempt to track offsite clicks below -->\n<script>\n/*
+        this is for pages using the \"new\" GA js */\nfunction _gaLt(event){\n    var
+        el = event.srcElement || event.target;\n\n    /* Loop up the DOM tree through
+        parent elements if clicked element is not a link (eg: an image inside a link)
+        */\n    while(el && (typeof el.tagName == 'undefined' || el.tagName.toLowerCase()
+        != 'a' || !el.href)){\n        el = el.parentNode;\n    }\n\n    if(el &&
+        el.href){\n        /* link */\n        var link = el.href;\n        if(link.indexOf(location.host)
+        == -1 && !link.match(/^javascript\\:/i)){ /* external link */\n            /*
+        HitCallback function to either open link in either same or new window */\n
+        \           var hitBack = function(link, target){\n                target
+        ? window.open(link, target) : window.location.href = link;\n            };\n
+        \           /* Is target set and not _(self|parent|top)? */\n            var
+        target = (el.target && !el.target.match(/^_(self|parent|top)$/i)) ? el.target
+        : false;\n            /* send event with callback */\n            ga(\n                \"send\",
+        \"event\", \"Outgoing Links\", link,\n                document.location.pathname
+        + document.location.search,\n                {\"hitCallback\": hitBack(link,
+        target)}\n            );\n\n            /* Prevent standard click */\n            event.preventDefault
+        ? event.preventDefault() : event.returnValue = !1;\n        }\n\n    }\n}\n\n/*
+        Attach the event to all clicks in the document after page has loaded */\nvar
+        w = window;\nw.addEventListener ? w.addEventListener(\"load\",function(){document.body.addEventListener(\"click\",_gaLt,!1)},!1)\n
+        : w.attachEvent && w.attachEvent(\"onload\",function(){document.body.attachEvent(\"onclick\",_gaLt)});\n
+        \n </script>\n<!-- end offsite click js -->\n\n<!-- google analytics below
+        -->\n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
+        \ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n
+        \ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n
+        \ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n
+        \ ga('create', 'UA-4308917-1', 'auto');\n  ga('send', 'pageview');\n\n</script>\n<!--
+        end google analytics -->\n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Tue, 07 Feb 2017 21:58:28 GMT
+recorded_with: VCR 3.0.3
