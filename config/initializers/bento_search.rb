@@ -155,7 +155,7 @@ BentoSearch.register_engine("reserves") do |conf|
       },
       {
         label: "By Course →",
-        link_out: "http://lawpac.lawnet.fordham.edu/search/a?searchtype=c&searcharg=%s"
+        link_out: "http://lawpac.lawnet.fordham.edu/search/a?searchtype=r&searcharg=%s"
       },
     ]
   end
