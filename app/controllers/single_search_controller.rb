@@ -1,4 +1,6 @@
 class SingleSearchController < ApplicationController
+  helper LinkOutHelper
+
   def index
     results
   end

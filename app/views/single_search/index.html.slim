@@ -13,8 +13,9 @@
         '
         = submit_tag :search, name: 'c'
 
-  -if results
-    .single-search-results
+
+  .single-search-results
+    - if results
       - if results.total_items.present? # mostly for reserves which don't have em
         - if (params[:page].to_i > 1) || results.total_items > (results.start + results.per_page)
           .hit-count Page #{params[:page] || '1'} of about #{number_with_delimiter results.total_items} results
@@ -23,3 +24,4 @@
       = paginate results.pagination
       = bento_search results
       = paginate results.pagination
+      = render "extra_links_section", search_object: results
