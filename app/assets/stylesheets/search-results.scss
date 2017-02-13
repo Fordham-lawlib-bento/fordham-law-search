@@ -55,7 +55,9 @@
 // Secondary Results Breakpoint
 // xxxxxx
 
-@media screen and (min-width: $one-column-break) and (max-width: $three-column-break) {
+// i think this max really needs to be one pixel less than $three-column-break, sorry
+// this is a hack.
+@media screen and (min-width: $one-column-break) and (max-width: $three-column-break - .05em) {
   .search-results-secondary {
     flex-wrap: wrap;
 
