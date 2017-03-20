@@ -81,7 +81,7 @@ There are two ways to trigger embedding:
 
 Anywhere on your page, place a script tag:
 
-    <script src="//librarysearch.lawnet.fordham.edu/search-embed.js" async></script>
+    <script src="//librarysearch.law.fordham.edu/search-embed.js" async></script>
 
 The search form will appear on the page where the script tag has been placed.
 
@@ -95,7 +95,7 @@ with a unique 'id' of your choice:
 Now include a javascript script tag wherever you'd like (such as `<head>`
 section), specifying that id:
 
-     <script src="//librarysearch.lawnet.fordham.edu/search-embed.js?hostDomId=searchFormHere" async></script>
+     <script src="//librarysearch.law.fordham.edu/search-embed.js?hostDomId=searchFormHere" async></script>
 
 The search form will be placed just before the element whose id is specified.
 
