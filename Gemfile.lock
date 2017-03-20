@@ -114,7 +114,7 @@ GEM
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
     language_list (1.1.0)
-    letsencrypt-rails-heroku (0.3.0)
+    letsencrypt-rails-heroku (1.2.0)
       acme-client (~> 0.4.0)
       platform-api
     listen (3.0.8)
