@@ -14,6 +14,14 @@
 
 body {
   background: transparent;
+
+  @media screen and (max-width: 800px) {
+    font-size: 13px;
+  }
+
+  @media screen and (max-width: 740px) {
+    font-size: 12px;
+  }
 }
 
 .search-form {
