@@ -44,13 +44,6 @@ gem 'addressable', '~> 2.5' # completing partial URLs
 # heroku suggested, see config/rack_timeout.rb
 gem "rack-timeout"
 
-# for automatic letsencrypt ssl cert acquisition and renewal
-# Until the new API calls are generally available, you must manually specify fork
-# of the Heroku API gem for use by letsencrypt-rails-heroku
-gem 'platform-api', git: 'https://github.com/jalada/platform-api.git', branch: 'master'
-gem 'letsencrypt-rails-heroku', group: 'production'
-
-
 group :development, :test do
   gem 'vcr', "~> 3.0"
   gem 'webmock'
