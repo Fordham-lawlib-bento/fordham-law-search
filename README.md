@@ -61,15 +61,6 @@ to heroku config/env variables beginning with `_SECRET_`. We use the
 `heroku_secrets` gem to then load these into Rails secrets on boot
 on heroku.
 
-### SSL (https)
-
-The SSL (https) cert is obtained from letsencrypt.com.
-
-It has been automatically obtained with the [letsencrypt-rails-heroku](https://github.com/pixielabs/letsencrypt-rails-heroku) gem.
-
-There is a heroku scheduled task that periodically renews the cert with letsencrypt, per instructions
-in the letsencrypt-rails-heroku gem README.
-
 ## Embed Search Form
 
 A utility to embed the search form on a remote page is included. It uses
