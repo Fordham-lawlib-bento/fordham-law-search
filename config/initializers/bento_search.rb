@@ -45,10 +45,6 @@ BentoSearch.register_engine("catalog") do |conf|
     display.extra_links_label = "More Catalogs"
     display.extra_links = [
       {
-        label: "Worldcat",
-        link_out: "https://www.worldcat.org/search?qt=worldcat_org_all&q=%s"
-      },
-      {
         label: "Fordham Law Classic Catalog",
         link_out: "http://lawpac.lawnet.fordham.edu/search/X?%28%s%29&SORT=R"
       },
@@ -61,6 +57,10 @@ BentoSearch.register_engine("catalog") do |conf|
           ['searchdata1', '%s'],
           ['sort_by', 'relevance']
         ]
+      },
+	    {
+        label: "Worldcat",
+        link_out: "https://www.worldcat.org/search?qt=worldcat_org_all&q=%s"
       }
     ]
 
