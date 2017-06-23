@@ -42,7 +42,7 @@ BentoSearch.register_engine("catalog") do |conf|
     display.ajax = :auto
 
 
-    display.extra_links_label = "More Catalogs"
+    display.extra_links_label = "Search Other Catalogs"
     display.extra_links = [
       {
         label: "Worldcat",
@@ -53,17 +53,10 @@ BentoSearch.register_engine("catalog") do |conf|
         link_out: "http://lawpac.lawnet.fordham.edu/search/X?%28%s%29&SORT=R"
       },
       {
-        label: "Fordham University Libraries Catalog",
-        post: true,
-        action: "https://catalog.library.fordham.edu/uhtbin/cgisirsi/x/0/0/5",
-        hidden_fields: [
-          ['srchfield1', "GENERAL^SUBJECT^GENERAL^^words or phrase"],
-          ['searchdata1', '%s'],
-          ['sort_by', 'relevance']
-        ]
+        label: "Fordham University Libraries",
+        link_out: "http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944763&groupid=main&site=eds-live&scope=site&type=0&profid=eds&mode=bool&direct=true&bquery=%s"
       }
     ]
-
   end
 end
 
