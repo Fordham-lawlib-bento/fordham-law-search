@@ -44,17 +44,17 @@ BentoSearch.register_engine("catalog") do |conf|
 
     display.extra_links_label = "Search Other Catalogs"
     display.extra_links = [
-      {
-        label: "Worldcat",
-        link_out: "https://www.worldcat.org/search?qt=worldcat_org_all&q=%s"
-      },
-      {
-        label: "Fordham Law Classic Catalog",
+           {
+        label: "Maloney Library Classic Catalog (FULLPAC)",
         link_out: "http://lawpac.lawnet.fordham.edu/search/X?%28%s%29&SORT=R"
       },
       {
         label: "Fordham University Libraries",
         link_out: "http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944763&groupid=main&site=eds-live&scope=site&type=0&profid=eds&mode=bool&direct=true&bquery=%s"
+      },
+	   {
+        label: "Worldcat",
+        link_out: "https://www.worldcat.org/search?qt=worldcat_org_all&q=%s"
       }
     ]
   end
