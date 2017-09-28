@@ -36,24 +36,21 @@ BentoSearch.register_engine("catalog") do |conf|
     #display.link_out ="http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944740&groupid=main&profile=eds&direct=true&cli0=FC&clv0=Y&bquery=%s"
     # previous linkout: display.link_out ="http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944740&groupid=main&profile=edscatonly&direct=true&bquery=%s"
     display.link_out ="http://search.ebscohost.com/login.aspx?authtype=IP,guest&custid=s8944740&groupid=main&profile=edscatonly&direct=true&bquery=%s"
-	display.link_out_text "View and filter all %i catalog results"
+  	display.link_out_text "View and filter all %i catalog results"
 
     display.year_only = true
 
     display.ajax = :auto
 
-
     display.extra_links_label = "Search Other Catalogs"
     display.extra_links = [
-           {
+      {
         label: "Maloney Library Classic Catalog (FULLPAC)",
         link_out: "http://lawpac.lawnet.fordham.edu/search/X?%28%s%29&SORT=R"
-      },
-      {
+      }, {
         label: "Fordham University Libraries",
         link_out: "http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944763&groupid=main&site=eds-live&scope=site&type=0&profid=eds&mode=bool&direct=true&bquery=%s"
-      },
-	   {
+      }, {
         label: "Worldcat",
         link_out: "https://www.worldcat.org/search?qt=worldcat_org_all&q=%s"
       }
@@ -71,6 +68,8 @@ BentoSearch.register_engine("articles") do |conf|
   conf.password = Rails.application.secrets.eds_api_password
   conf.profile = "apinocat"
 
+  conf.show_related_publications = true
+
   # If we have 'guest' access from EDS or not. Doesn't seem to make
   # any difference though?
   conf.auth = true
@@ -84,7 +83,7 @@ BentoSearch.register_engine("articles") do |conf|
     #display.hint = "Articles, e-books, dissertations, music, images, and more from a mostly full-text database"
     #display.link_out = "http://encore.lawnet.fordham.edu/iii/encore/eds/C__S%s__Orightresult__U"
     # previous linkout: display.link_out ="http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944740&groupid=main&profile=edsnocat&direct=true&bquery=%s"
-	display.link_out ="http://search.ebscohost.com/login.aspx?authtype=IP,guest&custid=s8944740&groupid=main&profile=edsnocat&direct=true&bquery=%s"
+  	display.link_out ="http://search.ebscohost.com/login.aspx?authtype=IP,guest&custid=s8944740&groupid=main&profile=edsnocat&direct=true&bquery=%s"
     display.ajax = :auto
 
     display.extra_links_label = "Additional Resources"

@@ -29,5 +29,12 @@ module FordhamLawSearch
     # if needed can be included explicitly with `helper` or `helper_method`
     # in controller.
     config.action_controller.include_all_helpers = false
+
+    config.to_prepare do
+      # Load application's model decorators
+      Dir.glob(File.join(File.dirname(__FILE__), "../app/extensions/**/*_extension.rb")) do |c|
+        Rails.configuration.cache_classes ? require(c) : load(c)
+      end
+    end
   end
 end
