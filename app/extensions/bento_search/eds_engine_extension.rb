@@ -165,7 +165,7 @@ module BentoSearch
                 # inside the 'link' item, but inside the <link> tag since it knows
                 # an HTML link tag has no content. Really EDS.
                 data_html = CGI.unescapeHTML(data_element.text)
-                node = Nokogiri::XML::fragment(data_html)
+                node = Nokogiri::XML::fragment(data_html.gsub(/&/, "&amp;"))
                 node.xpath("./link").each do |link|
                   next unless link["linkterm"].presence || link["linkTerm"].presence
 
