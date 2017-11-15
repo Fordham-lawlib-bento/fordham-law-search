@@ -71,7 +71,7 @@ module BentoSearch
             item_xml.xpath("./FullTextHoldings/FullTextHolding").each do |link_xml|
               item.other_links << BentoSearch::Link.new(
                 url: link_xml.at_xpath("./URL").text,
-                label: link_xml.at_xpath("./Name").text
+                label: "#{link_xml.at_xpath("./Name").text} (#{link_xml.at_xpath("./CoverageStatement").text})"
               )
             end
 
