@@ -218,13 +218,13 @@ module BentoSearch
             # location/call number, probably only for catalog results. We only see one
             # in actual data, but XML structure allows multiple, so we'll store it as multiple.
             copy_informations = record_xml.xpath("./Holdings/Holding/HoldingSimple/CopyInformationList/CopyInformation")
-            if copy_informations.present?
-              item.custom_data[:holdings] =
-                copy_informations.collect do |copy_information|
-                  BentoSearch::EdsEngine::Holding.new(:location => at_xpath_text(copy_information, "Sublocation"),
-                              :call_number => at_xpath_text(copy_information, "ShelfLocator"))
-                end
-            end
+            ### if copy_informations.present?
+            ###  item.custom_data[:holdings] =
+            ###    copy_informations.collect do |copy_information|
+            ###      BentoSearch::EdsEngine::Holding.new(:location => at_xpath_text(copy_information, "Sublocation"),
+            ###                  :call_number => at_xpath_text(copy_information, "ShelfLocator"))
+            ###    end
+            ### end
 
 
 
