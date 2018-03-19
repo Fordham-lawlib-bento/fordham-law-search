@@ -42,7 +42,7 @@ BentoSearch.register_engine("catalog") do |conf|
 
     display.ajax = :auto
 
-    display.extra_links_label = "Search Results in Other Catalogs"
+    display.extra_links_label = "See Results in Other Catalogs"
     display.extra_links = [
       {
         label: "Maloney Library Classic Catalog (FULLPAC)",
