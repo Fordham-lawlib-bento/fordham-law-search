@@ -4,14 +4,16 @@
 
 .extra-links-header,
 .additional-resources {
-  border: $primary-border;
+  //border: $primary-border;
+  border: 1px solid #8e8e8e;
   padding: 1em;
   margin-top: $internal-spacing;
 
   .extra-link-prompt {
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: $light-gray-text;
+    //color: $light-gray-text;
+	color: #333333;
     font-size: 0.8em;
     margin-bottom: $internal-spacing;
   }
