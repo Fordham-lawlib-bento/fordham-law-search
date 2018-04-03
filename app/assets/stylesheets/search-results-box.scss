@@ -21,7 +21,6 @@
   }
 }
 
-
 // xxxxxx
 // Search Results Box Header
 // xxxxxx
@@ -52,56 +51,15 @@
   }
 }
 
-
-// xxxxxx
-// Additional Results
-// xxxxxx
-
-.additional-resources {
-  border: $primary-border;
-  padding: 1em;
-  margin-top: $internal-spacing;
-
-  .extra-link-prompt {
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: $light-gray-text;
-    font-size: 0.8em;
-    margin-bottom: $internal-spacing;
-  }
-
-  ul.extra-links {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-
-    li {
-
-       a,
-       input {
-        text-decoration: underline;
-        color: $highlight-color;
-        line-height: 150%;
-        background: none;
-        display: inline;
-        text-transform: none;
-        font-size: 1em;
-        letter-spacing: 0;
-        padding: 0;
-        border: 0;
-      }
-    }
-  }
-}
-
 // xxxxxx
 // Hide link outs for reserves, since it's super funny and not useful
 .search-results-box.reserves {
-  .search-results-count, .view-all-results-link, .link-out-separator {
+  .search-results-count,
+  .view-all-results-link,
+  .link-out-separator {
     display: none;
   }
 }
-
 
 // xxxxxx
 // Loading State

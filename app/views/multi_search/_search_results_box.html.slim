@@ -23,3 +23,12 @@
                       class: "view-all-results-link",
                       total_items: number_with_delimiter(search_object.try(:total_items).presence))
     = render "extra_links_section", search_object: search_object
+
+    - if search_object.display_configuration.show_links_in_header
+      script type="text/html" id="#{search_object.engine_id}-header"
+        = render "extra_links_header", search_object: search_object
+
+      javascript:
+        $(function() {
+          $('[data-hook=extra-links-header]').append($('##{search_object.engine_id}-header').html())
+        })

@@ -27,6 +27,7 @@ BentoSearch.register_engine("catalog") do |conf|
 
   conf.default_per_page = 6 # how many to show on bento page
 
+
   conf.for_display do |display|
     display.decorator = "EdsDecorator"
 
@@ -41,6 +42,8 @@ BentoSearch.register_engine("catalog") do |conf|
     display.year_only = true
 
     display.ajax = :auto
+
+    display.show_links_in_header = true
 
     display.extra_links_label = "See Results in Other Catalogs"
     display.extra_links = [

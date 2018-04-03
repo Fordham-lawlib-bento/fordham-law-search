@@ -1,0 +1,7 @@
+- if search_object.display_configuration.extra_links.present?
+    .extra-links-header
+      .extra-link-prompt = "Also See Results In"
+      ul.extra-links
+        - search_object.display_configuration.extra_links.each do |extra_link_conf|
+          li.extra-link
+            = render partial: 'extra_search_link', locals: { query: query, extra_link_conf: extra_link_conf }

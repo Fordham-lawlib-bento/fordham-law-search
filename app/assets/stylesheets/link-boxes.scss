@@ -1,0 +1,77 @@
+// xxxxxx
+// Additional Results
+// xxxxxx
+
+.extra-links-header,
+.additional-resources {
+  border: $primary-border;
+  padding: 1em;
+  margin-top: $internal-spacing;
+
+  .extra-link-prompt {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $light-gray-text;
+    font-size: 0.8em;
+    margin-bottom: $internal-spacing;
+  }
+
+  ul.extra-links {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li {
+      a,
+      input {
+        text-decoration: underline;
+        color: $highlight-color;
+        line-height: 150%;
+        background: none;
+        display: inline;
+        text-transform: none;
+        font-size: 1em;
+        letter-spacing: 0;
+        padding: 0;
+        border: 0;
+      }
+    }
+  }
+}
+
+// xxxxxx
+// Extra Links Header
+// xxxxxx
+
+.extra-links-header {
+  display: inline-block;
+  flex-grow: 0;
+
+  .extra-link-prompt {
+    margin-right: $internal-spacing;
+    display: inline-block;
+
+    @include three-column-breakpoint {
+      margin-right: 0;
+      display: block;
+    }
+  }
+
+  ul.extra-links {
+    display: inline-block;
+
+    @include three-column-breakpoint {
+      display: block;
+    }
+
+    li {
+      display: inline-block;
+      margin-right: $internal-spacing;
+
+      @include three-column-breakpoint {
+        display: block;
+        margin-right: 0;
+      }
+    }
+  }
+}

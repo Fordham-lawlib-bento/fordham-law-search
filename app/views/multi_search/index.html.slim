@@ -3,8 +3,9 @@
     = render partial: 'shared/logo'
     | The Maloney Library
   = link_to "Fordham University School of Law", "http://www.fordham.edu/info/20346/school_of_law", class: "school-name"
-  = form_tag multi_search_path, method: :get, enforce_utf8: false
-    = render partial: "search_form"
+  .search-form--content data-hook="extra-links-header"
+    = form_tag multi_search_path, method: :get, enforce_utf8: false, class: "search-form--form"
+      = render partial: "search_form"
 
 - if search_results.present?
   .search-results
@@ -14,4 +15,3 @@
     .search-results-secondary
       - secondary_engine_ids.each do |engine_id|
         = render partial: 'search_results_box', locals: { search_object: search_results[engine_id] }
-
