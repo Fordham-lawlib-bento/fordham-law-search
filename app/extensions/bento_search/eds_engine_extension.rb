@@ -9,7 +9,7 @@ module BentoSearch
       # this is not documented.
       query += args[:query].gsub(",", " ")
 
-      url = "#{configuration.base_url}search?view=detailed&query=#{CGI.escape query}"
+      url = "#{configuration.base_url}search?expander=fulltext&view=detailed&query=#{CGI.escape query}"
 
       url += "&searchmode=#{CGI.escape configuration.search_mode}"
 
