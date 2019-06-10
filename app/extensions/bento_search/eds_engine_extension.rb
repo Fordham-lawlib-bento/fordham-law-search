@@ -69,9 +69,15 @@ module BentoSearch
             item.link = item_xml.at_xpath("./PLink").try(:text)
 
             item_xml.xpath("./FullTextHoldings/FullTextHolding").each do |link_xml|
+              embargo_description = link_xml.at_xpath("./EmbargoDescription").text
+
               item.other_links << BentoSearch::Link.new(
                 url: link_xml.at_xpath("./URL").text,
-                label: "#{link_xml.at_xpath("./Name").text} (#{link_xml.at_xpath("./CoverageStatement").text})"
+                label: link_xml.at_xpath("./Name").text,
+                details: [
+                  link_xml.at_xpath("./CoverageStatement").text,
+                  embargo_description.present? ? "(#{embargo_description})" : nil
+                ].compact.join(" ")
               )
             end
 
