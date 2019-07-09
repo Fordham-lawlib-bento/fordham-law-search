@@ -2,14 +2,15 @@ source 'https://rubygems.org'
 
 # Heroku uses this to determine ruby version; otherwise, it's just
 # a guard that will prevent app from running unless current ruby version matches.
-ruby '2.3.3'
+ruby '2.6.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
+gem 'rails', '~> 5.2.0'
+gem 'bootsnap'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 # Use Puma as the app server
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 4.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Autoprefixer
@@ -17,7 +18,7 @@ gem 'autoprefixer-rails'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.2'
+gem 'coffee-rails', '~> 5.0.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -41,8 +42,10 @@ gem 'concurrent-ruby', '~>1.0'
 gem 'kaminari' # pagination
 gem 'addressable', '~> 2.5' # completing partial URLs
 
-# heroku suggested, see config/rack_timeout.rb
-gem "rack-timeout"
+# heroku suggested
+group :production do
+  gem "rack-timeout"
+end
 
 group :development, :test do
   gem 'vcr', "~> 3.0"
