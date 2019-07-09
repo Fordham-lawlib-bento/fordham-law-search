@@ -41,8 +41,10 @@ gem 'concurrent-ruby', '~>1.0'
 gem 'kaminari' # pagination
 gem 'addressable', '~> 2.5' # completing partial URLs
 
-# heroku suggested, see config/rack_timeout.rb
-gem "rack-timeout"
+# heroku suggested
+group :production do
+  gem "rack-timeout"
+end
 
 group :development, :test do
   gem 'vcr', "~> 3.0"
