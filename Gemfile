@@ -12,7 +12,7 @@ gem 'bootsnap'
 # Use Puma as the app server
 gem 'puma', '~> 4.0'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sassc-rails'
 # Use Autoprefixer
 gem 'autoprefixer-rails'
 # Use Uglifier as compressor for JavaScript assets
