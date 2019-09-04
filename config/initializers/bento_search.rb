@@ -52,9 +52,8 @@ BentoSearch.register_engine("catalog") do |conf|
         link_out: "http://lawpac.lawnet.fordham.edu/search/X?%28%s%29&SORT=R"
       }, {
         label: "Fordham University Libraries",
-        #non-proxied-TK# link_out: "http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944763&groupid=main&site=eds-live&scope=site&type=0&profid=eds&mode=bool&direct=true&bquery=%s"
-		    #old-WAM-proxied-TK# link_out: "http://0-search.ebscohost.com.lawpac.lawnet.fordham.edu/login.aspx?authtype=IP,cookie,guest&custid=s8944763&groupid=main&site=eds-live&scope=site&type=0&profid=eds&mode=bool&direct=true&bquery=%s"
-    link_out: "http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944763&groupid=main&site=eds-live&scope=site&type=0&profid=eds&mode=bool&direct=true&bquery=%s"
+    #non-proxied-TK# link_out: "http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944763&groupid=main&site=eds-live&scope=site&type=0&profid=eds&mode=bool&direct=true&bquery=%s"
+    link_out: "https://login.avoserv2.library.fordham.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944763&groupid=main&site=eds-live&scope=site&type=0&profid=eds&mode=bool&direct=true&bquery=%s"
       }, {
         label: "WorldCat",
         link_out: "https://www.worldcat.org/search?qt=worldcat_org_all&q=%s"
