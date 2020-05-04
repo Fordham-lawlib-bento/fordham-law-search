@@ -7,7 +7,7 @@ require_dependency 'sierra_keyword_engine/multi_item_extractor'
 require_dependency 'sierra_keyword_engine/single_item_extractor'
 
 
-# Developed for Fordham Law Sierra WEBPAC at http://lawpac.lawnet.fordham.edu/
+# Developed for Fordham Law Sierra WEBPAC at https://lawpac.lawnet.fordham.edu/
 # as of Oct 2016. Unclear if this would work out of the box on Sierra
 # OPACs, it might or might not.
 #
@@ -23,7 +23,7 @@ require_dependency 'sierra_keyword_engine/single_item_extractor'
 # # Optional configuration
 #  * `max_results` can always only return whatever the page size is on Webpac, at
 #     most. But set this to limit to even less.
-#  * `base_url` defaults to http://lawpac.lawnet.fordham.edu
+#  * `base_url` defaults to https://lawpac.lawnet.fordham.edu ##changed to https - tk 5/4/2020
 #  * `sort_code` defaults to RZ (relevance)
 #  * `search_type` defaults to X (keyword anywhere)
 #  * extra_webpac_query_params Extra query params to add on to webpac query, as a ruby
@@ -51,7 +51,7 @@ class SierraKeywordEngine
       # Using https oddly messes up non-ascii on the way in and way out,
       # seems to get confused between UTF-8 and WINDOWS-1252. Don't have
       # this problem with http version. Weird proxy issues on Webpac end?
-      base_url: "http://lawpac.lawnet.fordham.edu",
+      base_url: "https://lawpac.lawnet.fordham.edu",
       sort_code: "RZ",
       search_type: "X",
       format_filename_map: {
