@@ -10,7 +10,7 @@
 # # Optional configuration
 #  * `max_results` can always only return whatever the page size is on Webpac, at
 #     most. But set this to limit to even less.
-#  * `base_url` defaults to http://lawpac.lawnet.fordham.edu
+#  * `base_url` defaults to https://lawpac.lawnet.fordham.edu  ###changed to https - tk 5/4/2020
 #  * `format_str` hard-coded string to use as format, ie "Professor/TA" or "Course"
 
 
@@ -31,7 +31,7 @@ class SierraBrowseEngine
       # Using https oddly messes up non-ascii on the way in and way out,
       # seems to get confused between UTF-8 and WINDOWS-1252. Don't have
       # this problem with http version. Weird proxy issues on Webpac end?
-      base_url: "http://lawpac.lawnet.fordham.edu"
+      base_url: "https://lawpac.lawnet.fordham.edu"
     }
   end
 
@@ -147,7 +147,7 @@ class SierraBrowseEngine
   end
 
   def construct_search_url(args)
-    # http://lawpac.lawnet.fordham.edu/search/a?searchtype=p&searcharg=query
+    # https://lawpac.lawnet.fordham.edu/search/a?searchtype=p&searcharg=query
 
     "#{configuration.base_url}/search/a?searchtype=#{configuration.search_type}&searcharg=#{CGI.escape args[:query]}"
   end

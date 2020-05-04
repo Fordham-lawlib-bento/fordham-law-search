@@ -97,7 +97,7 @@ describe SierraKeywordEngine, vcr: true do
 
   describe "error conditions" do
     it "404 response" do
-      results = SierraKeywordEngine.new(id: 'test', base_url: "http://lawpac.lawnet.fordham.edu/bad/path/nope").search("foo")
+      results = SierraKeywordEngine.new(id: 'test', base_url: "https://lawpac.lawnet.fordham.edu/bad/path/nope").search("foo")
       expect(results.failed?).to be true
       expect(results.engine_id).to eq('test')
     end

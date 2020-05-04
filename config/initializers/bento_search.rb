@@ -49,7 +49,7 @@ BentoSearch.register_engine("catalog") do |conf|
     display.extra_links = [
       {
         label: "Maloney Library Classic Catalog (FULLPAC)",
-        link_out: "http://lawpac.lawnet.fordham.edu/search/X?%28%s%29&SORT=R"
+        link_out: "https://lawpac.lawnet.fordham.edu/search/X?%28%s%29&SORT=R"
       }, {
         label: "Fordham University Libraries",
     #non-proxied url-TK# http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944763&groupid=main&site=eds-live&scope=site&type=0&profid=eds&mode=bool&direct=true&bquery=%s
@@ -110,7 +110,7 @@ end
 #   conf.for_display do |display|
 #     display.ajax = :auto
 #     display.heading = "Course Reserves/Exams"
-#     display.link_out = "http://lawpac.lawnet.fordham.edu/search/X?%28%s%20%28inCourseReserve%29%29&SORT=R&Da=&Db="
+#     display.link_out = "https://lawpac.lawnet.fordham.edu/search/X?%28%s%20%28inCourseReserve%29%29&SORT=R&Da=&Db="
 #   end
 # end
 
@@ -148,11 +148,11 @@ BentoSearch.register_engine("reserves") do |conf|
     display.extra_links = [
       {
         label: "By Professor →",
-        link_out: "http://lawpac.lawnet.fordham.edu/search/a?searchtype=p&searcharg=%s"
+        link_out: "https://lawpac.lawnet.fordham.edu/search/a?searchtype=p&searcharg=%s"
       },
       {
         label: "By Course →",
-        link_out: "http://lawpac.lawnet.fordham.edu/search/a?searchtype=r&searcharg=%s"
+        link_out: "https://lawpac.lawnet.fordham.edu/search/a?searchtype=r&searcharg=%s"
       },
     ]
   end
@@ -168,7 +168,7 @@ BentoSearch.register_engine("databases") do |conf|
   conf.for_display do |display|
     display.ajax = :auto
     display.heading = "Databases"
-    display.link_out = "http://lawpac.lawnet.fordham.edu/search/X?%28%s%20%28inDatabases%29%29&SORT=R&Da=&Db="
+    display.link_out = "https://lawpac.lawnet.fordham.edu/search/X?%28%s%20%28inDatabases%29%29&SORT=R&Da=&Db="
   end
 end
 
