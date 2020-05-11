@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://lawpac.lawnet.fordham.edu/search/a?searcharg=s&searchtype=p
+    uri: https://lawpac.lawnet.fordham.edu/search/a?searcharg=s&searchtype=p
     body:
       encoding: UTF-8
       string: ''
@@ -61,7 +61,7 @@ http_interactions:
         />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/screens/mym.css\">\n\n<!--
         for non-smartphones only -->\n<link  rel=\"stylesheet\" type=\"text/css\"
         href=\"/screens/killsp.css\" media=\"screen and (min-device-width: 765px)\"/>\n\n<!--for
-        smartphones only-->\n<link rel=\"stylesheet\" href=\"http://lawpac.lawnet.fordham.edu/screens/styles_mobile.css\"
+        smartphones only-->\n<link rel=\"stylesheet\" href=\"https://lawpac.lawnet.fordham.edu/screens/styles_mobile.css\"
         type=\"text/css\" media=\"handheld\" /><link rel=\"stylesheet\" media=\"screen
         and (max-device-width: 480px)\" href=\"/screens/styles_mobile.css\" /><meta
         name=\"format-detection\" content=\"telephone=no\"><meta name=\"viewport\"
@@ -76,13 +76,13 @@ http_interactions:
         border=\"0\"  cellpadding=\"0\" cellspacing=\"0\" valign=\"top\" class=\"lockwidth\">\n<!--
         Law Lib Banner  -->\n<tr>\n<td colspan=\"3\"  valign=\"middle\" height=\"55\"
         class=\"banner\">\n\n<table border=\"0\" width=\"900px;\" cellpadding=\"0\"
-        cellspacing=\"0\"> \n<tr> \n<td bgcolor=\"white\" width=\"375\" > \n<a href=\"http://law.fordham.edu\"><img
+        cellspacing=\"0\"> \n<tr> \n<td bgcolor=\"white\" width=\"375\" > \n<a href=\"https://law.fordham.edu\"><img
         style=\"margin-left:12px;\" src=\"/screens/pics/cornerbanner.taller1.gif\"
         name=\"Fordham Logo\" alt=\"Fordham Logo\" align=\"left\" border=\"0\"  width=\"357\"></a></td>
-        \n<td bgcolor=\"white\" align=\"right\"><a href=\"http://lawpac.lawnet.fordham.edu/search/X\">\n<!--fpbanner2.gif-->\n<img
+        \n<td bgcolor=\"white\" align=\"right\"><a href=\"https://lawpac.lawnet.fordham.edu/search/X\">\n<!--fpbanner2.gif-->\n<img
         style=\"margin-right:12px;vertical-align:top;\" src=\"/screens/pics/maloney.gif\"
         name=\"Library Name\" alt=\"Library Homepage\" align=\"right\" border=\"0\"
-        ></a><br />\n<a href=\"http://lawpac.lawnet.fordham.edu/search/X\">\n<img
+        ></a><br />\n<a href=\"https://lawpac.lawnet.fordham.edu/search/X\">\n<img
         style=\"margin-right:12px; vertical-align:bottom; padding:0px;\" src=\"/screens/pics/fpclassic1.gif\"
         name=\"Search Page\" alt=\"Search Page\" align=\"right\" border=\"0\" ></a>\n</td>
         \n</tr> \n</table>\n\n</td>\n</tr>\n\n<!--Beginning navigation bar at the
@@ -90,7 +90,7 @@ http_interactions:
         class=\"navrow\" cellpadding=\"0\" cellspacing=\"0\">\n\n<table border=\"0\"
         width=\"900px\" cellpadding=\"0\" cellspacing=\"0\" valign=\"top\" bgcolor=\"#edc4ad\">\n<tr>\n\n<td
         class=\"limenu\" height=\"24px\" width=\"900px\" align=\"left\"> \n<span style=\"float:left;margin-left:16px;margin-right:16px;width:104px;\">\n<a
-        class=\"limenulinks\" href=\"http://lawlib1.lawnet.fordham.edu\"><font color=\"black\">LIBRARY
+        class=\"limenulinks\" href=\"https://lawlib1.lawnet.fordham.edu\"><font color=\"black\">LIBRARY
         HOME</font></a>\n</span>\n\n<span style=\"float:left; margin-right:9px; width:90px;\">\n<a
         class=\"limenulinks\" href=\"/search/X\"><font color=\"black\">NEW SEARCH</font></a>\n</span>\n\n<span
         style=\"float:left; margin-right:9px; width:50px;\">\n<a class=\"limenulinks\"
@@ -98,22 +98,22 @@ http_interactions:
         style=\"float:left;margin-right:7px; width:100px;\">\n<a class=\"limenulinks\"
         href=\"https://catalog.library.fordham.edu/uhtbin/cgisirsi/0/0/0/38/X/POWER_SEARCH\"><font
         color=\"black\">FORDHAM CAT</font></a>\n</span>\n\n\n<span style=\"float:left;margin-right:7px;width:94px;\">\n<a
-        class=\"limenulinks\" href=\"http://0-firstsearch.oclc.org.lawpac.lawnet.fordham.edu/FSIP?dbname=worldcat\"><font
+        class=\"limenulinks\" href=\"https://0-firstsearch.oclc.org.lawpac.lawnet.fordham.edu/FSIP?dbname=worldcat\"><font
         color=\"black\">WORLDCAT</font></a>\n</span>\n\n<span style=\"float:left;\">\n<a
         class=\"limenulinks\" href=\"/screens/help_index.html\" onclick=\"return replace_or_redraw('/screens/help_index.html')\"><font
         color=\"black\">HELP</font></a>\n</span>\n\n\n<!--<font color=\"#114F8C\">-->\n<!--\n<span>\n\n<a
         class=\"limenulinks\" style=\"float:right; margin-right:9px; vertical-align:bottom;
-        font-size:13px;font-weight:normal;color:black;\" href=\"http://lawpac.lawnet.fordham.edu/screens/discovery.html\">FULLPAC
+        font-size:13px;font-weight:normal;color:black;\" href=\"https://lawpac.lawnet.fordham.edu/screens/discovery.html\">FULLPAC
         DISCOVERY</a>\n</span>\n\n\n<span >\n<a class=\"myfullpac\" style=\"float:right;
         margin-right:20px; vertical-align:top;\" href=\"/patroninfo\"><i>MY</i> FULLPAC</a>\n</span>\n-->\n\n\n<span
         >\n<a class=\"myfullpac\" style=\"float:right; margin-right:18px; vertical-align:top;
         width: 90px;\" href=\"/patroninfo\">MY</i> FULLPAC</b></a>\n</span>\n\n<span>\n<a
         class=\"fpdiscovery\" style=\"float:right; margin-right:16px; vertical-align:bottom;
-        font-size:13px;\" href=\"http://lawpac.lawnet.fordham.edu/screens/discovery.html\">FULLPAC
+        font-size:13px;\" href=\"https://lawpac.lawnet.fordham.edu/screens/discovery.html\">FULLPAC
         DISCOVERY</b></a>\n</span>\n\n\n</td>\n\n</tr>\n</table>\n<!-- End of the
         top navigation bar -->\n\n</td>\n</tr>\n\n\n<tr>\n<td bgcolor= \"#F1EFF0\"
         colspan=\"3\" class=\"lockwidth\" >\n\n<!-- Smartphone only banner -->\n<div
-        class=\"sphead\"><a href=\"http://lawlib1.lawnet.fordham.edu/mobile\">The
+        class=\"sphead\"><a href=\"https://lawlib1.lawnet.fordham.edu/mobile\">The
         Maloney Library</a>\n<hr />\n</div>\n\n\n<!-- end toplogo.html file -->\n\n<div
         align=\"center\" class=\"navigationRow\">\n<form>\n<a href=\"/search/X\"><img
         src=\"/screens/startover.gif\" class=\"button2\" alt=\"Start Over\" border=\"0\"
@@ -195,11 +195,11 @@ http_interactions:
         HREF=\"/screens/css/template.css\">\n<tr><td>\n<table border=\"0\" cellpadding=\"0\"
         cellspacing=\"0\" class=\"pconly\">\n<tr>\n\n<!-- Law Lib Footer -->\n<!--
         light gray is #F1EFF0 -->\n<td class=\"ban2\" align=\"center\" bgcolor=\"white\"
-        height=\"35\" width=\"190px\"> \n<a class=\"ftr\" href=\"http://law.fordham.edu/\">Fordham
+        height=\"35\" width=\"190px\"> \n<a class=\"ftr\" href=\"https://law.fordham.edu/\">Fordham
         Law </a>\n</td>      \n<td class=\"ban2\" bgcolor=\"white\" align=\"center\"
         Height=\"35\" width=\"485px\"><div class=\"nfo\">150 W 62 St. New York, NY
         10023 &nbsp; (212) 636-6900 </div></td>      \n<td class=\"ban2\" align=\"center\"
-        bgcolor=\"white\" width=\"225px\"> \n<a class=\"ftr\" href=\"http://www.fordham.edu/\">Fordham
+        bgcolor=\"white\" width=\"225px\"> \n<a class=\"ftr\" href=\"https://www.fordham.edu/\">Fordham
         University </a></td>    \n</tr>\n<!-- End Law Lib Footer -->  \n<tr><td class=\"space\">&nbsp;</td></tr>\n</table>\n</td>\n</tr>\n\n</table>\n\n<!--
         End of Page Table -->\n<!-- attempt to track offsite clicks below -->\n<script>\n/*
         this is for pages using the \"new\" GA js */\nfunction _gaLt(event){\n    var
@@ -229,6 +229,6 @@ http_interactions:
         \ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n
         \ ga('create', 'UA-4308917-1', 'auto');\n  ga('send', 'pageview');\n\n</script>\n<!--
         end google analytics -->\n</body>\n</html>\n"
-    http_version: 
+    http_version:
   recorded_at: Tue, 07 Feb 2017 21:58:27 GMT
 recorded_with: VCR 3.0.3

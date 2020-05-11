@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://lawpac.lawnet.fordham.edu/bad/path/nope/search/X?(foo)&SORT=RZ
+    uri: https://lawpac.lawnet.fordham.edu/bad/path/nope/search/X?(foo)&SORT=RZ
     body:
       encoding: UTF-8
       string: ''
@@ -39,6 +39,6 @@ http_interactions:
         <HEAD><TITLE>404 Not Found</TITLE></HEAD>
         <BODY><H1>404 Not Found</H1>The requested URL was not found on this server.
         </BODY>
-    http_version: 
+    http_version:
   recorded_at: Tue, 07 Feb 2017 21:58:54 GMT
 recorded_with: VCR 3.0.3

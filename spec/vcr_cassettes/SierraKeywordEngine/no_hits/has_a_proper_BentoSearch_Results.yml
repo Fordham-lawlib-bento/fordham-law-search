@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://lawpac.lawnet.fordham.edu/search/X?(adfkjadf%2Bakdfjadf%2Bno%2Bresults%2Bfor%2Bthis)&SORT=RZ
+    uri: https://lawpac.lawnet.fordham.edu/search/X?(adfkjadf%2Bakdfjadf%2Bno%2Bresults%2Bfor%2Bthis)&SORT=RZ
     body:
       encoding: UTF-8
       string: ''
@@ -42,7 +42,7 @@ http_interactions:
       - chunked
     body:
       encoding: UTF-8
-      string: "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n<head>\n<link
+      string: "<html xmlns=\"https://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n<head>\n<link
         rel=\"stylesheet\" type=\"text/css\" href=\"/scripts/ProStyles.css\" />\n<link
         rel=\"stylesheet\" type=\"text/css\" href=\"/screens/styles.css\" />\n<script
         type=\"text/javascript\" src=\"/scripts/elcontent.js\"></script>\n<script
@@ -60,18 +60,18 @@ http_interactions:
         name=\"viewport\" content=\"width=device-width; initial-scale=1.0;\" />\n\n<script
         language=\" JavaScript\" ><!--\nfunction MyReload()\n{\nwindow.location.reload();\n}\n//--></script>\n\n<!--
         force blackberrys to get their own page -->\n<script type=\"text/javascript\">
-        \     \nvar ua = navigator.userAgent;   \nvar url = \"http://lawpac.lawnet.fordham.edu/screens/srchhelp_bb.html\";
+        \     \nvar ua = navigator.userAgent;   \nvar url = \"https://lawpac.lawnet.fordham.edu/screens/srchhelp_bb.html\";
         \  \nif (ua.indexOf(\"BlackBerry\") >= 0)   {      \nif (ua.indexOf(\"WebKit\")
         >= 0)      {         \nwindow.location = url;      }   }\n</script>\n\n\n<SCRIPT
         src=\"/screens/searchx.js\"></SCRIPT>\n\n\n</head>\n<!-- OnLoad=\"document.basic.searcharg.focus();
         -->\n<body bgcolor=\"#FFFFFF\">\n<!-- Make sure IE uses our killsp ss -->\n<!--[if
         IE]>     <link rel=\"stylesheet\" type=\"text/css\" href=\"/screens/killsp.css\"
         />  <![endif]-->\n\n<!-- SP Search Page -->\n<div class=\"spsearch\">\n\n<div
-        class=\"sphead\"><a href=\"http://lawlib1.lawnet.fordham.edu/mobile\">The
+        class=\"sphead\"><a href=\"https://lawlib1.lawnet.fordham.edu/mobile\">The
         Maloney Library</a>\n\n</div>\n\n<div class=\"sptopic\">\nFULLPAC Basic Search
         \n<a href=\"/screens/srchhelp_Y.html\"><img src=\"/screens/tom4a.gif\" alt=\"Search
         Help\" class=\"help\" border=\"0\" /></a>\n</div>\n\n<!-- basic search dropdown
-        -->\n\n<form action=\"http://lawpac.lawnet.fordham.edu/search/\" method=\"get\"
+        -->\n\n<form action=\"https://lawpac.lawnet.fordham.edu/search/\" method=\"get\"
         class=\"touchspace2\">\n\n<select name=\"searchtype\"> \n<option value=\"t\"
         selected=\"selected\">TITLE begins with</option>\n<option value=\"a\">AUTHOR
         (last name first)</option>\n<option value=\"X\">WORDS anywhere</option>\n<option
@@ -82,7 +82,7 @@ http_interactions:
         name=\"searcharg\" style=\"width: 90%; padding: 0 1 0 6px;\" />\n</div>\n\n<div
         class=\"touchspace2\"> \n<input type=\"hidden\" name=\"sort\" value=\"D\"
         /> \n<input type=\"submit\" value=\"Submit\" name=\"submit\" /> \n</div>\n</form>\n\n<div
-        class=\"touchspace\">\n<a class=\"qrlink\" style=\"font-size: 18px;\" href=\"http://lawpac.lawnet.fordham.edu/screens/srchhelp_XX.html\">\nNon-Mobile
+        class=\"touchspace\">\n<a class=\"qrlink\" style=\"font-size: 18px;\" href=\"https://lawpac.lawnet.fordham.edu/screens/srchhelp_XX.html\">\nNon-Mobile
         Search Page</a>\n</div>\n\n\n\n</div>\n<!-- End SP Search Page -->\n\n\n\n\n\n<div
         class=\"pconly\">\n\n<body onload=\"if (location.search.indexOf('SUBKEY')
         != -1 || location.search.indexOf('SEARCH') != -1 || location.search.indexOf('searcharg=')
@@ -91,13 +91,13 @@ http_interactions:
         cellpadding=\"0\" cellspacing=\"0\" valign=\"top\" >\n\n<!-- Law Lib Banner
         \ -->\n<tr>\n<td colspan=\"3\"  valign=\"middle\" height=\"55\" class=\"banner\">\n\n<div
         class=\"pconly\">\n<table border=\"0\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\">
-        \n<tr> \n<td bgcolor=\"white\" width=\"375\"> \n<a href=\"http://law.fordham.edu\"><img
+        \n<tr> \n<td bgcolor=\"white\" width=\"375\"> \n<a href=\"https://law.fordham.edu\"><img
         style=\"margin-left:12px;\" src=\"/screens/pics/cornerbanner.taller1.gif\"
         name=\"Fordham Logo\" alt=\"Fordham Logo\" align=\"left\" border=\"0\"  width=\"357\"></a></td>
-        \n<td bgcolor=\"white\" height=\"76px\" align=\"right\"><a href=\"http://lawlib1.lawnet.fordham.edu\">\n<!--fpbanner2.gif-->\n<img
+        \n<td bgcolor=\"white\" height=\"76px\" align=\"right\"><a href=\"https://lawlib1.lawnet.fordham.edu\">\n<!--fpbanner2.gif-->\n<img
         style=\"margin-right:12px;vertical-align:top;\" src=\"/screens/pics/maloney.gif\"
         name=\"Library Name\" alt=\"Library Homepage\" align=\"right\" border=\"0\"
-        ></a><br />\n<a href=\"http://lawpac.lawnet.fordham.edu/search/X\">\n<img
+        ></a><br />\n<a href=\"https://lawpac.lawnet.fordham.edu/search/X\">\n<img
         style=\"margin-right:12px; vertical-align:bottom; padding:0px;\" src=\"/screens/pics/fpclassic1.gif\"
         name=\"Search Page\" alt=\"Search Page\" align=\"right\" border=\"0\" ></a>\n</td>
         \n</tr> \n</table>\n\n</td>\n</tr>\n\n<!--Beginning navigation bar at the
@@ -105,7 +105,7 @@ http_interactions:
         class=\"navrow\" cellpadding=\"0\" cellspacing=\"0\">\n\n  \n\n<table border=\"0\"
         width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" valign=\"top\" bgcolor=\"#edc4ad\">\n<tr>\n\n\n<td
         class=\"limenu\" height=\"24px\" width=\"900px\" align=\"left\"> \n<span style=\"float:left;margin-left:16px;margin-right:16px;width:104px;\">\n<a
-        class=\"limenulinks\" href=\"http://lawlib1.lawnet.fordham.edu\"><font color=\"black\">LIBRARY
+        class=\"limenulinks\" href=\"https://lawlib1.lawnet.fordham.edu\"><font color=\"black\">LIBRARY
         HOME</font></a>\n</span>\n\n<span style=\"float:left; margin-right:9px; width:90px;\">\n<a
         class=\"limenulinks\" href=\"/search/X\"><font color=\"black\">NEW SEARCH</font></a>\n</span>\n\n<span
         style=\"float:left; margin-right:9px; width:50px;\">\n<a class=\"limenulinks\"
@@ -113,18 +113,18 @@ http_interactions:
         style=\"float:left;margin-right:7px; width:100px;\">\n<a class=\"limenulinks\"
         href=\"https://catalog.library.fordham.edu/uhtbin/cgisirsi/0/0/0/38/X/POWER_SEARCH\"><font
         color=\"black\">FORDHAM CAT</font></a>\n</span>\n\n\n<span style=\"float:left;margin-right:7px;width:94px;\">\n<a
-        class=\"limenulinks\" href=\"http://0-firstsearch.oclc.org.lawpac.lawnet.fordham.edu/FSIP?dbname=worldcat\"><font
+        class=\"limenulinks\" href=\"https://0-firstsearch.oclc.org.lawpac.lawnet.fordham.edu/FSIP?dbname=worldcat\"><font
         color=\"black\">WORLDCAT</font></a>\n</span>\n\n<span style=\"float:left;\">\n<a
         class=\"limenulinks\" href=\"/screens/help_index.html\" onclick=\"return replace_or_redraw('/screens/help_index.html')\"><font
         color=\"black\">HELP</font></a>\n</span>\n\n\n<!--<font color=\"#114F8C\">-->\n<!--\n<span>\n\n<a
         class=\"limenulinks\" style=\"float:right; margin-right:9px; vertical-align:bottom;
-        font-size:13px;font-weight:normal;color:black;\" href=\"http://lawpac.lawnet.fordham.edu/screens/discovery.html\">FULLPAC
+        font-size:13px;font-weight:normal;color:black;\" href=\"https://lawpac.lawnet.fordham.edu/screens/discovery.html\">FULLPAC
         DISCOVERY</a>\n</span>\n\n\n<span >\n<a class=\"myfullpac\" style=\"float:right;
         margin-right:20px; vertical-align:top;\" href=\"/patroninfo\"><i>MY</i> FULLPAC</a>\n</span>\n-->\n\n\n<span
         >\n<a class=\"myfullpac\" style=\"float:right; margin-right:18px; vertical-align:top;
         width: 90px;\" href=\"/patroninfo\">MY FULLPAC</a>\n</span>\n\n<span>\n<a
         class=\"fpdiscovery\" style=\"float:right; margin-right:16px; vertical-align:bottom;
-        font-size:13px;\" href=\"http://lawpac.lawnet.fordham.edu/screens/discovery.html\">FULLPAC
+        font-size:13px;\" href=\"https://lawpac.lawnet.fordham.edu/screens/discovery.html\">FULLPAC
         DISCOVERY</a>\n</span>\n\n\n</td>\n</tr>\n</table>\n<!-- End of the top navigation
         bar -->\n\n</td>\n</tr>\n\n<tr>\n<td bgcolor=\"#F1EFF0\" colspan=\"3\" >\n</div>\n\n<table
         border=\"0\" width=\"900px\" cellpadding=\"0\" cellspacing=\"0\" valign=\"top\"
@@ -135,7 +135,7 @@ http_interactions:
         class=\"searchhead2\" colspan=\"2\" >\nBasic Search \n<a href=\"/screens/srchhelp_Y.html\"><img
         src=\"/screens/tom4a.gif\" class=\"help\" border=\"0\"></a>\n\n</td>\n</tr>\n<tr>\n\n<!--
         basic search dropdown -->\n\n<td class=\"searchform2\" style=\"padding-top:
-        0px;\" height=\"30px\" width=\"10px\">\n<form action=\"http://lawpac.lawnet.fordham.edu/search/\"
+        0px;\" height=\"30px\" width=\"10px\">\n<form action=\"https://lawpac.lawnet.fordham.edu/search/\"
         method=get name=\"basic\">\n\n<SELECT name=\"searchtype\"> \n<OPTION value=\"t\"
         selected=\"selected\">TITLE begins with</OPTION>\n<OPTION value=\"a\">AUTHOR
         (last name first)</option>\n<OPTION value=\"X\">WORDS anywhere</option>\n<OPTION
@@ -151,7 +151,7 @@ http_interactions:
         cellpadding=\"0\" cellspacing=\"0\" class=\"tabBody2\" height=\"90px\">\n\n<tr>\n<td
         class=\"searchhead2\" colspan=\"2\">Search Course Reserves</td>\n\n</td>\n</tr>\n<tr>\n\n<!--
         search course reserves dropdown -->\n<td class=\"searchform2\" style=\"padding-top:
-        0px; width: 1px;\" height=\"30px\">\n\n<FORM action=http://lawpac.lawnet.fordham.edu/search/a?a
+        0px; width: 1px;\" height=\"30px\">\n\n<FORM action=https://lawpac.lawnet.fordham.edu/search/a?a
         method=get>\n\n<SELECT name=\"searchtype\">\n<OPTION value=\"p\">PROFESSOR</OPTION>\n<OPTION
         value=\"r\">COURSE NAME</option>\n\n</SELECT>\n</td>\n\n<!-- search course
         reserves input box -->\n\n<td width=\"\" class=\"searchform2\" style=\"align:
@@ -161,7 +161,7 @@ http_interactions:
         \n<INPUT type=\"submit\" value=\"Submit\" name=\"submit\" /> \n</td>\n<td
         class=\"searchform2\" style=\"padding: 0 0 0 50px;\">\n\n<!-- <a style=\"align:
         right; font-weight: bold; font-size: 15px; font-family: arial; color: #000033;
-        text-decoration: none;\" -->\n<a class=\"scanned\" href=\"http://lawlib1.lawnet.fordham.edu/exams/public\">Electronic
+        text-decoration: none;\" -->\n<a class=\"scanned\" href=\"https://lawlib1.lawnet.fordham.edu/exams/public\">Electronic
         Copies</a>\n</TD>\n</TR>\n</FORM>\n\n</td>\n</tr>\n</table>\n\n</td>\n\n</tr>\n</table>\n\n\n\n\n\n<!--
         box containing advanced search -->\n\n\n<table width=\"850\" border=\"0\"
         align=\"center\" cellpadding=\"0\" cellspacing=\"0\" class=\"tabBody2\" style=\"padding:
@@ -263,11 +263,11 @@ http_interactions:
         REL=\"stylesheet\" TYPE=\"text/css\" HREF=\"/screens/css/template.css\">\n<tr><td>\n<table
         border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"pconly\">\n<tr>\n\n<!--
         Law Lib Footer -->\n<!-- light gray is #F1EFF0 -->\n<td class=\"ban2\" align=\"center\"
-        bgcolor=\"white\" height=\"35\" width=\"190px\"> \n<a class=\"ftr\" href=\"http://law.fordham.edu/\">Fordham
+        bgcolor=\"white\" height=\"35\" width=\"190px\"> \n<a class=\"ftr\" href=\"https://law.fordham.edu/\">Fordham
         Law </a>\n</td>      \n<td class=\"ban2\" bgcolor=\"white\" align=\"center\"
         Height=\"35\" width=\"485px\"><div class=\"nfo\">150 W 62 St. New York, NY
         10023 &nbsp; (212) 636-6900 </div></td>      \n<td class=\"ban2\" align=\"center\"
-        bgcolor=\"white\" width=\"225px\"> \n<a class=\"ftr\" href=\"http://www.fordham.edu/\">Fordham
+        bgcolor=\"white\" width=\"225px\"> \n<a class=\"ftr\" href=\"https://www.fordham.edu/\">Fordham
         University </a></td>    \n</tr>\n<!-- End Law Lib Footer -->  \n<tr><td class=\"space\">&nbsp;</td></tr>\n</table>\n</td>\n</tr>\n\n</table>\n\n<!--
         End of Page Table -->\n<!-- attempt to track offsite clicks below -->\n<script>\n/*
         this is for pages using the \"new\" GA js */\nfunction _gaLt(event){\n    var
@@ -298,6 +298,6 @@ http_interactions:
         \ ga('create', 'UA-4308917-1', 'auto');\n  ga('send', 'pageview');\n\n</script>\n<!--
         end google analytics -->\n\n<!-- End of Page Table -->\n\n\n\n</body>\n</html>\n\n<!--this
         is customized <screens/srchhelp_X.html>-->\n"
-    http_version: 
+    http_version:
   recorded_at: Tue, 07 Feb 2017 21:58:54 GMT
 recorded_with: VCR 3.0.3
