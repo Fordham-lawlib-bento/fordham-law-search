@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://lawpac.lawnet.fordham.edu/search/X?(brooklyn)&SORT=RZ
+    uri: https://lawpac.lawnet.fordham.edu/search/X?(brooklyn)&SORT=RZ
     body:
       encoding: UTF-8
       string: ''
@@ -61,7 +61,7 @@ http_interactions:
         />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/screens/mym.css\">\n\n<!--
         for non-smartphones only -->\n<link  rel=\"stylesheet\" type=\"text/css\"
         href=\"/screens/killsp.css\" media=\"screen and (min-device-width: 765px)\"/>\n\n<!--for
-        smartphones only-->\n<link rel=\"stylesheet\" href=\"http://lawpac.lawnet.fordham.edu/screens/styles_mobile.css\"
+        smartphones only-->\n<link rel=\"stylesheet\" href=\"https://lawpac.lawnet.fordham.edu/screens/styles_mobile.css\"
         type=\"text/css\" media=\"handheld\" /><link rel=\"stylesheet\" media=\"screen
         and (max-device-width: 480px)\" href=\"/screens/styles_mobile.css\" /><meta
         name=\"format-detection\" content=\"telephone=no\"><meta name=\"viewport\"
@@ -76,13 +76,13 @@ http_interactions:
         border=\"0\"  cellpadding=\"0\" cellspacing=\"0\" valign=\"top\" class=\"lockwidth\">\n<!--
         Law Lib Banner  -->\n<tr>\n<td colspan=\"3\"  valign=\"middle\" height=\"55\"
         class=\"banner\">\n\n<table border=\"0\" width=\"900px;\" cellpadding=\"0\"
-        cellspacing=\"0\"> \n<tr> \n<td bgcolor=\"white\" width=\"375\" > \n<a href=\"http://law.fordham.edu\"><img
+        cellspacing=\"0\"> \n<tr> \n<td bgcolor=\"white\" width=\"375\" > \n<a href=\"https://law.fordham.edu\"><img
         style=\"margin-left:12px;\" src=\"/screens/pics/cornerbanner.taller1.gif\"
         name=\"Fordham Logo\" alt=\"Fordham Logo\" align=\"left\" border=\"0\"  width=\"357\"></a></td>
-        \n<td bgcolor=\"white\" align=\"right\"><a href=\"http://lawpac.lawnet.fordham.edu/search/X\">\n<!--fpbanner2.gif-->\n<img
+        \n<td bgcolor=\"white\" align=\"right\"><a href=\"https://lawpac.lawnet.fordham.edu/search/X\">\n<!--fpbanner2.gif-->\n<img
         style=\"margin-right:12px;vertical-align:top;\" src=\"/screens/pics/maloney.gif\"
         name=\"Library Name\" alt=\"Library Homepage\" align=\"right\" border=\"0\"
-        ></a><br />\n<a href=\"http://lawpac.lawnet.fordham.edu/search/X\">\n<img
+        ></a><br />\n<a href=\"https://lawpac.lawnet.fordham.edu/search/X\">\n<img
         style=\"margin-right:12px; vertical-align:bottom; padding:0px;\" src=\"/screens/pics/fpclassic1.gif\"
         name=\"Search Page\" alt=\"Search Page\" align=\"right\" border=\"0\" ></a>\n</td>
         \n</tr> \n</table>\n\n</td>\n</tr>\n\n<!--Beginning navigation bar at the
@@ -90,7 +90,7 @@ http_interactions:
         class=\"navrow\" cellpadding=\"0\" cellspacing=\"0\">\n\n<table border=\"0\"
         width=\"900px\" cellpadding=\"0\" cellspacing=\"0\" valign=\"top\" bgcolor=\"#edc4ad\">\n<tr>\n\n<td
         class=\"limenu\" height=\"24px\" width=\"900px\" align=\"left\"> \n<span style=\"float:left;margin-left:16px;margin-right:16px;width:104px;\">\n<a
-        class=\"limenulinks\" href=\"http://lawlib1.lawnet.fordham.edu\"><font color=\"black\">LIBRARY
+        class=\"limenulinks\" href=\"https://lawlib1.lawnet.fordham.edu\"><font color=\"black\">LIBRARY
         HOME</font></a>\n</span>\n\n<span style=\"float:left; margin-right:9px; width:90px;\">\n<a
         class=\"limenulinks\" href=\"/search/X\"><font color=\"black\">NEW SEARCH</font></a>\n</span>\n\n<span
         style=\"float:left; margin-right:9px; width:50px;\">\n<a class=\"limenulinks\"
@@ -98,32 +98,32 @@ http_interactions:
         style=\"float:left;margin-right:7px; width:100px;\">\n<a class=\"limenulinks\"
         href=\"https://catalog.library.fordham.edu/uhtbin/cgisirsi/0/0/0/38/X/POWER_SEARCH\"><font
         color=\"black\">FORDHAM CAT</font></a>\n</span>\n\n\n<span style=\"float:left;margin-right:7px;width:94px;\">\n<a
-        class=\"limenulinks\" href=\"http://0-firstsearch.oclc.org.lawpac.lawnet.fordham.edu/FSIP?dbname=worldcat\"><font
+        class=\"limenulinks\" href=\"https://0-firstsearch.oclc.org.lawpac.lawnet.fordham.edu/FSIP?dbname=worldcat\"><font
         color=\"black\">WORLDCAT</font></a>\n</span>\n\n<span style=\"float:left;\">\n<a
         class=\"limenulinks\" href=\"/screens/help_index.html\" onclick=\"return replace_or_redraw('/screens/help_index.html')\"><font
         color=\"black\">HELP</font></a>\n</span>\n\n\n<!--<font color=\"#114F8C\">-->\n<!--\n<span>\n\n<a
         class=\"limenulinks\" style=\"float:right; margin-right:9px; vertical-align:bottom;
-        font-size:13px;font-weight:normal;color:black;\" href=\"http://lawpac.lawnet.fordham.edu/screens/discovery.html\">FULLPAC
+        font-size:13px;font-weight:normal;color:black;\" href=\"https://lawpac.lawnet.fordham.edu/screens/discovery.html\">FULLPAC
         DISCOVERY</a>\n</span>\n\n\n<span >\n<a class=\"myfullpac\" style=\"float:right;
         margin-right:20px; vertical-align:top;\" href=\"/patroninfo\"><i>MY</i> FULLPAC</a>\n</span>\n-->\n\n\n<span
         >\n<a class=\"myfullpac\" style=\"float:right; margin-right:18px; vertical-align:top;
         width: 90px;\" href=\"/patroninfo\">MY</i> FULLPAC</b></a>\n</span>\n\n<span>\n<a
         class=\"fpdiscovery\" style=\"float:right; margin-right:16px; vertical-align:bottom;
-        font-size:13px;\" href=\"http://lawpac.lawnet.fordham.edu/screens/discovery.html\">FULLPAC
+        font-size:13px;\" href=\"https://lawpac.lawnet.fordham.edu/screens/discovery.html\">FULLPAC
         DISCOVERY</b></a>\n</span>\n\n\n</td>\n\n</tr>\n</table>\n<!-- End of the
         top navigation bar -->\n\n</td>\n</tr>\n\n\n<tr>\n<td bgcolor= \"#F1EFF0\"
         colspan=\"3\" class=\"lockwidth\" >\n\n<!-- Smartphone only banner -->\n<div
-        class=\"sphead\"><a href=\"http://lawlib1.lawnet.fordham.edu/mobile\">The
+        class=\"sphead\"><a href=\"https://lawlib1.lawnet.fordham.edu/mobile\">The
         Maloney Library</a>\n<hr />\n</div>\n\n\n<!-- end toplogo.html file -->\n\n<div
         align=\"center\" class=\"navigationRow\">\n<form>\n<a href=\"/search/X\"><img
         src=\"/screens/startover.gif\" class=\"button2\" alt=\"Start Over\" border=\"0\"
         /></a>\n<a href=\"/search/X?NOSRCH=%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)\"><img
         src=\"/screens/modify.gif\" class=\"button2\" alt=\"Modify Search\" border=\"0\"
-        /></a>\n<a href=\"http://128.59.177.5/search/X?%28brooklyn%29&SORT=RZ&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><br
+        /></a>\n<a href=\"https://128.59.177.5/search/X?%28brooklyn%29&SORT=RZ&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><br
         class=\"space\" /><img class=\"button2\" border=\"0\" src=\"/screens/s_columbia.gif\"></a>\n<a
-        href=\"http://128.122.159.10/search/X?%28brooklyn%29&SORT=RZ&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><img
-        class=\"button2\" border=\"0\" src=\"/screens/s_nyu.gif\"></a>\n<a href=\"http://ringding.law.yale.edu/search/X?%28brooklyn%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><img
-        class=\"button2\" border=\"0\" src=\"/screens/s_yale.gif\"></a>\n<a href=\"http://130.91.144.191/search/X?%28brooklyn%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><img
+        href=\"https://128.122.159.10/search/X?%28brooklyn%29&SORT=RZ&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><img
+        class=\"button2\" border=\"0\" src=\"/screens/s_nyu.gif\"></a>\n<a href=\"https://ringding.law.yale.edu/search/X?%28brooklyn%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><img
+        class=\"button2\" border=\"0\" src=\"/screens/s_yale.gif\"></a>\n<a href=\"https://130.91.144.191/search/X?%28brooklyn%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><img
         class=\"button2\" border=\"0\" src=\"/screens/s_upenn.gif\"></a>\n<a href=\"/search/X\"><img
         src=\"/screens/another.gif\" alt=\"Another Search\" border=\"0\" /></a>\n<select
         name=HISTORY onChange=\"onSelectChange(this, '')\"><option value=\"\">(Search
@@ -228,8 +228,8 @@ http_interactions:
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
         the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
-        href=\"http://syndetics.com/index.aspx?isbn=0007232X/index.html&client=fordhamlaw&type=rn12&popup=no\"
-        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=0007232X/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        href=\"https://syndetics.com/index.aspx?isbn=0007232X/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"https://syndetics.com/index.aspx?isbn=0007232X/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
         border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
         width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
         class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_jourser.gif\"
@@ -329,8 +329,8 @@ http_interactions:
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
         the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
-        href=\"http://syndetics.com/index.aspx?isbn=0971295301/index.html&client=fordhamlaw&type=rn12&popup=no\"
-        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=0971295301/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        href=\"https://syndetics.com/index.aspx?isbn=0971295301/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"https://syndetics.com/index.aspx?isbn=0971295301/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
         border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
         width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
         class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_book.gif\" alt=\"Book\">\n</td>\n\n\n\n\n<td
@@ -354,7 +354,7 @@ http_interactions:
         />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F100387242&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F100387242&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
         Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -379,7 +379,7 @@ http_interactions:
         />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F102006426&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F102006426&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
         Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -405,7 +405,7 @@ http_interactions:
         number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F105080134&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F105080134&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
         Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -430,7 +430,7 @@ http_interactions:
         />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F106597618&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F106597618&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
         Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -455,7 +455,7 @@ http_interactions:
         />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F152423919&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F152423919&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
         Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -483,8 +483,8 @@ http_interactions:
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
         the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
-        href=\"http://syndetics.com/index.aspx?isbn=0160522528/index.html&client=fordhamlaw&type=rn12&popup=no\"
-        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=0160522528/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        href=\"https://syndetics.com/index.aspx?isbn=0160522528/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"https://syndetics.com/index.aspx?isbn=0160522528/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
         border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
         width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
         class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_micro.gif\" alt=\"Microform\">\n</td>\n\n\n\n\n<td
@@ -509,8 +509,8 @@ http_interactions:
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
         the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
-        href=\"http://syndetics.com/index.aspx?isbn=19342497/index.html&client=fordhamlaw&type=rn12&popup=no\"
-        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=19342497/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        href=\"https://syndetics.com/index.aspx?isbn=19342497/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"https://syndetics.com/index.aspx?isbn=19342497/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
         border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
         width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
         class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_jourser.gif\"
@@ -536,8 +536,8 @@ http_interactions:
         />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display the 856 field data
         briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
-        href=\"http://syndetics.com/index.aspx?isbn=0007232X/index.html&client=fordhamlaw&type=rn12&popup=no\"
-        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=0007232X/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        href=\"https://syndetics.com/index.aspx?isbn=0007232X/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"https://syndetics.com/index.aspx?isbn=0007232X/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
         border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
         width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
         class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_micro.gif\" alt=\"Microform\">\n</td>\n\n\n\n\n<td
@@ -563,8 +563,8 @@ http_interactions:
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
         the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
-        href=\"http://syndetics.com/index.aspx?isbn=0226684466/index.html&client=fordhamlaw&type=rn12&popup=no\"
-        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=0226684466/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        href=\"https://syndetics.com/index.aspx?isbn=0226684466/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"https://syndetics.com/index.aspx?isbn=0226684466/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
         border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
         width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
         class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_book.gif\" alt=\"Book\">\n</td>\n\n\n\n\n<td
@@ -587,7 +587,7 @@ http_interactions:
         call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://TE7DQ2DS4M.search.serialssolutions.com/?V=1.0&L=TE7DQ2DS4M&S=JCs&C=BJOCF&T=marc\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://TE7DQ2DS4M.search.serialssolutions.com/?V=1.0&L=TE7DQ2DS4M&S=JCs&C=BJOCF&T=marc\">\nOnline
         Access Information</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -611,11 +611,11 @@ http_interactions:
         />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://TE7DQ2DS4M.search.serialssolutions.com/?V=1.0&L=TE7DQ2DS4M&S=JCs&C=BROOJOUOFIN&T=marc\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://TE7DQ2DS4M.search.serialssolutions.com/?V=1.0&L=TE7DQ2DS4M&S=JCs&C=BROOJOUOFIN&T=marc\">\nOnline
         Access Information</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
-        href=\"http://syndetics.com/index.aspx?isbn=21630895/index.html&client=fordhamlaw&type=rn12&popup=no\"
-        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=21630895/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        href=\"https://syndetics.com/index.aspx?isbn=21630895/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"https://syndetics.com/index.aspx?isbn=21630895/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
         border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
         width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
         class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_online.gif\" alt=\"Online
@@ -638,7 +638,7 @@ http_interactions:
         />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://TE7DQ2DS4M.search.serialssolutions.com/?V=1.0&L=TE7DQ2DS4M&S=JCs&C=BROOLAWREV&T=marc\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://TE7DQ2DS4M.search.serialssolutions.com/?V=1.0&L=TE7DQ2DS4M&S=JCs&C=BROOLAWREV&T=marc\">\nOnline
         Access Information</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -663,7 +663,7 @@ http_interactions:
         />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://purl.fdlp.gov/GPO/gpo8598\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://purl.fdlp.gov/GPO/gpo8598\">\nOnline
         Resource via GPO</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -688,7 +688,7 @@ http_interactions:
         />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.beal/cibroo0001&id=1&collection=newyork\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.beal/cibroo0001&id=1&collection=newyork\">\nOnline
         Resource via HeinOnline (access: current Fordham community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -713,7 +713,7 @@ http_interactions:
         number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.cbhear/cbhearings96325&id=1&size=2&collection=congrec&index=cbhear\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.cbhear/cbhearings96325&id=1&size=2&collection=congrec&index=cbhear\">\nOnline
         Resource via HeinOnline (access: current Fordham community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -739,7 +739,7 @@ http_interactions:
         location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.trials/abld0001&id=1&collection=religion&index=religion#1\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.trials/abld0001&id=1&collection=religion&index=religion#1\">\nOnline
         Resource via HeinOnline (access: current Fordham community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -763,7 +763,7 @@ http_interactions:
         call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.trials/brkmrd0001&id=1&collection=trials&index=alpha/B_trials#1\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.trials/brkmrd0001&id=1&collection=trials&index=alpha/B_trials#1\">\nOnline
         Resource via HeinOnline (access: current Fordham community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -791,8 +791,8 @@ http_interactions:
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
         the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
-        href=\"http://syndetics.com/index.aspx?isbn=9781250065186/index.html&client=fordhamlaw&type=rn12&popup=no\"
-        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=9781250065186/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        href=\"https://syndetics.com/index.aspx?isbn=9781250065186/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"https://syndetics.com/index.aspx?isbn=9781250065186/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
         border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
         width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
         class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_book.gif\" alt=\"Book\">\n</td>\n\n\n\n\n<td
@@ -816,7 +816,7 @@ http_interactions:
         />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.trials/zzrh0001&id=1&collection=religion&index=alpha/A_religion\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.trials/zzrh0001&id=1&collection=religion&index=alpha/A_religion\">\nOnline
         Resource via HeinOnline (access: current Fordham community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -841,7 +841,7 @@ http_interactions:
         />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.trials/aapi0001&id=1&size=2&collection=trials&index=trials/aapi\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.trials/aapi0001&id=1&size=2&collection=trials&index=trials/aapi\">\nOnline
         Resource via HeinOnline (access: current Fordham community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -866,7 +866,7 @@ http_interactions:
         />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.trials/abjf0001&id=1&size=2&collection=trials&index=alpha/N_trials\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.trials/abjf0001&id=1&size=2&collection=trials&index=alpha/N_trials\">\nOnline
         Resource via HeinOnline (access: current Fordham community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -891,7 +891,7 @@ http_interactions:
         number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.cbhear/fdsysacmq0001&id=1&size=2&collection=congrec&index=cbhear\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.cbhear/fdsysacmq0001&id=1&size=2&collection=congrec&index=cbhear\">\nOnline
         Resource via HeinOnline (access: current Fordham community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -942,8 +942,8 @@ http_interactions:
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
         the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
-        href=\"http://syndetics.com/index.aspx?isbn=00072362/index.html&client=fordhamlaw&type=rn12&popup=no\"
-        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=00072362/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        href=\"https://syndetics.com/index.aspx?isbn=00072362/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"https://syndetics.com/index.aspx?isbn=00072362/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
         border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
         width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
         class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_jourser.gif\"
@@ -968,7 +968,7 @@ http_interactions:
         location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.religion/snatlfst0001&id=1&size=2&collection=religion&index=alpha/S_religion\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.religion/snatlfst0001&id=1&size=2&collection=religion&index=alpha/S_religion\">\nOnline
         Resource via HeinOnline (access: current Fordham community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -1022,8 +1022,8 @@ http_interactions:
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
         the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
-        href=\"http://syndetics.com/index.aspx?isbn=0195126246/index.html&client=fordhamlaw&type=rn12&popup=no\"
-        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=0195126246/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        href=\"https://syndetics.com/index.aspx?isbn=0195126246/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"https://syndetics.com/index.aspx?isbn=0195126246/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
         border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
         width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
         class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_book.gif\" alt=\"Book\">\n</td>\n\n\n\n\n<td
@@ -1047,7 +1047,7 @@ http_interactions:
         call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F100426960&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F100426960&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
         Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -1072,7 +1072,7 @@ http_interactions:
         number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F100473349&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F100473349&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
         Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -1097,7 +1097,7 @@ http_interactions:
         call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F102914415&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F102914415&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
         Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -1122,7 +1122,7 @@ http_interactions:
         call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F102950646&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F102950646&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
         Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -1147,7 +1147,7 @@ http_interactions:
         call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F102946096&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F102946096&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
         Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -1172,7 +1172,7 @@ http_interactions:
         />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F105877220&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F105877220&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
         Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -1198,7 +1198,7 @@ http_interactions:
         location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F106202125&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F106202125&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
         Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -1223,7 +1223,7 @@ http_interactions:
         call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F150483097&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F150483097&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
         Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -1248,7 +1248,7 @@ http_interactions:
         call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F151690221&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F151690221&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
         Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -1273,7 +1273,7 @@ http_interactions:
         call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F150268050&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F150268050&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
         Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -1298,7 +1298,7 @@ http_interactions:
         />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F152112536&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F152112536&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
         Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -1323,7 +1323,7 @@ http_interactions:
         call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F152509500&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F152509500&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
         Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -1348,7 +1348,7 @@ http_interactions:
         call number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F152542784&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F152542784&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
         Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -1373,7 +1373,7 @@ http_interactions:
         location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F152423901&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-galenet.galegroup.com.lawpac.lawnet.fordham.edu/servlet/MOML?af=RN&ae=F152423901&srchtp=a&ste=14&locID=nellco_fordham\">\nOnline
         Resource via Making of Modern Law (access: current Fordham Law community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -1398,7 +1398,7 @@ http_interactions:
         number -->\n<b>\n</b>\n</span>\n<br />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.cbhear/cbhearings12425&id=1&size=2&collection=congrec&index=cbhear\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Page?handle=hein.cbhear/cbhearings12425&id=1&size=2&collection=congrec&index=cbhear\">\nOnline
         Resource via HeinOnline (access: current Fordham community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -1427,8 +1427,8 @@ http_interactions:
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
         the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\n\">\n</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n<a
-        href=\"http://syndetics.com/index.aspx?isbn=9781107018273/index.html&client=fordhamlaw&type=rn12&popup=no\"
-        target=\"_parent\"><img src=\"http://syndetics.com/index.aspx?isbn=9781107018273/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
+        href=\"https://syndetics.com/index.aspx?isbn=9781107018273/index.html&client=fordhamlaw&type=rn12&popup=no\"
+        target=\"_parent\"><img src=\"https://syndetics.com/index.aspx?isbn=9781107018273/SC.GIF&client=fordhamlaw&showCaptionBelow=t&caption=More+Info&bgColor=whitesmoke&&type=hwmontp\"
         border=\"0\" alt=\"Book Cover\"></a>\n</td>\n\n\n<!--\n<td valign=\"top\"
         width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size: 14px;\"><center>\n-->\n<td
         class=\"mattype\">\n<!-- Format -->\n <img src=\"/screens/t_book.gif\" alt=\"Book\">\n</td>\n\n\n\n\n<td
@@ -1452,7 +1452,7 @@ http_interactions:
         />\n\n\n<!-- location -->\nLocation:&nbsp;\nInternet\n\n<!--{\nholdingsmsg}-->\n\n<!--{if950}-->\n\n<!--
         items {}-->\n<!-- Gimme a thumbnail! -->\n\n<!--\n<a href=\"\n{fieldspec:Vby950:u}
         \n\">\n-->\n\n\n<br />\n\n<span class=\"l856 \">\n<!--{if856}-->\n<!-- display
-        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttp://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Index?index=newyork/repsnyaad&collection=newyork\">\nOnline
+        the 856 field data briefcitTitle -->\n<a class=\"856display\" href=\"\nhttps://0-heinonline.org.lawpac.lawnet.fordham.edu/HOL/Index?index=newyork/repsnyaad&collection=newyork\">\nOnline
         Resource via HeinOnline (access: current Fordham community)</a>\n</span>\n\n<!--\n{856link}-->\n<!--\n{ifmulti856}-->\n\n<!--&nbsp;\n{more856}-->\n<!--\n{xif}-->\n<!--\n{962link}-->\n<!--\n{ifmulti962}-->\n\n<!--\n{more962}-->\n<!--\n{xif}-->\n</td>\n\n\n<td
         class=\"bookjack\" valign=\"top\" style=\"padding: 3 0 2 5px;\" align=\"center\"><center>\n&nbsp;\n</td>\n\n\n<!--\n<td
         valign=\"top\" width=\"9%\" class=\"\" style=\"padding-top: 7px; font-size:
@@ -1493,11 +1493,11 @@ http_interactions:
         href=\"/search/X\"><img src=\"/screens/startover.gif\" class=\"button2\" alt=\"Start
         Over\" border=\"0\" /></a>\n<a href=\"/search/X?NOSRCH=%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)\"><img
         src=\"/screens/modify.gif\" class=\"button2\" alt=\"Modify Search\" border=\"0\"
-        /></a>\n<a href=\"http://128.59.177.5/search/X?%28brooklyn%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><br
+        /></a>\n<a href=\"https://128.59.177.5/search/X?%28brooklyn%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><br
         class=\"space\" /><img class=\"button2\" border=\"0\" src=\"/screens/s_columbia.gif\"></a>\n<a
-        href=\"http://128.122.159.10/search/X?%28brooklyn%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><img
-        class=\"button2\" border=\"0\" src=\"/screens/s_nyu.gif\"></a>\n<a href=\"http://ringding.law.yale.edu/search/X?%28brooklyn%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><img
-        class=\"button2\" border=\"0\" src=\"/screens/s_yale.gif\"></a>\n<a href=\"http://130.91.144.191/search/X?%28brooklyn%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><img
+        href=\"https://128.122.159.10/search/X?%28brooklyn%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><img
+        class=\"button2\" border=\"0\" src=\"/screens/s_nyu.gif\"></a>\n<a href=\"https://ringding.law.yale.edu/search/X?%28brooklyn%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><img
+        class=\"button2\" border=\"0\" src=\"/screens/s_yale.gif\"></a>\n<a href=\"https://130.91.144.191/search/X?%28brooklyn%29&backlink=lawpac.lawnet.fordham.edu/search?/X%28brooklyn%29&SORT=RZ/X%28brooklyn%29&SORT=RZ&SUBKEY=(brooklyn)/1%2C153%2C153%2CB/browse\"><img
         class=\"button2\" border=\"0\" src=\"/screens/s_upenn.gif\"></a>\n<a href=\"/search/X\"><img
         src=\"/screens/another.gif\" alt=\"Another Search\" border=\"0\" /></a>\n<select
         name=HISTORY onChange=\"onSelectChange(this, '')\"><option value=\"\">(Search
@@ -1509,11 +1509,11 @@ http_interactions:
         HREF=\"/screens/css/template.css\">\n<tr><td>\n<table border=\"0\" cellpadding=\"0\"
         cellspacing=\"0\" class=\"pconly\">\n<tr>\n\n<!-- Law Lib Footer -->\n<!--
         light gray is #F1EFF0 -->\n<td class=\"ban2\" align=\"center\" bgcolor=\"white\"
-        height=\"35\" width=\"190px\"> \n<a class=\"ftr\" href=\"http://law.fordham.edu/\">Fordham
+        height=\"35\" width=\"190px\"> \n<a class=\"ftr\" href=\"https://law.fordham.edu/\">Fordham
         Law </a>\n</td>      \n<td class=\"ban2\" bgcolor=\"white\" align=\"center\"
         Height=\"35\" width=\"485px\"><div class=\"nfo\">150 W 62 St. New York, NY
         10023 &nbsp; (212) 636-6900 </div></td>      \n<td class=\"ban2\" align=\"center\"
-        bgcolor=\"white\" width=\"225px\"> \n<a class=\"ftr\" href=\"http://www.fordham.edu/\">Fordham
+        bgcolor=\"white\" width=\"225px\"> \n<a class=\"ftr\" href=\"https://www.fordham.edu/\">Fordham
         University </a></td>    \n</tr>\n<!-- End Law Lib Footer -->  \n<tr><td class=\"space\">&nbsp;</td></tr>\n</table>\n</td>\n</tr>\n\n</table>\n\n<!--
         End of Page Table -->\n<!-- attempt to track offsite clicks below -->\n<script>\n/*
         this is for pages using the \"new\" GA js */\nfunction _gaLt(event){\n    var
@@ -1543,6 +1543,6 @@ http_interactions:
         \ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n
         \ ga('create', 'UA-4308917-1', 'auto');\n  ga('send', 'pageview');\n\n</script>\n<!--
         end google analytics -->\n</body>\n</html>\n"
-    http_version: 
+    http_version:
   recorded_at: Tue, 07 Feb 2017 21:58:51 GMT
 recorded_with: VCR 3.0.3
