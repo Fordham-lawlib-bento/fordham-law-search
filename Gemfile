@@ -40,7 +40,7 @@ gem 'bento_search', '~> 1.7'
 gem 'slim-rails', '~> 3.1'
 gem 'concurrent-ruby', '~>1.0'
 gem 'kaminari' # pagination
-gem 'addressable', '~> 2.5' # completing partial URLs
+gem 'addressable', '~> 2.8' # completing partial URLs
 
 # heroku suggested
 group :production do
