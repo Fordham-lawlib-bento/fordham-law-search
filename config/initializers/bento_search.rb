@@ -36,7 +36,7 @@ BentoSearch.register_engine("catalog") do |conf|
     #display.link_out = "http://encore.lawnet.fordham.edu/iii/encore/search?formids=target&lang=eng&suite=def&reservedids=lang%2Csuite&target=%s"
     #display.link_out ="http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944740&groupid=main&profile=eds&direct=true&cli0=FC&clv0=Y&bquery=%s"
     # previous linkout: display.link_out ="http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944740&groupid=main&profile=edscatonly&direct=true&bquery=%s"
-    display.link_out ="http://search.ebscohost.com/login.aspx?authtype=IP,guest&custid=s8944740&groupid=main&profile=edscatonly&direct=true&bquery=%s"
+    display.link_out ="https://search.ebscohost.com/login.aspx?authtype=IP,guest&custid=s8944740&groupid=main&profile=edscatonly&direct=true&bquery=%s"
   	display.link_out_text "View and filter all %i catalog results"
 
     display.year_only = true
@@ -87,7 +87,7 @@ BentoSearch.register_engine("articles") do |conf|
     #display.hint = "Articles, e-books, dissertations, music, images, and more from a mostly full-text database"
     #display.link_out = "http://encore.lawnet.fordham.edu/iii/encore/eds/C__S%s__Orightresult__U"
     # previous linkout: display.link_out ="http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944740&groupid=main&profile=edsnocat&direct=true&bquery=%s"
-  	display.link_out ="http://search.ebscohost.com/login.aspx?authtype=IP,guest&custid=s8944740&groupid=main&profile=edsnocat&direct=true&bquery=%s"
+  	display.link_out ="https://search.ebscohost.com/login.aspx?authtype=IP,guest&custid=s8944740&groupid=main&profile=edsnocat&direct=true&bquery=%s"
     display.ajax = :auto
 
     display.extra_links_label = "Additional Resources"
@@ -209,7 +209,7 @@ BentoSearch.register_engine("flash") do |conf|
   conf.for_display do |display|
     display.heading = "FLASH (EDS)"
     display.hint = "Fordham Law Archive of Scholarship & History"
-    display.link_out ="http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944740&groupid=main&profile=edsflash&direct=true&bquery=%s"
+    display.link_out ="https://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944740&groupid=main&profile=edsflash&direct=true&bquery=%s"
   end
 end
 
