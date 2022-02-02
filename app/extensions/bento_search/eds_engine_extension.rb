@@ -1,5 +1,22 @@
 module BentoSearch
   module EdsEngineExtension
+    module ClassMethods
+      def default_configuration
+        {
+          auth_url: 'https://eds-api.ebscohost.com/authservice/rest/uidauth',
+          base_url: 'https://eds-api.ebscohost.com/edsapi/rest/',
+          highlighting: true,
+          truncate_highlighted: 280,
+          assume_first_custom_link_openurl: false,
+          search_mode: 'all' # any | bool | all | smart ; http://support.epnet.com/knowledge_base/detail.php?topic=996&id=1288&page=1
+        }
+      end
+    end
+
+    def self.prepended(base)
+      base.singleton_class.prepend(ClassMethods)
+    end
+
     def construct_search_url(args)
       query = "AND,"
       if args[:search_field]

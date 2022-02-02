@@ -33,9 +33,9 @@ BentoSearch.register_engine("catalog") do |conf|
 
     display.heading = "Catalog"
     #display.hint = "Library books, journals, music, videos, databases, archival collections, and online resources"
-    #display.link_out = "http://encore.lawnet.fordham.edu/iii/encore/search?formids=target&lang=eng&suite=def&reservedids=lang%2Csuite&target=%s"
-    #display.link_out ="http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944740&groupid=main&profile=eds&direct=true&cli0=FC&clv0=Y&bquery=%s"
-    # previous linkout: display.link_out ="http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944740&groupid=main&profile=edscatonly&direct=true&bquery=%s"
+    #display.link_out = "https://encore.lawnet.fordham.edu/iii/encore/search?formids=target&lang=eng&suite=def&reservedids=lang%2Csuite&target=%s"
+    #display.link_out ="https://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944740&groupid=main&profile=eds&direct=true&cli0=FC&clv0=Y&bquery=%s"
+    # previous linkout: display.link_out ="https://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944740&groupid=main&profile=edscatonly&direct=true&bquery=%s"
     display.link_out ="https://search.ebscohost.com/login.aspx?authtype=IP,guest&custid=s8944740&groupid=main&profile=edscatonly&direct=true&bquery=%s"
   	display.link_out_text "View and filter all %i catalog results"
 
@@ -52,7 +52,7 @@ BentoSearch.register_engine("catalog") do |conf|
         link_out: "https://lawpac.lawnet.fordham.edu/search/X?%28%s%29&SORT=R"
       }, {
         label: "Fordham University Libraries",
-    #non-proxied url-TK# http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944763&groupid=main&site=eds-live&scope=site&type=0&profid=eds&mode=bool&direct=true&bquery=%s
+    #non-proxied url-TK# https://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944763&groupid=main&site=eds-live&scope=site&type=0&profid=eds&mode=bool&direct=true&bquery=%s
     link_out: "https://login.avoserv2.library.fordham.edu/login?url=https://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944763&groupid=main&site=eds-live&scope=site&type=0&profid=eds&mode=bool&direct=true&bquery=%s"
       }, {
         label: "WorldCat",
@@ -85,8 +85,8 @@ BentoSearch.register_engine("articles") do |conf|
 
     display.heading = "Articles"
     #display.hint = "Articles, e-books, dissertations, music, images, and more from a mostly full-text database"
-    #display.link_out = "http://encore.lawnet.fordham.edu/iii/encore/eds/C__S%s__Orightresult__U"
-    # previous linkout: display.link_out ="http://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944740&groupid=main&profile=edsnocat&direct=true&bquery=%s"
+    #display.link_out = "https://encore.lawnet.fordham.edu/iii/encore/eds/C__S%s__Orightresult__U"
+    # previous linkout: display.link_out ="https://search.ebscohost.com/login.aspx?authtype=IP,cookie,guest&custid=s8944740&groupid=main&profile=edsnocat&direct=true&bquery=%s"
   	display.link_out ="https://search.ebscohost.com/login.aspx?authtype=IP,guest&custid=s8944740&groupid=main&profile=edsnocat&direct=true&bquery=%s"
     display.ajax = :auto
 

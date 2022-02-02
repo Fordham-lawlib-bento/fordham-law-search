@@ -103,7 +103,7 @@ describe SierraKeywordEngine, vcr: true do
     end
 
     it "bad host" do
-      results = SierraKeywordEngine.new(id: 'test', base_url: "http://no-such-host.lawnet.fordham.edu").search("foo")
+      results = SierraKeywordEngine.new(id: 'test', base_url: "https://no-such-host.lawnet.fordham.edu").search("foo")
       expect(results.failed?).to be true
       expect(results.engine_id).to eq('test')
     end

@@ -2,7 +2,7 @@
   h1 = link_to "https://library.law.fordham.edu" do
     = render partial: 'shared/logo'
     | The Maloney Library
-  = link_to "Fordham University School of Law", "http://www.fordham.edu/info/20346/school_of_law", class: "school-name"
+  = link_to "Fordham University School of Law", "https://www.fordham.edu/info/20346/school_of_law", class: "school-name"
   .search-form--content data-hook="extra-links-header"
     = form_tag multi_search_path, method: :get, enforce_utf8: false, class: "search-form--form"
       = render partial: "search_form"
