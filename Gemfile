@@ -2,15 +2,14 @@ source 'https://rubygems.org'
 
 # Heroku uses this to determine ruby version; otherwise, it's just
 # a guard that will prevent app from running unless current ruby version matches.
-ruby '2.6.3'
+ruby '2.7.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.0'
-gem 'bootsnap'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 # Use Puma as the app server
-gem 'puma', '~> 4.3'
+gem 'puma', '~> 5.6'
 # Use SCSS for stylesheets
 gem 'sassc-rails'
 # Use Autoprefixer
