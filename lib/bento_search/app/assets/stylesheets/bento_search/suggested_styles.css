@@ -1,0 +1,31 @@
+/* some suggested styles for bento search results. You can
+   include this in your asset pipeline with `require bento_search/suggested_styles`,
+   or just use this as documentation for suggestions to implement yourself. */
+   
+   
+
+/* highlighted element in title is already in a <b> tag, but
+   title is likely to be bold already. italisize it too. */   
+.bento_item_title b.bento_search_highlight {
+  font-style: italic;
+}
+
+/* center the ajax_wait spinner */
+.bento_search_ajax_wait {
+  text-align: center;
+  margin: 2em;
+}
+
+/* we put title in an h4, but if it's a link too, it
+   doesn't really need to be bold, link style is already
+   visible enough. */ 
+.bento_item_title a {
+  font-weight: normal;
+}
+.bento_item_title a .bento_search_highlight {
+    font-style: inherit;
+}
+
+.bento_item_body .source_title {
+  font-style: italic;
+}

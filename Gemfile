@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 ruby '2.7.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.0'
+gem 'rails', '~> 6.0.0'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 # Use Puma as the app server
@@ -35,7 +35,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Gems added for fordham law search app specifically:
 # temporarily point bento_search to master
-gem 'bento_search', '~> 1.7'
+gem 'bento_search', path: './lib/bento_search'
 gem 'slim-rails', '~> 3.1'
 gem 'concurrent-ruby', '~>1.0'
 gem 'kaminari' # pagination
