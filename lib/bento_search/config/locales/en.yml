@@ -1,0 +1,54 @@
+en:
+  bento_search:
+    ajax_loading: "Loading..."
+    ajax_noscript: "Can not load results without javascript."
+    no_results: "No results found."
+    search_error: "Sorry! An error occured and results could not be retrieved."
+    missing_title: "[Title Missing]"
+    published_in: "Published in "
+    authors_et_al: " …"
+    volume: "Volume"
+    issue: "Issue"
+    page: "p."
+    pages: "pp." 
+    author_date_seperator: "—"
+    format:
+      # Schema.org formats
+      Article: Article
+      Book: Book
+      Movie: Movie
+      MusicRecording: Musical Recording
+      Photograph: Photo
+      SoftwareApplication: Software
+      # And some custom ones that Schema.org didn't cover, alas
+      serial: Magazine or Journal
+      dissertation: Dissertation or Thesis
+    sort_keys:
+      title_asc:    "title" 
+      date_desc:    "publication date" 
+      date_asc:     "publication date, oldest first"
+      relevance:    "relevance"
+      author_asc:   "author"
+      num_cite_desc: "citation count"
+      library_count_desc: "library count" # Worldcat
+    eds:
+      record_not_available: "Record Not Available -- log in to see full results"
+    search_fields:
+      # keyed by semantic key
+      # 'general' is used for unconstrained search, not every
+      # engine actually makes this ALL/any field, depends on
+      # capabilities. 
+      general:      "Any field" 
+      title:        "Title"
+      author:       "Author"
+      subject:      "Subject"
+      issn:         "ISSN"
+      isbn:         "ISBN"
+      oclcnum:      "OCLCnum"
+      lccn:         "LCCN"
+      doi:          "DOI"
+      publisher:    "Publisher"
+      source_title: "Publication"
+      volume:       "Volume"
+      issue:        "Issue"
+      start_page:   "Start Page"

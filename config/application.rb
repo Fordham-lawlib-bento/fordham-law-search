@@ -20,7 +20,7 @@ Bundler.require(*Rails.groups)
 module FordhamLawSearch
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
-    config.load_defaults 5.0
+    config.load_defaults 6.1
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
@@ -33,12 +33,5 @@ module FordhamLawSearch
     # if needed can be included explicitly with `helper` or `helper_method`
     # in controller.
     config.action_controller.include_all_helpers = false
-
-    config.to_prepare do
-      # Load application's model decorators
-      Dir.glob(File.join(File.dirname(__FILE__), "../app/extensions/**/*_extension.rb")) do |c|
-        Rails.configuration.cache_classes ? require(c) : load(c)
-      end
-    end
   end
 end

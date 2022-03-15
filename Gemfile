@@ -2,15 +2,14 @@ source 'https://rubygems.org'
 
 # Heroku uses this to determine ruby version; otherwise, it's just
 # a guard that will prevent app from running unless current ruby version matches.
-ruby '2.6.3'
+ruby '2.7.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.0'
-gem 'bootsnap'
+gem 'rails', '~> 6.1.0'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 # Use Puma as the app server
-gem 'puma', '~> 4.3'
+gem 'puma', '~> 5.6'
 # Use SCSS for stylesheets
 gem 'sassc-rails'
 # Use Autoprefixer
@@ -36,11 +35,13 @@ gem 'jbuilder', '~> 2.5'
 
 # Gems added for fordham law search app specifically:
 # temporarily point bento_search to master
-gem 'bento_search', '~> 1.7'
+gem 'bento_search', path: './lib/bento_search'
 gem 'slim-rails', '~> 3.1'
 gem 'concurrent-ruby', '~>1.0'
 gem 'kaminari' # pagination
 gem 'addressable', '~> 2.5' # completing partial URLs
+
+gem 'non-digest-assets', '~> 2.1'
 
 # heroku suggested
 group :production do

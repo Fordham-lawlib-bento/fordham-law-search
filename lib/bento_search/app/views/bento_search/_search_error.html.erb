@@ -1,0 +1,26 @@
+<div class="bento_search_error alert alert-error">
+  <p>
+    <%= t("bento_search.search_error") %>
+  </p>
+
+  <% if Rails.application.config.consider_all_requests_local  %>
+  
+      <div style="overflow-x:scroll">
+        <p>
+          <%= results.error %>
+        </p>
+
+      
+        <% if results.error["exception"] %>
+          <ul>        
+          <% results.error["exception"].backtrace.each do |line| %>
+            <li><%= line %></li>
+          <% end %>  
+          <ul>
+        <% end %>
+
+      </div>
+  
+  <% end %>
+  
+</div>
