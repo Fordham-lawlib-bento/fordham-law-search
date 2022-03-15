@@ -151,6 +151,9 @@ GEM
     nokogiri (1.13.3)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
+    non-digest-assets (2.1.0)
+      activesupport (>= 5.2, < 7.1)
+      sprockets (>= 2.0, < 5.0)
     openurl (1.0.0)
       marc
       scrub_rb (~> 1.0)
@@ -276,6 +279,7 @@ DEPENDENCIES
   jquery-rails
   kaminari
   listen (~> 3.0.5)
+  non-digest-assets (~> 2.1)
   puma (~> 5.6)
   rack-timeout
   rails (~> 6.0.0)

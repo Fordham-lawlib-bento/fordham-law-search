@@ -41,6 +41,8 @@ gem 'concurrent-ruby', '~>1.0'
 gem 'kaminari' # pagination
 gem 'addressable', '~> 2.5' # completing partial URLs
 
+gem 'non-digest-assets', '~> 2.1'
+
 # heroku suggested
 group :production do
   gem "rack-timeout"
